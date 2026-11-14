@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import MoonMap from './components/maps/MoonMap.tsx'
 import MarsMap from './components/maps/MarsMap.tsx'
-import ZonePanel from './components/ZonePanel.jsx'
+import ZonePanel from './components/ZonePanel.tsx'
 import { LAYERS } from './config/layers.ts'
 import type { BodyId, Zone } from './types/domain.ts'
 
