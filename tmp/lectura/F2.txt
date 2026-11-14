@@ -1,0 +1,980 @@
+--- Página 1 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Análogos marcianos en Bolivia
+Fundamentación científica, selección de terrenos, entrenamiento de astronautas y
+rovers, meteorología marciana y simulación parcial de radiación
+Informe de investigación y propuesta conceptual de campaña de campo. Fecha de revisión: 14 de noviembre de
+2026.
+Documento base: “Condiciones meteorológicas y terreno de la superficie de Marte”, archivo proporcionado por el
+solicitante; complementado con publicaciones y portales de NASA, JPL, CAB, ESA, OMS y literatura sobre
+ambientes altoandinos.
+NOTA DE ALCANCE: el archivo base describe condiciones ambientales y bibliografía, pero no proporciona el
+reglamento completo ni una rúbrica oficial de un desafío competitivo. Por eso, los protocolos de entrenamiento y
+las valoraciones de sitios son propuestas de diseño, no requisitos certificados de la competencia.
+Resumen ejecutivo
+Bolivia reúne terrenos salinos, volcánicos, sedimentarios y altoandinos que pueden actuar como análogos
+parciales de Marte. NASA identifica expresamente a Uyuni y Coipasa como laboratorios naturales para estudiar
+salmueras y arcillas relevantes para procesos marcianos. Sud Lípez y Sajama ofrecen contrastes geológicos y
+ambientales aprovechables; Torotoro sirve para entrenamiento sedimentológico; el Valle de la Luna favorece la
+fotogrametría y el análisis del relieve; las lagunas altoandinas son especialmente valiosas para astrobiología.
+Ninguno reproduce simultáneamente la atmósfera, gravedad, régimen térmico y radiación ionizante de Marte.
+La recomendación central es una campaña modular: pista controlada para pruebas repetibles; recorrido
+autorizado en terreno volcánico para movilidad; observación sedimentaria para geología humana; salares para
+geoquímica y navegación visual; y laboratorio especializado para vacío, temperaturas extremas y efectos de
+radiación espacial.
+Contenido
+1. Referencia física y meteorológica de Marte
+Variable / fenómeno Referencia orientativa Implicación experimental
+Vacío parcial, intercambio térmico,
+~95 % CO₂; presión típica ~600–700 Pa,
+Atmósfera aerodinámica y ensayos ambientales
+variable según elevación y estación
+especializados
+Media planetaria aprox. −59 °C; fuertes Baterías, sellos, lubricantes, electrónica,
+Temperatura
+ciclos diarios y estacionales ergonomía
+Normal de las ruedas, tracción,
+Gravedad 3,71 m/s², ~38 % de la terrestre
+suspensión, locomoción
+Turnos, planificación de energía y
+Sol marciano 24 h 39 min
+operaciones
+Remolinos locales y tormentas Visibilidad, ensuciamiento, gestión de
+Vientos y polvo
+regionales o globales energía y limpieza
+Protección humana, electrónica,
+Radiación UV solar y radiación ionizante GCR/SEP
+dosimetría y protocolos de refugio
+Suelos Geotecnia, navegación y muestreo
+Basaltos, sedimentos, gravas, dunas,
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 1
+
+--- Página 2 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+arcillas, sales
+2. Qué define un buen análogo terrestre
+3. Análogos internacionales como referencia
+4. Análisis de siete ambientes bolivianos
+5. Matriz comparativa y selección
+6. Capítulo especial: radiación marciana y simulación parcial en Bolivia
+7. Protocolo de misión, ensayos y seguridad
+8. Límites de equivalencia y puntos a verificar
+Elemento Estado de evidencia / acción
+Uyuni y Coipasa como análogos salinos Apoyo explícito en NASA [1].
+High-Lakes en Bolivia y Chile Precedente NASA de astrobiología de alta montaña [2].
+Propuesta plausible; caracterizar mineralogía, granulometría
+Sud Lípez/Sajama para rovers
+y autorizaciones.
+Justificación metodológica; requiere diseño y protección
+Torotoro para geología de astronautas
+patrimonial.
+Valle de la Luna para navegación Preferible gemelo digital; no circuito real sobre estructuras.
+Radiación alta por altitud Aplicable principalmente al UV solar; no a GCR marciano.
+Valores climáticos de Marte del archivo base Son rangos de contexto, no constantes universales.
+No constan en el archivo recibido; verificar criterios oficiales
+Reglas de desafío competitivo
+si existen.
+9. Conclusiones
+Zona y misión Características relevantes Problema que inspira
+Delta antiguo, carbonatos y arcillas; Reconocimiento geológico, obstáculos y
+Jezero / Perseverance
+afloramientos rocosos muestreo
+Sedimentos estratificados, monte Lectura de estratos y navegación en
+Gale / Curiosity
+Sharp, dunas pendientes
+Desplazamiento, sellado y respuesta al
+Elysium / InSight Llanura volcánica con polvo superficial
+polvo
+Terreno polar y hielo Excavación, suelos congelados y
+Vastitas Borealis / Phoenix
+superficial/subsuperficial protección térmica
+Utopia / Viking 2 y Zhurong Costras, rocas y heladas estacionales Dureza superficial y frío
+Materiales asociados con antiguos Rocas, gravas y reconstrucción
+Chryse / Pathfinder y Viking 1
+canales de inundación sedimentaria
+Ensayo Métrica principal Control experimental
+Carga, diseño de rueda, suelo y
+Tracción Patinaje (%)
+velocidad
+Pendiente medida, lastre y protección
+Pendiente Inclinación y estabilidad
+de vuelco
+Trayecto, velocidad objetivo y
+Autonomía Wh/m y minutos de trabajo
+temperatura
+Navegación Error lateral y colisiones Ruta referenciada, condiciones de luz
+Sensor óptico Desviación/calibración
+Patrón de referencia y hora de
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 2
+
+--- Página 3 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+medición
+Exposición ambiental o ensayo cerrado
+Polvo Cambio de rendimiento y limpieza
+controlado
+Temperatura de batería con límites de
+Frío Capacidad/arranque
+fabricante
+Comunicación Pérdida, latencia y recuperación Red experimental y retrasos sintéticos
+1. Referencia física y meteorológica de Marte
+Los principales conjuntos de datos in situ citados en el documento base provienen de MEDA (Perseverance,
+Jezero), REMS (Curiosity, Gale), TWINS/APSS (InSight, Elysium Planitia), MET (Phoenix) y observaciones de Viking,
+Pathfinder y Zhurong. Se complementan con observaciones orbitales y modelos validados. No es correcto afirmar
+que únicamente las mediciones desde superficie pueden ser científicamente confiables.
+1.1. Regiones marcianas citadas por el documento base
+Eje Evidencia requerida
+Cartografía, identificación de rocas, granulometría y
+Geología
+mineralogía
+Pendiente, penetración, resistencia a corte, compactación,
+Terramecánica
+humedad, huellas
+Temperatura, viento, presión, humedad, lluvia, radiación
+Meteorología
+solar local
+Patinaje, consumo Wh/m, tasa de detección de obstáculos,
+Robótica
+precisión de localización
+Tiempo de tarea, errores, carga de trabajo, calidad de
+Astronautas
+observaciones, comunicación
+Autorizaciones, puntos de evacuación, riesgos de altura,
+Seguridad y permisos
+biodiversidad y patrimonio
+1.2. Fenómenos meteorológicos a traducir en ensayos
+ Ciclo térmico diurno: medir temperatura del aire, del suelo, del chasis, de la batería y de las carcasas. El ciclo
+terrestre no equivale en amplitud al marciano.
+ Dust devils: investigar depósitos de partículas y pérdida óptica. Los vientos terrestres no tienen idéntica
+fuerza aerodinámica porque la densidad atmosférica es muy distinta.
+ Tormentas: simular caída de energía fotovoltaica, pérdida de visibilidad y ventanas de operación
+restringidas, sin exponer personas o equipos a tormentas peligrosas.
+ Heladas y cambios del suelo: observar compactación, rugosidad y accesibilidad de terrenos concretos antes y
+después de variaciones meteorológicas.
+ Sales, polvo y humedad: estudiar cambios en mineralogía, corrosión de conectores, sensores y controles de
+contaminación; no asumir que una sal terrestre es equivalente a percloratos marcianos.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 3
+
+--- Página 4 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+2. Qué define un buen análogo terrestre
+Un análogo puede reproducir: (a) geología y composición; (b) forma del relieve y propiedades del suelo; (c) parte
+del ambiente físico; o (d) operaciones humanas y robóticas. La justificación se fortalece cuando cada semejanza
+está vinculada a una variable medible y a un objetivo explícito. La similitud estética es insuficiente.
+3. Análogos internacionales como referencia
+Los ejemplos anteriores son referencias metodológicas: ESA PANGAEA pone énfasis en geología de campo y
+comunicación científica; NASA BASALT combina exploración, decisiones científicas y demoras simuladas de
+comunicaciones [5–6].
+4. Evaluación detallada de ambientes bolivianos
+4.1. Salar de Uyuni (Potosí)
+Análogo evaporítico documentado por NASA; entorno altoandino amplio y generalmente abierto. Se recomienda
+elegir sectores autorizados y previamente evaluados, no tratar la totalidad del salar como una pista homogénea.
+Justificación geológica y ambiental
+La evaporación de antiguos sistemas lacustres formó extensas costras salinas con halita y materiales
+relacionados. NASA compara las salmueras y arcillas hidratadas de Uyuni con procesos marcianos y menciona
+Aureum Chaos. La analogía es geoquímica y sedimentaria; no significa que la costra de NaCl represente todo el
+regolito de Marte.
+Fenómenos meteorológicos y relación con Marte
+La elevada altitud implica mayor exposición al UV solar que al nivel del mar, y pueden presentarse noches frías y
+periodos secos; la lluvia transforma la transitabilidad. El carácter reflectante de la superficie debe medirse, sin
+extrapolar valores ópticos de nieve. Viento, insolación y cambios de humedad pueden modificar adherencia y
+visibilidad.
+Entrenamiento de astronautas
+Ideal para cartografía, identificación de costras y depósitos, observación geológica no invasiva, planificación de
+trayectorias a partir de imágenes y coordinación entre una tripulación y equipo remoto. Un ejercicio consiste en
+buscar rasgos minerales identificables y completar su caracterización dentro de una ventana de tiempo y energía.
+Ensayos de rovers e instrumentación
+Útil para estudiar localización visual en superficies repetitivas, desviación respecto de ruta, degradación de GNSS
+simulado, corrosión salina de contactos y detección de costras discontinuas. El rover puede registrar imágenes,
+estado de ruedas, consumo, vibración y trayectoria.
+Ejercicios y métricas propuestos
+ Ruta de referencia autorizada: error lateral de trayectoria y porcentaje de finalización.
+ Inspección de terreno: correlacionar textura de imagen con firmeza medida por personal capacitado.
+ Prueba de sensores solares: registrar irradiancia UV/visible y temperatura superficial mediante
+instrumentación calibrada.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 4
+
+--- Página 5 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Limitaciones, permisos y precauciones
+La costra puede ocultar salmuera o zonas blandas; limitar pruebas físicas a sectores aprobados. Corrosión,
+reflejos y meteorología cambiante pueden interferir con instrumentos. No perforar ni extraer muestras sin
+autorización.
+Sustento: NASA Earth Observatory, “Las salinas de Bolivia” [1].
+4.2. Salar de Coipasa (Oruro)
+Segundo laboratorio natural salino explícitamente reconocido por NASA. Ofrece oportunidad de comparar
+resultados entre dos cuencas evaporíticas bolivianas.
+Justificación geológica y ambiental
+Coipasa posee depósitos salinos que registran variaciones hidrológicas del altiplano y pueden incluir arcillas y
+salmueras. Comparar distintas superficies de Uyuni y Coipasa permite estudiar transferibilidad de algoritmos y
+criterios de movilidad; debe comprobarse la composición y resistencia del sector exacto.
+Fenómenos meteorológicos y relación con Marte
+La humedad estacional y el viento pueden alterar firmeza, reflectancia y partículas disponibles. Las temperaturas
+frías de altura resultan útiles para ensayos preliminares de instrumentación, aunque no se acercan a las mínimas
+marcianas extremas. Los datos meteorológicos requieren estación local y fecha explícita.
+Entrenamiento de astronautas
+Entrenar la lectura de antiguas cuencas, interpretación de imágenes remotas, delimitación de zonas transitables y
+selección prudente de ubicaciones para mediciones no destructivas.
+Ensayos de rovers e instrumentación
+Comparar el mismo rover sobre superficies diferentes con trayectoria, carga y presión de neumático o diseño de
+rueda constantes. Medir patinaje, huellas, energía por metro y tasa de falsas clasificaciones de terreno seguro.
+Ejercicios y métricas propuestos
+ Construir mapa de clases de terreno con fotografías georreferenciadas.
+ Medir y comparar error de navegación entre Uyuni y Coipasa.
+ Ensayar criterios de detención preventiva ante costras inciertas, sin introducir el vehículo en zonas
+peligrosas.
+Limitaciones, permisos y precauciones
+Coipasa no debe presuponerse firme ni accesible. Evitar actividades sobre ecosistemas y costras frágiles. La
+equivalencia con depósitos marcianos debe demostrarse mediante mineralogía, no por apariencia.
+Sustento: NASA Earth Observatory [1].
+4.3. Reserva Eduardo Avaroa y Sud Lípez (Potosí)
+Conjunto de desiertos altos, depósitos volcánicos, lagunas salinas y áreas geotérmicas; escenario potencialmente
+muy versátil para movilidad, geología y operación remota.
+Justificación geológica y ambiental
+El mosaico geológico presenta sedimentos sueltos, rocas volcánicas, erosión eólica, depósitos químicos y
+contrastes de relieve. Permite diseñar estaciones que representen problemas parciales de Jezero, Gale y Elysium;
+se requiere caracterización petrográfica para cualquier comparación composicional formal.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 5
+
+--- Página 6 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Fenómenos meteorológicos y relación con Marte
+La altitud, las noches frías, fuertes gradientes térmicos y la irradiación solar intensa permiten probar
+componentes ante estrés ambiental. Los vientos y sedimentos secos pueden favorecer transporte de partículas,
+pero los dust devils terrestres no son equivalentes a los marcianos. La actividad geotérmica introduce riesgos
+propios, no escenarios operativos normales de Marte actual.
+Entrenamiento de astronautas
+Una tripulación análoga puede practicar recorridos geológicos, selección de objetivos, observación de texturas,
+comunicación retardada 4–22 minutos por sentido y contingencias simuladas. Se recomienda una base de apoyo
+real externa, con monitoreo médico de altura y seguridad.
+Ensayos de rovers e instrumentación
+Pruebas de suspensión, estabilidad, ascenso, patinaje en arena/grava, detección de rocas, variaciones de
+temperatura de baterías y navegación sin GNSS. Probar polvo en laboratorio antes de utilizar cualquier ensayo de
+contaminación controlada.
+Ejercicios y métricas propuestos
+ Tres estaciones autorizadas: terreno firme, grava suelta y obstáculos rocosos, con igual perfil de misión.
+ Medir porcentaje de patinaje, energía Wh/m, tiempo total, intervenciones humanas y tasa de recuperación.
+ Simular tormenta reduciendo artificialmente presupuesto energético y disponibilidad de cámara; no buscar
+condiciones peligrosas.
+Limitaciones, permisos y precauciones
+Es un área protegida y remota: permisos de SERNAP y administradores correspondientes, evaluación ambiental,
+respeto a flora/fauna y restricciones de tránsito. No entrar a fumarolas, barro hirviente, suelos geotérmicos o
+lagunas sensibles.
+Sustento: NASA BASALT [6] como precedente operacional; contextualización geológica de campo, pendiente de
+levantamiento local.
+4.4. Parque Nacional Sajama (Oruro)
+Ambiente volcánico altoandino y frío, relevante para ensayos de materiales, geología y operaciones de campo,
+sujeto a autorizaciones estrictas.
+Justificación geológica y ambiental
+Los relieves volcánicos, materiales fragmentados, pendientes y procesos asociados a bajas temperaturas permiten
+estudiar obstáculos y suelos heterogéneos. No todos los materiales son basálticos; la comparación con Marte
+requiere identificación mineral y mecánica.
+Fenómenos meteorológicos y relación con Marte
+El carácter altoandino implica frío y variaciones térmicas importantes; pueden ocurrir heladas y nieve estacional.
+Las pruebas sirven para arranques fríos, pérdidas de capacidad de batería y estabilidad de sensores. El hielo local
+debe verificarse antes de invocar analogía con Phoenix.
+Entrenamiento de astronautas
+Planificación de travesías geológicas, observación de depósitos volcánicos, operación de equipos con guantes
+adecuados, reporte breve y coordinación remota. La altura terrestre es un riesgo médico y no simula la falta de
+presión marciana.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 6
+
+--- Página 7 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Ensayos de rovers e instrumentación
+Ascenso controlado, estabilidad lateral, odometría en grava, calentamiento de batería, comunicaciones con
+relieve obstructivo y detección de materiales de tamaños variables.
+Ejercicios y métricas propuestos
+ Registrar tiempo de inicio y voltaje de batería a distintas temperaturas de operación seguras.
+ Ensayar 3 inclinaciones conocidas en pista homologada con protección antivuelco.
+ Comparar trayectorias de cámara/IMU frente a referencia georreferenciada.
+Limitaciones, permisos y precauciones
+No operar sobre bofedales, vegetación protegida, sitios arqueológicos o hábitats frágiles. Evaluación médica de
+altura y planes de evacuación son obligatorios para campañas responsables.
+Sustento: Propuesta técnica derivada de procesos volcánicos y de altura; no hay equivalencia física total
+demostrada.
+4.5. Valle de la Luna, Mallasa (La Paz)
+Análogo geomorfológico de detalle, especialmente apropiado para análisis de relieve, mapeo 3D y entrenamiento
+visual no invasivo.
+Justificación geológica y ambiental
+Las cárcavas, surcos, pináculos y materiales erosionados ofrecen un problema de navegación visual. La
+semejanza formal con ciertos relieves marcianos NO determina un origen geológico idéntico: aquí intervienen
+procesos terrestres de erosión bajo atmósfera y agua.
+Fenómenos meteorológicos y relación con Marte
+La lluvia puede afectar estabilidad de sedimentos finos; la insolación y las sombras complican la captura
+fotográfica. No es un sitio prioritario para estudiar frío marciano extremo o tormentas de polvo.
+Entrenamiento de astronautas
+Interpretación de imágenes, identificación de pendientes, fotogrametría autorizada, evaluación de objetivos y
+reconstrucción de historia erosiva. Usar únicamente senderos y actividades permitidas.
+Ensayos de rovers e instrumentación
+Preferentemente construir gemelos digitales o réplicas en una pista artificial: SLAM, profundidad estereoscópica,
+detección de bordes, planeamiento de rutas, clasificación de inclinaciones y huecos.
+Ejercicios y métricas propuestos
+ Generar nube de puntos con imágenes autorizadas y evaluar error de reconstrucción.
+ Comparar planeamiento autónomo en entorno virtual frente a malla 3D.
+ Medir falsas detecciones de obstáculos con distintas sombras.
+Limitaciones, permisos y precauciones
+No utilizar las formaciones originales como circuito de rovers: erosión, patrimonio paisajístico, uso turístico y
+restricciones.
+Sustento: Candidato operacional/geomorfológico; clasificación como análogo específico es propuesta, no
+certificación NASA.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 7
+
+--- Página 8 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+4.6. Parque Nacional Torotoro (Potosí)
+Entorno de rocas sedimentarias, estratificación, cañones y patrimonio paleontológico, especialmente fuerte para
+la formación de geólogos de campo.
+Justificación geológica y ambiental
+Los afloramientos permiten practicar lectura de capas, interpretación de ambientes de depósito y diferenciación
+entre estructuras erosivas y sedimentarias. Es una analogía del método de trabajo geológico aplicado por
+Curiosity y Perseverance, no una equivalencia de composición o edad de rocas.
+Fenómenos meteorológicos y relación con Marte
+La lluvia, escorrentía y meteorización son importantes para el relieve terrestre; no son condiciones
+meteorológicas contemporáneas típicas de Marte. El ambiente suele ser menos severo que el altiplano alto, por lo
+que ayuda a separar entrenamiento científico de estrés climático.
+Entrenamiento de astronautas
+Cartografía estratigráfica no invasiva, documentación de fotografías con escala, identificación de contactos de
+capas, priorización de objetivos y comunicación a científicos remotos.
+Ensayos de rovers e instrumentación
+Pruebas de clasificación de roca/estratos en imágenes y planeamiento de rutas sobre modelos digitales; actividad
+de movilidad física exclusivamente fuera de sitios patrimoniales y donde esté autorizada.
+Ejercicios y métricas propuestos
+ Crear un catálogo fotográfico de rasgos sedimentarios con validación de expertos.
+ Evaluar precisión de algoritmos de segmentación de estratos.
+ Simular una EVA científica con tiempo limitado, comunicación retrasada y reporte de hallazgos.
+Limitaciones, permisos y precauciones
+Protección estricta de huellas fósiles, depósitos y formaciones. Sin extracción de rocas o circulación experimental
+sin permiso.
+Sustento: Comparación metodológica con ESA PANGAEA [5] y geología de Gale según documento base.
+4.7. Lagunas altoandinas e hipersalinas (Sud Lípez y otras áreas autorizadas)
+Ambientes prioritarios para preguntas de astrobiología; el High-Lakes Project estudió lagos andinos de Bolivia y
+Chile a gran altitud como analogía de condiciones del Marte antiguo.
+Justificación geológica y ambiental
+La química del agua, sales, depósitos minerales y microorganismos adaptados permiten investigar habitabilidad y
+preservación de señales biológicas. Los ambientes terrestres contienen vida y oxígeno; esto obliga a controles de
+contaminación muy rigurosos.
+Fenómenos meteorológicos y relación con Marte
+La irradiación UV elevada por altitud y condiciones atmosféricas locales, junto a temperaturas cambiantes, ofrece
+un gradiente ambiental natural. El High-Lakes Project reportó irradiancias altas en sitios concretos; no se debe
+atribuir un único valor a todas las lagunas o a toda fecha.
+Entrenamiento de astronautas
+Formación en bioseguridad, recolección científica autorizada, protocolos de blanco y control, observación de
+minerales y documentación de condiciones en campo. Priorizar métodos sin contacto en áreas sensibles.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 8
+
+--- Página 9 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Ensayos de rovers e instrumentación
+Rovers con cámaras y espectrometría remota pueden reconocer bordes, costras y objetivos de interés desde
+terrenos autorizados. No conducir sobre orillas sensibles o dentro de cuerpos de agua.
+Ejercicios y métricas propuestos
+ Medir irradiancia UV con sensores calibrados y correlacionar con temperatura/humedad.
+ Comparar firmas ópticas de depósitos bajo distintas condiciones de luz.
+ Ejercitar una cadena de control de contaminación con muestras artificiales.
+Limitaciones, permisos y precauciones
+Los ecosistemas, microorganismos y lagunas pueden estar protegidos. No irradiar organismos deliberadamente
+en campo ni extraer muestras sin permisos y protocolos.
+Sustento: NASA Astrobiology Institute, High-Lakes Project [2].
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 9
+
+--- Página 10 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+5. Matriz comparativa para seleccionar terrenos
+Sitio Qué aporta Aplicación
+Aridez, suelos salinos, estudios Perforación, búsqueda de bioseñales,
+Atacama, Chile
+astrobiológicos rover
+Misiones humanas simuladas y campo
+Isla Devon, Canadá Cráter de impacto, aislamiento, frío
+geológico
+Basaltos y volcanismo; programa ESA Astronautas geólogos y selección de
+Lanzarote, España
+PANGAEA muestras
+Astrobiología y comportamiento
+Valles Secos de McMurdo, Antártida Frío, aridez, procesos con hielo
+ambiental
+Río Tinto, España Geoquímica ácida, minerales de hierro Astrobiología y sensores
+Ambientes polares y estructuras
+Svalbard, Noruega Geología, frío y operaciones remotas
+geológicas
+La selección real debe basarse en autorización, caracterización del terreno y objetivo experimental. Una
+puntuación alta de interés geológico no sustituye un permiso de operación.
+6. Capítulo especial — Radiación en Marte y simulación parcial en Bolivia
+6.1. Diferenciar radiación UV y radiación espacial ionizante
+Ambiente Astronautas: foco principal Rovers: foco principal Nivel de respaldo
+Geoquímica y cartografía NASA: análogo salino
+Uyuni Navegación visual / costras
+salina explícito
+NASA: análogo salino
+Coipasa Reconocimiento evaporítico Variabilidad de terreno
+explícito
+Eduardo Avaroa / Sud Geología volcánica y Candidato sólido; validar
+Terreno mixto / autonomía
+Lípez operaciones remotas sector
+Frío, geología y Batería, estabilidad,
+Sajama Candidato por procesos
+procedimientos pendientes
+Fotogrametría y SLAM en réplica o gemelo
+Valle de la Luna Candidato metodológico
+geomorfología digital
+Torotoro Estratigrafía y observación Visión geológica y mapeo Candidato metodológico
+Astrobiología y control de Observación científica no Antecedentes NASA High-
+Lagunas altoandinas
+contaminación invasiva Lakes
+La radiación UV es radiación electromagnética solar, de menor energía que los rayos X o gamma; afecta
+materiales, sensores y tejidos superficiales. La radiación espacial ionizante incluye rayos cósmicos galácticos
+(GCR) y partículas energéticas solares (SEP), que pueden atravesar materiales, producir interacciones secundarias
+y representar riesgos biológicos y electrónicos distintos. No es científicamente correcto medir UV con un sensor y
+afirmar que se ha reproducido la dosis de rayos cósmicos de Marte.
+Instrumentos: RAD de Curiosity mide radiación ionizante procedente del espacio; el RDS de MEDA en
+Perseverance caracteriza irradiancia solar y polvo, no reemplaza a RAD. Esta distinción corrige la asociación
+confusa de ambos instrumentos en la sección de radiación del documento base [3–4].
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 10
+
+--- Página 11 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+6.2. Qué magnitud se ha medido realmente en Marte
+NASA informó una tasa media de dosis equivalente de aproximadamente 0,67 mSv por día medida en Gale por
+Curiosity durante agosto de 2012 a junio de 2013; NO es una tasa fija aplicable a cualquier región, estación o ciclo
+solar. NASA también presenta una dosis absorbida asociada a GCR de aproximadamente 210 microgray por día
+durante parte de ese periodo. Gray (Gy) mide energía absorbida por masa; sievert (Sv) pondera el efecto biológico
+y no se intercambian directamente [3].
+Para comparar: el índice UV (UVI) expresa potencial de daño eritemático por radiación solar sobre piel, no una
+dosis de rayos cósmicos en mSv. Evitar convertir UVI a mSv marcianos.
+6.3. Por qué la radiación en Marte difiere de la terrestre
+ Marte carece de un campo magnético global semejante al terrestre; el entorno magnético local no sustituye
+esa protección planetaria.
+ La atmósfera marciana es tenue y ofrece menor masa de blindaje frente a partículas energéticas que la
+terrestre.
+ La actividad solar y las variaciones de presión atmosférica marciana alteran el entorno radiativo.
+ Los blindajes modifican el espectro y pueden generar partículas secundarias; más material no equivale
+automáticamente a una protección perfecta.
+ En la Tierra, atmósfera y magnetosfera ofrecen protección; elevarse a 4.000–5.000 m no elimina la mayor
+parte de esos escudos ni replica Marte.
+6.4. Qué SÍ puede simularse de manera razonable en Bolivia
+A. Exposición ambiental UV: medir el incremento relativo de UV en altura con radiómetros calibrados, registrar
+UV-A y UV-B, geometría solar, nubosidad, albedo y hora. La OMS estima una subida aproximada del 10 % del UV
+por cada 1.000 m como regla general, pero los valores concretos dependen también del ozono, nubosidad, latitud
+y reflectancia [7].
+B. Respuesta de materiales: colocar muestras técnicas no biológicas (plásticos, pinturas, sellos, coberturas ópticas)
+en soportes instrumentados y comparar cambios de color, transmitancia o propiedades mecánicas frente a
+muestras de control. Los ensayos deben usar exposición ambiental natural, protección de personas y normativa
+aplicable.
+C. Efectos sobre sensores: medir variaciones del rendimiento de cámaras, radiómetros y cubiertas protectoras en
+alta irradiancia, usando blancos estandarizados y referencias de calibración. En salares considerar el reflejo del
+terreno; en zonas volcánicas considerar polvo y temperatura.
+D. Dosimetría ambiental terrestre: con asesoramiento profesional y detectores adecuados, registrar radiación
+ionizante de fondo y su variabilidad en altura. Esta medición sirve para instrucción y comparación terrestre; por
+sí sola NO reproduce energía, composición, tasas o efectos de GCR/SEP sobre Marte.
+E. Simulación OPERACIONAL de alerta SEP: inyectar datos sintéticos de tasa de dosis y señales de alarma en el
+software de misión; ordenar la interrupción de una EVA y el retorno simulado a refugio. No se utiliza una fuente
+de radiación real.
+F. Modelado y prueba de protección: comparar blindajes por simulación Monte Carlo (p. ej. Geant4 u otra
+herramienta validada) con espectros GCR/SEP documentados. Una comparación real de blindaje contra partículas
+espaciales exige instalaciones autorizadas especializadas [8].
+6.5. Aplicación diferenciada por sitio boliviano
+Componente Origen / efecto Instrumento / simulación
+UV-A / UV-B / UV-C
+Sol; fotoquímica, degradación, daño Radiómetro UV espectral, ensayos de
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 11
+
+--- Página 12 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+superficial. El ozono terrestre atenúa
+fotoenvejecimiento controlados.
+especialmente UV-C.
+Partículas de alta energía, incluidos
+RAD Curiosity; acelerador dedicado
+GCR protones y núcleos pesados; exposición
+para simulación física realista.
+crónica.
+Partículas solares energéticas; eventos RAD y modelos de clima espacial;
+SEP
+intermitentes y a veces severos. respuesta a alertas simuladas.
+Partículas producidas por interacciones Dosimetría y modelos de transporte de
+Radiación secundaria
+con atmósfera, regolito y blindajes. radiación.
+6.6. Diseño de campañas seguras de medición UV y dosimetría
+1. Definir hipótesis: por ejemplo, la transmitancia de una cubierta óptica varía con dosis acumulada de UV solar
+y temperatura.
+2. Seleccionar un sitio autorizado, una referencia instrumental, controles y procedimientos de calibración.
+3. Instalar un sensor UV espectral o dosímetros específicos para UV en soportes protegidos, orientados de forma
+documentada; registrar simultáneamente nubosidad, hora, altitud, temperatura y reflectancia.
+4. Evitar exposición humana intencionada: personal con protección solar, lentes adecuados, horarios seguros,
+descansos y refugio.
+5. Analizar muestras de material técnico en banco de pruebas; no cultivar ni exponer organismos sin
+aprobación científica y ética aplicable.
+6. Procesar series de tiempo, normalizar por exposición y comparar con controles. No presentar UVI o radiación
+solar terrestre como equivalente a mSv marcianos.
+7. Para una simulación de tormenta solar, producir una alerta de software y medir respuesta operacional
+(tiempo de decisión, retorno, comunicación y cierre de tareas).
+8. Si se requiere verificar degradación por protones, iones pesados o neutrones: colaborar con laboratorios
+autorizados; prohibida la improvisación de fuentes ionizantes.
+6.7. Protocolo de emergencia simulada para astronautas
+La central de control emite una alerta ficticia por partículas solares. El equipo cesa el muestreo, comprueba la
+localización del compañero, asegura instrumentos, comunica estado y retorna a una base o refugio designado. Se
+registra duración, decisiones y cumplimiento del procedimiento. El ejercicio nunca implica irradiar a personas.
+La protección real ante eventos SEP en una misión exigiría diseño de refugio, transporte de partículas, dosimetría
+y protocolos espaciales específicos.
+6.8. Cómo se reproduce realmente la radiación espacial
+NASA utiliza instalaciones especializadas, como el NASA Space Radiation Laboratory de Brookhaven, con haces de
+partículas e iones para aproximar espectros y estudiar efectos biológicos y de materiales. El simulador GCR
+emplea combinaciones de especies y energías; incluso esas instalaciones tienen limitaciones de escala temporal y
+espectro [8]. Los terrenos de Bolivia son valiosos para radiación solar natural y simulación de operaciones, pero
+no sustituyen aceleradores, dosimetría validada ni modelos de transporte.
+6.9. Seguridad radiológica y conclusiones del capítulo
+ No usar fuentes radiactivas, emisores UV-C abiertos, dispositivos de rayos X ni aceleradores improvisados en
+campañas de campo.
+ No exponer personas deliberadamente a UV alto; diseñar protección solar y límites de trabajo por salud y
+seguridad.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 12
+
+--- Página 13 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+ No inferir que la exposición UV elevada implica alta exposición al mismo tipo de radiación ionizante que en
+Marte.
+ Toda manipulación de fuentes ionizantes está reservada a instalaciones autorizadas y personal certificado.
+ La contribución boliviana más defendible es medir exposición UV ambiental, validar materiales/sensores y
+ensayar decisiones operacionales ante alertas simuladas.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 13
+
+--- Página 14 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+7. Propuesta de campaña de entrenamiento y validación
+7.1. Cinco fases de desarrollo
+9. Laboratorio: caracterizar rover y sensores; ensayar tracción en pistas preparadas, consumo, temperatura y
+software.
+10. Reconocimiento del sitio: permisos, geología, terramecánica, meteorología, riesgos y rutas seguras.
+11. Campaña geológica: entrenamiento humano en Torotoro o afloramiento autorizado; documentación,
+comunicación diferida y control de contaminación.
+12. Campaña de movilidad: pista aprobada en terrenos de grava/arena/roca del altiplano; repetición y
+comparación de resultados.
+13. Campaña salina y ambiental: Uyuni/Coipasa; navegación homogénea, caracterización mineral, UV y respuesta
+de sensores sin afectar el medio.
+7.2. Ensayos mínimos de rover
+Sitio Experimento radiativo defendible Qué NO representa
+UV y reflectancia del salar; respuesta de
+Uyuni Campo GCR/SEP marciano
+ópticas y cubiertas
+Comparación UV, reflectancia y efectos
+Coipasa Radiación cósmica sin escudo terrestre
+sobre materiales
+Gradientes UV y temperatura;
+Sud Lípez / Eduardo Avaroa Evento solar de partículas real
+protocolo de alerta solar simulado
+Radiometría ambiental en altitud y
+Sajama Dosis efectiva de astronautas en Marte
+materiales en frío
+Sensores ópticos, luz/sombra,
+Valle de la Luna Entorno ionizante marciano
+calibración fotográfica
+Dependencia de radiometría solar de
+Torotoro Blindaje de regolito sin modelado físico
+relieve y sombras
+UV ambiental y observación científica Experimentos radiobiológicos in situ no
+Lagunas altoandinas
+no invasiva autorizados
+7.3. Ejercicios para astronautas análogos
+ EVA geológica: planificar ruta y objetivos, describir afloramientos y reportar hallazgos con terminología
+consistente.
+ Trabajo en equipo: rotación de roles, control de tareas, liderazgo y prevención de errores humanos.
+ Búsqueda de bioseñales: procedimientos limpios y uso de muestras simuladas.
+ Control de comunicaciones: demora de 4 a 22 minutos por sentido y ancho de banda artificialmente
+restringido.
+ Contingencias: pérdida simulada de instrumento, ahorro de energía, alerta radiativa ficticia y aborto seguro.
+ Evaluación: eficiencia, tiempo de decisión, comunicación, documentación, seguridad y precisión científica.
+7.4. Equipamiento de campaña
+ Estación meteorológica calibrada (temperatura, humedad, presión, viento); termómetro infrarrojo para
+superficie.
+ Radiómetro UV adecuado al objetivo, sensor de irradiancia solar, registro horario y documentación de
+albedo/sombra.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 14
+
+--- Página 15 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+ GNSS de referencia solo para validar trayectorias, IMU, encoders, cámaras y telemetría embarcada.
+ Instrumentos geológicos no invasivos cuando sea viable; mallas granulométricas solo en muestras
+preparadas o autorizadas.
+ Botiquín, comunicaciones redundantes, localización de rescate, personal de seguridad, agua y refugio.
+ Documentación de autorizaciones y protocolo para no dejar residuos ni alterar muestras protegidas.
+7.5. Requisitos de seguridad y aprobación
+La campaña debe tramitar permisos con propietarios y/o entidades administradoras, así como con autoridades
+ambientales cuando corresponda, y contar con evaluación de impacto proporcional a las actividades. Los riesgos
+críticos son hipoxia de altura, frío, viento, tormentas, suelos salinos inestables, actividad geotérmica, aislamiento
+y tránsito fuera de rutas autorizadas. Se debe practicar la suspensión de actividades antes de la exposición a un
+peligro, no después.
+8. Límites de equivalencia y puntos a verificar
+9. Conclusiones
+14. Bolivia permite combinar análogos complementarios y construir una ruta de validación progresiva en lugar
+de depender de un solo escenario.
+15. Uyuni y Coipasa poseen respaldo directo para investigar procesos salinos y sedimentarios relacionados con
+Marte.
+16. Sud Lípez y Sajama son candidatos interesantes para movilidad robótica y entrenamiento operacional, previa
+caracterización y autorización.
+17. Torotoro y Valle de la Luna aportan valor a geología, fotogrametría y navegación; la conservación condiciona
+cualquier uso físico.
+18. La radiación debe separarse en UV y radiación ionizante. El altiplano permite medir UV natural y validar
+sensores o materiales, pero la simulación física de GCR/SEP exige laboratorios especializados.
+19. Una propuesta sólida necesita objetivos, métricas, controles, incertidumbre, permisos, comparación con datos
+marcianos y procedimientos de seguridad.
+10. Clasificación integral de los análogos bolivianos
+Tipo de análogo Definición operacional Sitios principales y pruebas
+Torotoro: estratos y cañones; Valle de la
+Relieve, pendientes, cárcavas,
+Luna: cárcavas; Sud Lípez/Sajama:
+Geomorfológico depósitos, canales o dunas con formas
+laderas y materiales volcánicos;
+comparables
+Uyuni/Coipasa: llanuras y costras.
+Uyuni/Coipasa: halita, yeso, salmueras
+Rocas, minerales y procesos de y arcillas en sectores documentados;
+Mineralógico / geoquímico deposición o alteración que se puedan Sud Lípez/Sajama: rocas volcánicas;
+identificar instrumentalmente Torotoro: sedimentos; lagunas:
+geoquímica acuosa.
+Lagunas altoandinas, Sud Lípez, Sajama
+Coincidencia parcial en frío, aridez, alta
+y salares; orientado a biosignaturas,
+Ambiental / habitabilidad radiación UV, salinidad u otros
+límites ambientales y controles de
+estresores
+contaminación.
+Operacional Escenario seguro y autorizable para Sud Lípez y Sajama: campo remoto;
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 15
+
+--- Página 16 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Tipo de análogo Definición operacional Sitios principales y pruebas
+Uyuni/Coipasa: cartografía y
+entrenar procedimientos humanos y navegación; Torotoro/Valle de la Luna:
+sistemas robóticos observación y modelos 3D; pistas
+aparte para tracción agresiva.
+La clasificación usa cuatro ejes complementarios. Un mismo sitio puede ser válido para más de una función, pero
+el nivel de similitud varía según el fenómeno medido. La coincidencia visual no demuestra equivalencia
+mineralógica, atmosférica o terramecánica.
+10.1. Matriz de pertenencia (relevancia principal)
+Sitio Geomorfol. Mineral./geoquím. Ambiental Operacional
+Uyuni Sí Sí Sí Sí, condicionado
+Coipasa Sí Sí Sí Sí, condicionado
+Sud Lípez / Eduardo
+Sí Sí Sí Sí, condicionado
+Avaroa
+Sajama Sí Sí Sí Sí, condicionado
+Torotoro Sí Sí Secundario Sí, remoto/no invasivo
+Valle de la Luna Sí Secundario Secundario Sí, digital/no invasivo
+Sí, observación
+Lagunas altoandinas Secundario Sí Sí
+científica
+“Sí” significa potencial técnico identificable, no que una pista de pruebas esté habilitada. La similitud geoquímica
+exige análisis local de laboratorio (XRD, XRF, Raman u otros). No deben atribuirse percloratos específicos a un
+sitio boliviano sin detección analítica.
+11. Selección de lugares según la función del rover
+Lugar idóneo Modalidad /
+Función del rover Instrumentos clave Indicador
+propuesto restricción
+Primario en pista de Encoders, IMU,
+Patinaje y % deslizamiento,
+Sud Lípez; sectores arena caracterizada; GNSS/estación base,
+hundimiento en hundimiento (cm),
+autorizados de Sajama campo solo tras penetrómetro, regla
+arena / suelo suelto Wh/m
+sondeo de huellas
+Primario donde Inclinómetro/IMU,
+Pendiente (°),
+existan rampas encoders, sensor de
+Ascenso y descenso vuelco/alarma,
+Sajama; Sud Lípez naturales seguras; corriente, cuerda de
+de pendientes consumo y
+comparar en rampa seguridad cuando
+deslizamiento
+artificial proceda
+Primario en superficie Regla/calibrador, Altura máxima de
+Suspensión y
+Sud Lípez; Sajama autorizada, con rocas cámara lateral, IMU, obstáculo, pérdida de
+sobrepaso de rocas
+medidas y carga fija telemetría de ruedas contacto, vibración
+Primario en sectores
+Cámara estéreo, IMU, Error de localización
+Navegación visual en estables de costra, sin
+Uyuni; Coipasa odometría, trayectoria (m),
+llanura homogénea circular sobre áreas
+GNSS de referencia intervenciones/km
+frágiles
+Primario para
+Reconocimiento de Cámara, cámara de Precisión/recobrado,
+percepción; pruebas
+grietas, costras y Coipasa; Uyuni profundidad, falsos negativos de
+de carga solo fuera de
+suelo no seguro clasificación visual, peligro
+costras naturales
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 16
+
+--- Página 17 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Lugar idóneo Modalidad /
+Función del rover Instrumentos clave Indicador
+propuesto restricción
+frágiles control de tracción
+Primario con
+Fotogrametría, SLAM Cámaras calibradas, Error del mapa (cm),
+Valle de la Luna; imágenes/modelos;
+y mapeo 3D de lidar si hay, cobertura, colisiones
+Torotoro robot en réplica
+cárcavas fotogrametría SfM simuladas
+externa
+Cámara macro,
+Identificación de % de objetivos
+Primario como misión espectrómetro portátil
+estratos y objetivos Torotoro; Sud Lípez correctamente
+científica no invasiva autorizado, escala
+geológicos identificados
+fotográfica
+Primario para
+Uyuni; Coipasa; Raman/VNIR/XRF Exactitud de
+Espectroscopía de observación no
+lagunas (orillas según disponibilidad, clasificación mineral,
+sales / evaporitas invasiva; laboratorio
+permitidas) blancos y patrones falsos positivos
+para calibración
+Campo como
+Termopares, Capacidad útil (Wh),
+Operación en frío y Sajama; Sud Lípez; preensayo; validación
+datalogger, monitor de arranque, fallas por
+ciclos térmicos Uyuni extrema en cámara
+baterías frío
+térmica
+Campo solo Contador de
+Transmitancia de
+Polvo y protección de Sud Lípez; pista observacional; ensayo partículas, blancos
+óptica, fallas, ingreso
+sellos / ópticas cerrada reproducible en ópticos, cámara y
+de partículas
+cámara de polvo sellos
+Probar radiación Piranómetro,
+Autonomía Wh/sol simulado,
+Uyuni; Sud Lípez; variable y limitar medición I-V,
+energética solar y energía remanente,
+pista de pruebas potencia de forma wattímetro,
+fallo por tormenta tareas completas
+controlada registrador de cargas
+Geología de Solo si hay condición Sensibilidad,
+Temperatura suelo,
+hielo/escarcha y Sajama; zonas altas real verificada; profundidad
+sensor humedad,
+detección de autorizadas laboratorio para hielo detectada y falsos
+cámara térmica
+humedad subsuperficial positivos
+No invasivo en área Blancos, kits de Contaminación
+Muestreo y control Uyuni/Coipasa; sensible; sustratos muestreo, guantes, cruzada, masa
+de contaminación lagunas; Sud Lípez preparados para registro de cadena recuperada, éxito de
+perforación custodia procedimiento
+Radio, computadora Intervenciones,
+Misión integral con Primario tras validar
+Sud Lípez; pista de misión, retardador objetivos cumplidos,
+retraso de seguridad, enlace y
+cercana logística de comandos, tiempo de
+comunicación retorno
+telemetría recuperación
+La decisión no debe partir del paisaje más parecido a Marte, sino de la variable de desempeño que se desea
+medir. La siguiente matriz indica escenarios de preferencia, no permisos ni resultados de ensayos ya realizados.
+11.1. Elección por objetivo de misión
+Si el reto exige... Elegir primero... Evitar atribuirle...
+Sud Lípez / Sajama, fuera de zonas La misma tracción de Marte: allí
+Rover de movilidad todoterreno
+sensibles; pista de rocas y arena cambia la gravedad y el regolito.
+Uyuni / Coipasa; modelos 3D de Valle de La navegación terrestre con GNSS como
+Rover con visión autónoma
+la Luna si fuera navegación marciana.
+Uyuni / Coipasa para sales; Torotoro Identificación mineral automática sin
+Rover geólogo / espectral
+para estratos verificación de laboratorio.
+Rover astrobiológico Lagunas altoandinas y salares, con Que detectar organismos terrestres
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 17
+
+--- Página 18 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Si el reto exige... Elegir primero... Evitar atribuirle...
+permisos; muestras simuladas demuestre vida marciana.
+Sajama / Sud Lípez, complementado Temperaturas, radiación o presión de
+Rover para frío y energía
+por cámara ambiental Marte al aire libre.
+Sud Lípez, solo en corredor autorizado Que el aislamiento terrestre equivalga a
+Rover de misión integral
+y con evacuación viable un sistema marciano completo.
+12. Protocolos estandarizados de prueba y evaluación
+Criterio de aceptación propuesto
+Etapa Procedimiento mínimo
+(definir antes del ensayo)
+Permisos, zona delimitada, riesgos,
+Mapa de riesgos firmado, responsable
+0. Reconocimiento medición de pendiente, humedad y
+de seguridad y plan de evacuación.
+granulometría.
+Recorrido idéntico en pista cercana,
+Registrar distancia, tiempo, corrientes,
+1. Línea base con mediciones energéticas y
+consumo y errores.
+odometría.
+Un factor variable a la vez: arena,
+Definir éxito, condiciones de paro y
+2. Prueba dirigida pendiente, roca, baja luz o
+umbrales de fallo.
+comunicación retardada.
+Repetir en diferentes tramos
+Promedio, dispersión, fallos y estado
+3. Repetición comparables; medir variaciones
+del terreno documentados.
+ambientales.
+Inspeccionar ruedas, sellos, conectores
+Informe comparativo y
+4. Revisión y batería; limpiar sin contaminar el
+recomendaciones de rediseño.
+terreno.
+Misión científica con objetivos,
+Cobertura de objetivos, energía final,
+5. Integración presupuesto energético y contingencias
+incidentes y nivel de autonomía.
+simuladas.
+Para evitar comparaciones engañosas, cada función debe probarse con una línea base en laboratorio y repetirse
+con la misma carga, ruedas, firmware, velocidad objetivo y geometría de obstáculos. Registrar al menos tres
+repeticiones cuando sea viable; informar también ensayos fallidos.
+12.1. Métricas y expresiones técnicas
+Patinaje longitudinal aproximado al conducir: s = 100 × (1 − v_real/v_rueda), siempre que v_rueda sea distinta de
+cero. Distinguir el signo y la definición usada si el rover frena o gira. La tasa de energía por distancia es E_d =
+energía consumida (Wh) / distancia real (m). Una medida de error de navegación es la distancia entre posición
+estimada y trayectoria de referencia (m).
+Antes de comparar un mismo vehículo entre Bolivia y Marte, parametrizar gravedad, densidad atmosférica y
+propiedades del regolito. Los ensayos terrestres constituyen una validación parcial, no la certificación del
+vehículo para Marte.
+13. Cuadros numéricos comparativos: atmósfera, clima y radiación
+Parámetro Marte Bolivia / interpretación
+~600–900 Pa según sitio y estación; ~54.000–72.000 Pa en gran parte de los
+Presión superficial
+rango base ~600–700 Pa emplazamientos considerados, por
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 18
+
+--- Página 19 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+Parámetro Marte Bolivia / interpretación
+altitud; no comparable
+Aire terrestre: N₂ ~78 %, O₂ ~21 %
+Composición gaseosa CO₂ ~95 %; N₂ ~2,7 %; Ar ~1,6 %
+(fracciones globales aproximadas)
+Gravedad 3,71 m/s² ~9,8 m/s²
+Día solar 24 h 39 min 35 s aproximadamente 24 h
+RAD: ~0,44–0,74 mSv/día, rangos según No inferible del índice UV; requiere
+Radiación ionizante
+actividad solar y estación dosimetría calibrada
+UV-C puede alcanzar superficie El ozono terrestre bloquea
+UV solar marciana (cambia con polvo y prácticamente el UV-C solar; UV-A/UV-B
+geometría) fuerte en altura
+Locales/regionales y ocasionalmente No hay equivalencia física al aire libre;
+Tormentas de polvo
+planetarias simular reducción de luz/visibilidad
+Noche (°C) en documento
+Lugar marciano Día (°C) en documento base Referencia funcional
+base
+Jezero −14 a −20 −83 a −90 Rocas, sedimentos y dunas
+Gale −5 a +5 −75 a −90 Estratos y pendientes
+Llanura volcánica
+Elysium −10 a −20 −95 a −100
+polvorienta
+Vastitas Borealis −19,6 (máxima citada) −97,7 (mínima citada) Frío e hielo superficial
+Utopia Planitia −15 a −30 −110 a −120 Costras y escarcha
+Criterio de lectura: datos de Marte = referencias de misiones o documento base; presiones bolivianas = estimación
+por atmósfera estándar según altitud, no lecturas in situ. Rangos térmicos marcianos no representan máximos
+absolutos globales ni periodos simultáneos. No se asignan valores puntuales bolivianos de viento y UV sin serie
+local, instrumento, fecha y sitio concreto.
+Altitud de referencia (m s.
+Lugar boliviano Presión estimada (Pa) Estado
+n. m.)
+Uyuni 3.650 ~64.500 Estimación estándar
+Coipasa 3.650 ~64.500 Estimación estándar
+Valor de un sitio hipotético
+Sud Lípez (ejemplo) 4.230 ~59.800
+de referencia
+Cambia mucho con
+Sajama (sector bajo) 4.200 ~60.100
+ubicación
+Valle de la Luna (Mallasa) 3.200 ~68.300 Aproximación regional
+Torotoro (referencia) 2.837 ~71.500 Aproximación regional
+Lagunas altoandinas 4.200–5.000 ~54.000–60.100 Intervalo por elevación
+Valores calculados por modelo de atmósfera estándar; los valores del terreno real requieren barómetro calibrado
+y coordenadas. La presión puede cambiar por meteorología, temperatura y altura exacta.
+Estas cifras se reproducen como rangos orientativos del documento entregado, no como climatologías
+homogéneas de todas las estaciones. Para comparar un sitio boliviano con una misión concreta se requiere el
+mismo tipo de estadístico (media, máxima o mínima), estación y duración observacional.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 19
+
+--- Página 20 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+13.1. Protocolo específico de radiación: qué simular y qué no
+Fenómeno Sí puede ensayarse en Bolivia No debe afirmarse
+Medir UV-A/UV-B e irradiancia;
+Que iguale el espectro ultravioleta
+comparar cámaras, polímeros,
+UV y fotoenvejecimiento completo de Marte ni su componente
+cubiertas y sensores con controles de
+UV-C.
+temperatura y exposición.
+Dosimetría ambiental y entrenamiento Que un dosímetro terrestre o la gran
+Radiación ionizante de GCR/SEP operacional: alarmas ficticias, refugio, altitud produzcan las dosis o el espectro
+reducción de tareas EVA. de Marte.
+Simular de manera informativa la
+Generar de forma deliberada
+Tormentas solares llegada de una alerta y la decisión de
+exposición radiactiva peligrosa.
+cancelar EVA.
+Reducir potencia disponible o
+Que una tormenta terrestre tenga la
+Tormentas de polvo visibilidad en un banco de pruebas
+misma dinámica que una marciana.
+controlado.
+Dato de bibliografía externa: NASA RAD registra rayos cósmicos galácticos y partículas solares en Marte. En el
+proyecto High-Lakes (Bolivia/Chile), la radiación UV de determinados lagos de altura se observó hasta ~165 % de
+la referencia de nivel del mar durante las campañas estudiadas; no es una cifra universal para todos los lugares
+bolivianos.
+[14] Cabrol, N. et al. (2009). The High-Lakes Project. Journal of Geophysical Research: Biogeosciences. DOI:
+10.1029/2008JG000818. https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JG000818
+[15] NASA/JPL. Rimmed Wheel Performance on the Mars Science Laboratory Scarecrow Rover: ensayos de arena,
+pendiente y hundimiento.
+https://www-robotics.jpl.nasa.gov/media/documents/Rimmed_Wheel_Performance_on_the_Mars_Science_Laborat
+ory_Scarecrow_Rover.pdf
+[16] NASA Science. Radiation Measurements on Mars: observaciones del instrumento RAD.
+https://science.nasa.gov/resource/radiation-measurements-on-mars/
+[17] Mars Radiation Environment Summary (2024), mediciones RAD y efecto del ciclo solar.
+https://wrmiss.org/workshops/twentyseventh/Hassler.pdf
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 20
+
+--- Página 21 ---
+ANÁLOGOS MARCIANOS EN BOLIVIA • INFORME TÉCNICO
+14. Bibliografía y fuentes
+[0] Documento base suministrado: Condiciones meteorológicas y terreno de la superficie de Marte (NASA/JPL/CAB;
+3 páginas; sin fecha editorial indicada).
+[1] NASA Earth Observatory / NASA Ciencia. “Bolivian Salt Flats” / “Las salinas de Bolivia” (2023/2024).
+https://ciencia.nasa.gov/ciencias-terrestres/las-salinas-de-bolivia/
+[2] NASA Astrobiology Institute. The High Lakes Project.
+https://astrobiology.nasa.gov/nai/annual-reports/2008/objective-4.1/index.html
+[3] NASA Science. Radiation Measurements on Mars (2013); instrument RAD.
+https://science.nasa.gov/resource/radiation-measurements-on-mars/
+[4] NASA / Mars 2020 MEDA instrument overview.
+https://an.rsl.wustl.edu/help/Content/About%20the%20mission/M20/Instruments/M20%20MEDA.htm
+[5] European Space Agency. What is PANGAEA?
+https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/
+What_is_PANGAEA
+[6] NASA. What is BASALT? https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/
+[7] World Health Organization. Radiation: ultraviolet (UV) radiation. https://www.who.int/news-room/questions-
+and-answers/item/radiation-ultraviolet-%28uv%29
+[8] NASA Open Science Data Repository. Galactic Cosmic Ray Simulation Irradiation, NSRL.
+https://osdr.nasa.gov/bio/repo/data/payloads/Galactic_Cosmic_Ray_Simulation_Irradiation
+[9] NASA / JPL. Mars weather and surface records; consultar NASA PDS Atmospheres Node:
+https://atmos.nmsu.edu/
+[10] Centro de Astrobiología CAB (CSIC-INTA). https://cab.inta-csic.es/
+[11] Mars Climate Database (LMD). https://www-mars.lmd.jussieu.fr/
+[12] NASA. Curiosity / Mars surface radiation results (2013). https://www.nasa.gov/news-release/nasa-rover-
+results-include-first-age-measurement-on-mars-and-help-for-human-exploration/
+[13] NASA Earth Observatory. Bolivian Salt Flats, English.
+https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/
+Criterio editorial: se distinguen observaciones documentadas, extrapolaciones razonadas y propuestas de
+entrenamiento. Los permisos y la instrumentación deben verificarse localmente antes de ejecutar actividades.
+Investigación documental y propuesta preliminar | Noviembre 2026 | Página 21

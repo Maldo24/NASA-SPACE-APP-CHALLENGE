@@ -1,0 +1,645 @@
+--- Página 1 ---
+Análogos de Marte: Bolivia,
+Latinoamérica y resto del mundo
+Sitios por zona marciana, con énfasis en lugares poco conocidos
+Cómo leer este documento
+Para cada zona o tipo de terreno marciano, los análogos están ordenados en tres niveles: Bolivia,
+Latinoamérica y resto del mundo. En el resto del mundo se priorizan lugares menos conocidos
+que sirven para estudios específicos; los análogos clásicos (Hawái, Islandia, Utah, Antártida, etc.)
+están en el primer PDF.
+La columna Estado indica qué tan respaldado está cada sitio:
+• Estudiado: hay publicaciones científicas que lo tratan explícitamente como análogo de Marte.
+• Propuesto: algún artículo, congreso o institución lo ha propuesto como análogo, pero hay poco
+trabajo publicado.
+• Sugerido: no encontré estudios que lo traten como análogo marciano; lo propongo por su
+geología. Son los sitios con más oportunidad de investigación nueva, pero hay que verificarlos
+en campo.
+Las coordenadas son aproximadas y sirven para ubicar los sitios en Google Earth.
+Panorama: por qué Bolivia y los Andes Centrales importan
+• El Altiplano de Bolivia y Chile ha sido descrito por la NASA como uno de los mejores análogos
+ambientales del Marte antiguo. Reúne a la vez: temperatura media baja, oscilación diaria de
+−40 °C a +10 °C, atmósfera delgada (480–600 mbar), irradiancia solar ~170 % de la del nivel
+del mar, hielo, poca precipitación y vulcanismo e hidrotermalismo activos.
+• El proyecto High Lakes (NASA/SETI, dirigido por Nathalie Cabrol) estudió desde 2002 lagos
+entre 4.200 y 6.000 m en Bolivia y Chile como análogos de lagos marcianos de hace ~3.500
+millones de años.
+• Un análisis publicado en arXiv (2022) encontró que muchos estudios de planetología y
+astrobiología en la Puna, el Altiplano y Atacama no incluyen ninguna institución local de
+Argentina, Bolivia, Chile o Perú. Hay espacio para que grupos bolivianos lideren investigación
+propia.
+• Una revisión de 2026 en el International Journal of Astrobiology (con autores latinoamericanos,
+incluida la UMSA) recopila ambientes extremos de Latinoamérica como laboratorios naturales
+para astrobiología, y señala varios sitios bolivianos todavía sin estudios microbiológicos.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 1
+
+--- Página 2 ---
+A. Provincia volcánica de Tharsis / Elysium
+Qué buscar: volcanes en escudo, coladas de lava muy largas, tubos de lava, conos
+monogenéticos, conos freatomagmáticos (interacción magma-agua, como los conos con cráter de
+Marte) y colapsos de flancos volcánicos.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Tata Sabaya (norte Su flanco sur colapsó hace ~12.000 años y formó una avalancha de Sugerido
+del Salar de Coipasa, escombros de ~6 km3 sobre 230–300 km2, con montículos (hummocks) que
+Oruro; 19°08′S hoy son "islas" dentro del salar. Sirve como análogo de los colapsos de flancos
+68°32′W) volcánicos y de los grandes deslizamientos marcianos (aureola del Olympus
+Mons, landslides de Valles Marineris). Visible desde la Estación Espacial.
+Cerro Volcán Volcán monogenético freatomagmático (anillo de toba + domo) Sugerido
+Quemado probablemente holoceno, con fumarolas. Es raro en una región de volcanes
+(Altiplano) andesíticos. Análogo para conos formados por magma que hierve agua o hielo
+del subsuelo. Lo estudian la UMSA y Oregon State University.
+Ollagüe (frontera Estratovolcán con domos de lava, coladas, dos conos de ceniza y una fumarola Sugerido
+Bolivia–Chile) activa. Por la aridez, el edificio está muy bien conservado: erosión mínima,
+como en Marte.
+Cordillera Domos de lava planos ("tortas") e ignimbritas extensas. Análogo de depósitos Sugerido
+Intersalar (entre volcánicos de flujo piroclástico.
+Uyuni y Coipasa)
+Vacío de conocimiento: no encontré registros de tubos de lava explorados en Bolivia. Los
+campos monogenéticos del Altiplano y de Lípez son candidatos a buscarlos con imágenes
+satelitales (buscar hileras de hundimientos o "skylights").
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+La Payunia Más de 800 conos volcánicos. El volcán en escudo Payún Matrú emitió la Sugerido
+(Malargüe, Mendoza, colada Pampas Onduladas, de 167–181 km: la colada cuaternaria más larga
+Argentina; ~36°27′S del mundo, análoga a las larguísimas coladas de Tharsis y Elysium. Tiene
+69°21′W) tubos de lava: Cueva Doña Otilia (838 m; ahí se descubrió una nueva
+especie de arácnido troglobio) y la Cueva del Tigre.
+Cueva El Julepe (La Tubo de lava en el borde de Payenia, con una descripción morfológica Sugerido
+Pampa, Argentina) publicada (2019). Útil para comparar formas de tubos.
+Valle de los Geoparque UNESCO. Tiene 18 campos de lava, 26 conos piroclásticos y 28 Sugerido
+Volcanes de domos pequeños, con coladas que rellenan valles fluviales. Análogo de
+Andagua (Arequipa, lava que invade antiguos cauces, como en Marte. Los visitantes lo comparan
+Perú) con la superficie marciana.
+Galápagos (Ecuador; Volcanes en escudo basálticos y tubos de lava (en las laderas del volcán Wolf y Propuesto
+Isabela, Santa Cruz) en Puerto Ayora). Son de los escudos oceánicos más parecidos en forma a los
+marcianos.
+Pinacate y Gran Campo volcánico con cráteres de explosión (maars) y conos. La NASA entrenó Estudiado
+Desierto de Altar ahí a astronautas del Apolo.
+(Sonora, México)
+Paricutín Cono de ceniza nacido en 1943: permite estudiar un cono monogenético Propuesto
+(Michoacán, México) "desde cero".
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 2
+
+--- Página 3 ---
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Cueva Kazumura Uno de los tubos de lava más largos del mundo. Sirve para estudiar tubos Sugerido
+(Hawái, EE. UU.) de varios kilómetros, como los que se sospechan en Marte.
+Tubos de Undara Tubos de lava antiguos y muy anchos en clima seco. Sugerido
+(Queensland, Australia)
+Cuevas de lava de Depósitos de sulfatos ricos en materia orgánica dentro de los tubos (estudio Estudiado
+Lanzarote (España) de 2024). Sirven para buscar biofirmas dentro de cuevas.
+Craters of the Moon Comunidades microbianas en tubos de lava, detectables con métodos Estudiado
+(Idaho, EE. UU.) parecidos a los instrumentos SAM (Curiosity) y MOMA (rover Rosalind
+Franklin).
+Grupo volcánico Microbios de tubos de lava que oxidan metano y gases traza. Estudio de Estudiado
+Shishan (Haikou, 2026 aplicado a la supervivencia en tubos marcianos.
+Hainan, China)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 3
+
+--- Página 4 ---
+B. Valles Marineris (cañones, paredes estratificadas,
+deslizamientos)
+Qué buscar: cañones profundos con capas expuestas, fosas tectónicas (rifts), grandes
+deslizamientos de largo alcance y depósitos estratificados.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Cañón de Cañón de 250–300 m de profundidad con capas sedimentarias expuestas Sugerido
+Torotoro (Potosí, (lutitas, areniscas, calizas) y un sinclinal de 45 km. Sirve para practicar lectura
+acceso desde estratigráfica de paredes, como hacen los rovers en Gale o en los ILD de Valles
+Cochabamba; Marineris. Su origen es fluvial, no tectónico.
+~18°07′S 65°48′W)
+Caverna de La cueva más extensa de Bolivia (~4,6 km), formada por un río que desaparece Sugerido
+Umajalanta bajo ~22 m de caliza. Es cárstica, no volcánica: sirve como análogo
+(Torotoro) operacional de exploración subterránea (navegación, comunicaciones, mapeo
+con LiDAR), no geológico.
+Avalancha de Ver sección A: análogo de los deslizamientos gigantes de las paredes de Valles Sugerido
+Tata Sabaya Marineris.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Cañón del Colca y Cañón de Están entre los cañones más profundos del mundo (más de 3 km). Sugerido
+Cotahuasi (Arequipa, Perú) Sirven para comparar escala y procesos de pared, aunque su origen
+es fluvial y tectónico combinado.
+Ischigualasto y Talampaya Capas sedimentarias rojas y paredes verticales en clima árido. Sugerido
+(San Juan y La Rioja, Buenas para entrenar interpretación de estratos desde imágenes.
+Argentina)
+Cañón del Chicamocha Cañón profundo en zona semiárida con capas expuestas. Sugerido
+(Santander, Colombia)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Lago Assal (Yibuti, Punto más bajo de África, dentro de un rift activo con depósitos salinos. Sugerido
+rift de Afar) Combina el origen tectónico de Valles Marineris con la sedimentación salina de
+sus depósitos interiores.
+Rift del Mar Muerto Fosa tectónica con evaporitas, análoga a fosas rellenas de sales. Sugerido
+(Israel/Jordania)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 4
+
+--- Página 5 ---
+C. Canales de inundación y terreno caótico
+Qué buscar: megainundaciones, canales con islas aerodinámicas, y colapsos de terreno por
+pérdida de agua o hielo del subsuelo.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Salar de La NASA señala que su geología y geoquímica son análogas a Aureum Chaos, una Propuesto
+Uyuni gran cuenca de terreno caótico en Marte. Sus salmueras y arcillas son comparables a
+(Potosí) las marcianas.
+Paleolagos Grandes lagos del Pleistoceno cuyo nivel cambió mucho: el colapso de Tata Sabaya Sugerido
+Tauca y ocurrió cuando el lago Tauca estaba en su nivel máximo. Útil para estudiar cómo se
+Minchin registran subidas y bajadas de lagos.
+(Altiplano)
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Lagos glaciares de Patagonia Vaciamientos repentinos de lagos glaciares (GLOFs), análogos a Sugerido
+(Chile y Argentina) pequeña escala de la liberación catastrófica de agua.
+Paleocanales del desierto de Redes de drenaje fósiles e inundaciones antiguas en hiperaridez. Estudiado
+Atacama (Chile)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Ásbyrgi y cañón de Cañón y anfiteatro excavados por inundaciones repentinas bajo glaciares Sugerido
+Jökulsárgljúfur (jökulhlaups). Análogo de los cañones con cabecera en anfiteatro de Marte.
+(Islandia)
+Valles del Altái (Siberia, Ondulaciones gigantes de corriente dejadas por megainundaciones Estudiado
+Rusia) glaciales.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 5
+
+--- Página 6 ---
+D. Redes de valles, deltas y lagos antiguos (Jezero,
+Gale)
+Qué buscar: lagos que se secaron, terrazas antiguas, deltas, carbonatos y microbialitos (rocas
+construidas por microbios), y canales invertidos.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Laguna Verde Tiene paleoterrazas con microbialitos que registran ~7.000 años de cambio: Estudiado
+(Sud Lípez; 4.340 un pico de agua en el Pleistoceno tardío y una gran pérdida entre 8.230 y 6.300
+m) años antes del presente. Es una "ventana" a la transición Noeico–Hespérico,
+cuando los lagos marcianos se secaban.
+Laguna Pastos Laguna de 120 km2 dentro de una caldera de ~35 × 40 km, alimentada por Estudiado
+Grandes (caldera fuentes termales, con una costra de carbonatos de más de 40 km2 y
+volcánica, Sud microbialitos. Análogo de lagos dentro de cráteres con carbonatos, como
+Lípez; ~21°45′S Jezero. Acceso difícil.
+67°50′W; 4.450 m)
+Salares de Uyuni Capas de halita y yeso marcan períodos secos, y capas de barro con microfósiles Estudiado
+y Coipasa marcan períodos húmedos. Es un archivo climático análogo a las capas del Monte
+Sharp (Gale).
+Lago Poopó Lago de altura que casi desapareció en la última década. Útil para observar en Sugerido
+(Oruro) tiempo real cómo se seca un lago y qué depósitos deja.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Lago Alchichica Lago dentro de un maar (cráter volcánico) con microbialitos de aragonito. Se Estudiado
+(Puebla, México) propone como uno de los mejores análogos del antiguo lago de Jezero. Se ha
+estudiado cómo se preservan los lípidos bajo radiación y percloratos. La UNAM
+participa en trabajo ligado a Perseverance.
+Laguna Negra Microbialitos de carbonato modernos. Útiles para estudiar la preservación de Estudiado
+(Catamarca, biofirmas.
+Argentina; 4.100 m)
+Salar de Pajonales Estromatolitos de yeso fósiles y actuales. Muestran que el yeso "sepulta" y Estudiado
+(Chile; 3.517 m) protege evidencia biológica (estudio de 2026).
+Cuatro Ciénegas Cuenca de pozas con estromatolitos, descrita como "parque precámbrico" y Estudiado
+(Coahuila, México) análogo de Marte.
+Desierto de la Paisajes de cárcavas y erosión ("badlands") parecidos a Marte; propuesto Propuesto
+Tatacoa (Huila, como análogo.
+Colombia)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Lago Salda El único lago conocido con carbonatos de magnesio y deltas parecidos a los de Estudiado
+(Turquía) Jezero. El equipo de Perseverance lo usó para preparar la misión.
+Canales Antiguos cauces convertidos en crestas por erosión, en gran número y muy bien Estudiado
+invertidos de expuestos.
+Omán
+Tigray Microbialitos en lagos alojados en basalto, con microfósiles muy bien conservados. Estudiado
+(Etiopía) Análogo de lagos sobre corteza basáltica como la marciana.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 6
+
+--- Página 7 ---
+E. Cráteres de impacto
+Qué buscar: cráteres pequeños y frescos, cráteres en basalto, campos de cráteres múltiples,
+cráteres "fantasma" en sedimentos blandos y sistemas hidrotermales generados por impactos.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Estructura de Iturralde o Estructura circular de ~8 km y solo ~20 m de profundidad, en llanura Propuesto
+Araona (Parque Madidi, La amazónica. Se considera probable impacto de hace 11.000–30.000
+Paz; 12°35′S 67°40′W) años; millones de esferas de vidrio sugieren una explosión en el aire, tipo
+Tunguska. Análogo de cráteres degradados o "fantasma" en
+sedimentos blandos (comunes en las llanuras del norte de Marte). Es muy
+remota: solo se ha visitado unas pocas veces.
+Cráter de Carancas Cráter de ~14 m formado el 15 de septiembre de 2007 por una condrita, Estudiado
+(Puno, Perú, junto a la a más de 3.800 m. Uno de los cráteres de impacto más recientes de la
+frontera boliviana; 16°39′S Tierra. Análogo de los cráteres pequeños y frescos que se forman hoy
+69°02′W) en Marte. Es el más accesible desde La Paz.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Cráter Monturaqui Cráter simple de 350–370 m y ~34 m de profundidad, de hace ~663.000 Estudiado
+(Atacama, Chile; 23°55′S años. Se estudió como análogo de cráteres pequeños de Marte. Lección
+68°15′W; 3.015 m) clave: desde satélite parecía bien conservado, pero en campo su borde y
+eyecta estaban muy erosionados. Sirve para calibrar interpretaciones
+remotas.
+Bajada del Diablo Más de 100 cráteres de 100–500 m formados al mismo tiempo, en zona Estudiado
+(Chubut, Argentina; volcánica: el mayor campo de cráteres del hemisferio sur. Se propone
+~42°45′S 67°30′W) el impacto de un cometa fragmentado. Análogo de grupos de cráteres de
+impactos fragmentados. Su origen aún se debate.
+Domo de Vargeão y De las ~210 estructuras de impacto conocidas, son las únicas dos bien Estudiado
+Vista Alegre (Santa expuestas formadas en basalto, la roca dominante en Marte. Vargeão
+Catarina y Paraná, Brasil; (~12 km) se estudia como análogo de sistemas hidrotermales
+Vargeão 26°49′S causados por impactos en Marte: posibles hábitats para vida.
+52°10′W)
+Araguainha (Mato La mayor estructura de impacto de Sudamérica. Análogo de cuencas de Sugerido
+Grosso, Brasil) impacto erosionadas.
+Campo del Cielo Campo de cráteres pequeños de un meteorito de hierro fragmentado. Sugerido
+(Chaco, Argentina)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Cráter Kamil Cráter de 45 m, de menos de 5.000 años, con rayos de eyecta intactos, algo Estudiado
+(Egipto; 22°01′N casi solo visto en otros planetas. Fue descubierto en Google Earth. Es la mejor
+26°05′E) referencia terrestre para cráteres pequeños y frescos marcianos.
+Cráter Lonar Cráter en basalto (descrito en el primer PDF). Estudiado
+(India)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 7
+
+--- Página 8 ---
+F. Tierras altas antiguas: arcillas, carbonatos y
+biofirmas
+Qué buscar: carbonatos, depósitos de sílice y carbonato juntos, rocas con biofirmas antiguas y
+minerales de hierro.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Fuente La Montículos hidrotermales con calcio y sílice y microbialitos en distintas Estudiado
+Salsa, Laguna condiciones físico-químicas. Análogo de depósitos mixtos carbonato–sílice que
+Pastos Grandes preservan biofirmas.
+Escudo de Corteza precámbrica muy antigua con restos de volcanes antiguos. Podría servir Sugerido
+Guaporé (este para estudiar la meteorización de corteza muy vieja; no tiene relieve craterizado.
+de Bolivia)
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Quadrilátero Ferrífero (Minas Afloramientos muy ricos en hierro, propuestos como análogos. Propuesto
+Gerais, Brasil)
+Lago Alchichica (México) Carbonatos con biomasa microbiana atrapada (ver sección D). Estudiado
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Complejo Tiene glóbulos de carbonato dentro de lavas que son el único análogo Estudiado
+volcánico de terrestre conocido de los glóbulos del meteorito marciano ALH84001. Sus
+Bockfjord cementos de carbonato son análogos a los carbonatos "Comanche" del cráter
+(Svalbard, Noruega; Gusev. Proyecto AMASE.
+79°29′N 13°12′E)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 8
+
+--- Página 9 ---
+G. Llanuras del norte: polígonos, permafrost y
+termokarst
+Qué buscar: suelo poligonal, permafrost, depresiones por deshielo o sublimación, y polígonos de
+otro origen (sal, desecación) para evitar errores de interpretación.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Polígonos de Hexágonos de 1–2 m. Un estudio de 2023 demostró que se forman por convección Estudiado
+sal del Salar de salmuera bajo la costra, no por grietas. Sirven como contraejemplo: no todo
+de Uyuni polígono marciano implica hielo. Útil para estudiar depósitos de cloruros poligonales
+en Marte.
+Permafrost El límite inferior del permafrost en los Andes bolivianos está a unos 4.700 m. Hay Sugerido
+de la suelo estructurado pequeño por helada nocturna, común en montañas tropicales
+Cordillera altas.
+Occidental
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Ojos del Salado El desierto frío y seco más alto. Tiene permafrost y hielo en el suelo hasta ~5.800 Estudiado
+(Chile/Argentina; m, depresiones termokársticas y criokársticas (análogas del terreno
+27°06′S 68°32′W) festoneado), lóbulos de solifluxión, megaondulaciones y nieve enterrada que dura
+años. Se llega en camioneta hasta 5.200 m desde Copiapó (5–6 h).
+Polígonos y Polígonos muy parecidos a los periglaciales, pero formados sin hielo ni agua Estudiado
+cuñas de líquida dominante. Análogo de ambientes con poca agua como Marte.
+Atacama (Chile)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Montañas Franjas de piedras clasificadas gigantes (hasta 1 km de largo) en el trópico, formadas en Estudiado
+Bale el último período glacial. Útiles para comparar suelos estructurados fuera de los polos.
+(Etiopía)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 9
+
+--- Página 10 ---
+H. Casquetes polares y depósitos estratificados de
+hielo
+Qué buscar: capas de hielo que guardan registros climáticos y formas de sublimación.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Glaciares Se han perforado núcleos de hielo tropicales con registros climáticos. Análogo Sugerido
+del Sajama conceptual de los depósitos estratificados polares de Marte (capas de hielo y polvo =
+e Illimani archivo climático).
+Cordillera Perdió ~42 % de su área glaciar entre 1992 y 2024: laboratorio natural de retroceso de Sugerido
+Real hielo y exposición de terrenos nuevos.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Penitentes de los Andes Columnas de hielo esculpidas por sublimación bajo aire seco y Sugerido
+secos (Chile y Argentina; p. ej., radiación intensa. La sublimación domina la evolución del hielo en
+Ojos del Salado) Marte.
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Lago Untersee Lago cubierto de hielo permanente con tapetes microbianos en forma de Estudiado
+(Antártida oriental) conos que se liofilizan al bajar el nivel.
+Limitación: el hielo de CO , las "arañas" y los géiseres de CO no tienen análogo natural en
+2 2
+ninguna región.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 10
+
+--- Página 11 ---
+I. Glaciares cubiertos de roca (latitudes medias)
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Glaciares de Hay 94 glaciares de roca inventariados, 54 activos (con hielo), que contienen Estudiado
+roca de los 0,05–0,14 km3 de agua. En la Cordillera Occidental, donde no hay glaciares de
+Andes bolivianos hielo limpio, son la reserva de hielo principal. Su frente activo está en promedio a
+(15°–22°S) ~4.980 m. Son análogos de los glaciares marcianos cubiertos de roca (LDA, LVF),
+que también son hielo bajo una capa de detritos en ambiente seco.
+Glaciar de roca Era el único glaciar de roca boliviano con estudios publicados antes del inventario. Estudiado
+Caquella Buen sitio para monitoreo detallado.
+(~21,5°S, Lípez)
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Glaciares de roca de los Andes áridos Gran cantidad de glaciares de roca en clima seco y frío. Estudiado
+de Chile y Argentina
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 11
+
+--- Página 12 ---
+J. Cárcavas, franjas estacionales (RSL) y salmueras
+Qué buscar: salmueras que no se congelan, flujos estacionales en laderas y fuentes frías y
+saladas.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Salmueras del Muy ricas en litio y magnesio, sales caotrópicas (desestabilizan biomoléculas). Estudiado
+Salar de Uyuni Hay comunidades halófilas incluso a 80 m de profundidad. Análogo para
+estudiar la habitabilidad de salmueras marcianas.
+Laguna Colorada Laguna hipersalina con islas de bórax y algas pigmentadas. Sugerido
+(~4.300 m)
+Lagunas Lagos hipersalinos sin estudios microbiológicos; señalados como oportunidad Propuesto
+Chiarkota y en la revisión de 2026.
+Cañapa (Sud Lípez)
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Charcas Lagunas de deshielo con microbios extremófilos en un ambiente casi sin agua. Estudiado
+efímeras de Muestran que el agua de fusión se mueve lateralmente bajo la superficie, algo
+Ojos del relevante para las RSL.
+Salado
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Fuente Lost Una de las fuentes terrestres más frías y saladas. Emite gas con ~50 % de Estudiado
+Hammer (isla Axel metano y tiene microbios que comen metano y respiran sulfato. Análogo de
+Heiberg, Ártico fuentes de metano en un mundo congelado, relevante para el metano
+canadiense) detectado en Marte.
+Lago Vida (Antártida) Salmuera bajo hielo permanente. Estudiado
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 12
+
+--- Página 13 ---
+K. Dunas, yardangs, megaondulaciones y erosión
+eólica
+Qué buscar: yardangs en roca blanda (ignimbritas), megaondulaciones de grava (análogas a las
+TARs), ventifactos, dunas en altura y remolinos de polvo.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Desierto de Siloli (Sud Desierto frío a gran altitud con formaciones esculpidas por el viento. El Propuesto
+Lípez; >4.500 m) Árbol de Piedra (22°03′S 67°53′W) es un ventifacto de ~7 m.
+Bosque de Piedras e Italia Conjuntos de rocas volcánicas esculpidas por erosión. Sirven para Sugerido
+Perdida (norte de la Reserva comparar con las rocas pulidas que fotografían los rovers.
+Eduardo Avaroa)
+Dunas de Tajzara (Tarija) y Sitios áridos sin estudios microbiológicos; señalados como Propuesto
+Desierto de Dalí (Sud oportunidad en la revisión de 2026. Tajzara permite estudiar dunas a
+Lípez) gran altitud.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Campo de El mejor análogo eólico de la región. Tiene ~160 km2 de yardangs en Estudiado
+Piedra Pómez ignimbrita (se mapearon 14.826) orientados por vientos del noroeste. Se comparó
+(Catamarca, directamente con la Formación Medusae Fossae, e incluso se estimó la
+Argentina) porosidad de esa formación marciana. En el valle de Purulla están las
+megaondulaciones más grandes conocidas en la Tierra, comparables a las
+marcianas.
+Desierto de La Yardangs parecidos a los del cráter Gale y Meridiani Planum, y depósitos de yeso Propuesto
+Guajira aptos para buscar biofirmas.
+(Colombia)
+Lençóis Dunas blancas con lagunas entre dunas: análogo de sistemas eólicos húmedos. Propuesto
+Maranhenses Casi sin estudiar.
+(Brasil)
+Megaondulacio Megaondulaciones de escala decamétrica y nieve enterrada por arena volcánica. Estudiado
+nes de Ojos del
+Salado
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Cuenca de El mayor campo de yardangs de China, clasificados en 11 tipos. Se parecen mucho Estudiado
+Qaidam (China) a los de Medusae Fossae y Gale.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 13
+
+--- Página 14 ---
+L. Sales, sulfatos, percloratos y ambientes ácidos
+Qué buscar: cloruros, sulfatos (yeso, jarosita), percloratos, boratos y aguas ácidas ricas en hierro.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Salar de Investigadores de la UMSA (EPSC 2024) lo compararon con los depósitos de cloruros de Estudiado
+Uyuni Icaria Planum: comparten origen por evaporación y condiciones extremas de radiación,
+temperatura y salinidad.
+Salar de Salar vecino de Uyuni con volcanes que lo dividen (Tetivilla, Wila Pukarani, Paryani). Estudiado
+Coipasa Laboratorio natural para estudiar Marte según la NASA.
+Laguna Depósitos de bórax. Útil porque el rover Curiosity detectó boro en Marte, en vetas de Sugerido
+Colorad sulfato del cráter Gale.
+a
+Cerro Drenaje ácido de mina extremo, con casi 500 años de minería y sulfuros polimetálicos. Sugerido
+Rico de Origen humano, pero reproduce química ácido-sulfatada rica en hierro, como la de Río
+Potosí Tinto y Meridiani. Conviene buscar jarosita y schwertmannita en sus relaves.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Salar de Pajonales (Chile) Salar de sulfato de calcio a gran altitud, análogo de evaporitas Estudiado
+marcianas.
+Glaciar Pastoruri (Cordillera Charcas ácidas ricas en metales y sulfuros metálicos parecidos a Propuesto
+Blanca, Perú) los de rocas marcianas antiguas.
+Guerrero Negro (Baja California Salinas con tapetes microbianos sobre yeso, estudiados por NASA Estudiado
+Sur, México) Ames. Su metano puede ayudar a interpretar el metano marciano.
+Salar Grande y zona de Suelos con percloratos (ver primer PDF). Estudiado
+Yungay (Atacama, Chile)
+Mina de sal de Zipaquirá Ambiente salino subterráneo con condiciones extremas. Propuesto
+(Colombia)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Matanumadh, Jarosita y natrojarosita sobre basaltos alterados del Deccan, con arcillas Estudiado
+Kachchh (Gujarat, debajo. Sus autores dicen que se parece a las localidades marcianas con
+India) jarosita más que los sitios de Australia. Estudiado por ISRO.
+Barranco del Jaroso Localidad que dio nombre a la jarosita. Sugerido
+(Almería, España)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 14
+
+--- Página 15 ---
+M. Sistemas hidrotermales
+Qué buscar: fumarolas, fuentes termales, sínter de sílice, alteración ácida y biofirmas en
+sedimentos termales.
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Sol de Mañana (Sud ~10 km2 de fumarolas, ollas de barro y fuentes termales, entre los Sugerido
+Lípez; 22°25′S 67°45′W; campos geotérmicos más altos del mundo. Ideal para estudiar
+4.800–5.000 m) alteración hidrotermal ácida a baja presión y alta radiación UV. Peligro:
+la costra es delgada y se puede caer en barro hirviendo.
+Fuente termal cerca de Fuente termal con comunidades microbianas, incluida en la revisión de Estudiado
+Laguna Blanca (4.328 m; extremófilos andinos.
+~36 °C)
+Pastos Grandes (fuente Ver secciones D y F. Estudiado
+La Salsa)
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+El Tatio (Chile) Sínter de sílice con biomarcadores lipídicos en un ambiente parecido a las Estudiado
+superficies hespéricas de Marte.
+Fuentes de Baja temperatura, mucha UV, salinidad y azufre. Se estudiaron metabolismos que Estudiado
+Polloquere viven de gases traza (CO, H ), como los que podrían existir en el subsuelo
+2
+(Altiplano chileno) marciano.
+Fumarolas de Microbios acidófilos que oxidan y reducen hierro. Investigadores de CU Boulder Estudiado
+Ojos del Salado estudian ahí qué minerales hidrotermales se forman a gran altitud, para
+interpretar los de Marte.
+Los Azufres Campo geotérmico con múltiples condiciones extremas. Propuesto
+(Michoacán,
+México)
+Río Calientes Flujos geotérmicos ligados a estudios de la Tierra primitiva y el origen de la vida. Propuesto
+(Perú)
+Resto del mundo (menos conocidos)
+Lugar Por qué sirve / uso específico Estado
+Fuentes termales de Terrazas de travertino con comunidades microbianas, en clima Estudiado
+Bockfjord (Svalbard) polar.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 15
+
+--- Página 16 ---
+N. Lagos de altura con radiación UV extrema
+Bolivia
+Lugar Por qué sirve / uso específico Estado
+Lago del cráter del Uno de los lagos más altos del mundo. En el primer viaje (2002) se Estudiado
+Licancabur (frontera observó que sus diatomeas tenían 10 veces más deformidades que
+Bolivia–Chile; 22°50′S en otros lagos, probablemente por la radiación UV.
+67°53′W; 5.916 m)
+Laguna Blanca y Laguna Lagos someros sin refugio contra la UV, con pH de ~7 a 9 y Estudiado
+Verde (4.340 m) temperaturas del agua muy variables.
+Latinoamérica
+Lugar Por qué sirve / uso específico Estado
+Lago Simba (Chile; 5.870 m) Lago ácido (pH 3,9) a gran altitud, del proyecto High Estudiado
+Lakes.
+Laguna Lejía y Salar de Aguas Otros lagos del proyecto High Lakes, a ~4.200–4.300 m. Estudiado
+Calientes (Chile)
+Laguna Diamante (caldera Galán, Agua hipersalina con muchísimo arsénico (230 mg/L). Estudiado
+Catamarca, Argentina; 4.570 m) Combina altitud, UV y toxicidad química.
+Ojos de Mar de Tolar Grande (Salta, Pozas hipersalinas con microbialitos. Estudiado
+Argentina)
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 16
+
+--- Página 17 ---
+O. Simulación humana y operaciones en
+Latinoamérica
+Iniciativa / lugar Qué es Estado
+Salar de Uyuni como Un trabajo estudiantil presentado en el congreso GLEX 2017 propuso el Propuesto
+hábitat simulado salar como quinta base de simulación marciana de la Mars Society. No
+encontré que se haya construido.
+Tripulaciones LATAM La Mars Society ha organizado misiones con estudiantes latinoamericanos Estudiado
+en la MDRS (Utah) (México, Colombia y otros).
+Misiones Simulaciones en cueva con jóvenes de Perú, México y Chile, coordinadas Estudiado
+latinoamericanas en por la Fundación Acercándote al Universo.
+Astroland (Cantabria,
+España)
+Pampas de La Joya Desierto donde el Centro Internacional de la Papa obtuvo suelo para Propuesto
+(Arequipa, Perú) probar papas en condiciones tipo Marte.
+Ojos del Salado Uno de los sitios de gran altitud más accesibles de la región para pruebas Estudiado
+de equipos y operaciones.
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 17
+
+--- Página 18 ---
+Resumen: los mejores sitios por zona marciana
+Zona marciana Bolivia Latinoamérica Resto del
+mundo (menos
+conocido)
+Volcanes y coladas (Tharsis) Tata Sabaya, Cerro Volcán Payunia (Pampas Onduladas), Kazumura,
+Quemado Andagua, Galápagos Undara, Shishan
+Tubos de lava Sin registros: buscar Cueva Doña Otilia, El Julepe, Lanzarote
+Galápagos (biofirmas),
+Craters of the
+Moon
+Cañones y capas (Valles Torotoro Colca, Cotahuasi, Lago Assal (Afar)
+Marineris) Ischigualasto
+Deslizamientos gigantes Avalancha de Tata Sabaya — —
+Terreno caótico Uyuni (análogo de Aureum GLOFs de Patagonia Ásbyrgi (Islandia)
+Chaos)
+Lagos, deltas, microbialitos Laguna Verde, Pastos Alchichica, Laguna Negra, Lago Salda,
+(Jezero, Gale) Grandes, Uyuni/Coipasa Pajonales Tigray
+Cráteres pequeños y frescos Carancas (Perú, junto a Monturaqui Kamil (Egipto)
+Bolivia)
+Cráteres degradados en Iturralde/Araona — —
+sedimento
+Campos de cráteres — Bajada del Diablo, Campo del —
+Cielo
+Impactos en basalto e — Vargeão, Vista Alegre —
+hidrotermalismo
+Carbonatos tipo ALH84001 — — Bockfjord
+(Svalbard)
+Polígonos (contraejemplo Polígonos de Uyuni Polígonos de Atacama —
+salino)
+Permafrost y termokarst Cordillera Occidental Ojos del Salado Montañas Bale
+(Etiopía)
+Glaciares cubiertos de roca 54 glaciares de roca activos Andes áridos —
+(Caquella)
+Salmueras Salmueras de Uyuni, Charcas de Ojos del Salado Lost Hammer
+Chiarkota, Cañapa (metano), Lago
+Vida
+Yardangs (Medusae Fossae) Siloli (ventifactos) Campo de Piedra Pómez, La Qaidam
+Guajira
+Megaondulaciones (TARs) — Purulla (las más grandes de la —
+Tierra), Ojos del Salado
+Cloruros Uyuni (Icaria Planum), — —
+Coipasa
+Sulfatos y jarosita Cerro Rico (drenaje ácido, Pajonales, Pastoruri Kachchh (India),
+humano) Barranco del
+Jaroso
+Boratos Laguna Colorada — —
+Hidrotermal Sol de Mañana, Pastos El Tatio, Polloquere, Ojos del Bockfjord
+Grandes Salado
+Lagos de altura con UV Licancabur, Laguna Blanca y Simba, Diamante, Tolar Lago Untersee
+Verde Grande
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 18
+
+--- Página 19 ---
+Oportunidades concretas de investigación en Bolivia
+1 Buscar tubos de lava en los campos monogenéticos del Altiplano y Lípez con imágenes
+satelitales e InSAR. No encontré registros publicados.
+2 Microbiología de Chiarkota, Cañapa, Tajzara y el Desierto de Dalí: la literatura los señala
+explícitamente como sitios sin estudiar.
+3 Confirmar el origen de Iturralde/Araona como cráter de impacto o explosión aérea.
+4 Monitorear glaciares de roca de la Cordillera Occidental como análogos de glaciares
+marcianos cubiertos de detritos.
+5 Mineralogía ácido-sulfatada (jarosita, schwertmannita) en los relaves de Potosí, comparada
+con espectros de Meridiani.
+6 Comparar la avalancha de Tata Sabaya con deslizamientos marcianos usando imágenes
+HiRISE y modelos de elevación.
+7 Proponer una estación análoga en Sud Lípez o en Uyuni, con liderazgo e instituciones
+bolivianas.
+Fuentes principales
+• NASA Astrobiology, High Lakes Project (2008):
+astrobiology.nasa.gov/news/2008-high-lakes-project-from-early-mars-to-todays-earth/
+• Cabrol et al. (2009), The High-Lakes Project, J. Geophys. Res., doi:10.1029/2008JG000818
+• NASA Earth Observatory, Bolivian Salt Flats (2023):
+science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813
+• Jimeno Ruiz y Suárez Valencia (UMSA), cloruros de Icaria Planum y Uyuni, EPSC 2024,
+doi:10.5194/epsc2024-483
+• Bolívar-Torres et al. (2026), Extreme environments of Latin America, International Journal of
+Astrobiology 25, e10
+• Albarracín et al. (2015), High-Altitude Andean Lakes, Frontiers in Microbiology,
+doi:10.3389/fmicb.2015.01404
+• Pastos Grandes: Minerals 9(6):380 (2019) y Geosciences 12(2):88
+• Tata Sabaya: Godoy et al. (2012), Andean Geology 39(3), doi:10.5027/andgeoV39n3-a03; NASA
+Earth Observatory (2013)
+• Iturralde: NASA SVS 925; Malkova et al. (2013), LPSC
+• Rangecroft et al. (2014), inventario de glaciares de roca de Bolivia, Permafrost and Periglacial
+Processes, doi:10.1002/ppp.1816
+• Lasser et al. (2023), Salt polygons and porous media convection, Physical Review X,
+doi:10.1103/PhysRevX.13.011025
+• Campo de Piedra Pómez: Favaro et al. (2020), Icarus; Favaro et al. (2021), ESPL,
+doi:10.1002/esp.5212
+• Ojos del Salado: Kereszturi et al. (2022), Icarus 378
+• Monturaqui: Ugalde et al. (2007), Meteoritics & Planetary Science
+• Bajada del Diablo: Acevedo et al. (2009), Geomorphology 110
+• Vargeão: Alsemgeest (2024), tesis VU Amsterdam; Icarus 252 (2015)
+• Carancas: Kenkmann et al. (2009), Meteoritics & Planetary Science 44(7)
+• Kamil: Folco et al. (2011), Geology 39(2), doi:10.1130/G31624.1
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 19
+
+--- Página 20 ---
+• Kachchh: Bhattacharya et al. (2016), JGR Planets, doi:10.1002/2015JE004949
+• Bockfjord: Steele et al. (2007), Meteoritics & Planetary Science 42(9)
+• Lost Hammer: Magnuson et al. (2022), ISME Journal, doi:10.1038/s41396-022-01233-8
+• Alchichica: Astrobiology (2026), biomarcadores lipídicos en microbialitos de un lago maar
+• Payunia y Doña Otilia: IX Simposio Internacional de Vulcanoespeleología; CONICET
+Análogos de Marte: Bolivia, Latinoamérica y resto del mundo Página 20

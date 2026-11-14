@@ -1,0 +1,444 @@
+--- Página 1 ---
+Marte: topografía, tipos de terreno y
+análogos terrestres
+Guía de referencia por zona marciana
+1. Visión general de la topografía marciana
+• Altura de referencia: como en Marte no hay "nivel del mar", las alturas se miden desde una
+altura de referencia (el "datum"), definida con el altímetro láser MOLA de la sonda Mars Global
+Surveyor.
+• Relieve total: unos 30 km, desde la cima del Olympus Mons (+21,9 km) hasta el fondo de la
+cuenca Hellas (−8,2 km). En la Tierra son ~20 km, del Everest a la fosa de las Marianas.
+• Dicotomía hemisférica: es el rasgo más importante del planeta.
+• Sur: tierras altas de +1 a +4 km, muy antiguas y craterizadas. La corteza es más gruesa.
+• Norte: llanuras bajas y lisas de −3 a −5 km, más jóvenes, rellenas de sedimentos y lava.
+Posiblemente fueron el fondo de un antiguo océano.
+• Entre ambas hay un escalón de unos 5 km de desnivel (el límite de la dicotomía).
+• No hay tectónica de placas. Por eso los volcanes crecieron sin moverse durante miles de
+millones de años y alcanzaron tamaños gigantescos.
+• Eras geológicas (útiles para elegir análogos según la edad del terreno):
+• Noeico (hace más de 3.700 millones de años): era húmeda, con ríos, lagos y arcillas.
+• Hespérico (3.700–3.000 Ma): vulcanismo intenso, grandes inundaciones catastróficas,
+sulfatos y ambiente ácido.
+• Amazónico (de 3.000 Ma a hoy): frío y seco; dominan el viento, el hielo y los glaciares.
+Tipos de análogo
+Ningún lugar de la Tierra es igual a Marte. Un sitio se considera análogo en uno o varios de estos
+aspectos:
+1 Geomorfológico: la forma del relieve se parece (cráteres, canales, dunas).
+2 Mineralógico o geoquímico: las rocas o minerales son los mismos (basaltos, arcillas, sulfatos,
+percloratos).
+3 Ambiental o de habitabilidad: las condiciones extremas son parecidas (frío, aridez, radiación
+UV, salinidad). Sirven para estudiar la vida.
+4 Operacional: sirven para entrenar astronautas y probar rovers, trajes y hábitats.
+Marte: topografía, tipos de terreno y análogos terrestres Página 1
+
+--- Página 2 ---
+2. Zonas de Marte y sus análogos terrestres
+A. Provincia volcánica de Tharsis y Olympus Mons
+En Marte
+• Abombamiento de Tharsis: un gran domo volcánico de unos 4.000–5.000 km de ancho y ~10
+km de altura.
+• Tharsis Montes: tres volcanes en escudo alineados, Arsia, Pavonis y Ascraeus Mons, de
+~14–18 km de altura.
+• Olympus Mons:
+• Volcán en escudo de ~22 km de altura y ~600 km de diámetro.
+• Su caldera tiene ~80 km.
+• Está rodeado por un escarpe (acantilado) de hasta 8 km de altura.
+• Elysium: una segunda provincia volcánica, con el Elysium Mons de ~12,6 km.
+• Otros rasgos: coladas de lava, tubos de lava con tragaluces (por ejemplo, en Arsia Mons),
+fosas tectónicas y arrugas (wrinkle ridges).
+Análogos terrestres
+Lugar País Por qué es análogo
+Mauna Loa y Mauna Kea, Hawái EE. UU. Volcanes en escudo basálticos, la misma forma que el
+Olympus Mons, aunque mucho más pequeños. Ahí está
+el hábitat de simulación HI-SEAS. De un cono de
+ceniza de Mauna Kea (Pu'u Nene) se sacó el simulante
+de suelo marciano JSC Mars-1.
+Kīlauea, Hawái EE. UU. Coladas de lava activas, calderas y fisuras.
+Islandia (Holuhraun, Lakagígar, Askja) Islandia Basaltos, fisuras volcánicas, lava en contacto con hielo
+y paisajes sin vegetación. Las coladas de Athabasca
+Valles (Elysium) se comparan con las islandesas.
+Llanura del río Snake e Idaho EE. UU. Vulcanismo de "llanura": escudos bajos y coladas que
+(Craters of the Moon) se solapan, muy parecido a las llanuras de Tharsis.
+Lava Beds National Monument EE. UU. Cientos de tubos de lava explorables.
+(California)
+Lanzarote (Cueva de los Verdes, Tubo de España Tubos de lava enormes y paisaje volcánico árido. La
+La Corona) y Tenerife ESA entrena astronautas ahí (programas PANGAEA y
+CAVES).
+Altiplano y volcanes andinos Bolivia, Chile, Vulcanismo a gran altitud, con baja presión, mucha
+Argentina radiación UV y aridez.
+Limitaciones: en la Tierra no hay nada del tamaño del Olympus Mons, porque las placas se
+mueven y "reparten" el vulcanismo. Mauna Loa mide ~9 km desde el fondo marino, pero solo ~120
+km de ancho.
+B. Valles Marineris (sistema de cañones)
+En Marte
+• Mide ~4.000 km de largo, hasta ~200 km de ancho y hasta 7 km de profundidad.
+• Su origen es tectónico: la corteza se abrió por el peso de Tharsis. Después lo ensancharon
+deslizamientos y la erosión.
+• Rasgos internos:
+• Depósitos estratificados interiores (ILD), ricos en sulfatos.
+Marte: topografía, tipos de terreno y análogos terrestres Página 2
+
+--- Página 3 ---
+• Enormes deslizamientos de tierra (landslides) de decenas de km.
+• En el extremo este, terreno caótico, donde nacen los canales de inundación.
+Análogos terrestres
+Lugar País Por qué es análogo
+Rift de África Oriental / Etiopía, Kenia, El mejor análogo de origen: una fosa tectónica formada al
+Depresión de Afar Tanzania estirarse la corteza.
+Mar Rojo / Golfo de Suez Egipto, Arabia Un rift más avanzado.
+Gran Cañón del Colorado EE. UU. Análogo de forma y estratificación visible en las paredes,
+aunque su origen es la erosión de un río. Mide 446 km de largo
+y 1,8 km de profundidad: Valles Marineris es ~10 veces más
+largo y ~4 veces más profundo.
+Basin and Range (Nevada, EE. UU. Fallas extensionales y fosas (grabens).
+Utah)
+Deslizamientos del Himalaya — Grandes avalanchas de roca, para comparar con los landslides
+o los Andes marcianos.
+C. Canales de inundación (outflow channels) y terreno caótico
+En Marte
+• Canales gigantes como Kasei Valles, Ares Vallis y Tiu/Simud Valles. Miden cientos a miles de
+km de largo y hasta decenas de km de ancho.
+• Se formaron por inundaciones catastróficas en el Hespérico, cuando se liberó de golpe agua
+subterránea.
+• Nacen en terreno caótico (Aram, Iani, Hydraotes Chaos): bloques de terreno colapsados, como
+si el suelo se hubiera hundido al salir el agua.
+• Otros rasgos: islas en forma de lágrima (aerodinámicas), surcos longitudinales y cataratas
+secas.
+Análogos terrestres
+Lugar País Por qué es análogo
+Channeled Scablands, Washington EE. UU. El análogo clásico. Lo excavaron las inundaciones
+del lago glacial Missoula al final de la última
+glaciación. Tiene las mismas islas aerodinámicas,
+cataratas secas (Dry Falls) y canales
+anastomosados.
+Jökulhlaups de Islandia (Skeiðarársandur, bajo el Islandia Inundaciones repentinas por la erupción de
+glaciar Vatnajökull) volcanes bajo el hielo. Son el análogo del agua
+liberada bajo un suelo congelado.
+Inundaciones del lago Altái Rusia ( Megainundaciones glaciales con ondulaciones
+Siberia) gigantes de corriente.
+Terreno caótico: colapsos por deshielo de — Análogo parcial, a escala mucho menor.
+permafrost (termokarst) y zonas de hundimiento en
+Islandia
+D. Redes de valles, deltas y antiguos lagos
+En Marte
+• Redes de valles ramificadas: muestran lluvia o deshielo en el Noeico, sobre todo en las
+tierras altas del sur.
+Marte: topografía, tipos de terreno y análogos terrestres Página 3
+
+--- Página 4 ---
+• Deltas en cráteres:
+• Cráter Jezero (45 km), con su delta: ahí trabaja Perseverance.
+• Cráter Eberswalde.
+• Cráter Gale (154 km): tiene en su centro el Monte Sharp (Aeolis Mons), de ~5,5 km de capas
+sedimentarias. Lo explora Curiosity.
+• Canales invertidos: antiguos cauces que, por erosión diferencial, quedaron como crestas
+elevadas.
+Análogos terrestres
+Lugar País Por qué es análogo
+Hanksville, Utah (MDRS) EE. UU. Ahí está la Mars Desert Research Station. Tiene canales
+invertidos, arcillas de la Formación Morrison, colores rojizos y
+aridez. Es de los análogos operacionales más usados.
+Desierto de Atacama (paleocanales, Chile Redes de drenaje "fósiles" en hiperaridez.
+abanicos aluviales)
+Deltas de lagos secos del Gran EE. UU. Deltas y líneas de costa de lagos desaparecidos.
+Basin (lago Bonneville)
+Abanicos aluviales del Valle de la EE. UU. Abanicos parecidos a los de Gale y otros cráteres.
+Muerte
+Cráter de Ries (lago de cráter fósil) Alemania Sedimentos lacustres dentro de un cráter de impacto, como en
+Gale y Jezero.
+E. Cráteres de impacto
+En Marte
+• Hay cientos de miles. Se usan para fechar terrenos: más cráteres = terreno más antiguo.
+• Grandes cuencas:
+• Hellas: ~2.300 km.
+• Argyre: ~1.800 km.
+• Isidis: ~1.500 km. Jezero está en su borde.
+• Utopia: ~3.300 km, enterrada.
+• Cráteres con eyecta lobulada o "de muralla" (rampart craters): su material eyectado
+parece haber "fluido". Es señal de hielo o agua en el subsuelo en el momento del impacto.
+• Cráteres pedestal: el cráter queda sobre una meseta, porque la eyecta protegió el suelo de la
+erosión del viento.
+Análogos terrestres
+Lugar País Por qué es análogo
+Cráter Haughton, isla Devon Canadá De los análogos de Marte más completos: cráter de impacto
+(Ártico) (~20 km) + desierto polar frío + permafrost. Sede del
+Haughton-Mars Project y de la estación FMARS.
+Cráter Lonar India Cráter formado en basalto, la misma roca que domina en Marte.
+Es muy raro en la Tierra.
+Meteor Crater (Barringer), EE. UU. Cráter simple, joven y bien conservado. Los astronautas del Apolo
+Arizona entrenaron ahí.
+Nördlinger Ries Alemania Cráter complejo (~24 km) con brechas de impacto (suevita).
+Vredefort (Sudáfrica) y Sudbury — Estructuras de impacto gigantes y erosionadas, análogas de
+(Canadá) cuencas antiguas.
+Marte: topografía, tipos de terreno y análogos terrestres Página 4
+
+--- Página 5 ---
+Lugar País Por qué es análogo
+Cráter Ramon (makhtesh, Israel) Israel No es de impacto, sino de erosión, pero se usa como análogo
+operacional (estación D-MARS) por su parecido visual.
+Limitaciones: la Tierra borra sus cráteres por erosión y tectónica, y no tiene cráteres de muralla
+bien desarrollados.
+F. Tierras altas del sur (corteza antigua)
+En Marte
+• Terreno noeico de más de 3.700 Ma, saturado de cráteres.
+• Contiene arcillas (filosilicatos) formadas en presencia de agua, en zonas como Mawrth
+Vallis y Nili Fossae.
+• También hay carbonatos en Nili Fossae y Jezero.
+• Son las zonas más prometedoras para buscar vida pasada.
+Análogos terrestres
+Lugar País Por qué es análogo
+Pilbara Australia Rocas de ~3.500 Ma, con algunos de los estromatolitos
+(fósiles de vida microbiana) más antiguos. Es el análogo para
+buscar biofirmas antiguas.
+Cinturón de Barberton Sudáfrica Rocas de edad similar y microfósiles.
+Isua Groenlan Algunas de las rocas más antiguas de la Tierra (~3.700–3.800
+dia Ma).
+Basaltos alterados de Islandia y — Formación de arcillas a partir de basalto, el mismo proceso que
+del Deccan (India) en Marte.
+Ofiolitas serpentinizadas de Omán Carbonatos y serpentina, como en Nili Fossae. El
+Omán Österreichisches Weltraum Forum hizo la simulación
+AMADEE-18 en Omán.
+G. Llanuras del norte, suelo poligonal y permafrost
+En Marte
+• Vastitas Borealis, Utopia Planitia, Acidalia Planitia: llanuras muy planas.
+• Suelo poligonal (patterned ground): el suelo se agrieta en polígonos por la contracción
+térmica del hielo.
+• Terreno festoneado (scalloped terrain) en Utopia: depresiones por sublimación del hielo del
+subsuelo.
+• Hay hielo de agua a menos de 1 m de profundidad en latitudes medias y altas. Lo confirmó
+el aterrizador Phoenix, que excavó hielo en 2008.
+• Posibles "volcanes de lodo" en Acidalia.
+Análogos terrestres
+Lugar País Por qué es análogo
+Valles Secos de McMurdo (Beacon Antártida El análogo terrestre más parecido a Marte en clima:
+Valley, University Valley) frío extremo, aridez, polígonos de sublimación, hielo
+enterrado de millones de años.
+Svalbard Noruega Permafrost, polígonos, pingos y laderas periglaciales. Ahí se
+hicieron pruebas de rovers (expediciones AMASE).
+Marte: topografía, tipos de terreno y análogos terrestres Página 5
+
+--- Página 6 ---
+Lugar País Por qué es análogo
+Isla Devon y Ártico canadiense Canadá Polígonos y permafrost.
+Siberia (Yakutia) y Alaska Rusia, Termokarst: depresiones por deshielo, análogas del terreno
+EE. UU. festoneado.
+Volcanes de lodo de Azerbaiyán Azerbaiy Análogo propuesto para las estructuras de Acidalia.
+án
+H. Casquetes polares y depósitos estratificados polares
+En Marte
+• Casquete norte: sobre todo hielo de agua (~1.000 km de diámetro), con una capa estacional
+de hielo de CO en invierno.
+2
+• Casquete sur: hielo de agua cubierto por una capa permanente de hielo de CO .
+2
+• Depósitos estratificados polares: capas de hielo y polvo de hasta ~3 km de espesor. Son un
+registro climático, como los núcleos de hielo terrestres.
+• Valles en espiral y el gran cañón Chasma Boreale.
+• "Arañas" y géiseres de CO en el polo sur: el hielo de CO se sublima por debajo y lanza
+2 2
+chorros de gas y polvo.
+Análogos terrestres
+Lugar País Por qué es análogo
+Capa de hielo de la Antártida — Capas de hielo con registro climático y valles en el hielo.
+Capa de hielo de Groenlandia Dinamarca Estratificación y erosión por viento (vientos catabáticos).
+Limitaciones: no hay ningún análogo natural para el hielo de CO , las "arañas" y los géiseres
+2
+de CO . En la Tierra hace demasiado calor para que el CO se congele, así que solo se pueden
+2 2
+estudiar en laboratorio.
+I. Glaciares de latitud media
+En Marte
+• Delantales de derrubios lobulados (LDA): glaciares cubiertos de roca al pie de montañas y
+mesetas.
+• Rellenos lineados de valles (LVF) y rellenos concéntricos de cráteres (CCF).
+• Glaciares de tipo alpino en las laderas de los volcanes de Tharsis: depósitos en forma de
+abanico.
+• El radar SHARAD confirmó que muchos son hielo casi puro bajo una capa de roca de pocos
+metros.
+Análogos terrestres
+Lugar País Por qué es análogo
+Glaciar Mullins y Beacon Antártida Glaciares cubiertos de derrubios con hielo de millones de años.
+Valley Son casi idénticos en estructura.
+Glaciares de roca de los Chile, Mucho hielo cubierto de roca en clima seco y a gran altitud.
+Andes áridos Argentina,
+Bolivia
+Glaciares de roca de los — Formas lobuladas y flujo lento.
+Alpes y de Alaska
+Marte: topografía, tipos de terreno y análogos terrestres Página 6
+
+--- Página 7 ---
+J. Cárcavas (gullies) y franjas oscuras estacionales (RSL)
+En Marte
+• Cárcavas: surcos en las laderas, con nicho superior, canal y abanico inferior. Antes se pensaba
+que las formaba agua líquida. Hoy se cree que muchas se forman por escarcha de CO que se
+2
+sublima y desestabiliza el suelo.
+• RSL (Recurring Slope Lineae): franjas oscuras que aparecen en verano en laderas
+empinadas. Primero se interpretaron como salmueras. Hoy se piensa que la mayoría son flujos
+de arena o polvo seco.
+Análogos terrestres
+Lugar País Por qué es análogo
+Valles Secos (Wright Valley) Antártida Cárcavas formadas por el deshielo de nieve en clima frío y
+seco.
+Svalbard e isla Devon Noruega, Cárcavas en laderas periglaciales.
+Canadá
+Laguna Don Juan Antártida La laguna más salada de la Tierra (cloruro de calcio). No se
+congela a −50 °C. Es el análogo de las salmueras que
+podrían existir en Marte.
+"Water tracks" de los Valles Secos Antártida Franjas húmedas estacionales en el suelo, parecidas a las RSL.
+Flujos granulares secos en dunas EE. UU. Análogo de la interpretación "seca" de las RSL y de algunas
+(Kelso Dunes, Mojave) cárcavas.
+K. Dunas, terrenos eólicos y yardangs
+En Marte
+• El viento es hoy el principal agente que modela el relieve.
+• Campos de dunas:
+• Barjanes y dunas lineales.
+• Grandes mares de dunas alrededor del casquete norte (Olympia Undae).
+• Dunas activas Bagnold en el cráter Gale.
+• TARs (crestas eólicas transversales): ondulaciones de tamaño intermedio entre las
+ondulaciones de arena y las dunas. Son muy comunes en Marte.
+• Yardangs: crestas alargadas esculpidas por el viento en roca blanda. Son muy grandes en la
+Formación Medusae Fossae, un depósito de material volcánico fino de miles de km.
+• Ventifactos: rocas pulidas y facetadas por la arena.
+• Remolinos de polvo: dejan huellas oscuras sinuosas en la superficie.
+Análogos terrestres
+Lugar País Por qué es análogo
+Desierto de Namib Namibia Dunas gigantes de varios tipos.
+Sahara (Egipto, Mauritania) — Barjanes y campos de dunas.
+Great Sand Dunes (Colorado) y Kelso EE. UU. Dunas en clima semiárido y frío. Se usaron como análogo de
+Dunes (California) las dunas Bagnold.
+Puna argentina (Catamarca) Argentin Megaondulaciones de grava a gran altitud. Se consideran
+a de los mejores análogos de las TARs.
+Marte: topografía, tipos de terreno y análogos terrestres Página 7
+
+--- Página 8 ---
+Lugar País Por qué es análogo
+Desierto de Lut (kaluts) Irán Yardangs gigantes, análogos de Medusae Fossae.
+Cuenca de Qaidam China Yardangs + salares + hiperaridez a gran altitud. Es un
+análogo muy completo.
+Valles Secos Antártida Ventifactos esculpidos por el viento frío.
+L. Depósitos de sales, sulfatos y ambientes ácidos
+En Marte
+• Meridiani Planum (donde trabajó Opportunity):
+• Areniscas ricas en sulfatos y jarosita, un mineral que solo se forma en agua ácida.
+• Esférulas de hematita ("blueberries").
+• Depósitos de cloruros: antiguas cuencas de evaporación en las tierras altas.
+• Percloratos en todo el suelo.
+Análogos terrestres
+Lugar País Por qué es análogo
+Río Tinto (Huelva) España El análogo de referencia de Meridiani: aguas muy
+ácidas (pH ~2), ricas en hierro, con jarosita y hematita y
+con vida microbiana extremófila.
+Concreciones de la arenisca Navajo EE. UU. Esferas de hematita casi idénticas a las "blueberries" de
+("moqui marbles", Utah) Meridiani.
+Dallol / Depresión de Danakil Etiopía Ambiente hidrotermal hiperácido e hipersalino. Pone a
+prueba los límites de la vida.
+Salar de Uyuni Bolivia Gran salar y cuenca de evaporación; sirve para calibrar
+satélites. Análogo de los depósitos de cloruros.
+Salar de Atacama y desierto de Chile Sales, nitratos y percloratos naturales: uno de los pocos
+Atacama lugares de la Tierra con percloratos como los de Marte.
+Pilot Valley y lagos salados de EE. UU., Lagos salinos ácidos con sulfatos.
+Australia Occidental Australia
+M. Sistemas hidrotermales
+En Marte
+• Columbia Hills / Home Plate (cráter Gusev): Spirit encontró sílice opalina casi pura, típica de
+fuentes termales.
+• Hay depósitos hidrotermales asociados a cráteres de impacto y a volcanes.
+Análogos terrestres
+Lugar País Por qué es análogo
+El Tatio Chile Géiseres a ~4.300 m con depósitos de sílice (sinter): el análogo más
+citado de Home Plate. Sus estructuras de sílice se parecen a las
+encontradas por Spirit.
+Sol de Mañana Bolivia Campo geotérmico a gran altitud, en un ambiente similar.
+Yellowstone EE. UU. Sinter de sílice y vida en aguas termales.
+Islandia (Námafjall, Islandia Hidrotermalismo sobre basalto, la misma roca base que en Marte.
+Krýsuvík)
+Marte: topografía, tipos de terreno y análogos terrestres Página 8
+
+--- Página 9 ---
+N. Lagos de altura y ambientes de gran radiación UV
+Por qué importa: el Marte antiguo pudo tener lagos con mucha radiación UV, poca presión y agua
+fría. Los lagos andinos de altura son el ambiente terrestre más parecido.
+Lugar País Por qué es análogo
+Lago del cráter del volcán Bolivia / Chile Uno de los lagos más altos del mundo. Lo estudia el proyecto
+Licancabur (~5.900 m) High Lakes (SETI/NASA) como análogo de los lagos marcianos
+antiguos.
+Laguna Verde y Laguna Blanca Bolivia Lagos salinos a gran altitud, con radiación UV extrema.
+Lagunas del Altiplano y la Bolivia, Chile, Baja presión, UV alta, gran oscilación térmica y aridez.
+Puna Argentina
+O. Análogos "globales" del ambiente marciano actual
+Son lugares que reproducen el ambiente de superficie, no una zona concreta:
+Lugar Qué reproduce
+Desierto de Atacama (zona Yungay / Hiperaridez extrema, suelos oxidantes con percloratos y casi sin vida.
+María Elena) Cuando se aplicaron ahí los experimentos de las sondas Viking, dieron
+resultados parecidos a los de Marte.
+Valles Secos de McMurdo Combinación de frío + aridez + viento + suelo helado. Es el lugar
+(Antártida) más parecido a Marte en conjunto.
+Isla Devon (Canadá) Desierto polar + cráter. Muy usado como análogo operacional.
+Hanksville, Utah Análogo visual y operacional (estación MDRS).
+Islandia Basalto + hielo + volcanes + agua. Combina casi todos los procesos
+marcianos antiguos.
+Marte: topografía, tipos de terreno y análogos terrestres Página 9
+
+--- Página 10 ---
+3. Estaciones de simulación ubicadas en análogos
+Estación / programa Lugar Tipo
+MDRS (Mars Society) Hanksville, Utah, EE. UU. Desierto con arcillas y canales
+invertidos
+FMARS / Haughton-Mars Project Isla Devon, Canadá Cráter + desierto polar
+HI-SEAS Mauna Loa, Hawái Volcán basáltico + aislamiento
+AMADEE (Österreichisches Weltraum Varios: Omán, Marruecos, Israel, Desiertos y simulaciones completas
+Forum) Armenia
+D-MARS Cráter Ramon, Israel Desierto y makhtesh
+Concordia (ESA) Antártida Aislamiento extremo
+PANGAEA / CAVES (ESA) Lanzarote, Italia (Cerdeña) y otros Entrenamiento geológico y tubos de
+lava
+4. Tabla resumen: zona de Marte → mejor análogo
+Zona o rasgo marciano Mejor análogo terrestre
+Volcanes en escudo (Tharsis, Olympus Mons) Hawái
+Tubos de lava Lanzarote, Lava Beds (California)
+Llanuras volcánicas Llanura del Snake, Idaho
+Valles Marineris Rift de África Oriental / Afar (origen); Gran Cañón (forma)
+Canales de inundación Channeled Scablands (Washington); Islandia
+Deltas y lagos antiguos (Jezero, Gale) Utah (Hanksville); lago Bonneville; Ries
+Canales invertidos Hanksville, Utah
+Cráteres de impacto Haughton (Devon), Lonar (India), Meteor Crater
+Tierras altas antiguas con arcillas Pilbara (Australia); basaltos alterados de Islandia
+Llanuras del norte, polígonos y permafrost Valles Secos (Antártida), Svalbard
+Terreno festoneado Termokarst de Siberia y Alaska
+Casquetes polares (hielo de agua) Antártida, Groenlandia
+Glaciares cubiertos de roca Glaciar Mullins (Antártida); glaciares de roca andinos
+Cárcavas Valles Secos, Svalbard
+Salmueras / RSL Laguna Don Juan (Antártida)
+Dunas Namib, Great Sand Dunes, Kelso
+TARs Megaondulaciones de la Puna argentina
+Yardangs (Medusae Fossae) Lut (Irán), Qaidam (China)
+Sulfatos y ambiente ácido (Meridiani) Río Tinto (España)
+Esférulas de hematita Arenisca Navajo, Utah
+Sales y percloratos Atacama (Chile); Uyuni (Bolivia)
+Sílice hidrotermal (Home Plate) El Tatio (Chile)
+Lagos antiguos con mucha UV Licancabur y lagunas altiplánicas (Bolivia/Chile)
+Ambiente de superficie actual Valles Secos (Antártida) + Atacama
+"Arañas" y géiseres de CO Sin análogo terrestre
+2
+5. Recomendaciones para buscar análogos
+Marte: topografía, tipos de terreno y análogos terrestres Página 10
+
+--- Página 11 ---
+1 Define qué tipo de análogo buscas: de forma, de mineralogía, de ambiente o de
+operaciones. Un mismo lugar rara vez cumple los cuatro.
+2 Herramientas para comparar:
+• NASA Mars Trek y Google Earth (modo Marte): mapas topográficos globales.
+• JMARS (Arizona State University): software gratuito para superponer topografía, mineralogía
+y térmica.
+• Imágenes HiRISE (Universidad de Arizona): fotografías de hasta ~25–30 cm por píxel, para
+comparar formas a detalle.
+• Mapas mineralógicos de CRISM y OMEGA: para buscar coincidencias de minerales.
+3 Ten en cuenta las diferencias de escala. La gravedad de Marte es el 38 % de la terrestre,
+así que las formas pueden ser más grandes con los mismos procesos (por ejemplo, volcanes
+más altos). Además, la baja presión cambia cómo se comportan el agua y el viento.
+4 Busca combinaciones. Los mejores análogos combinan varios factores a la vez: frío + aridez,
+o basalto + agua + gran altitud. Por eso la Antártida, Atacama, Islandia y el Altiplano andino
+aparecen tantas veces.
+Nota: algunas medidas (alturas y tamaños de cráteres y volcanes) son aproximadas.
+Marte: topografía, tipos de terreno y análogos terrestres Página 11

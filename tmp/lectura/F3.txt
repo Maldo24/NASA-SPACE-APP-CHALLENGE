@@ -1,0 +1,432 @@
+--- Página 1 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Trajes espaciales: composición por misión
+(ISS, Luna, Marte)
+Nov 8, 2026 · @Sergio
+Resumen y conceptos base
+Un traje espacial es una nave espacial de una sola persona: mantiene presión, oxígeno,
+temperatura y protección contra impactos. Su diseño cambia según la misión: en la ISS
+manda la microgravedad y los micrometeoritos; en la Luna, el polvo abrasivo y caminar; en
+Marte, la atmósfera de CO2, el polvo reactivo y la duración de la misión.
+Dos familias de trajes:
+IVA (intravehicular): se usan dentro de la nave en lanzamiento y reentrada. Protegen
+si la cabina pierde presión. Ejemplos: ACES, Sokol, OCSS (Orion).
+EVA (extravehicular): para caminatas espaciales o superficie. Llevan su propio
+soporte vital en la mochila (PLSS). Ejemplos: EMU, Orlan, AxEMU.
+Amenazas que el traje debe resolver:
+Amenaza Qué provoca Cómo responde el traje
+Vacío Sin presión, los gases del Vejiga presurizada con O2 puro a
+cuerpo forman burbujas ~29.6 kPa (4.3 psi)
+(ebullismo); pérdida de
+conciencia en ~15 s
+Temperatura En órbita, de +121 °C al sol a Aislamiento multicapa (MLI) +
+−157 °C a la sombra prenda con tubos de agua
+(LCVG)
+Micrometeoritos y Partículas a más de 7 km/s Tela exterior de
+basura orbital pueden perforar el traje Kevlar/Nomex/Teflón + capas que
+frenan y fragmentan
+Radiación UV y solar Daño en piel, ojos y Visor con oro, tela blanca
+materiales reflectante; la radiación de alta
+energía casi no se frena
+Polvo (Luna/Marte) Desgasta sellos, Telas de tejido cerrado, sellos
+rodamientos y telas; tóxico al protegidos, entrada trasera
+respirarlo
+Page 1 of 12
+
+--- Página 2 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Amenaza Qué provoca Cómo responde el traje
+Descompresión Burbujas de nitrógeno en Respirar O2 puro antes de salir
+("bends") sangre al bajar de presión (prebreathe) o trajes de mayor
+presión
+¿Por qué tan baja presión? Un traje a 1 atm (101 kPa) sería rígido como un globo inflado.
+Con O2 puro a 29.6 kPa se respira bien y se mueve mejor. El costo: el astronauta debe
+purgar el nitrógeno del cuerpo antes de salir. La NASA estima ~150 min de prerrespiración
+a 4.3 psi y ~70 min a 5.0 psi.
+Trajes IVA: lanzamiento y reentrada
+Los trajes IVA no salen al espacio: son un "bote salvavidas" por si la cabina se
+despresuriza. No llevan protección contra micrometeoritos ni aislamiento multicapa; se
+conectan por umbilical al soporte vital de la nave.
+Traje Agencia / uso Presión Masa Materiales y rasgos
+clave
+ACES NASA, 24 kPa (3.5 psi) 42 kg Vejiga presurizable +
+(David transbordador capa de restricción;
+Clark) (STS-64 a STS-135) exterior naranja de
+Nomex (ignífugo); ~10
+min de aire de
+emergencia; color
+naranja para rescate
+en el mar
+OCSS NASA, Artemis II en Presurizable en — Derivado del ACES;
+(Orion) adelante emergencia hecho a medida;
+cremallera reforzada;
+guantes compatibles
+con pantallas táctiles;
+prenda de
+enfriamiento líquido
+(LCG) más
+transpirable; chaleco
+salvavidas con baliza;
+puede mantener vivo
+al astronauta hasta 144
+h (6 días) conectado a
+la nave
+Page 2 of 12
+
+--- Página 3 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Traje Agencia / uso Presión Masa Materiales y rasgos
+clave
+Sokol KV-2 Roscosmos, Soyuz ~40 kPa ~10 kg Vejiga interna de
+(aprox.) (aprox.) caucho/capron
+cauchutado y capa
+exterior de nailon; se
+pone por un "zipper"
+en V del pecho; muy
+ligero, sin enfriamiento
+líquido
+Traje SpaceX, Crew Presurizable — Una sola pieza a
+SpaceX Dragon medida; ignífugo;
+(Dragon) casco impreso en 3D;
+conexión umbilical en
+el muslo. SpaceX
+también hizo una
+versión EVA (Polaris
+Dawn, 2024) con
+capas térmicas
+añadidas
+Los datos del Sokol son aproximados (de memoria, no verificados en esta búsqueda). El
+dato de 144 h del OCSS viene de Fast Company.
+Idea clave para el hackatón: un traje IVA prioriza ligereza y protección contra fuego e
+impacto; uno EVA prioriza aislamiento, blindaje y autonomía. Por eso Artemis usa dos
+trajes distintos: el OCSS en la cápsula y el AxEMU en la superficie.
+Estación Espacial Internacional: EMU y Orlan-MKS
+En la ISS se usan dos trajes EVA: la EMU de NASA (desde 1983) y el Orlan-MKS ruso
+(desde 2017). Ambos combinan un torso rígido con brazos y piernas de tela, pero difieren
+en cómo se entra y en la presión.
+EMU (Extravehicular Mobility Unit, NASA)
+Fabricantes: ILC Dover (traje) y Collins Aerospace (soporte vital). Presión 29.6 kPa (4.3
+psi) de O2 puro; 145 kg en la Tierra con mochila y SAFER; 8 h de soporte vital primario + 30
+min de respaldo (NASA, Wikipedia).
+Partes estructurales:
+Page 3 of 12
+
+--- Página 4 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Torso superior rígido (HUT): carcasa de fibra de vidrio en forma de chaleco. Sostiene
+casco, brazos, mochila (PLSS), módulo de control del pecho y bolsa de agua para
+beber.
+Torso inferior (LTA), brazos y guantes: tela blanda, en tallas intercambiables; se
+ajustan con anillos de tamaño.
+Casco: burbuja de policarbonato + visor exterior (EVVA) con recubrimiento de oro
+contra luz solar y UV.
+Guantes: vejiga, restricción y capa térmica; puntas con calefactores. Son la pieza que
+más se desgasta.
+Las 14 capas de la EMU, de adentro hacia afuera (NASA, Suited for Spacewalking):
+# Capa Material Función
+1 Forro de la LCVG Tricot de nailon Comodidad contra la piel
+2 Prenda de Spandex con ~90 m de tubo Agua fría que retira el calor
+enfriamiento plástico (PVC/etileno-vinil- metabólico
+(LCVG) acetato)
+3 Vejiga de presión Nailon recubierto de Retiene el oxígeno
+uretano (hermética)
+4 Capa de restricción Dacron (poliéster) Da forma; evita que la vejiga se
+infle como globo
+5 Forro anti-desgarro Nailon ripstop con neopreno Primera barrera contra
+micrometeoritos
+6–12 Aislamiento 7 capas de Mylar Refleja radiación térmica;
+multicapa (MLI) aluminizado laminado con efecto "termo" en el vacío
+Dacron
+13– Cubierta exterior Ortho-Fabric: mezcla de Abrasión, desgarro, fuego,
+14 Gore-Tex, Kevlar y Nomex micrometeoritos; blanca para
+(~14 oz/yd²) reflejar el sol
+La Ortho-Fabric resiste de −180 a +150 °C (Wikipedia). En brazos y piernas, que se doblan,
+hay 5 capas de Mylar en vez de 7 para ganar movilidad (NASA/UNT).
+Mochila (PLSS) y control:
+Oxígeno primario y secundario (SOP, ~30 min de reserva).
+Cartucho de contaminantes: hidróxido de litio (LiOH) para absorber CO2, carbón
+activado para olores y gases. Las versiones nuevas usan cartuchos METOX
+regenerables.
+Page 4 of 12
+
+--- Página 5 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Sublimador: el agua caliente del circuito pasa por una placa porosa expuesta al vacío;
+el agua se congela y sublima, llevándose el calor.
+Batería, radio, ventilador y bomba de agua.
+SAFER: mochila de propulsión con 24 toberas de nitrógeno para volver a la estación si
+el astronauta se suelta.
+Orlan-MKS (Roscosmos, NPP Zvezda)
+Dato Valor
+Presión 40 kPa (5.8 psi) — más alta que la EMU,
+prerrespiración más corta
+Masa ~110 kg
+Autonomía 7 h (hasta 9 h de diseño)
+Vida útil en órbita 5–6 años; 15–20 caminatas
+Estatura del cosmonauta 165–190 cm
+Remoción de calor ~300 kcal/h
+Fuente: RussianSpaceWeb.
+Diferencias de diseño con la EMU:
+Entrada trasera: la mochila es una puerta. El cosmonauta "entra" al traje solo en ~5
+min, sin ayuda.
+Semirrígido: torso de aluminio, brazos y piernas de tela.
+Vejiga nueva de poliuretano (en vez de caucho, que se degradaba), más resistente, lo
+que permitió eliminar una vejiga de respaldo y aligerar el traje.
+Control térmico automático por computadora: el traje ajusta el enfriamiento solo.
+Computadora que detecta fallas y muestra el plan de contingencia en una pantalla del
+pecho.
+Luna: Apollo A7L y Artemis AxEMU
+En la Luna el traje debe caminar, arrodillarse y aguantar polvo extremadamente abrasivo.
+El Apollo A7L (1969–1972) resolvió lo mínimo; el AxEMU de Axiom Space, derivado del
+xEMU de NASA, busca movilidad completa y operar en el polo sur lunar.
+Page 5 of 12
+
+--- Página 6 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Apollo A7L / A7LB
+Traje totalmente blando (sin torso rígido), presión ~25.5 kPa (3.7 psi), entrada por
+cremallera en la espalda/entrepierna.
+Movilidad pobre: los astronautas saltaban "como conejos" en vez de caminar.
+Capa térmica y anti-micrometeoritos (TMG) del A7L, de adentro hacia afuera
+(Wikipedia):
+1. Nailon ripstop con neopreno (barrera contra micrometeoritos)
+2. 5 capas de Mylar aluminizado alternadas con 4 de Dacron no tejido (separador
+térmico)
+3. 2 capas de Kapton (poliimida) aluminizado + laminado de Beta cloth
+4. Exterior: Beta cloth (fibra de vidrio recubierta de Teflón), incombustible, con
+parches de Teflón en rodillas
+Debajo: LCVG, vejiga y restricción, como en la EMU.
+Lección clave: el polvo lunar (regolito) tiene granos afilados como vidrio porque no
+hay erosión. Dañó sellos, atascó cierres y desgastó las telas en solo 3 días de
+superficie. Al entrar al módulo causó irritación ("fiebre del heno lunar").
+El Beta cloth se eligió tras el incendio del Apolo 1 (1967): no arde en atmósfera de O2
+puro.
+Artemis: xEMU (NASA) → AxEMU (Axiom Space + Prada)
+NASA desarrolló el xEMU entre 2007 y 2021 y luego encargó el traje a la industria. En junio
+de 2022 eligió a Axiom Space; el contrato para Artemis III vale hasta USD 228.5 millones
+(Motion & Mechatronics).
+Arquitectura y materiales:
+Entrada trasera (como el Orlan): torso superior rígido compuesto con escotilla en la
+espalda.
+Presión variable: 4.3 psi nominal en EVA, pero el regulador llega a 8.2 psi. A 5.0 o 6.2
+psi se acorta la prerrespiración; 8.2 psi sirve para tratar la enfermedad descompresiva
+dentro del traje (NASA, ICES 2023). Los componentes de exploración se diseñan para
+8 psi (NASA, 2017).
+Movilidad: rodamientos en hombros, cintura, cadera, rodillas y tobillos; permite
+arrodillarse y recoger muestras. Tallas del percentil 1 al 99.
+Capa exterior de Prada: Prada aportó materiales, costuras y diseño de la capa de
+cobertura; usa compuestos ligeros y tejidos de alto rendimiento (SpaceInsider).
+Polvo: la Ortho-Fabric de la EMU deja pasar polvo pese a su tejido cerrado; por eso
+NASA busca nuevos tejidos para la capa exterior lunar (Specialty Fabrics Review).
+Sellos y rodamientos van protegidos.
+Page 6 of 12
+
+--- Página 7 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Térmico: el polo sur tiene sol rasante y cráteres en sombra permanente (hasta ~−230
+°C). Se reporta que el AxEMU está calificado para unas 2 h en sombra extrema (dato
+de una fuente secundaria, sin confirmar).
+Soporte vital (xPLSS): remoción de CO2 con amina de ciclo rápido (RCA),
+enfriamiento con evaporador de membrana (SWME) en vez del sublimador, baterías
+de litio. 8 h o más de autonomía.
+Casco con luces y cámara HD; visor desarrollado con Oakley.
+Estado (nov 2026): NASA reorganizó Artemis III como demostración en órbita baja, donde
+se validará el AxEMU con las naves (Technology Magazine, sep 2026). Conviene confirmar
+la fecha del primer alunizaje antes de la presentación.
+Marte: trajes en desarrollo
+No existe aún un traje marciano de vuelo. NASA inició en 2025–2026 el desarrollo del
+MxEMU (Mars Exploration EMU) y su mochila MxPLSS, con la meta de explorar Marte a
+finales de la década de 2030 (NASA, ICES 2025, NASA, ICES 2026).
+Por qué Marte es distinto:
+Factor Marte Consecuencia para el traje
+Atmósfera 95 % CO2, ~0.15 psia (~1 kPa) Ya no es vacío: el sublimador y el
+evaporador SWME funcionan mal; no
+se puede expulsar CO2 al ambiente
+como en órbita
+Gravedad 3/8 de la Tierra (0.38 g) El peso del traje se siente; debe ser
+más liviano que la EMU (145 kg)
+Temperatura Hasta −130 °C; en el ecuador de +21 El gas frío roba calor por convección;
+°C de día a −73 °C de noche el MLI pierde eficacia con atmósfera
+Polvo Fino, electrostático, con percloratos Sellos protegidos, no meter polvo al
+tóxicos; menos abrasivo que el lunar hábitat
+pero más reactivo químicamente
+Radiación Sin campo magnético global; rayos El traje casi no frena partículas de
+cósmicos y eventos solares alta energía; refugio en hábitat o
+róver
+UV Intenso, sin capa de ozono Degrada telas; NASA expuso
+materiales 2500 h a UV marciano
+simulado
+Page 7 of 12
+
+--- Página 8 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Factor Marte Consecuencia para el traje
+Duración Misiones de ~500 días en superficie Cientos de EVA: el traje debe
+repararse y durar
+Fuentes: NASA, ICES 2025, Wikipedia: Mars suit.
+Soluciones en estudio para la mochila (MxPLSS):
+CO2: guardarlo hasta volver al hábitat, o expulsarlo con sistemas que funcionen en
+una atmósfera de CO2. Una opción son dos lechos de amina alternados: uno filtra
+mientras el otro se purga. Otra, depuradores criogénicos que congelan el CO2.
+Humedad: intercambiador de calor que condensa el agua para no perderla.
+Oxígeno: dimensionado para ~1.9 g/min durante 8 h (NASA SBIR 2026); a futuro, O2
+producido en Marte a partir del CO2 (como el experimento MOXIE del róver
+Perseverance).
+Enfriamiento: radiadores o sistemas que no dependan del vacío.
+Conceptos de traje:
+NASA Z-2 (2014–2015): torso superior y pelvis rígidos de compuesto (fibra + resina)
+para soportar más presión; rodamientos mejorados en hombro, cadera y cintura;
+entrada trasera compatible con suitport. Prototipo sin capas térmicas ni de radiación
+(IEEE Spectrum).
+Mark III / AX-5 (NASA): trajes duros a 8.3 psi, sin prerrespiración (NASA).
+MIT BioSuit (Dava Newman): contrapresión mecánica. En vez de inflar el traje con gas,
+una tela elástica muy ajustada presiona la piel directamente; solo el casco lleva gas.
+Ventajas: menos energía para moverse y una rotura se tapa como un vendaje sin
+despresurizar todo el traje (MIT DSpace). Hoy, 70–80 % del esfuerzo en una EVA se
+gasta en doblar el traje (Machine Design). Reto: lograr presión uniforme en
+articulaciones.
+Suitport: el traje queda acoplado por fuera del róver o hábitat y el astronauta entra
+por la espalda. El polvo nunca entra a la cabina y no hace falta esclusa.
+Materiales futuros: polímeros autorreparables con microcápsulas que sellan
+perforaciones; telas con polietileno (rico en hidrógeno) para blindaje contra radiación;
+recubrimientos que repelen polvo (electrodinámicos o con baja energía superficial).
+Comparativa entre misiones
+La tendencia va de trajes blandos a baja presión hacia trajes híbridos con torso rígido,
+entrada trasera y presión variable.
+Page 8 of 12
+
+--- Página 9 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Especificaciones generales:
+Traje Misión Arquitectura Presión Masa Autonomía Entrada
+(Tierra)
+Apollo A7L Luna (1969– Blando 25.5 kPa (3.7 — ~7 h Cremallera
+72) psi)
+EMU ISS Torso de fibra de 29.6 kPa 145 kg 8 h + 30 Por la cintura
+vidrio + tela (4.3 psi) min (dos piezas)
+Orlan-MKS ISS Torso de aluminio + 40 kPa (5.8 ~110 kg 7 h Trasera
+tela psi)
+AxEMU Luna Torso compuesto + 4.3 psi — 8 h o más Trasera
+(Artemis) tela, rodamientos en nominal,
+piernas hasta 8.2 psi
+Mars Marte Torso y pelvis ~4.3–8.3 psi Objetivo: 8 h Trasera /
+(MxEMU / (concepto) compuestos en estudio mucho objetivo suitport
+Z-2) menor
+BioSuit Marte Contrapresión Presión Muy ligero — Se viste como
+(concepto) mecánica sobre la piel ropa
+Materiales por capa:
+Capa Apollo A7L EMU (ISS) AxEMU / Marte
+Enfriamiento LCVG: nailon- LCVG: spandex + tricot de LCVG mejorada, más
+spandex con tubos nailon, ~90 m de tubo transpirable
+Vejiga Caucho de Nailon con uretano Uretano / poliuretano
+neopreno/nailon (más duradero)
+Restricción Nailon / Dacron Dacron Poliéster de alta
+tenacidad; Vectran en
+guantes
+Anti-desgarro Nailon ripstop con Nailon ripstop con Similar
+neopreno neopreno
+Aislamiento 5 Mylar + 4 Dacron + 7 Mylar aluminizado con MLI + aislantes que
+(MLI) 2 Kapton Dacron funcionen con
+atmósfera (aerogel,
+espumas) en Marte
+Exterior Beta cloth (fibra de Ortho-Fabric (Gore- Tejidos nuevos
+vidrio + Teflón) Tex/Kevlar/Nomex) resistentes a polvo y
+UV (Prada en
+AxEMU)
+Page 9 of 12
+
+--- Página 10 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+Capa Apollo A7L EMU (ISS) AxEMU / Marte
+Casco Policarbonato + Policarbonato + visor de Mayor campo visual,
+visor de oro oro (EVVA) luces y cámara HD;
+HUD en estudio
+Vectran y aerogel en la última columna son materiales probados en prototipos de NASA,
+no confirmados para el AxEMU de vuelo.
+Control térmico, impactos y radiación
+El mayor problema térmico de un astronauta no es el frío sino su propio calor: el
+aislamiento es tan bueno que el cuerpo se sobrecalentaría sin enfriamiento activo.
+Control térmico pasivo: el aislamiento multicapa (MLI)
+En el vacío no hay convección; el calor solo viaja por radiación y conducción.
+Cada capa de Mylar aluminizado refleja la radiación infrarroja; el Dacron entre capas
+evita que se toquen y conduzcan calor. Funciona como un termo.
+La tela exterior blanca refleja la mayor parte de la luz solar.
+En órbita, un lado del traje puede estar a +121 °C y el otro a −157 °C al mismo tiempo; la
+ISS pasa de día a noche cada ~45 min.
+Problema en Marte: con atmósfera, el gas entre capas conduce calor y el MLI rinde
+mucho menos. Se estudian aerogeles o espumas.
+Control térmico activo: el circuito de agua
+1. El cuerpo genera calor metabólico (de ~100 a más de 500 W en trabajo duro).
+2. La LCVG hace circular agua fría por tubos pegados a la piel y la absorbe.
+3. El agua caliente va a la mochila.
+4. Sublimador (EMU): el agua de alimentación se congela sobre una placa porosa y el
+hielo sublima al vacío, llevándose el calor. Consume agua, que se pierde.
+5. SWME (xEMU/AxEMU): membrana de fibras huecas por donde el agua se evapora al
+vacío; es más tolerante a contaminantes.
+6. El astronauta regula la temperatura con una válvula; en el Orlan-MKS lo hace la
+computadora.
+7. Guantes y botas llevan calefactores para la sombra.
+Micrometeoritos y basura orbital (MMOD)
+Una partícula del tamaño de un grano de arena a más de 7 km/s puede perforar metal.
+Page 10 of 12
+
+--- Página 11 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+El traje usa la lógica de un escudo Whipple distribuido: la tela exterior de Kevlar
+rompe la partícula, las capas de MLI dispersan los fragmentos y el ripstop con
+neopreno los detiene antes de la vejiga.
+El traje solo protege contra partículas muy pequeñas; ante una fuga menor, la mochila
+repone oxígeno durante ~30 min con el sistema de respaldo para regresar.
+Radiación
+El visor dorado bloquea UV e infrarrojo. Las telas frenan partículas de baja energía.
+Los rayos cósmicos y las tormentas solares atraviesan el traje casi sin obstáculo. La
+protección real es operativa: limitar el tiempo de EVA, vigilar el clima espacial y
+refugiarse.
+Investigación: reemplazar el Mylar por polietileno (con mucho hidrógeno, que frena
+mejor protones y neutrones). Un estudio de NASA probó cambiar 5 capas de Mylar
+por 4 de polietileno en el torso (NASA/UNT). También se exploran chalecos de agua y
+materiales con boro.
+Ideas para el hackatón
+Los problemas abiertos más claros son el polvo, el peso, la movilidad y el CO2 en Marte;
+cualquiera sirve como eje de propuesta.
+Analogía boliviana: el Altiplano (4000 m, ~60 % de la presión del nivel del mar, UV
+extremo, frío nocturno) y el Salar de Uyuni o zonas desérticas como sitios de prueba
+análogos a Marte.
+Capa anti-polvo: proponer un recubrimiento o tejido que repela el regolito, o una
+cubierta exterior reemplazable.
+Mapa interactivo de capas: visualización donde se "pela" el traje capa por capa
+mostrando material y función.
+Calculadora térmica: estimar el calor que debe retirar la LCVG según la actividad y el
+entorno (órbita, Luna, Marte).
+Comparador de presión vs. prerrespiración: usar los datos de NASA (150 min a 4.3
+psi, 70 min a 5.0 psi).
+Materiales locales: explorar fibras andinas (alpaca, llama) solo para capas de
+comodidad en hábitats, no en capas de presión.
+Fuentes
+NASA — EMU fact sheet (2019)
+NASA — Suited for Spacewalking (guía educativa EMU)
+Page 11 of 12
+
+--- Página 12 ---
+Trajes espaciales: composición por misión (ISS, Luna, Marte)
+NASA — Orion Crew Survival System
+NASA NTRS — xPGS, EVA Technology Workshop 2017
+NASA NTRS — Reguladores de O2 del xEMU, ICES 2023
+NASA NTRS — Traje de presión variable (2024)
+NASA NTRS — Estudio de PLSS marciano, ICES 2025
+NASA NTRS — Plan del PLSS marciano, ICES 2026
+NASA SBIR 2026 — Traje EVA para Marte
+NASA/UNT — Blindaje de radiación en materiales del traje
+NASA — Mark III
+Wikipedia — Extravehicular Mobility Unit
+Wikipedia — Thermal Micrometeoroid Garment
+Wikipedia — Advanced Crew Escape Suit
+Wikipedia — Mars suit
+RussianSpaceWeb — Orlan-MKS
+Specialty Fabrics Review — Materiales del xEMU
+SpaceInsider — AxEMU de Axiom y Prada
+Technology Magazine — Axiom y Artemis III (sep 2026)
+IEEE Spectrum — Suiting Up for the Red Planet
+MIT DSpace — Soporte vital para BioSuit
+Fast Company — Diseño del traje Artemis II
+Page 12 of 12

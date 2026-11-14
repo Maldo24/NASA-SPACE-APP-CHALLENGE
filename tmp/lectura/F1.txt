@@ -1,0 +1,40 @@
+Base Lunar en el Polo Sur de la Luna
+Resumen de investigación. Fecha de consulta: 14 de noviembre de 2026.
+1. Resumen
+La NASA planea establecer una base lunar permanente en el polo sur de la Luna, cerca del cráter Shackleton, como parte del programa Artemis. El proyecto se encuentra en fase de planificación: los reportes disponibles describen fases y misiones de aterrizaje robótico previas, pero no confirman infraestructura construida ni presencia humana permanente.
+2. Datos clave
+Aspecto
+Detalle
+Ubicación
+Cráter Shackleton, polo sur lunar
+Iluminación
+Bordes con luz solar casi continua; algunas zonas más de 200 días de sol al año (según reportes)
+Recurso clave
+Posible hielo de agua en zonas permanentemente en sombra (agua, oxígeno e hidrógeno)
+Programa
+NASA, programa Artemis (base permanente planificada)
+Estado
+Planificada; no hay confirmación oficial de infraestructura construida ni tripulación
+
+3. Ubicación y por qué el polo sur
+El cráter Shackleton se encuentra en el polo sur lunar. Sus bordes reciben luz solar casi continua, lo que facilita la generación de energía solar.
+Su interior permanece en sombra permanente y podría contener hielo de agua, un recurso clave para beber, producir oxígeno y obtener combustible para cohetes.
+El terreno del polo sur es accidentado, con cráteres y pendientes, lo que hace más complejo el aterrizaje y la movilidad.
+4. Plan por fases
+Según The Weather Network, citando a NASA, el plan se organiza en tres fases hacia una base permanente cerca de Shackleton.
+Moon Base 1: aterrizador Blue Moon Mark 1 Endurance, de Blue Origin, con lanzamiento no antes de otoño de 2026, con destino a Shackleton.
+Moon Base 2: aterrizador Griffin, de Astrobotic, también dirigido a la zona de Shackleton.
+Moon Base 3: aterrizador Nova-C Trinity, de Intuitive Machines, con objetivo previo al cierre de 2026.
+Nota: las fechas de estas misiones cambian con frecuencia; tómalas como estimaciones.
+5. Calendario de Artemis
+Artemis II: voló en abril de 2026.
+Artemis III: según SpaceOdyssey Hub, pasaría a ser una misión de prueba en órbita terrestre hacia mediados de 2027.
+Primer alunizaje tripulado: se trasladaría al Artemis IV, con lanzamiento esperado en 2028.
+Esta información no fue verificada con una fuente oficial de NASA.
+6. Qué no está confirmado
+No hay confirmación oficial de hábitats instalados en Shackleton ni de tripulación presente.
+Algunas fuentes de búsqueda (un dominio espejo y una nota de "global-brief") afirman que ya existe un hábitat con cuatro tripulantes. Estas afirmaciones contradicen la cobertura principal y no se pudieron verificar, por lo que se descartaron.
+7. Fuentes
+The Weather Network, "NASA is now planning a permanent Moon Base at the lunar south pole": https://www.theweathernetwork.com/en/news/science/space/nasa-is-planning-a-permanent-base-on-the-moon
+SpaceOdyssey Hub, "NASA $20 billion moon base plan 2025": https://spaceodysseyhub.com/articles/nasa-20-billion-moon-base-plan-2025
+Recomendación: para cifras y fechas actuales, consultar el sitio oficial de NASA sobre Artemis.
