@@ -36,7 +36,8 @@
                 "zoneType": "Domos volcánicos y posible tubo de lava",
                 "analogIds": [
                     "kilauea",
-                    "lanzarote-pangaea"
+                    "lanzarote-pangaea",
+                    "umajalanta"
                 ],
                 "description": "Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava."
             }

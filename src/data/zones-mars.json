@@ -35,9 +35,50 @@
                 "name": "Aureum Chaos",
                 "zoneType": "Terreno caótico",
                 "analogIds": [
+                    "coipasa",
+                    "lago-tauca",
                     "uyuni"
                 ],
                 "description": "Terreno de bloques hundidos y fracturados, que se interpreta como colapso del subsuelo tras la liberación de agua o hielo."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            15,
+                            40
+                        ],
+                        [
+                            30,
+                            40
+                        ],
+                        [
+                            30,
+                            48
+                        ],
+                        [
+                            15,
+                            48
+                        ],
+                        [
+                            15,
+                            40
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-deuteronilus-mensae",
+                "name": "Deuteronilus Mensae",
+                "zoneType": "Mesetas con glaciares cubiertos de detritos",
+                "analogIds": [
+                    "glaciares-roca"
+                ],
+                "description": "Región de mesetas y valles entre las tierras altas y las llanuras del norte. Al pie de las mesetas hay glaciares de hielo cubiertos por una capa de rocas y polvo."
             }
         },
         {
@@ -74,9 +115,13 @@
                 "name": "Cráter Gale",
                 "zoneType": "Cráter con sedimentos lacustres",
                 "analogIds": [
+                    "laguna-colorada",
                     "licancabur",
                     "mdrs",
-                    "torotoro"
+                    "salares-capas",
+                    "sud-lipez",
+                    "torotoro",
+                    "valle-de-la-luna"
                 ],
                 "description": "Cráter de unos 154 km con un monte central de capas sedimentarias (Aeolis Mons). Sitio del rover Curiosity (2012), que encontró evidencia de un antiguo lago."
             }
@@ -115,9 +160,55 @@
                 "name": "Gusev — Home Plate",
                 "zoneType": "Depósito volcánico e hidrotermal",
                 "analogIds": [
-                    "el-tatio"
+                    "el-tatio",
+                    "laguna-blanca-termal",
+                    "la-salsa",
+                    "sol-de-manana"
                 ],
                 "description": "Meseta de rocas volcánicas en el cráter Gusev. Cerca de ella el rover Spirit encontró suelos muy ricos en sílice, asociados a actividad hidrotermal."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -137,
+                            -45
+                        ],
+                        [
+                            -123,
+                            -45
+                        ],
+                        [
+                            -123,
+                            -35
+                        ],
+                        [
+                            -137,
+                            -35
+                        ],
+                        [
+                            -137,
+                            -45
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-icaria-planum",
+                "name": "Icaria Planum",
+                "zoneType": "Llanura con depósitos de cloruros",
+                "analogIds": [
+                    "canapa",
+                    "coipasa",
+                    "uyuni-icaria",
+                    "uyuni-poligonos",
+                    "uyuni-salmueras"
+                ],
+                "description": "Llanura del hemisferio sur donde se han cartografiado depósitos de cloruros (sales), que se habrían formado al evaporarse agua salada."
             }
         },
         {
@@ -154,11 +245,96 @@
                 "name": "Cráter Jezero",
                 "zoneType": "Cráter con antiguo lago y delta",
                 "analogIds": [
+                    "lago-poopo",
+                    "laguna-verde",
                     "licancabur",
                     "mdrs",
-                    "salda"
+                    "pastos-grandes",
+                    "salda",
+                    "sud-lipez"
                 ],
                 "description": "Cráter de unos 45 km que albergó un lago, con un delta de sedimentos en su borde. Sitio del rover Perseverance (2021), que busca señales de vida antigua."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -20,
+                            20
+                        ],
+                        [
+                            -13,
+                            20
+                        ],
+                        [
+                            -13,
+                            26
+                        ],
+                        [
+                            -20,
+                            26
+                        ],
+                        [
+                            -20,
+                            20
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-mawrth-vallis",
+                "name": "Mawrth Vallis",
+                "zoneType": "Valle antiguo con arcillas",
+                "analogIds": [
+                    "guapore"
+                ],
+                "description": "Valle muy antiguo con rocas ricas en arcillas, minerales que se forman cuando el agua altera la roca. Fue candidato a sitio de aterrizaje de rovers."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -175,
+                            -10
+                        ],
+                        [
+                            -150,
+                            -10
+                        ],
+                        [
+                            -150,
+                            4
+                        ],
+                        [
+                            -175,
+                            4
+                        ],
+                        [
+                            -175,
+                            -10
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-medusae-fossae",
+                "name": "Formación Medusae Fossae",
+                "zoneType": "Depósito erosionado por el viento",
+                "analogIds": [
+                    "desierto-dali",
+                    "italia-perdida",
+                    "siloli",
+                    "tajzara"
+                ],
+                "description": "Gran formación de roca blanda y fina, muy erosionada por el viento, con crestas alargadas llamadas yardangs. Su origen se discute; una hipótesis es que sea ceniza volcánica."
             }
         },
         {
@@ -196,9 +372,11 @@
                 "zoneType": "Llanura con sulfatos y hematita",
                 "analogIds": [
                     "atacama",
+                    "cerro-rico",
                     "mdrs",
                     "rio-tinto",
-                    "uyuni"
+                    "uyuni",
+                    "uyuni-navegacion"
                 ],
                 "description": "Llanura con depósitos de sulfatos y esférulas de hematita que indican agua ácida en el pasado. Sitio de aterrizaje del rover Opportunity (2004)."
             }
@@ -239,10 +417,53 @@
                 "analogIds": [
                     "basalt",
                     "hi-seas",
+                    "intersalar",
                     "kilauea",
-                    "sajama"
+                    "ollague",
+                    "sajama",
+                    "tata-sabaya"
                 ],
                 "description": "El volcán más grande del sistema solar, con unos 22 km de altura sobre el datum marciano y coladas de lava en sus flancos."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -180,
+                            80
+                        ],
+                        [
+                            180,
+                            80
+                        ],
+                        [
+                            180,
+                            90
+                        ],
+                        [
+                            -180,
+                            90
+                        ],
+                        [
+                            -180,
+                            80
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-planum-boreum",
+                "name": "Planum Boreum (polo norte)",
+                "zoneType": "Casquete polar con capas de hielo",
+                "analogIds": [
+                    "cordillera-real",
+                    "sajama-hielo"
+                ],
+                "description": "Casquete polar norte formado por capas de hielo de agua y polvo que guardan un registro del clima de Marte."
             }
         },
         {
@@ -280,7 +501,10 @@
                 "zoneType": "Llanura del norte con hielo subsuperficial",
                 "analogIds": [
                     "haughton-hmp",
-                    "mcmurdo"
+                    "iturralde",
+                    "mcmurdo",
+                    "permafrost-occidental",
+                    "uyuni-poligonos"
                 ],
                 "description": "Gran llanura del hemisferio norte con terreno festoneado y polígonos asociados a hielo bajo la superficie. Sitio del Viking 2 (1976)."
             }
@@ -320,6 +544,7 @@
                 "zoneType": "Sistema de cañones tectónicos",
                 "analogIds": [
                     "grand-canyon",
+                    "tata-sabaya",
                     "torotoro"
                 ],
                 "description": "Sistema de cañones de más de 4.000 km de largo y varios kilómetros de profundidad, con paredes estratificadas y deslizamientos. Su origen es principalmente tectónico."

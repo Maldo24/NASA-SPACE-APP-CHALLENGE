@@ -20,6 +20,36 @@
         "category": "operational"
     },
     {
+        "id": "canapa",
+        "lat": -21.505,
+        "lon": -68.014,
+        "why": "Lagunas hipersalinas que todavía no tienen estudios microbiológicos. Son una oportunidad de investigación nueva sobre vida en salmueras. Respaldo: propuesto.",
+        "name": "Lagunas Cañapa y Chiarkota, Bolivia",
+        "image": null,
+        "source": "https://es.wikipedia.org/wiki/Laguna_Ca%C3%B1apa",
+        "category": "environmental"
+    },
+    {
+        "id": "cerro-rico",
+        "lat": -19.619,
+        "lon": -65.75,
+        "why": "Drenaje ácido de mina con química rica en hierro y sulfatos, parecida a la de Río Tinto y Meridiani Planum. Su origen es humano (casi 500 años de minería). Respaldo: sugerido.",
+        "name": "Cerro Rico de Potosí, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Cerro_Rico",
+        "category": "mineralogical"
+    },
+    {
+        "id": "coipasa",
+        "lat": -19.38,
+        "lon": -68.17,
+        "why": "Salar vecino de Uyuni, separado por volcanes. La NASA lo describe, junto con Uyuni, como laboratorio natural para estudiar el ambiente marciano. Permite comparar dos cuencas salinas. Respaldo: estudiado.",
+        "name": "Salar de Coipasa, Bolivia",
+        "image": null,
+        "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+        "category": "mineralogical"
+    },
+    {
         "id": "concordia",
         "lat": -75.1,
         "lon": 123.33,
@@ -28,6 +58,26 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Concordia_Station",
         "category": "operational"
+    },
+    {
+        "id": "cordillera-real",
+        "lat": -16.633,
+        "lon": -67.791,
+        "why": "Sus glaciares retroceden rápido y dejan terreno nuevo expuesto: un laboratorio natural para estudiar la pérdida de hielo. Respaldo: sugerido.",
+        "name": "Cordillera Real, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Cordillera_Real_(Bolivia)",
+        "category": "environmental"
+    },
+    {
+        "id": "desierto-dali",
+        "lat": -22.615,
+        "lon": -67.664,
+        "why": "Desierto frío y árido de altura todavía sin estudios microbiológicos; señalado como oportunidad para estudiar vida en condiciones extremas. Respaldo: propuesto.",
+        "name": "Desierto de Dalí, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD_Desert",
+        "category": "environmental"
     },
     {
         "id": "el-tatio",
@@ -40,6 +90,16 @@
         "category": "mineralogical"
     },
     {
+        "id": "glaciares-roca",
+        "lat": -21.5,
+        "lon": -67.95,
+        "why": "Hielo cubierto por una capa de rocas en un ambiente seco, igual que los glaciares cubiertos de detritos de las latitudes medias de Marte. Hay 94 inventariados, 54 activos. Ubicación aproximada (Caquella, Lípez). Respaldo: estudiado.",
+        "name": "Glaciares de roca de los Andes de Bolivia (incl. Caquella)",
+        "image": null,
+        "source": "https://doi.org/10.1002/ppp.1816",
+        "category": "geomorphological"
+    },
+    {
         "id": "grand-canyon",
         "lat": 36.1,
         "lon": -112.1,
@@ -48,6 +108,16 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Grand_Canyon",
         "category": "geomorphological"
+    },
+    {
+        "id": "guapore",
+        "lat": -15.5,
+        "lon": -61.5,
+        "why": "Corteza muy antigua (precámbrica) que podría servir para estudiar cómo se meteoriza una corteza vieja. No tiene relieve de cráteres como Marte. Ubicación aproximada. Respaldo: sugerido.",
+        "name": "Escudo de Guaporé (cratón amazónico), Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Amazonian_Craton",
+        "category": "mineralogical"
     },
     {
         "id": "haughton",
@@ -80,6 +150,36 @@
         "category": "operational"
     },
     {
+        "id": "intersalar",
+        "lat": -19.7,
+        "lon": -67.9,
+        "why": "Domos de lava planos y extensos depósitos de flujos piroclásticos (ignimbritas) entre los salares de Uyuni y Coipasa. Análogo de depósitos volcánicos marcianos. Ubicación aproximada. Respaldo: sugerido.",
+        "name": "Cordillera Intersalar, Bolivia",
+        "image": null,
+        "source": null,
+        "category": "geomorphological"
+    },
+    {
+        "id": "italia-perdida",
+        "lat": -21.719,
+        "lon": -67.528,
+        "why": "Rocas volcánicas esculpidas por la erosión, comparables con las rocas pulidas por el viento que fotografían los rovers. Respaldo: sugerido.",
+        "name": "Italia Perdida y Bosque de Piedras, Bolivia",
+        "image": null,
+        "source": "https://es.wikipedia.org/wiki/Italia_Perdida",
+        "category": "geomorphological"
+    },
+    {
+        "id": "iturralde",
+        "lat": -12.587,
+        "lon": -67.675,
+        "why": "Estructura circular de unos 8 km y solo 20 m de profundidad en la llanura amazónica. Se compara con los cráteres degradados (\"fantasma\") de las llanuras del norte de Marte. Su origen por impacto todavía no está confirmado. Respaldo: propuesto.",
+        "name": "Estructura de Iturralde (Araona), La Paz, Bolivia",
+        "image": null,
+        "source": "https://svs.gsfc.nasa.gov/925",
+        "category": "geomorphological"
+    },
+    {
         "id": "kilauea",
         "lat": 19.41,
         "lon": -155.28,
@@ -87,6 +187,56 @@
         "name": "Kīlauea, Hawái, EE.UU.",
         "image": null,
         "source": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
+        "category": "mineralogical"
+    },
+    {
+        "id": "lago-poopo",
+        "lat": -18.55,
+        "lon": -67.083,
+        "why": "Lago de altura que casi desapareció en la última década. Permite observar en tiempo real cómo se seca un lago y qué depósitos deja. Respaldo: sugerido.",
+        "name": "Lago Poopó, Oruro, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Lake_Poop%C3%B3",
+        "category": "environmental"
+    },
+    {
+        "id": "lago-tauca",
+        "lat": -20,
+        "lon": -67.6,
+        "why": "Grandes lagos del Pleistoceno cuyos restos son hoy los salares. Su nivel subió y bajó mucho: sirven para estudiar cómo quedan registrados esos cambios. Ubicación aproximada. Respaldo: sugerido.",
+        "name": "Paleolagos Tauca y Minchin, Altiplano de Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Lake_Tauca",
+        "category": "geomorphological"
+    },
+    {
+        "id": "laguna-blanca-termal",
+        "lat": -22.8,
+        "lon": -67.794,
+        "why": "Fuente termal de unos 36 °C a 4.328 m con comunidades microbianas, incluida en estudios de extremófilos andinos. Ayuda a entender qué vida podría sostener un sistema hidrotermal de altura. Ubicación aproximada (junto a la laguna). Respaldo: estudiado.",
+        "name": "Fuente termal de Laguna Blanca, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Laguna_Blanca_(Bolivia)",
+        "category": "environmental"
+    },
+    {
+        "id": "laguna-colorada",
+        "lat": -22.199,
+        "lon": -67.781,
+        "why": "Laguna hipersalina con islas de bórax. Interesa porque el rover Curiosity detectó boro en vetas del cráter Gale; el bórax permite formular preguntas, no demuestra que los minerales sean iguales. Respaldo: sugerido.",
+        "name": "Laguna Colorada, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Laguna_Colorada",
+        "category": "mineralogical"
+    },
+    {
+        "id": "laguna-verde",
+        "lat": -22.795,
+        "lon": -67.825,
+        "why": "Terrazas antiguas con microbialitos (rocas construidas por microbios) que registran unos 7.000 años de cambios del lago. Ayudan a entender cómo se secaron los lagos de Marte. Respaldo: estudiado.",
+        "name": "Laguna Verde, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Laguna_Verde_(Bolivia)",
         "category": "mineralogical"
     },
     {
@@ -100,11 +250,21 @@
         "category": "operational"
     },
     {
+        "id": "la-salsa",
+        "lat": -21.75,
+        "lon": -67.83,
+        "why": "Montículos hidrotermales de calcio y sílice con microbialitos. Son análogos de depósitos mixtos de carbonato y sílice que pueden conservar señales de vida. Respaldo: estudiado.",
+        "name": "Fuente La Salsa, Laguna Pastos Grandes, Bolivia",
+        "image": null,
+        "source": "https://doi.org/10.3390/min9060380",
+        "category": "mineralogical"
+    },
+    {
         "id": "licancabur",
         "lat": -22.83,
         "lon": -67.88,
-        "why": "Lagos de altura con frío, alta radiación UV y organismos adaptados, estudiados en el proyecto High-Lakes. Es un análogo de ambientes lacustres antiguos, no del Marte actual completo.",
-        "name": "Volcán Licancabur y lagunas de altura, Bolivia–Chile",
+        "why": "Lagos de altura con frío, radiación UV muy alta y organismos adaptados, estudiados por el proyecto High-Lakes como análogos de lagos marcianos antiguos. No representan el Marte actual completo. Respaldo: estudiado.",
+        "name": "Volcán Licancabur y lagunas Blanca y Verde, Bolivia–Chile",
         "image": null,
         "source": "https://doi.org/10.1029/2008JG000818",
         "category": "environmental"
@@ -140,6 +300,36 @@
         "category": "geomorphological"
     },
     {
+        "id": "ollague",
+        "lat": -21.283,
+        "lon": -68.183,
+        "why": "Volcán con domos y coladas de lava muy bien conservado gracias a la aridez: casi no está erosionado, como los volcanes marcianos. Respaldo: sugerido.",
+        "name": "Volcán Ollagüe, Bolivia–Chile",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Ollag%C3%BCe",
+        "category": "geomorphological"
+    },
+    {
+        "id": "pastos-grandes",
+        "lat": -21.75,
+        "lon": -67.83,
+        "why": "Laguna dentro de una caldera volcánica, alimentada por fuentes termales, con una costra de carbonatos y microbialitos. Se compara con lagos dentro de cráteres con carbonatos, como Jezero. Acceso difícil. Respaldo: estudiado.",
+        "name": "Laguna Pastos Grandes, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://doi.org/10.3390/geosciences12020088",
+        "category": "mineralogical"
+    },
+    {
+        "id": "permafrost-occidental",
+        "lat": -18.3,
+        "lon": -68.9,
+        "why": "Por encima de unos 4.700 m hay suelo congelado y suelo \"ordenado\" por las heladas nocturnas, un proceso que se compara con el hielo del suelo marciano. Ubicación aproximada. Respaldo: sugerido.",
+        "name": "Permafrost de la Cordillera Occidental, Bolivia",
+        "image": null,
+        "source": null,
+        "category": "environmental"
+    },
+    {
         "id": "rio-tinto",
         "lat": 37.69,
         "lon": -6.59,
@@ -153,11 +343,31 @@
         "id": "sajama",
         "lat": -18.11,
         "lon": -68.88,
-        "why": "Terreno volcánico de altura, pendientes y frío para probar arranque de baterías, estabilidad y procedimientos de campo de rovers. Candidato por procesos, requiere comprobación por sector.",
+        "why": "Terreno volcánico de altura, con pendientes y frío, para probar arranque de baterías, estabilidad y procedimientos de campo de rovers. Candidato por procesos: no todos sus materiales son basálticos y cada sector requiere comprobación.",
         "name": "Volcán Sajama, Bolivia",
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Nevado_Sajama",
         "category": "operational"
+    },
+    {
+        "id": "sajama-hielo",
+        "lat": -18.11,
+        "lon": -68.88,
+        "why": "De estos glaciares se extrajeron núcleos de hielo con miles de años de historia climática. Es un análogo conceptual de las capas de hielo y polvo de los polos de Marte, que también guardan el clima. Respaldo: sugerido.",
+        "name": "Glaciares del Sajama e Illimani, Bolivia",
+        "image": null,
+        "source": "https://doi.org/10.1126/science.282.5395.1858",
+        "category": "geomorphological"
+    },
+    {
+        "id": "salares-capas",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Capas de sal y yeso marcan épocas secas, y capas de barro con microfósiles marcan épocas húmedas. Es un archivo del clima pasado, como las capas del Monte Sharp en el cráter Gale. Respaldo: estudiado.",
+        "name": "Salares de Uyuni y Coipasa, Bolivia — capas",
+        "image": null,
+        "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+        "category": "geomorphological"
     },
     {
         "id": "salda",
@@ -170,23 +380,133 @@
         "category": "mineralogical"
     },
     {
+        "id": "siloli",
+        "lat": -22.037,
+        "lon": -67.882,
+        "why": "Desierto frío a más de 4.500 m con rocas esculpidas por el viento; el Árbol de Piedra es un ventifacto de unos 7 m. Sirve para comparar la erosión eólica de Marte. Respaldo: propuesto.",
+        "name": "Desierto de Siloli y Árbol de Piedra, Bolivia",
+        "image": null,
+        "source": "https://es.wikipedia.org/wiki/Desierto_Siloli",
+        "category": "geomorphological"
+    },
+    {
+        "id": "sol-de-manana",
+        "lat": -22.426,
+        "lon": -67.76,
+        "why": "Campo de fumarolas, ollas de barro y fuentes termales a unos 4.900 m. Sirve para estudiar la alteración hidrotermal ácida con poca presión y mucha radiación UV. Peligroso: la costra es delgada. Respaldo: sugerido.",
+        "name": "Sol de Mañana, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Sol_de_Ma%C3%B1ana",
+        "category": "mineralogical"
+    },
+    {
+        "id": "sud-lipez",
+        "lat": -22.4,
+        "lon": -67.6,
+        "why": "Mosaico de arena, grava, rocas volcánicas y lagunas para probar suspensión, patinaje y navegación de rovers sin GPS. Es un área protegida: requiere permisos y no se entra a fumarolas ni lagunas sensibles. Ubicación aproximada. Respaldo: propuesta del informe F2.",
+        "name": "Reserva Eduardo Avaroa, Sud Lípez, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Eduardo_Avaroa_Andean_Fauna_National_Reserve",
+        "category": "operational"
+    },
+    {
+        "id": "tajzara",
+        "lat": -21.717,
+        "lon": -65.071,
+        "why": "Dunas a gran altitud, útiles para estudiar el movimiento de arena en un ambiente frío y seco. Todavía sin estudios microbiológicos. Respaldo: propuesto.",
+        "name": "Dunas de Tajzara, Tarija, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Tajzara_Lake",
+        "category": "geomorphological"
+    },
+    {
+        "id": "tata-sabaya",
+        "lat": -19.133,
+        "lon": -68.533,
+        "why": "Hace unos 12.000 años su flanco colapsó y formó una avalancha de escombros que dejó montículos, hoy \"islas\" en el salar de Coipasa. Es análogo de los colapsos de volcanes y de los grandes deslizamientos de Marte. Respaldo: sugerido.",
+        "name": "Volcán Tata Sabaya, Oruro, Bolivia",
+        "image": null,
+        "source": "https://doi.org/10.5027/andgeoV39n3-a03",
+        "category": "geomorphological"
+    },
+    {
         "id": "torotoro",
         "lat": -18.13,
         "lon": -65.76,
-        "why": "Estratos, cañones y contactos sedimentarios para entrenar lectura estratigráfica e interpretación de imágenes. Analogía metodológica: no reproduce el origen tectónico de Valles Marineris.",
+        "why": "Cañón de 250–300 m con capas sedimentarias expuestas para entrenar lectura de estratos e interpretación de imágenes, como hacen los rovers. Analogía de método: su origen es fluvial, no tectónico como Valles Marineris. Respaldo: sugerido.",
         "name": "Parque Nacional Torotoro, Bolivia",
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Torotoro_National_Park",
         "category": "operational"
     },
     {
+        "id": "umajalanta",
+        "lat": -18.114,
+        "lon": -65.812,
+        "why": "La cueva más larga de Bolivia (unos 4,6 km). Sirve para practicar navegación, comunicaciones y mapeo bajo tierra. Es una cueva de caliza, no un tubo de lava: el análogo es operacional, no geológico. Respaldo: sugerido.",
+        "name": "Caverna de Umajalanta, Torotoro, Bolivia",
+        "image": null,
+        "source": "https://es.wikipedia.org/wiki/Caverna_de_Umajalanta",
+        "category": "operational"
+    },
+    {
         "id": "uyuni",
         "lat": -20.13,
         "lon": -67.49,
-        "why": "Evaporitas, salmueras y costras salinas útiles para comparar depósitos de cloruros y sales marcianos. No se le atribuyen percloratos sin análisis local.",
+        "why": "Costras de sal, salmueras y arcillas formadas al evaporarse antiguos lagos. La NASA considera su geología y geoquímica análogas a Aureum Chaos. No se le atribuyen percloratos sin análisis local. Respaldo: propuesto por la NASA.",
         "name": "Salar de Uyuni, Bolivia",
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "category": "mineralogical"
+    },
+    {
+        "id": "uyuni-icaria",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Investigadores de la UMSA compararon sus cloruros con los depósitos de cloruros de Icaria Planum: ambos se habrían formado por evaporación, bajo radiación, frío y salinidad extremos. Respaldo: estudiado (EPSC 2024).",
+        "name": "Salar de Uyuni, Bolivia — cloruros",
+        "image": null,
+        "source": "https://doi.org/10.5194/epsc2024-483",
+        "category": "mineralogical"
+    },
+    {
+        "id": "uyuni-navegacion",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Superficie enorme, plana y repetitiva para probar la localización visual de rovers, la cartografía y la detección de costras. Solo en sectores autorizados: la costra puede ocultar salmuera o zonas blandas. Respaldo: propuesta del informe F2.",
+        "name": "Salar de Uyuni, Bolivia — navegación de rovers",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+        "category": "operational"
+    },
+    {
+        "id": "uyuni-poligonos",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Hexágonos de 1–2 m en la costra que se forman por convección de la salmuera, no por hielo. Son un contraejemplo útil: en Marte, ver polígonos no basta para afirmar que hay hielo. Respaldo: estudiado (Physical Review X, 2023).",
+        "name": "Salar de Uyuni, Bolivia — polígonos de sal",
+        "image": null,
+        "source": "https://doi.org/10.1103/PhysRevX.13.011025",
+        "category": "geomorphological"
+    },
+    {
+        "id": "uyuni-salmueras",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde aun así viven microbios adaptados a la sal. Sirven para estudiar si las salmueras de Marte podrían ser habitables. Respaldo: estudiado.",
+        "name": "Salar de Uyuni, Bolivia — salmueras",
+        "image": null,
+        "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+        "category": "environmental"
+    },
+    {
+        "id": "valle-de-la-luna",
+        "lat": -16.567,
+        "lon": -68.094,
+        "why": "Cárcavas, pináculos y sombras para practicar fotogrametría, mapeo 3D y navegación de rovers. Se recomienda usar modelos digitales: las formaciones son frágiles. Un relieve parecido no implica el mismo origen. Respaldo: candidato metodológico (F2).",
+        "name": "Valle de la Luna, Mallasa, La Paz, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Valle_de_la_Luna_(Bolivia)",
+        "category": "operational"
     }
 ]
