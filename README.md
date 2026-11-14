@@ -22,7 +22,15 @@ npm run dev        # abre http://localhost:5173/luna o /marte
 npm run build      # debe terminar sin errores antes de abrir un PR
 ```
 
-Credenciales: crea un archivo `.env.local` (no se sube al repo) con:
+### Datos: sin base de datos en el MVP
+
+Decisión del equipo: el MVP **no usa base de datos**. Los datos son de solo lectura y viven en
+`src/data/*.json`, que `lib/data.ts` lee cuando no hay credenciales. No hace falta configurar nada.
+
+- La fuente de verdad de los datos es el SQL de [supabase/seed/](supabase/seed/). Los JSON se **generan**
+  desde ahí con `bash supabase/seed/exportar-json.sh` (necesita podman o docker). No edites los JSON a mano.
+- El esquema de Supabase queda listo para después. Para activarlo basta crear el proyecto, cargar la
+  migración y el seed, y poner en `.env.local` y en Vercel:
 
 ```
 VITE_SUPABASE_URL=https://<proyecto>.supabase.co
@@ -31,12 +39,17 @@ VITE_SUPABASE_ANON_KEY=<clave anon>
 
 Solo va la clave **anon**. La `service_role` nunca va en el frontend ni en el repo.
 
+### Contenido actual
+
+17 zonas (4 en la Luna, 13 en Marte) y 51 análogos, de los cuales 36 están en Bolivia o en su frontera.
+Cada análogo boliviano indica su nivel de respaldo según el documento F4: **estudiado**, **propuesto** o **sugerido**.
+
 ## Stack
 
 - React 18 + Vite + TypeScript estricto (los `.jsx` existentes se migran al tocarlos)
 - Leaflet + react-leaflet, con teselas de NASA Trek (proyección equirectangular, `L.CRS.EPSG4326`)
 - React Router (`/luna`, `/marte`)
-- Supabase (Postgres) con RLS
+- Datos estáticos en JSON para el MVP; esquema de Supabase (Postgres con RLS) listo para una etapa posterior
 - Vercel: cada PR genera un preview y `main` despliega a producción
 
 ## Modelo de datos
@@ -102,7 +115,7 @@ src/
     EarthMiniMap.tsx         ubicación del análogo en la Tierra (A)
 ```
 
-`src/data/*.json` es la semilla vieja. Cuando `data.ts` lea de Supabase, la app ya no la usa.
+`src/data/*.json` son los datos que usa el MVP, generados desde `supabase/seed/`. Si algún día se conecta Supabase, la app los usa solo como respaldo.
 
 ## Reparto (propuesta, pendiente de confirmar)
 
