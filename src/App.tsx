@@ -1,15 +1,22 @@
-// Estado global mínimo: cuerpo, zona seleccionada, categoría activa.
+// Estado global mínimo: cuerpo y zona seleccionada.
+// Paso 1 de la migración a TypeScript: misma lógica que App.jsx.
+// Las rutas /luna y /marte llegan en el paso 2.
 import { useState } from 'react'
 import BodySwitcher from './components/BodySwitcher.jsx'
 import PlanetMap from './components/PlanetMap.jsx'
 import ZonePanel from './components/ZonePanel.jsx'
 import { getZones } from './lib/data.js'
 
-export default function App() {
-  const [body, setBody] = useState('moon')           // 'moon' | 'mars'
-  const [selectedZone, setSelectedZone] = useState(null)
+type BodyId = 'moon' | 'mars'
 
-  const changeBody = (b) => { setBody(b); setSelectedZone(null) }
+// Mínimo necesario hasta que exista types/domain.ts (persona C).
+type ZoneFeature = { properties: { id: string } }
+
+export default function App() {
+  const [body, setBody] = useState<BodyId>('moon')
+  const [selectedZone, setSelectedZone] = useState<ZoneFeature | null>(null)
+
+  const changeBody = (b: BodyId) => { setBody(b); setSelectedZone(null) }
 
   return (
     <div className="app">

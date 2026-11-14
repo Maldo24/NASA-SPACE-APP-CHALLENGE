@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Los .jsx que aún no se migran se aceptan, pero sin revisar tipos.
+    "allowJs": true,
+    "checkJs": false,
+
+    "types": ["vite/client"]
+  },
+  "include": ["src", "vite.config.ts"]
+}
