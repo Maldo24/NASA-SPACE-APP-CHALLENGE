@@ -1,27 +1,166 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "moon-tranquillitatis",
-        "name": "Mare Tranquillitatis",
-        "zoneType": "Mar basáltico",
-        "description": "Llanura de lava basáltica. Sitio del Apollo 11.",
-        "analogIds": ["kilauea", "lanzarote"]
-      },
-      "geometry": { "type": "Polygon", "coordinates": [[[20, 0], [40, 0], [40, 15], [20, 15], [20, 0]]] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "moon-tycho",
-        "name": "Cráter Tycho",
-        "zoneType": "Cráter de impacto joven",
-        "description": "Cráter de ~85 km con sistema de rayos brillantes y pico central.",
-        "analogIds": ["meteor-crater", "haughton"]
-      },
-      "geometry": { "type": "Polygon", "coordinates": [[[-14, -46], [-9, -46], [-9, -41], [-14, -41], [-14, -46]]] }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -58,
+                            11
+                        ],
+                        [
+                            -53,
+                            11
+                        ],
+                        [
+                            -53,
+                            16
+                        ],
+                        [
+                            -58,
+                            16
+                        ],
+                        [
+                            -58,
+                            11
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-marius-hills",
+                "name": "Marius Hills",
+                "zoneType": "Domos volcánicos y posible tubo de lava",
+                "analogIds": [
+                    "kilauea",
+                    "lanzarote-pangaea"
+                ],
+                "description": "Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            100,
+                            -90
+                        ],
+                        [
+                            160,
+                            -90
+                        ],
+                        [
+                            160,
+                            -88.5
+                        ],
+                        [
+                            100,
+                            -88.5
+                        ],
+                        [
+                            100,
+                            -90
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-shackleton",
+                "name": "Cráter Shackleton (polo sur)",
+                "zoneType": "Cráter polar con sombra permanente",
+                "analogIds": [
+                    "concordia",
+                    "mcmurdo"
+                ],
+                "description": "Cráter en el polo sur lunar. Partes de su borde tienen iluminación prolongada y su interior está en sombra permanente, donde podría haber hielo de agua. Hay una base planificada en la región, no construida."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            20,
+                            0
+                        ],
+                        [
+                            40,
+                            0
+                        ],
+                        [
+                            40,
+                            15
+                        ],
+                        [
+                            20,
+                            15
+                        ],
+                        [
+                            20,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-tranquillitatis",
+                "name": "Mare Tranquillitatis",
+                "zoneType": "Mar basáltico",
+                "analogIds": [
+                    "basalt",
+                    "kilauea",
+                    "lanzarote-pangaea"
+                ],
+                "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -14,
+                            -46
+                        ],
+                        [
+                            -9,
+                            -46
+                        ],
+                        [
+                            -9,
+                            -41
+                        ],
+                        [
+                            -14,
+                            -41
+                        ],
+                        [
+                            -14,
+                            -46
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-tycho",
+                "name": "Cráter Tycho",
+                "zoneType": "Cráter de impacto joven",
+                "analogIds": [
+                    "haughton",
+                    "meteor-crater"
+                ],
+                "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra."
+            }
+        }
+    ]
 }

@@ -1,27 +1,329 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "mars-meridiani",
-        "name": "Meridiani Planum",
-        "zoneType": "Llanura con sulfatos y hematita",
-        "description": "Sitio de aterrizaje del rover Opportunity. Evidencia de agua ácida en el pasado.",
-        "analogIds": ["rio-tinto", "atacama", "mdrs-utah"]
-      },
-      "geometry": { "type": "Polygon", "coordinates": [[[-8, -3], [0, -3], [0, 3], [-8, 3], [-8, -3]]] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "mars-valles-marineris",
-        "name": "Valles Marineris",
-        "zoneType": "Sistema de cañones tectónicos",
-        "description": "El cañón más grande del sistema solar: ~4000 km de largo y hasta 7 km de profundidad.",
-        "analogIds": ["grand-canyon", "haughton"]
-      },
-      "geometry": { "type": "Polygon", "coordinates": [[[-80, -15], [-40, -15], [-40, -3], [-80, -3], [-80, -15]]] }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -29,
+                            -5.5
+                        ],
+                        [
+                            -25,
+                            -5.5
+                        ],
+                        [
+                            -25,
+                            -2.5
+                        ],
+                        [
+                            -29,
+                            -2.5
+                        ],
+                        [
+                            -29,
+                            -5.5
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-aureum-chaos",
+                "name": "Aureum Chaos",
+                "zoneType": "Terreno caótico",
+                "analogIds": [
+                    "uyuni"
+                ],
+                "description": "Terreno de bloques hundidos y fracturados, que se interpreta como colapso del subsuelo tras la liberación de agua o hielo."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            136.5,
+                            -6.7
+                        ],
+                        [
+                            139.1,
+                            -6.7
+                        ],
+                        [
+                            139.1,
+                            -4.1
+                        ],
+                        [
+                            136.5,
+                            -4.1
+                        ],
+                        [
+                            136.5,
+                            -6.7
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-gale",
+                "name": "Cráter Gale",
+                "zoneType": "Cráter con sedimentos lacustres",
+                "analogIds": [
+                    "licancabur",
+                    "mdrs",
+                    "torotoro"
+                ],
+                "description": "Cráter de unos 154 km con un monte central de capas sedimentarias (Aeolis Mons). Sitio del rover Curiosity (2012), que encontró evidencia de un antiguo lago."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            174,
+                            -16
+                        ],
+                        [
+                            177,
+                            -16
+                        ],
+                        [
+                            177,
+                            -13
+                        ],
+                        [
+                            174,
+                            -13
+                        ],
+                        [
+                            174,
+                            -16
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-gusev-home-plate",
+                "name": "Gusev — Home Plate",
+                "zoneType": "Depósito volcánico e hidrotermal",
+                "analogIds": [
+                    "el-tatio"
+                ],
+                "description": "Meseta de rocas volcánicas en el cráter Gusev. Cerca de ella el rover Spirit encontró suelos muy ricos en sílice, asociados a actividad hidrotermal."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            77.2,
+                            18.0
+                        ],
+                        [
+                            78.0,
+                            18.0
+                        ],
+                        [
+                            78.0,
+                            18.8
+                        ],
+                        [
+                            77.2,
+                            18.8
+                        ],
+                        [
+                            77.2,
+                            18.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-jezero",
+                "name": "Cráter Jezero",
+                "zoneType": "Cráter con antiguo lago y delta",
+                "analogIds": [
+                    "licancabur",
+                    "mdrs",
+                    "salda"
+                ],
+                "description": "Cráter de unos 45 km que albergó un lago, con un delta de sedimentos en su borde. Sitio del rover Perseverance (2021), que busca señales de vida antigua."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -8,
+                            -4
+                        ],
+                        [
+                            0,
+                            -4
+                        ],
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            -8,
+                            3
+                        ],
+                        [
+                            -8,
+                            -4
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-meridiani",
+                "name": "Meridiani Planum",
+                "zoneType": "Llanura con sulfatos y hematita",
+                "analogIds": [
+                    "atacama",
+                    "mdrs",
+                    "rio-tinto",
+                    "uyuni"
+                ],
+                "description": "Llanura con depósitos de sulfatos y esférulas de hematita que indican agua ácida en el pasado. Sitio de aterrizaje del rover Opportunity (2004)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -139,
+                            13.5
+                        ],
+                        [
+                            -128.5,
+                            13.5
+                        ],
+                        [
+                            -128.5,
+                            23.5
+                        ],
+                        [
+                            -139,
+                            23.5
+                        ],
+                        [
+                            -139,
+                            13.5
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-olympus-mons",
+                "name": "Olympus Mons",
+                "zoneType": "Volcán en escudo",
+                "analogIds": [
+                    "basalt",
+                    "hi-seas",
+                    "kilauea",
+                    "sajama"
+                ],
+                "description": "El volcán más grande del sistema solar, con unos 22 km de altura sobre el datum marciano y coladas de lava en sus flancos."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            105,
+                            40
+                        ],
+                        [
+                            135,
+                            40
+                        ],
+                        [
+                            135,
+                            55
+                        ],
+                        [
+                            105,
+                            55
+                        ],
+                        [
+                            105,
+                            40
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-utopia-planitia",
+                "name": "Utopia Planitia",
+                "zoneType": "Llanura del norte con hielo subsuperficial",
+                "analogIds": [
+                    "haughton-hmp",
+                    "mcmurdo"
+                ],
+                "description": "Gran llanura del hemisferio norte con terreno festoneado y polígonos asociados a hielo bajo la superficie. Sitio del Viking 2 (1976)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80,
+                            -15
+                        ],
+                        [
+                            -40,
+                            -15
+                        ],
+                        [
+                            -40,
+                            -3
+                        ],
+                        [
+                            -80,
+                            -3
+                        ],
+                        [
+                            -80,
+                            -15
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "mars-valles-marineris",
+                "name": "Valles Marineris",
+                "zoneType": "Sistema de cañones tectónicos",
+                "analogIds": [
+                    "grand-canyon",
+                    "torotoro"
+                ],
+                "description": "Sistema de cañones de más de 4.000 km de largo y varios kilómetros de profundidad, con paredes estratificadas y deslizamientos. Su origen es principalmente tectónico."
+            }
+        }
+    ]
 }

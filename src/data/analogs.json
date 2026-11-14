@@ -1,18 +1,192 @@
 [
-  { "id": "rio-tinto", "name": "Río Tinto, España", "category": "mineralogical", "lat": 37.7, "lon": -6.6,
-    "why": "Aguas ácidas ricas en hierro con jarosita y sulfatos, como en Meridiani.", "image": "", "source": "" },
-  { "id": "atacama", "name": "Desierto de Atacama, Chile", "category": "environmental", "lat": -24.5, "lon": -69.25,
-    "why": "Uno de los lugares más áridos de la Tierra, con alta radiación UV y percloratos.", "image": "", "source": "" },
-  { "id": "mdrs-utah", "name": "Mars Desert Research Station, Utah", "category": "operational", "lat": 38.41, "lon": -110.79,
-    "why": "Estación para simular misiones tripuladas a Marte.", "image": "", "source": "" },
-  { "id": "grand-canyon", "name": "Gran Cañón, EE.UU.", "category": "geomorphological", "lat": 36.1, "lon": -112.1,
-    "why": "Cañón profundo con estratos expuestos (en una escala mucho menor).", "image": "", "source": "" },
-  { "id": "haughton", "name": "Cráter Haughton, Isla Devon", "category": "geomorphological", "lat": 75.38, "lon": -89.68,
-    "why": "Cráter de impacto en ambiente polar y seco. También se usa para operaciones (HMP).", "image": "", "source": "" },
-  { "id": "kilauea", "name": "Kīlauea, Hawái", "category": "mineralogical", "lat": 19.41, "lon": -155.28,
-    "why": "Basaltos parecidos a los de los mares lunares.", "image": "", "source": "" },
-  { "id": "lanzarote", "name": "Lanzarote, España", "category": "operational", "lat": 29.0, "lon": -13.6,
-    "why": "Entrenamiento geológico de astronautas de la ESA (PANGAEA).", "image": "", "source": "" },
-  { "id": "meteor-crater", "name": "Meteor Crater, Arizona", "category": "geomorphological", "lat": 35.03, "lon": -111.02,
-    "why": "Cráter de impacto simple y bien conservado. Lo usaron astronautas del Apollo para entrenar.", "image": "", "source": "" }
+    {
+        "id": "atacama",
+        "lat": -24.5,
+        "lon": -69.25,
+        "why": "Uno de los lugares más áridos de la Tierra, con sales y alta radiación UV. Se usa para estudiar los límites de la vida en condiciones de extrema sequedad.",
+        "name": "Desierto de Atacama, Chile",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Atacama_Desert",
+        "category": "environmental"
+    },
+    {
+        "id": "basalt",
+        "lat": 43.42,
+        "lon": -113.52,
+        "why": "Proyecto de NASA que combina exploración geológica en terreno basáltico con decisiones científicas y comunicaciones demoradas.",
+        "name": "NASA BASALT, Craters of the Moon, Idaho, EE.UU.",
+        "image": null,
+        "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+        "category": "operational"
+    },
+    {
+        "id": "concordia",
+        "lat": -75.1,
+        "lon": 123.33,
+        "why": "Base en la meseta antártica usada para estudiar aislamiento prolongado, frío y oscuridad, como en una misión de larga duración.",
+        "name": "Estación Concordia, Antártida",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Concordia_Station",
+        "category": "operational"
+    },
+    {
+        "id": "el-tatio",
+        "lat": -22.33,
+        "lon": -68.01,
+        "why": "Campo hidrotermal de altura con depósitos de sílice, comparable con los depósitos hidrotermales de Home Plate y relevante para la preservación de biofirmas.",
+        "name": "Géiseres de El Tatio, Chile",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/El_Tatio",
+        "category": "mineralogical"
+    },
+    {
+        "id": "grand-canyon",
+        "lat": 36.1,
+        "lon": -112.1,
+        "why": "Cañón con paredes estratificadas expuestas. Se parece en forma y capas a Valles Marineris, aunque a una escala mucho menor y con otro origen (erosión fluvial, no tectónica).",
+        "name": "Gran Cañón, EE.UU.",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Grand_Canyon",
+        "category": "geomorphological"
+    },
+    {
+        "id": "haughton",
+        "lat": 75.38,
+        "lon": -89.68,
+        "why": "Cráter de impacto en un ambiente polar, frío y seco, útil para estudiar eyecta, erosión e hidrotermalismo de impacto.",
+        "name": "Cráter Haughton, isla Devon, Canadá",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Haughton_impact_crater",
+        "category": "geomorphological"
+    },
+    {
+        "id": "haughton-hmp",
+        "lat": 75.43,
+        "lon": -89.82,
+        "why": "Campamento de investigación donde se ensayan exploración humana y robótica, vehículos y procedimientos de campo en condiciones polares.",
+        "name": "Haughton-Mars Project, isla Devon, Canadá",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Haughton%E2%80%93Mars_Project",
+        "category": "operational"
+    },
+    {
+        "id": "hi-seas",
+        "lat": 19.6,
+        "lon": -155.48,
+        "why": "Hábitat de simulación sobre terreno volcánico para estudiar aislamiento, operaciones y trabajo de tripulaciones.",
+        "name": "HI-SEAS, Mauna Loa, Hawái, EE.UU.",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/HI-SEAS",
+        "category": "operational"
+    },
+    {
+        "id": "kilauea",
+        "lat": 19.41,
+        "lon": -155.28,
+        "why": "Volcán en escudo de basalto. Sus coladas sirven para comparar los basaltos de los mares lunares y los volcanes de Tharsis.",
+        "name": "Kīlauea, Hawái, EE.UU.",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
+        "category": "mineralogical"
+    },
+    {
+        "id": "lanzarote-pangaea",
+        "lat": 29,
+        "lon": -13.6,
+        "why": "Entrenamiento geológico de astronautas de la ESA en terreno volcánico y tubos de lava.",
+        "name": "Lanzarote, España (ESA PANGAEA)",
+        "image": null,
+        "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
+        "category": "operational"
+    },
+    {
+        "id": "licancabur",
+        "lat": -22.83,
+        "lon": -67.88,
+        "why": "Lagos de altura con frío, alta radiación UV y organismos adaptados, estudiados en el proyecto High-Lakes. Es un análogo de ambientes lacustres antiguos, no del Marte actual completo.",
+        "name": "Volcán Licancabur y lagunas de altura, Bolivia–Chile",
+        "image": null,
+        "source": "https://doi.org/10.1029/2008JG000818",
+        "category": "environmental"
+    },
+    {
+        "id": "mcmurdo",
+        "lat": -77.5,
+        "lon": 162,
+        "why": "Desierto polar muy frío y seco con suelos congelados y polígonos. Se compara con el hielo subsuperficial de las llanuras marcianas y con el frío extremo de los polos.",
+        "name": "Valles Secos de McMurdo, Antártida",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys",
+        "category": "environmental"
+    },
+    {
+        "id": "mdrs",
+        "lat": 38.41,
+        "lon": -110.79,
+        "why": "Estación de simulación de misiones tripuladas a Marte en un terreno sedimentario árido cerca de Hanksville.",
+        "name": "Mars Desert Research Station, Utah, EE.UU.",
+        "image": null,
+        "source": "https://mdrs.marssociety.org/",
+        "category": "operational"
+    },
+    {
+        "id": "meteor-crater",
+        "lat": 35.03,
+        "lon": -111.02,
+        "why": "Cráter de impacto simple y bien conservado, con borde elevado y eyecta. Referencia clásica para comparar cráteres lunares y marcianos.",
+        "name": "Meteor Crater, Arizona, EE.UU.",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Meteor_Crater",
+        "category": "geomorphological"
+    },
+    {
+        "id": "rio-tinto",
+        "lat": 37.69,
+        "lon": -6.59,
+        "why": "Aguas ácidas ricas en hierro con sulfatos de hierro, comparables con los sulfatos y la alteración química de Meridiani Planum.",
+        "name": "Río Tinto, España",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Rio_Tinto_(river)",
+        "category": "mineralogical"
+    },
+    {
+        "id": "sajama",
+        "lat": -18.11,
+        "lon": -68.88,
+        "why": "Terreno volcánico de altura, pendientes y frío para probar arranque de baterías, estabilidad y procedimientos de campo de rovers. Candidato por procesos, requiere comprobación por sector.",
+        "name": "Volcán Sajama, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Nevado_Sajama",
+        "category": "operational"
+    },
+    {
+        "id": "salda",
+        "lat": 37.55,
+        "lon": 29.68,
+        "why": "Lago con carbonatos y sedimentos que se compara con el antiguo lago y delta del cráter Jezero.",
+        "name": "Lago Salda, Turquía",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Lake_Salda",
+        "category": "mineralogical"
+    },
+    {
+        "id": "torotoro",
+        "lat": -18.13,
+        "lon": -65.76,
+        "why": "Estratos, cañones y contactos sedimentarios para entrenar lectura estratigráfica e interpretación de imágenes. Analogía metodológica: no reproduce el origen tectónico de Valles Marineris.",
+        "name": "Parque Nacional Torotoro, Bolivia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Torotoro_National_Park",
+        "category": "operational"
+    },
+    {
+        "id": "uyuni",
+        "lat": -20.13,
+        "lon": -67.49,
+        "why": "Evaporitas, salmueras y costras salinas útiles para comparar depósitos de cloruros y sales marcianos. No se le atribuyen percloratos sin análisis local.",
+        "name": "Salar de Uyuni, Bolivia",
+        "image": null,
+        "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+        "category": "mineralogical"
+    }
 ]

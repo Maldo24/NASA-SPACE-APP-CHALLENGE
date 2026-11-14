@@ -40,6 +40,8 @@ Son datos, no cambios de esquema, así que no rompe la regla.
 - **Zona nueva:** agrega una fila en `03_zones.sql`. El id empieza con el cuerpo (`mars-…`, `moon-…`). Coordenadas en `[lon, lat]`, lon entre -180 y 180.
 - **Relacionarlos:** agrega el par en `04_zone_analogs.sql`.
 - Vuelve a correr los seeds.
+- Regenera la semilla JSON de respaldo (la que usa la app sin credenciales de Supabase):
+  `bash supabase/seed/exportar-json.sh` (necesita podman o docker). No edites `src/data/*.json` a mano.
 
 ## Validaciones que hace la base
 La base rechaza: categorías que no sean las 4, lat/lon fuera de rango, `source` que no empiece con `http`,
