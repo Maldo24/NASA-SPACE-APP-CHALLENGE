@@ -1,27 +1,53 @@
 // Persona A. Configuración común de Leaflet para los mapas de la Luna y de Marte.
 // MoonMap y MarsMap solo eligen el cuerpo; todo lo demás vive aquí.
+import { useEffect, useMemo, useState } from 'react'
 import L from 'leaflet'
 import type { PathOptions } from 'leaflet'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
-import type { Feature, FeatureCollection, Geometry } from 'geojson'
-import { LAYERS, type BodyId } from '../../config/layers.ts'
-
-// Mínimo que el mapa necesita de cada zona. El tipo completo vendrá de types/domain.ts (persona C).
-export type ZoneProperties = { id: string; name: string }
-export type ZoneFeature = Feature<Geometry, ZoneProperties>
-export type ZoneCollection = FeatureCollection<Geometry, ZoneProperties>
+import type { Feature, FeatureCollection, Polygon as GeoPolygon } from 'geojson'
+import { LAYERS } from '../../config/layers.ts'
+import { getZones } from '../../lib/data.ts'
+import type { BodyId, Zone } from '../../types/domain.ts'
 
 export type PlanetMapProps = {
-  zones: ZoneCollection
   selectedId?: string
-  onSelect: (zone: ZoneFeature) => void
+  onSelect: (zone: Zone) => void
 }
+
+type ZoneFeature = Feature<GeoPolygon, { id: string; name: string }>
 
 const baseStyle: PathOptions = { color: '#ffd43b', weight: 1.5, fillOpacity: 0.15 }
 const selectedStyle: PathOptions = { color: '#ff6b6b', weight: 3, fillOpacity: 0.3 }
 
-export default function BasePlanetMap({ body, zones, selectedId, onSelect }: PlanetMapProps & { body: BodyId }) {
+// Zonas del cuerpo, cargadas desde lib/data.ts. null = cargando.
+function useZones(body: BodyId) {
+  const [zones, setZones] = useState<Zone[] | null>(null)
+  useEffect(() => {
+    let alive = true
+    setZones(null)
+    getZones(body)
+      .then((z) => { if (alive) setZones(z) })
+      .catch((err) => { console.error(`No se pudieron cargar las zonas de ${body}`, err); if (alive) setZones([]) })
+    return () => { alive = false }
+  }, [body])
+  return zones
+}
+
+export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapProps & { body: BodyId }) {
   const layer = LAYERS[body]
+  const zones = useZones(body)
+
+  // Leaflet dibuja GeoJSON; Zone guarda solo la geometría, así que se arma la colección aquí.
+  const collection = useMemo<FeatureCollection<GeoPolygon, ZoneFeature['properties']>>(() => ({
+    type: 'FeatureCollection',
+    features: (zones ?? []).map((z) => ({
+      type: 'Feature',
+      properties: { id: z.id, name: z.name },
+      geometry: z.geometry,
+    })),
+  }), [zones])
+
+  const zoneById = useMemo(() => new Map((zones ?? []).map((z) => [z.id, z])), [zones])
 
   return (
     <MapContainer
@@ -34,15 +60,20 @@ export default function BasePlanetMap({ body, zones, selectedId, onSelect }: Pla
       worldCopyJump={false}
     >
       <TileLayer url={layer.url} attribution={layer.attribution} noWrap tileSize={256} />
-      <GeoJSON
-        key={selectedId ?? 'none'}   // re-render para actualizar el estilo seleccionado
-        data={zones}
-        style={(f) => (f?.properties.id === selectedId ? selectedStyle : baseStyle)}
-        onEachFeature={(feature: ZoneFeature, lyr) => {
-          lyr.bindTooltip(feature.properties.name)
-          lyr.on('click', () => onSelect(feature))
-        }}
-      />
+      {zones && (
+        <GeoJSON
+          key={`${zones.length}-${selectedId ?? 'none'}`}   // re-render al cargar y al cambiar la selección
+          data={collection}
+          style={(f) => (f?.properties.id === selectedId ? selectedStyle : baseStyle)}
+          onEachFeature={(feature: ZoneFeature, lyr) => {
+            lyr.bindTooltip(feature.properties.name)
+            lyr.on('click', () => {
+              const zone = zoneById.get(feature.properties.id)
+              if (zone) onSelect(zone)
+            })
+          }}
+        />
+      )}
     </MapContainer>
   )
 }

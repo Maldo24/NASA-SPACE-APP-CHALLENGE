@@ -2,7 +2,9 @@
 // TODO: verificar URLs en trek.nasa.gov (Layer -> info -> WMTS) y maxZoom de cada mosaico.
 // Cuando exista la tabla `bodies` en Supabase, estos valores vendrán de ahí (layer_url, attribution, max_zoom).
 
-export type BodyId = 'moon' | 'mars'
+import type { BodyId } from '../types/domain.ts'
+
+export type { BodyId }
 
 export type BaseLayer = {
   name: string
