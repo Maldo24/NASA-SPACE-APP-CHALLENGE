@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import BodySwitcher from './components/BodySwitcher.jsx'
 import PlanetMap from './components/PlanetMap.jsx'
-import ZonePanel from './components/ZonePanel.jsx'
+import ZonePanel from './components/ZonePanel.tsx'
 import { getZones } from './lib/data.js'
 
 export default function App() {
