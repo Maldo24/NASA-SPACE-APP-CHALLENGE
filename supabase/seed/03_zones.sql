@@ -1,0 +1,46 @@
+-- Zonas de la Luna y de Marte.
+-- geometry: GeoJSON Polygon en [lon, lat], lon entre -180 y 180 (las longitudes Este > 180 se pasan a negativo).
+-- Los polígonos son rectángulos APROXIMADOS alrededor de cada sitio; afinarlos con geojson.io.
+insert into public.zones (id, body_id, name, zone_type, description, geometry) values
+  -- ======================= MARTE =======================
+  ('mars-meridiani', 'mars', 'Meridiani Planum', 'Llanura con sulfatos y hematita',
+   'Llanura con depósitos de sulfatos y esférulas de hematita que indican agua ácida en el pasado. Sitio de aterrizaje del rover Opportunity (2004).',
+   '{"type":"Polygon","coordinates":[[[-8,-4],[0,-4],[0,3],[-8,3],[-8,-4]]]}'),
+  ('mars-valles-marineris', 'mars', 'Valles Marineris', 'Sistema de cañones tectónicos',
+   'Sistema de cañones de más de 4.000 km de largo y varios kilómetros de profundidad, con paredes estratificadas y deslizamientos. Su origen es principalmente tectónico.',
+   '{"type":"Polygon","coordinates":[[[-80,-15],[-40,-15],[-40,-3],[-80,-3],[-80,-15]]]}'),
+  ('mars-jezero', 'mars', 'Cráter Jezero', 'Cráter con antiguo lago y delta',
+   'Cráter de unos 45 km que albergó un lago, con un delta de sedimentos en su borde. Sitio del rover Perseverance (2021), que busca señales de vida antigua.',
+   '{"type":"Polygon","coordinates":[[[77.2,18.0],[78.0,18.0],[78.0,18.8],[77.2,18.8],[77.2,18.0]]]}'),
+  ('mars-gale', 'mars', 'Cráter Gale', 'Cráter con sedimentos lacustres',
+   'Cráter de unos 154 km con un monte central de capas sedimentarias (Aeolis Mons). Sitio del rover Curiosity (2012), que encontró evidencia de un antiguo lago.',
+   '{"type":"Polygon","coordinates":[[[136.5,-6.7],[139.1,-6.7],[139.1,-4.1],[136.5,-4.1],[136.5,-6.7]]]}'),
+  ('mars-olympus-mons', 'mars', 'Olympus Mons', 'Volcán en escudo',
+   'El volcán más grande del sistema solar, con unos 22 km de altura sobre el datum marciano y coladas de lava en sus flancos.',
+   '{"type":"Polygon","coordinates":[[[-139,13.5],[-128.5,13.5],[-128.5,23.5],[-139,23.5],[-139,13.5]]]}'),
+  ('mars-aureum-chaos', 'mars', 'Aureum Chaos', 'Terreno caótico',
+   'Terreno de bloques hundidos y fracturados, que se interpreta como colapso del subsuelo tras la liberación de agua o hielo.',
+   '{"type":"Polygon","coordinates":[[[-29,-5.5],[-25,-5.5],[-25,-2.5],[-29,-2.5],[-29,-5.5]]]}'),
+  ('mars-gusev-home-plate', 'mars', 'Gusev — Home Plate', 'Depósito volcánico e hidrotermal',
+   'Meseta de rocas volcánicas en el cráter Gusev. Cerca de ella el rover Spirit encontró suelos muy ricos en sílice, asociados a actividad hidrotermal.',
+   '{"type":"Polygon","coordinates":[[[174,-16],[177,-16],[177,-13],[174,-13],[174,-16]]]}'),
+  ('mars-utopia-planitia', 'mars', 'Utopia Planitia', 'Llanura del norte con hielo subsuperficial',
+   'Gran llanura del hemisferio norte con terreno festoneado y polígonos asociados a hielo bajo la superficie. Sitio del Viking 2 (1976).',
+   '{"type":"Polygon","coordinates":[[[105,40],[135,40],[135,55],[105,55],[105,40]]]}'),
+
+  -- ======================= LUNA =======================
+  ('moon-tranquillitatis', 'moon', 'Mare Tranquillitatis', 'Mar basáltico',
+   'Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969.',
+   '{"type":"Polygon","coordinates":[[[20,0],[40,0],[40,15],[20,15],[20,0]]]}'),
+  ('moon-tycho', 'moon', 'Cráter Tycho', 'Cráter de impacto joven',
+   'Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra.',
+   '{"type":"Polygon","coordinates":[[[-14,-46],[-9,-46],[-9,-41],[-14,-41],[-14,-46]]]}'),
+  ('moon-shackleton', 'moon', 'Cráter Shackleton (polo sur)', 'Cráter polar con sombra permanente',
+   'Cráter en el polo sur lunar. Partes de su borde tienen iluminación prolongada y su interior está en sombra permanente, donde podría haber hielo de agua. Hay una base planificada en la región, no construida.',
+   '{"type":"Polygon","coordinates":[[[100,-90],[160,-90],[160,-88.5],[100,-88.5],[100,-90]]]}'),
+  ('moon-marius-hills', 'moon', 'Marius Hills', 'Domos volcánicos y posible tubo de lava',
+   'Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava.',
+   '{"type":"Polygon","coordinates":[[[-58,11],[-53,11],[-53,16],[-58,16],[-58,11]]]}')
+on conflict (id) do update set
+  body_id = excluded.body_id, name = excluded.name, zone_type = excluded.zone_type,
+  description = excluded.description, geometry = excluded.geometry;
