@@ -1,0 +1,18 @@
+[
+  { "id": "rio-tinto", "name": "Río Tinto, España", "category": "mineralogical", "lat": 37.7, "lon": -6.6,
+    "why": "Aguas ácidas ricas en hierro con jarosita y sulfatos, como en Meridiani.", "image": "", "source": "" },
+  { "id": "atacama", "name": "Desierto de Atacama, Chile", "category": "environmental", "lat": -24.5, "lon": -69.25,
+    "why": "Uno de los lugares más áridos de la Tierra, con alta radiación UV y percloratos.", "image": "", "source": "" },
+  { "id": "mdrs-utah", "name": "Mars Desert Research Station, Utah", "category": "operational", "lat": 38.41, "lon": -110.79,
+    "why": "Estación para simular misiones tripuladas a Marte.", "image": "", "source": "" },
+  { "id": "grand-canyon", "name": "Gran Cañón, EE.UU.", "category": "geomorphological", "lat": 36.1, "lon": -112.1,
+    "why": "Cañón profundo con estratos expuestos (en una escala mucho menor).", "image": "", "source": "" },
+  { "id": "haughton", "name": "Cráter Haughton, Isla Devon", "category": "geomorphological", "lat": 75.38, "lon": -89.68,
+    "why": "Cráter de impacto en ambiente polar y seco. También se usa para operaciones (HMP).", "image": "", "source": "" },
+  { "id": "kilauea", "name": "Kīlauea, Hawái", "category": "mineralogical", "lat": 19.41, "lon": -155.28,
+    "why": "Basaltos parecidos a los de los mares lunares.", "image": "", "source": "" },
+  { "id": "lanzarote", "name": "Lanzarote, España", "category": "operational", "lat": 29.0, "lon": -13.6,
+    "why": "Entrenamiento geológico de astronautas de la ESA (PANGAEA).", "image": "", "source": "" },
+  { "id": "meteor-crater", "name": "Meteor Crater, Arizona", "category": "geomorphological", "lat": 35.03, "lon": -111.02,
+    "why": "Cráter de impacto simple y bien conservado. Lo usaron astronautas del Apollo para entrenar.", "image": "", "source": "" }
+]

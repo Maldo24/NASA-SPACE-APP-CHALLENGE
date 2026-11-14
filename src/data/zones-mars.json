@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mars-meridiani",
+        "name": "Meridiani Planum",
+        "zoneType": "Llanura con sulfatos y hematita",
+        "description": "Sitio de aterrizaje del rover Opportunity. Evidencia de agua ácida en el pasado.",
+        "analogIds": ["rio-tinto", "atacama", "mdrs-utah"]
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-8, -3], [0, -3], [0, 3], [-8, 3], [-8, -3]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mars-valles-marineris",
+        "name": "Valles Marineris",
+        "zoneType": "Sistema de cañones tectónicos",
+        "description": "El cañón más grande del sistema solar: ~4000 km de largo y hasta 7 km de profundidad.",
+        "analogIds": ["grand-canyon", "haughton"]
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-80, -15], [-40, -15], [-40, -3], [-80, -3], [-80, -15]]] }
+    }
+  ]
+}

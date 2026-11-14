@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moon-tranquillitatis",
+        "name": "Mare Tranquillitatis",
+        "zoneType": "Mar basáltico",
+        "description": "Llanura de lava basáltica. Sitio del Apollo 11.",
+        "analogIds": ["kilauea", "lanzarote"]
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[20, 0], [40, 0], [40, 15], [20, 15], [20, 0]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moon-tycho",
+        "name": "Cráter Tycho",
+        "zoneType": "Cráter de impacto joven",
+        "description": "Cráter de ~85 km con sistema de rayos brillantes y pico central.",
+        "analogIds": ["meteor-crater", "haughton"]
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-14, -46], [-9, -46], [-9, -41], [-14, -41], [-14, -46]]] }
+    }
+  ]
+}

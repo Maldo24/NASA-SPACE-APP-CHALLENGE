@@ -1,0 +1,20 @@
+/* Persona 2 (UI) */
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; height: 100%; font-family: system-ui, sans-serif; background: #0b0d12; color: #e8e8ec; }
+.app { display: flex; flex-direction: column; height: 100%; }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; border-bottom: 1px solid #222; }
+.topbar h1 { font-size: 1.1rem; margin: 0; }
+.layout { flex: 1; display: grid; grid-template-columns: 1fr 380px; min-height: 0; }
+.planet-map { height: 100%; background: #000; }
+.zone-panel { overflow-y: auto; padding: 16px; border-left: 1px solid #222; }
+.switcher button, .tabs button { background: #1a1d26; color: inherit; border: 1px solid #333; padding: 6px 12px; cursor: pointer; }
+.switcher button.active, .tabs button.active { background: #3b5bdb; border-color: #3b5bdb; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 12px 0; }
+.analog-card { border: 1px solid #2a2d38; border-radius: 8px; padding: 12px; margin-bottom: 12px; }
+.analog-card img { width: 100%; border-radius: 6px; }
+.earth-mini-map { height: 160px; margin-top: 8px; border-radius: 6px; }
+.muted { color: #8a8d99; }
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; grid-template-rows: 55vh auto; }
+  .zone-panel { border-left: none; border-top: 1px solid #222; }
+}
