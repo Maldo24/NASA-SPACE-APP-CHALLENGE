@@ -1,12 +1,31 @@
-import { useId, useState } from 'react'
+import { useEffect, useId, useState } from 'react'
 import CategoryTabs from './CategoryTabs'
 import AnalogCard from './AnalogCard'
 import { CATEGORIES, CATEGORY_KEYS, type Category } from '../config/categories'
-import { getAnalogsForZone } from '../lib/data.js'
+import { emptyAnalogsByCategory, getAnalogsForZone } from '../lib/data'
 import type { GroupedAnalogs, ZoneSummary } from './ui-types'
+
+// Carga asíncrona de los análogos de la zona. null = cargando.
+function useGroupedAnalogs(zoneId: string | undefined) {
+  const [state, setState] = useState<{ zoneId: string; grouped: GroupedAnalogs } | null>(null)
+  useEffect(() => {
+    if (!zoneId) return
+    let alive = true
+    getAnalogsForZone(zoneId)
+      .then((grouped) => { if (alive) setState({ zoneId, grouped }) })
+      .catch((err) => {
+        console.error(`No se pudieron cargar los análogos de ${zoneId}`, err)
+        if (alive) setState({ zoneId, grouped: emptyAnalogsByCategory() })
+      })
+    return () => { alive = false }
+  }, [zoneId])
+  // Si el estado es de otra zona, todavía se está cargando la actual.
+  return state && state.zoneId === zoneId ? state.grouped : null
+}
 
 export default function ZonePanel({ zone }: { zone: ZoneSummary | null }) {
   const headingId = useId()
+  const grouped = useGroupedAnalogs(zone?.id)
 
   if (!zone) {
     return (
@@ -33,9 +52,21 @@ export default function ZonePanel({ zone }: { zone: ZoneSummary | null }) {
     )
   }
 
-  // El adaptador de datos conserva por ahora su API síncrona existente.
-  const grouped = getAnalogsForZone(zone) as GroupedAnalogs
-  return <ZoneDetails key={zone.properties.id} zone={zone} grouped={grouped} />
+  if (!grouped) {
+    return (
+      <aside className="zone-panel" aria-busy="true" aria-labelledby={headingId}>
+        <header className="zone-heading">
+          <div className="panel-kicker"><span className="status-dot" /> Zona seleccionada</div>
+          <p className="zone-type">{zone.zoneType}</p>
+          <h2 id={headingId}>{zone.name}</h2>
+          <p className="zone-description">{zone.description}</p>
+        </header>
+        <p className="muted" role="status">Cargando análogos…</p>
+      </aside>
+    )
+  }
+
+  return <ZoneDetails key={zone.id} zone={zone} grouped={grouped} />
 }
 
 function ZoneDetails({ zone, grouped }: { zone: ZoneSummary; grouped: GroupedAnalogs }) {
@@ -43,7 +74,7 @@ function ZoneDetails({ zone, grouped }: { zone: ZoneSummary; grouped: GroupedAna
   const [category, setCategory] = useState<Category>(
     () => CATEGORY_KEYS.find((key) => (grouped[key]?.length ?? 0) > 0) ?? 'geomorphological',
   )
-  const properties = zone.properties
+  const properties = zone
   const total = CATEGORY_KEYS.reduce((sum, key) => sum + (grouped[key]?.length ?? 0), 0)
 
   return (

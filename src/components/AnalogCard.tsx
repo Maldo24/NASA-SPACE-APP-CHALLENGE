@@ -15,9 +15,11 @@ function externalSource(value: string): string | null {
 export default function AnalogCard({ analog }: { analog: AnalogData }) {
   const titleId = useId()
   const [failedImage, setFailedImage] = useState<string | null>(null)
-  const image = analog.image.startsWith('img/') ? `/${analog.image}` : analog.image
+  // image y source llegan en null cuando están pendientes (esquema de Supabase).
+  const rawImage = analog.image ?? ''
+  const image = rawImage.startsWith('img/') ? `/${rawImage}` : rawImage
   const showImage = Boolean(image && failedImage !== image)
-  const source = externalSource(analog.source)
+  const source = analog.source ? externalSource(analog.source) : null
   const hasLocation = Number.isFinite(analog.lat) && Number.isFinite(analog.lon)
     && Math.abs(analog.lat) <= 90 && Math.abs(analog.lon) <= 180
 
