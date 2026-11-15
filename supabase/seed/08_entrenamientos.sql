@@ -79,10 +79,6 @@
 --   [x] torotoro
 --   [x] umajalanta
 --   [x] uyuni
---   [x] uyuni-icaria
---   [x] uyuni-navegacion
---   [x] uyuni-poligonos
---   [x] uyuni-salmueras
 --   [x] valle-de-la-luna
 
 -- Todas las actividades siguientes son propuestas de ejercicio, no un registro de campañas.
@@ -303,7 +299,7 @@ insert into public.analog_trainings
   ('sajama-hielo', 1, 'science',
    'Propuesta: interpretar perfiles de núcleos de hielo publicados y ordenar qué cambios ambientales pueden explicar sus capas.',
    'Capas reconocidas, incertidumbre temporal y concordancia con la cronología y mediciones del estudio.',
-   'F4: sugerido como análogo. El trabajo citado corresponde al Sajama; no valida todo el Illimani. Usar archivos, sin nueva perforación ni ingreso a glaciares.',
+   'F4: sugerido como análogo. El trabajo citado corresponde a los núcleos de hielo del Sajama. Usar archivos, sin nueva perforación ni ingreso a glaciares.',
    'https://doi.org/10.1126/science.282.5395.1858'),
   ('salares-capas', 1, 'astronauts',
    'Propuesta: elaborar una columna de capas a partir de perfiles e imágenes autorizados y explicar alternancias entre sedimentos de lago y depósitos de sal.',
@@ -370,27 +366,27 @@ insert into public.analog_trainings
    'Sal depositada, cambio de transmitancia, resistencia de contacto y daños tras una limpieza definida.',
    'F2, secciones 4.1 y 8; sin fuente específica de campaña (source null). Probetas recuperables, sin liberar materiales ni ensuciar el salar. No equivale a abrasión por polvo lunar ni certifica un traje.',
    null),
-  ('uyuni-icaria', 1, 'science',
+  ('uyuni', 3, 'science',
    'Propuesta: reproducir una comparación cartográfica de cloruros con imágenes orbitales y explicar similitudes y diferencias entre Uyuni e Icaria Planum.',
    'Límites de depósitos, coincidencia entre observadores, incertidumbre de resolución y evidencia espectral de cada clasificación.',
    'El resumen de congreso respalda la comparación, no una identidad completa. No inferir percloratos ni vida; usar coordenadas y datos originales, sin trasladar cifras no verificadas.',
    'https://doi.org/10.5194/epsc2024-483'),
-  ('uyuni-navegacion', 1, 'rovers',
+  ('uyuni', 4, 'rovers',
    'Propuesta de F2: recorrer una ruta inspeccionada usando cámara e IMU, reservando GNSS como referencia externa de evaluación.',
    'Error lateral y final, deriva por distancia, pérdidas de seguimiento y energía por metro.',
    'F2, sección 4.1; sin fuente específica de ensayo realizado (source null). No degradar la comunicación de seguridad; verificar costra, luz y humedad. Sin circular por agua o sectores inciertos.',
    null),
-  ('uyuni-navegacion', 2, 'rovers',
+  ('uyuni', 5, 'rovers',
    'Propuesta de F2: clasificar imágenes de costras y evaluar si el sistema reconoce incertidumbre y solicita detención antes de avanzar.',
    'Falsos negativos de terreno inseguro, falsas alarmas, tiempo de detención y solicitudes de ayuda correctas.',
    'F2, secciones 4.1 y 8; sin fuente específica del ejercicio (source null). Usar un conjunto etiquetado o una pista de réplica; no comprobar errores conduciendo hacia costras peligrosas.',
    null),
-  ('uyuni-poligonos', 1, 'science',
+  ('uyuni', 6, 'science',
    'Propuesta: medir tamaño y separación de polígonos en imágenes y contrastar explicaciones por salmuera, hielo o contracción sin decidir solo por su forma.',
    'Distribución de tamaños, incertidumbre de escala y evidencia independiente necesaria para cada hipótesis.',
    'F4: estudiado para el mecanismo de polígonos salinos. El estudio no demuestra la causa de cada polígono local ni de los marcianos. No abrir zanjas ni alterar costras.',
    'https://doi.org/10.1103/PhysRevX.13.011025'),
-  ('uyuni-salmueras', 1, 'science',
+  ('uyuni', 7, 'science',
    'Propuesta: practicar registro, blancos y trazabilidad de un estudio de salmueras con muestras artificiales de composición conocida.',
    'Errores de etiquetado, blancos contaminados, recuperación de componentes conocidos y registros completos.',
    'F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). No atribuir percloratos a Uyuni ni agua actual a las RSL; sin extracción no autorizada.',

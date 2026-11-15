@@ -346,9 +346,7 @@
                     "canapa",
                     "coipasa",
                     "qaidam",
-                    "uyuni-icaria",
-                    "uyuni-poligonos",
-                    "uyuni-salmueras"
+                    "uyuni"
                 ],
                 "importance": "Permite investigar las últimas etapas de cuerpos de agua y la preservación de sales en ambientes que se secaron. La relación con Uyuni plantea preguntas comprobables sobre evaporación y minerales; no atribuye percloratos al salar boliviano.",
                 "description": "Llanura del hemisferio sur donde se han cartografiado depósitos de cloruros (sales), que se habrían formado al evaporarse agua salada.",
@@ -553,8 +551,7 @@
                     "mdrs",
                     "qaidam",
                     "rio-tinto",
-                    "uyuni",
-                    "uyuni-navegacion"
+                    "uyuni"
                 ],
                 "importance": "Es un caso de referencia para unir minerales observados desde órbita con análisis de superficie. Permite estudiar cómo el agua, la evaporación y la química del hierro dejaron huellas en un ambiente que después se volvió más seco.",
                 "description": "Llanura con depósitos de sulfatos y esférulas de hematita que indican agua ácida en el pasado. Sitio de aterrizaje del rover Opportunity (2004).",
@@ -760,7 +757,7 @@
                     "iturralde",
                     "mcmurdo",
                     "permafrost-occidental",
-                    "uyuni-poligonos",
+                    "uyuni",
                     "yakutia"
                 ],
                 "importance": "Permite estudiar la distribución del hielo y cómo cambian los suelos fríos. Comparar imágenes con radar y mediciones de superficie ayuda a distinguir hielo enterrado, heladas temporales y formas parecidas producidas por otros procesos.",

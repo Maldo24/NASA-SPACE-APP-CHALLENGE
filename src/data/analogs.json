@@ -1591,7 +1591,7 @@
         "lat": -18.11,
         "lon": -68.88,
         "why": "De estos glaciares se extrajeron núcleos de hielo con miles de años de historia climática. Es un análogo conceptual de las capas de hielo y polvo de los polos de Marte, que también guardan el clima. Respaldo: sugerido.",
-        "name": "Glaciares del Sajama e Illimani, Bolivia",
+        "name": "Glaciar del Sajama, Bolivia",
         "image": null,
         "source": "https://doi.org/10.1126/science.282.5395.1858",
         "aspects": [
@@ -1615,7 +1615,7 @@
                 "activity": "Propuesta: interpretar perfiles de núcleos de hielo publicados y ordenar qué cambios ambientales pueden explicar sus capas.",
                 "audience": "science",
                 "measures": "Capas reconocidas, incertidumbre temporal y concordancia con la cronología y mediciones del estudio.",
-                "restrictions": "F4: sugerido como análogo. El trabajo citado corresponde al Sajama; no valida todo el Illimani. Usar archivos, sin nueva perforación ni ingreso a glaciares."
+                "restrictions": "F4: sugerido como análogo. El trabajo citado corresponde a los núcleos de hielo del Sajama. Usar archivos, sin nueva perforación ni ingreso a glaciares."
             }
         ],
         "breaking_point": "Es un archivo climático de miles de años, formado por nieve que también se derrite. Las capas de Planum Boreum mezclan hielo y polvo durante millones de años, al ritmo de los cambios de inclinación del eje de Marte.",
@@ -2069,22 +2069,34 @@
         "id": "uyuni",
         "lat": -20.13,
         "lon": -67.49,
-        "why": "Costras de sal, salmueras y arcillas formadas al evaporarse antiguos lagos. La NASA considera su geología y geoquímica análogas a Aureum Chaos. No se le atribuyen percloratos sin análisis local. Respaldo: propuesto por la NASA.",
+        "why": "Un solo salar que sirve para varias comparaciones con Marte. Sus costras de sal, salmueras y arcillas se parecen a Aureum Chaos (propuesto por la NASA), y sus cloruros se compararon con los de Icaria Planum (UMSA, EPSC 2024). Sus salmueras con litio y magnesio albergan microbios adaptados a la sal (estudiado). Sus polígonos de sal, naturales y de 1–2 m, se forman por convección de la salmuera y no por hielo (Physical Review X, 2023). Su superficie plana y repetitiva sirve para probar la navegación de rovers (propuesta del informe F2). No se le atribuyen percloratos sin análisis local.",
         "name": "Salar de Uyuni, Bolivia",
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
             {
-                "breaks": "No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años. En cambio, en el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.",
-                "covers": "Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Marte y con Aureum Chaos.",
+                "breaks": "No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.",
+                "covers": "Polígonos naturales de 1–2 m en la costra, que se forman por convección de la salmuera bajo la superficie: un contraejemplo de polígonos sin hielo.",
+                "source": "https://doi.org/10.1103/PhysRevX.13.011025",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "No se le atribuyen percloratos sin análisis local, y su sal es reciente: los depósitos de Aureum Chaos, Icaria Planum y Meridiani tienen miles de millones de años. Los cloruros de Icaria Planum se detectan desde órbita, así que la comparación depende de lo que esos instrumentos logran ver. En el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.",
+                "covers": "Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Aureum Chaos, y cloruros formados por evaporación que investigadores de la UMSA compararon con los de Icaria Planum. Sus salmueras tienen cloruros y sales de litio y magnesio.",
                 "source": null,
                 "category": "mineralogical"
             },
             {
-                "breaks": "Hay oxígeno, la presión es decenas de veces la de Marte y se inunda cada año con agua de lluvia.",
-                "covers": "Frío nocturno, aire seco y radiación UV alta sobre una superficie salina.",
+                "breaks": "Hay oxígeno, la presión es decenas de veces la de Marte y se inunda cada año con agua de lluvia. Sus microbios crecen a temperatura y presión terrestres; para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.",
+                "covers": "Frío nocturno, aire seco y radiación UV alta sobre una superficie salina. Sus salmueras, ricas en litio y magnesio, tienen sales que desestabilizan biomoléculas y aun así albergan microbios incluso a 80 m de profundidad.",
                 "source": null,
                 "category": "environmental"
+            },
+            {
+                "breaks": "Meridiani tiene ondulaciones de arena y esférulas. La costra puede ocultar salmuera o zonas blandas, y la sal corroe contactos y equipos.",
+                "covers": "Superficie plana y repetitiva para probar la localización visual, la cartografía y la detección de costras de un rover.",
+                "source": null,
+                "category": "operational"
             }
         ],
         "category": "mineralogical",
@@ -2102,61 +2114,14 @@
                 "audience": "suits",
                 "measures": "Sal depositada, cambio de transmitancia, resistencia de contacto y daños tras una limpieza definida.",
                 "restrictions": "F2, secciones 4.1 y 8; sin fuente específica de campaña (source null). Probetas recuperables, sin liberar materiales ni ensuciar el salar. No equivale a abrasión por polvo lunar ni certifica un traje."
-            }
-        ],
-        "breaking_point": "Se inunda cada año con agua de lluvia a presión terrestre. Aureum Chaos es terreno hundido hace miles de millones de años. No se le atribuyen percloratos sin análisis local.",
-        "secondary_categories": [
-            "environmental"
-        ]
-    },
-    {
-        "id": "uyuni-icaria",
-        "lat": -20.13,
-        "lon": -67.49,
-        "why": "Investigadores de la UMSA compararon sus cloruros con los depósitos de cloruros de Icaria Planum: ambos se habrían formado por evaporación, bajo radiación, frío y salinidad extremos. Respaldo: estudiado (EPSC 2024).",
-        "name": "Salar de Uyuni, Bolivia — cloruros",
-        "image": null,
-        "source": "https://doi.org/10.5194/epsc2024-483",
-        "aspects": [
-            {
-                "breaks": "Los cloruros de Icaria Planum se detectan desde órbita, con instrumentos que miden la luz que reflejan; los de Uyuni se pueden tocar y analizar. La comparación depende de lo que esos instrumentos logran ver.",
-                "covers": "Cloruros formados por evaporación, comparados por investigadores de la UMSA con los cloruros de Icaria Planum.",
-                "source": null,
-                "category": "mineralogical"
-            }
-        ],
-        "category": "mineralogical",
-        "trainings": [
+            },
             {
                 "source": "https://doi.org/10.5194/epsc2024-483",
                 "activity": "Propuesta: reproducir una comparación cartográfica de cloruros con imágenes orbitales y explicar similitudes y diferencias entre Uyuni e Icaria Planum.",
                 "audience": "science",
                 "measures": "Límites de depósitos, coincidencia entre observadores, incertidumbre de resolución y evidencia espectral de cada clasificación.",
                 "restrictions": "El resumen de congreso respalda la comparación, no una identidad completa. No inferir percloratos ni vida; usar coordenadas y datos originales, sin trasladar cifras no verificadas."
-            }
-        ],
-        "breaking_point": "La comparación es entre cloruros formados por evaporación. Uyuni recibe lluvia y tiene vida microbiana; Icaria Planum lleva miles de millones de años seco y helado.",
-        "secondary_categories": [
-        ]
-    },
-    {
-        "id": "uyuni-navegacion",
-        "lat": -20.13,
-        "lon": -67.49,
-        "why": "Superficie enorme, plana y repetitiva para probar la localización visual de rovers, la cartografía y la detección de costras. Solo en sectores autorizados: la costra puede ocultar salmuera o zonas blandas. Respaldo: propuesta del informe F2.",
-        "name": "Salar de Uyuni, Bolivia — navegación de rovers",
-        "image": null,
-        "source": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
-        "aspects": [
-            {
-                "breaks": "Meridiani tiene ondulaciones de arena y esférulas. La costra puede ocultar salmuera o zonas blandas, y la sal corroe contactos y equipos.",
-                "covers": "Superficie plana y repetitiva para probar la localización visual, la cartografía y la detección de costras de un rover.",
-                "source": null,
-                "category": "operational"
-            }
-        ],
-        "category": "operational",
-        "trainings": [
+            },
             {
                 "source": null,
                 "activity": "Propuesta de F2: recorrer una ruta inspeccionada usando cámara e IMU, reservando GNSS como referencia externa de evaluación.",
@@ -2170,66 +2135,14 @@
                 "audience": "rovers",
                 "measures": "Falsos negativos de terreno inseguro, falsas alarmas, tiempo de detención y solicitudes de ayuda correctas.",
                 "restrictions": "F2, secciones 4.1 y 8; sin fuente específica del ejercicio (source null). Usar un conjunto etiquetado o una pista de réplica; no comprobar errores conduciendo hacia costras peligrosas."
-            }
-        ],
-        "breaking_point": "Su superficie es plana y firme por sectores, a diferencia del terreno de Meridiani, con ondulaciones de arena y esférulas. Además, la costra puede ocultar salmuera o zonas blandas.",
-        "secondary_categories": [
-        ]
-    },
-    {
-        "id": "uyuni-poligonos",
-        "lat": -20.13,
-        "lon": -67.49,
-        "why": "Hexágonos de 1–2 m en la costra que se forman por convección de la salmuera, no por hielo. Son un contraejemplo útil: en Marte, ver polígonos no basta para afirmar que hay hielo. Respaldo: estudiado (Physical Review X, 2023).",
-        "name": "Salar de Uyuni, Bolivia — polígonos de sal",
-        "image": null,
-        "source": "https://doi.org/10.1103/PhysRevX.13.011025",
-        "aspects": [
-            {
-                "breaks": "No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.",
-                "covers": "Polígonos de 1–2 m que se forman por convección de la salmuera: un contraejemplo de polígonos sin hielo.",
-                "source": null,
-                "category": "geomorphological"
-            }
-        ],
-        "category": "geomorphological",
-        "trainings": [
+            },
             {
                 "source": "https://doi.org/10.1103/PhysRevX.13.011025",
                 "activity": "Propuesta: medir tamaño y separación de polígonos en imágenes y contrastar explicaciones por salmuera, hielo o contracción sin decidir solo por su forma.",
                 "audience": "science",
                 "measures": "Distribución de tamaños, incertidumbre de escala y evidencia independiente necesaria para cada hipótesis.",
                 "restrictions": "F4: estudiado para el mecanismo de polígonos salinos. El estudio no demuestra la causa de cada polígono local ni de los marcianos. No abrir zanjas ni alterar costras."
-            }
-        ],
-        "breaking_point": "Es un contraejemplo: sus polígonos vienen de la convección de la salmuera, no del hielo. Sirve para no confundir causas, no para representar los polígonos de hielo de Marte.",
-        "secondary_categories": [
-        ]
-    },
-    {
-        "id": "uyuni-salmueras",
-        "lat": -20.13,
-        "lon": -67.49,
-        "why": "Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde aun así viven microbios adaptados a la sal. Sirven para estudiar si las salmueras de Marte podrían ser habitables. Respaldo: estudiado.",
-        "name": "Salar de Uyuni, Bolivia — salmueras",
-        "image": null,
-        "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
-        "aspects": [
-            {
-                "breaks": "En Marte las salmueras podrían incluir percloratos, que no se han medido en Uyuni. La composición de las salmueras marcianas se infiere, no se ha medido directamente.",
-                "covers": "Química de salmueras con cloruros y sales de litio y magnesio.",
-                "source": null,
-                "category": "mineralogical"
             },
-            {
-                "breaks": "Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.",
-                "covers": "Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde viven microbios incluso a 80 m de profundidad.",
-                "source": null,
-                "category": "environmental"
-            }
-        ],
-        "category": "environmental",
-        "trainings": [
             {
                 "source": null,
                 "activity": "Propuesta: practicar registro, blancos y trazabilidad de un estudio de salmueras con muestras artificiales de composición conocida.",
@@ -2238,9 +2151,11 @@
                 "restrictions": "F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). No atribuir percloratos a Uyuni ni agua actual a las RSL; sin extracción no autorizada."
             }
         ],
-        "breaking_point": "Sus salmueras son abundantes, estables y a temperatura terrestre. Las salmueras marcianas, si existen, serían escasas, temporales y muy frías.",
+        "breaking_point": "Se inunda cada año con agua de lluvia a presión terrestre y su sal es reciente: Aureum Chaos e Icaria Planum llevan miles de millones de años secos y helados. Sus salmueras son abundantes y templadas; las de Marte, si existen, serían escasas, temporales y muy frías. Sus polígonos vienen de la salmuera, no del hielo, y no se le atribuyen percloratos sin análisis local.",
         "secondary_categories": [
-            "mineralogical"
+            "environmental",
+            "geomorphological",
+            "operational"
         ]
     },
     {
