@@ -192,6 +192,8 @@
                 "analogIds": [
                     "kilauea",
                     "lanzarote-pangaea",
+                    "lava-river-cave-az",
+                    "sp-mountain",
                     "umajalanta"
                 ],
                 "importance": "Permite estudiar cómo se acumularon las coladas de lava y cómo se forman las cavidades volcánicas. También ayuda a definir qué tendría que medir un robot antes de evaluar una cueva como posible lugar de trabajo o refugio.",
@@ -241,6 +243,7 @@
                 "zoneType": "Cráter polar con sombra permanente",
                 "analogIds": [
                     "concordia",
+                    "mauna-kea-isru",
                     "mcmurdo"
                 ],
                 "importance": "Ayuda a investigar el almacenamiento de agua y otros volátiles en zonas frías, junto con las dificultades de energía, navegación y control térmico de la exploración polar. La iluminación prolongada de ciertos puntos no garantiza energía continua en cualquier sector del borde.",
@@ -340,8 +343,11 @@
                 "zoneType": "Mar basáltico",
                 "analogIds": [
                     "basalt",
+                    "cinder-lake",
                     "kilauea",
-                    "lanzarote-pangaea"
+                    "lanzarote-pangaea",
+                    "mauna-kea-isru",
+                    "sp-mountain"
                 ],
                 "importance": "Relaciona la observación orbital con rocas de origen conocido y permite reconstruir episodios de volcanismo lunar. También conserva la experiencia del primer alunizaje tripulado para estudiar operaciones sobre llanuras de basalto y regolito.",
                 "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969.",
@@ -389,8 +395,11 @@
                 ],
                 "zoneType": "Cráter de impacto joven",
                 "analogIds": [
+                    "cinder-lake",
                     "haughton",
-                    "meteor-crater"
+                    "meteor-crater",
+                    "mistastin",
+                    "ries-crater"
                 ],
                 "importance": "Sirve para investigar la excavación de rocas, la formación de picos centrales y la distribución de material expulsado. Los cráteres terrestres permiten comparar procesos concretos, con diferencias importantes de escala, gravedad y erosión.",
                 "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra.",

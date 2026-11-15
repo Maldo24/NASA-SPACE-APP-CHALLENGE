@@ -1,6 +1,6 @@
 # Fotos pendientes de los análogos
 
-19 análogos todavía no tienen foto. Los otros 35 ya tienen foto.
+25 análogos todavía no tienen foto. Los otros 35 ya tienen foto.
 
 ## Cómo bajar cada foto
 
@@ -37,3 +37,9 @@ La foto de polígonos de sal de Uyuni que bajaste (`Salar_Uyuni_au01.jpg`) tiene
 | `qaidam.jpg` | Playa de Dalangtan, cuenca de Qaidam, China | [artículo](https://en.wikipedia.org/wiki/Qaidam_Basin) | [Qaidam Basin yardang](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Qaidam%20Basin%20yardang) |
 | `tolbachik.jpg` | Volcán Tolbachik, Kamchatka, Rusia | [artículo](https://en.wikipedia.org/wiki/Tolbachik) | [Tolbachik volcano](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Tolbachik%20volcano) |
 | `yakutia.jpg` | Yakutia Central, cuenca del río Lena, Rusia | [artículo](https://en.wikipedia.org/wiki/Central_Yakutian_Lowland) | [Yakutia thermokarst](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Yakutia%20thermokarst) |
+| `cinder-lake.jpg` | Cinder Lake, campo de cráteres de entrenamiento, Arizona, EE.UU. | — | [Cinder Lake](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Cinder%20Lake) |
+| `sp-mountain.jpg` | SP Mountain y su colada, Arizona, EE.UU. | — | [SP Mountain y su colada](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=SP%20Mountain%20y%20su%20colada) |
+| `lava-river-cave-az.jpg` | Lava River Cave, Coconino, Arizona, EE.UU. | — | [Lava River Cave](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Lava%20River%20Cave) |
+| `ries-crater.jpg` | Cráter Nördlinger Ries, Alemania | — | [Cráter Nördlinger Ries](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Cr%C3%A1ter%20N%C3%B6rdlinger%20Ries) |
+| `mistastin.jpg` | Kamestastin / Mistastin, Labrador, Canadá | — | [Kamestastin / Mistastin](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Kamestastin%20%2F%20Mistastin) |
+| `mauna-kea-isru.jpg` | Pu'u Hiwahine, Mauna Kea — ensayos ISRU, Hawái, EE.UU. | — | [Pu'u Hiwahine](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Pu'u%20Hiwahine) |
