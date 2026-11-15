@@ -7,7 +7,8 @@
 --   y los documentos F2 y F4 (tmp/lectura/). En los sitios bolivianos se indica el nivel de
 --   respaldo que les da F4: estudiado, propuesto o sugerido (ver sección 5 del contexto).
 -- * "Ubicación aproximada" = la fuente da una región, no un punto.
--- * Un mismo sitio puede tener una fila por categoría (ej. haughton y haughton-hmp, uyuni y uyuni-salmueras).
+-- * Un mismo lugar tiene UNA sola fila; sus otros usos van en secondary_categories, analog_aspects
+--   y analog_trainings (ej. uyuni). haughton y haughton-hmp son el cráter y la estación, dos sitios distintos.
 insert into public.analogs (id, name, category, lat, lon, why, image, source) values
 
   -- =====================================================================
@@ -16,20 +17,8 @@ insert into public.analogs (id, name, category, lat, lon, why, image, source) va
 
   -- ---------- Salares de Uyuni y Coipasa ----------
   ('uyuni', 'Salar de Uyuni, Bolivia', 'mineralogical', -20.13, -67.49,
-   'Costras de sal, salmueras y arcillas formadas al evaporarse antiguos lagos. La NASA considera su geología y geoquímica análogas a Aureum Chaos. No se le atribuyen percloratos sin análisis local. Respaldo: propuesto por la NASA.',
+   'Un solo salar que sirve para varias comparaciones con Marte. Sus costras de sal, salmueras y arcillas se parecen a Aureum Chaos (propuesto por la NASA), y sus cloruros se compararon con los de Icaria Planum (UMSA, EPSC 2024). Sus salmueras con litio y magnesio albergan microbios adaptados a la sal (estudiado). Sus polígonos de sal, naturales y de 1–2 m, se forman por convección de la salmuera y no por hielo (Physical Review X, 2023). Su superficie plana y repetitiva sirve para probar la navegación de rovers (propuesta del informe F2). No se le atribuyen percloratos sin análisis local.',
    null, 'https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/'),
-  ('uyuni-icaria', 'Salar de Uyuni, Bolivia — cloruros', 'mineralogical', -20.13, -67.49,
-   'Investigadores de la UMSA compararon sus cloruros con los depósitos de cloruros de Icaria Planum: ambos se habrían formado por evaporación, bajo radiación, frío y salinidad extremos. Respaldo: estudiado (EPSC 2024).',
-   null, 'https://doi.org/10.5194/epsc2024-483'),
-  ('uyuni-salmueras', 'Salar de Uyuni, Bolivia — salmueras', 'environmental', -20.13, -67.49,
-   'Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde aun así viven microbios adaptados a la sal. Sirven para estudiar si las salmueras de Marte podrían ser habitables. Respaldo: estudiado.',
-   null, 'https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/'),
-  ('uyuni-poligonos', 'Salar de Uyuni, Bolivia — polígonos de sal', 'geomorphological', -20.13, -67.49,
-   'Hexágonos de 1–2 m en la costra que se forman por convección de la salmuera, no por hielo. Son un contraejemplo útil: en Marte, ver polígonos no basta para afirmar que hay hielo. Respaldo: estudiado (Physical Review X, 2023).',
-   null, 'https://doi.org/10.1103/PhysRevX.13.011025'),
-  ('uyuni-navegacion', 'Salar de Uyuni, Bolivia — navegación de rovers', 'operational', -20.13, -67.49,
-   'Superficie enorme, plana y repetitiva para probar la localización visual de rovers, la cartografía y la detección de costras. Solo en sectores autorizados: la costra puede ocultar salmuera o zonas blandas. Respaldo: propuesta del informe F2.',
-   null, 'https://en.wikipedia.org/wiki/Salar_de_Uyuni'),
   ('coipasa', 'Salar de Coipasa, Bolivia', 'mineralogical', -19.38, -68.17,
    'Salar vecino de Uyuni, separado por volcanes. La NASA lo describe, junto con Uyuni, como laboratorio natural para estudiar el ambiente marciano. Permite comparar dos cuencas salinas. Respaldo: estudiado.',
    'img/analogs/coipasa.jpg', 'https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/'),
@@ -87,7 +76,7 @@ insert into public.analogs (id, name, category, lat, lon, why, image, source) va
    null, 'https://en.wikipedia.org/wiki/Nevado_Sajama'),
 
   -- ---------- Hielo ----------
-  ('sajama-hielo', 'Glaciares del Sajama e Illimani, Bolivia', 'geomorphological', -18.11, -68.88,
+  ('sajama-hielo', 'Glaciar del Sajama, Bolivia', 'geomorphological', -18.11, -68.88,
    'De estos glaciares se extrajeron núcleos de hielo con miles de años de historia climática. Es un análogo conceptual de las capas de hielo y polvo de los polos de Marte, que también guardan el clima. Respaldo: sugerido.',
    null, 'https://doi.org/10.1126/science.282.5395.1858'),
   ('cordillera-real', 'Cordillera Real, Bolivia', 'environmental', -16.633, -67.791,

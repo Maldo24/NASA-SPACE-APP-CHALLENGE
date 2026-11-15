@@ -36,7 +36,7 @@ Primero los bolivianos: son los que más pesan en el pitch.
 | pastos-grandes | Laguna Pastos Grandes, Sud Lípez, Bolivia | pendiente | |
 | permafrost-occidental | Permafrost de la Cordillera Occidental, Bolivia | pendiente | |
 | sajama | Volcán Sajama, Bolivia | pendiente | |
-| sajama-hielo | Glaciares del Sajama e Illimani, Bolivia | pendiente | |
+| sajama-hielo | Glaciar del Sajama, Bolivia | pendiente | |
 | salares-capas | Salares de Uyuni y Coipasa, Bolivia — capas | [salares-capas.jpg](https://commons.wikimedia.org/wiki/File:Satellite_image_Salar_de_Uyuni_-_Coipasa_-_Lake_Poopo.jpg) | NASA / dominio público |
 | siloli | Desierto de Siloli y Árbol de Piedra, Bolivia | [siloli.jpg](https://commons.wikimedia.org/wiki/File:%C3%81rbol_de_Piedra,_Desierto_de_Siloli,_Bolivia,_2016-02-03,_DD_01.JPG) | Diego Delso / CC BY-SA 4.0 |
 | sol-de-manana | Sol de Mañana, Sud Lípez, Bolivia | [sol-de-manana.jpg](https://commons.wikimedia.org/wiki/File:Sol_de_Ma%C3%B1ana_2018.jpg) | kallerna / CC BY-SA 4.0 |
@@ -46,10 +46,6 @@ Primero los bolivianos: son los que más pesan en el pitch.
 | torotoro | Parque Nacional Torotoro, Bolivia | [torotoro.jpg](https://commons.wikimedia.org/wiki/File:Canyon_of_Torotoro.jpg) | Gaumut / CC BY-SA 3.0 |
 | umajalanta | Caverna de Umajalanta, Torotoro, Bolivia | [umajalanta.jpg](https://commons.wikimedia.org/wiki/File:Caverna_de_Humajalanta.jpg) | M. Fernanda Guizada Duran / CC BY-SA 4.0 |
 | uyuni | Salar de Uyuni, Bolivia | pendiente | |
-| uyuni-icaria | Salar de Uyuni, Bolivia — cloruros | pendiente | |
-| uyuni-navegacion | Salar de Uyuni, Bolivia — navegación de rovers | pendiente | |
-| uyuni-poligonos | Salar de Uyuni, Bolivia — polígonos de sal | pendiente | |
-| uyuni-salmueras | Salar de Uyuni, Bolivia — salmueras | pendiente | |
 | valle-de-la-luna | Valle de la Luna, Mallasa, La Paz, Bolivia | pendiente | |
 | atacama | Desierto de Atacama, Chile | [atacama.jpg](https://commons.wikimedia.org/wiki/File:Atacama.png) | NASA / dominio público |
 | basalt | NASA BASALT, Craters of the Moon, Idaho, EE.UU. | [basalt.jpg](https://commons.wikimedia.org/wiki/File:CratersDrone1.jpg) | BroMcjoe / CC BY-SA 4.0 |

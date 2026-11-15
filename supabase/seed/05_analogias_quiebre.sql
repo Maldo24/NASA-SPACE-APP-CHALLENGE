@@ -230,29 +230,9 @@ update public.analogs set
 where id = 'umajalanta';
 
 update public.analogs set
-  secondary_categories = array['environmental'],
-  breaking_point = 'Se inunda cada año con agua de lluvia a presión terrestre. Aureum Chaos es terreno hundido hace miles de millones de años. No se le atribuyen percloratos sin análisis local.'
+  secondary_categories = array['environmental', 'geomorphological', 'operational'],
+  breaking_point = 'Se inunda cada año con agua de lluvia a presión terrestre y su sal es reciente: Aureum Chaos e Icaria Planum llevan miles de millones de años secos y helados. Sus salmueras son abundantes y templadas; las de Marte, si existen, serían escasas, temporales y muy frías. Sus polígonos vienen de la salmuera, no del hielo, y no se le atribuyen percloratos sin análisis local.'
 where id = 'uyuni';
-
-update public.analogs set
-  secondary_categories = '{}',
-  breaking_point = 'La comparación es entre cloruros formados por evaporación. Uyuni recibe lluvia y tiene vida microbiana; Icaria Planum lleva miles de millones de años seco y helado.'
-where id = 'uyuni-icaria';
-
-update public.analogs set
-  secondary_categories = '{}',
-  breaking_point = 'Su superficie es plana y firme por sectores, a diferencia del terreno de Meridiani, con ondulaciones de arena y esférulas. Además, la costra puede ocultar salmuera o zonas blandas.'
-where id = 'uyuni-navegacion';
-
-update public.analogs set
-  secondary_categories = '{}',
-  breaking_point = 'Es un contraejemplo: sus polígonos vienen de la convección de la salmuera, no del hielo. Sirve para no confundir causas, no para representar los polígonos de hielo de Marte.'
-where id = 'uyuni-poligonos';
-
-update public.analogs set
-  secondary_categories = array['mineralogical'],
-  breaking_point = 'Sus salmueras son abundantes, estables y a temperatura terrestre. Las salmueras marcianas, si existen, serían escasas, temporales y muy frías.'
-where id = 'uyuni-salmueras';
 
 update public.analogs set
   secondary_categories = array['geomorphological'],

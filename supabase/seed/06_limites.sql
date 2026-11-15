@@ -449,42 +449,22 @@ insert into public.analog_aspects (analog_id, category, covers, breaks, source) 
    'Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias. Para practicar en tubos de lava reales hay análogos volcánicos como Tolbachik, en Kamchatka.',
    null),
 
-  -- ---------------------------------------------------------------- uyuni (min + amb)
+  -- ---------------------------------------------------------------- uyuni (min + amb + geo + op)
   ('uyuni', 'mineralogical',
-   'Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Marte y con Aureum Chaos.',
-   'No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años. En cambio, en el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.',
+   'Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Aureum Chaos, y cloruros formados por evaporación que investigadores de la UMSA compararon con los de Icaria Planum. Sus salmueras tienen cloruros y sales de litio y magnesio.',
+   'No se le atribuyen percloratos sin análisis local, y su sal es reciente: los depósitos de Aureum Chaos, Icaria Planum y Meridiani tienen miles de millones de años. Los cloruros de Icaria Planum se detectan desde órbita, así que la comparación depende de lo que esos instrumentos logran ver. En el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.',
    null),
   ('uyuni', 'environmental',
-   'Frío nocturno, aire seco y radiación UV alta sobre una superficie salina.',
-   'Hay oxígeno, la presión es decenas de veces la de Marte y se inunda cada año con agua de lluvia.',
+   'Frío nocturno, aire seco y radiación UV alta sobre una superficie salina. Sus salmueras, ricas en litio y magnesio, tienen sales que desestabilizan biomoléculas y aun así albergan microbios incluso a 80 m de profundidad.',
+   'Hay oxígeno, la presión es decenas de veces la de Marte y se inunda cada año con agua de lluvia. Sus microbios crecen a temperatura y presión terrestres; para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.',
    null),
-
-  -- ---------------------------------------------------------------- uyuni-icaria (min)
-  ('uyuni-icaria', 'mineralogical',
-   'Cloruros formados por evaporación, comparados por investigadores de la UMSA con los cloruros de Icaria Planum.',
-   'Los cloruros de Icaria Planum se detectan desde órbita, con instrumentos que miden la luz que reflejan; los de Uyuni se pueden tocar y analizar. La comparación depende de lo que esos instrumentos logran ver.',
-   null),
-
-  -- ---------------------------------------------------------------- uyuni-navegacion (op)
-  ('uyuni-navegacion', 'operational',
+  ('uyuni', 'geomorphological',
+   'Polígonos naturales de 1–2 m en la costra, que se forman por convección de la salmuera bajo la superficie: un contraejemplo de polígonos sin hielo.',
+   'No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.',
+   'https://doi.org/10.1103/PhysRevX.13.011025'),
+  ('uyuni', 'operational',
    'Superficie plana y repetitiva para probar la localización visual, la cartografía y la detección de costras de un rover.',
    'Meridiani tiene ondulaciones de arena y esférulas. La costra puede ocultar salmuera o zonas blandas, y la sal corroe contactos y equipos.',
-   null),
-
-  -- ---------------------------------------------------------------- uyuni-poligonos (geo)
-  ('uyuni-poligonos', 'geomorphological',
-   'Polígonos de 1–2 m que se forman por convección de la salmuera: un contraejemplo de polígonos sin hielo.',
-   'No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.',
-   null),
-
-  -- ---------------------------------------------------------------- uyuni-salmueras (amb + min)
-  ('uyuni-salmueras', 'environmental',
-   'Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde viven microbios incluso a 80 m de profundidad.',
-   'Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.',
-   null),
-  ('uyuni-salmueras', 'mineralogical',
-   'Química de salmueras con cloruros y sales de litio y magnesio.',
-   'En Marte las salmueras podrían incluir percloratos, que no se han medido en Uyuni. La composición de las salmueras marcianas se infiere, no se ha medido directamente.',
    null),
 
   -- ---------------------------------------------------------------- valle-de-la-luna (op + geo)

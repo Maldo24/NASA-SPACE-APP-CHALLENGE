@@ -7,7 +7,7 @@ insert into public.zone_analogs (zone_id, analog_id) values
   -- ======================= MARTE =======================
   -- Meridiani: sulfatos, hierro, aguas ácidas, llanura plana
   ('mars-meridiani', 'rio-tinto'), ('mars-meridiani', 'cerro-rico'), ('mars-meridiani', 'uyuni'),
-  ('mars-meridiani', 'atacama'), ('mars-meridiani', 'mdrs'), ('mars-meridiani', 'uyuni-navegacion'),
+  ('mars-meridiani', 'atacama'), ('mars-meridiani', 'mdrs'),
   -- Valles Marineris: cañones, capas y deslizamientos
   ('mars-valles-marineris', 'grand-canyon'), ('mars-valles-marineris', 'tata-sabaya'), ('mars-valles-marineris', 'torotoro'),
   -- Jezero: lago antiguo, delta, carbonatos y microbialitos
@@ -26,11 +26,10 @@ insert into public.zone_analogs (zone_id, analog_id) values
   ('mars-gusev-home-plate', 'el-tatio'), ('mars-gusev-home-plate', 'sol-de-manana'), ('mars-gusev-home-plate', 'la-salsa'),
   ('mars-gusev-home-plate', 'laguna-blanca-termal'),
   -- Utopia: hielo del suelo, polígonos, cráteres degradados
-  ('mars-utopia-planitia', 'uyuni-poligonos'), ('mars-utopia-planitia', 'iturralde'),
+  ('mars-utopia-planitia', 'uyuni'), ('mars-utopia-planitia', 'iturralde'),
   ('mars-utopia-planitia', 'mcmurdo'), ('mars-utopia-planitia', 'permafrost-occidental'), ('mars-utopia-planitia', 'haughton-hmp'),
   -- Icaria Planum: cloruros y salmueras
-  ('mars-icaria-planum', 'uyuni-icaria'), ('mars-icaria-planum', 'coipasa'), ('mars-icaria-planum', 'uyuni-poligonos'),
-  ('mars-icaria-planum', 'uyuni-salmueras'), ('mars-icaria-planum', 'canapa'),
+  ('mars-icaria-planum', 'uyuni'), ('mars-icaria-planum', 'coipasa'), ('mars-icaria-planum', 'canapa'),
   -- Medusae Fossae: erosión eólica
   ('mars-medusae-fossae', 'siloli'), ('mars-medusae-fossae', 'italia-perdida'), ('mars-medusae-fossae', 'tajzara'),
   ('mars-medusae-fossae', 'desierto-dali'),
