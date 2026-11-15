@@ -31,6 +31,7 @@
                 "restrictions": "Permisos para muestreo y protección de ecosistemas. Trabajar con materiales preparados cuando no se autorice extracción; no equiparar sequedad con esterilidad."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Tiene aire denso con oxígeno, gravedad terrestre y la protección del campo magnético: la radiación que llega es sobre todo UV, no los rayos cósmicos que recibe Meridiani. Incluso en su zona más seca hay humedad nocturna y vida microbiana.",
         "secondary_categories": [
             "mineralogical"
@@ -81,6 +82,7 @@
                 "restrictions": "Acceso autorizado y trayecto inspeccionado. Los resultados de tracción deben corregirse antes de extrapolarlos a gravedad lunar o marciana."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Ensaya procedimientos y comunicaciones demoradas, pero con la gravedad, el aire y la temperatura de la Tierra. La demora se simula, y el basalto de Idaho no tiene la historia de impactos ni el polvo de la Luna o de Marte.",
         "secondary_categories": [
             "geomorphological",
@@ -113,6 +115,7 @@
                 "restrictions": "F4: propuesto; F2, sección 4.7, como método. Sin fuente específica del ejercicio (source null). No afirmar comunidades microbianas no verificadas ni entrar a orillas sensibles."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Es agua líquida abundante y estable, con vida terrestre. En Marte las salmueras serían escasas, temporales y a una presión muchísimo menor. Todavía no tiene estudios microbiológicos: la analogía es una propuesta.",
         "secondary_categories": [
         ]
@@ -143,6 +146,7 @@
                 "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). Priorizar datos existentes o muestras de archivo. No entrar en labores mineras ni manipular drenajes sin especialistas."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su química ácida viene de casi 500 años de minería, no de un proceso natural. Meridiani se alteró sin intervención humana, hace miles de millones de años.",
         "secondary_categories": [
         ]
@@ -186,6 +190,7 @@
                 "restrictions": "El modelo debe indicar resolución y fecha. Una ruta virtual segura no demuestra firmeza del suelo ni estabilidad real del vehículo."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Los cráteres se excavaron con explosivos en materiales volcánicos terrestres. No son impactos naturales ni reproducen vacío, gravedad lunar o regolito madurado por impactos; la erosión cambia sus formas.",
         "secondary_categories": [
             "geomorphological"
@@ -230,6 +235,7 @@
                 "restrictions": "F2, sección 4.2; falta fuente específica de ejecución (source null). Permisos, reconocimiento local y protección de costras; no deducir firmeza solo de una fotografía."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Comparte procesos de evaporación, pero bajo la presión, la gravedad y el clima de la Tierra, con lluvias que inundan la superficie cada año. Aureum Chaos e Icaria Planum se formaron hace miles de millones de años y hoy no tienen agua.",
         "secondary_categories": [
             "operational"
@@ -267,6 +273,7 @@
                 "restrictions": "No interrumpir servicios esenciales ni introducir aislamiento adicional sin evaluación. Los estudios con personas requieren consentimiento y supervisión; la evacuación invernal puede no ser posible."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Reproduce aislamiento, frío y oscuridad, pero la tripulación respira aire, vive con gravedad terrestre y puede ser evacuada. No hay vacío, regolito ni la radiación del polo sur lunar.",
         "secondary_categories": [
             "environmental"
@@ -304,6 +311,7 @@
                 "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). Priorizar imágenes; no ingresar a hielo, grietas o laderas inestables sin personal especializado."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Sus glaciares pierden hielo derritiéndose, con agua líquida. En Planum Boreum el hielo se pierde sobre todo por sublimación (pasa directo a gas), a una presión y una temperatura mucho menores.",
         "secondary_categories": [
             "geomorphological"
@@ -341,6 +349,7 @@
                 "restrictions": "F4: propuesto; método de F2, secciones 8 y 11. Sin fuente específica del ejercicio (source null). Usar imágenes autorizadas; una simulación no valida la tracción real."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su frío y su aridez son moderados frente a Marte, y conserva atmósfera y vida. Medusae Fossae es un depósito fino y blando que el viento erosiona desde hace millones de años. Todavía no tiene estudios microbiológicos.",
         "secondary_categories": [
             "geomorphological"
@@ -378,6 +387,7 @@
                 "restrictions": "Usar datos o muestras de archivo; cualquier muestreo exige permiso. No caminar sobre costras termales. Las texturas parecidas no prueban vida en Home Plate."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es un sistema hidrotermal activo, con agua hirviendo a presión terrestre. Home Plate es un depósito antiguo y apagado. La sílice se parece, pero la vida actual de El Tatio complica distinguir biofirmas antiguas.",
         "secondary_categories": [
             "environmental"
@@ -415,6 +425,7 @@
                 "restrictions": "F4: estudiado para el inventario. Las imágenes no miden por sí solas el hielo interno. Verificación de campo solo con autorización y evaluación de estabilidad."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Su hielo se renueva con nieve y en verano la temperatura supera los 0 °C. Los glaciares de Deuteronilus Mensae son restos de climas pasados, siempre bajo cero y con 0,38 veces la gravedad terrestre.",
         "secondary_categories": [
             "environmental"
@@ -446,6 +457,7 @@
                 "restrictions": "El USGS documenta precedentes de formación geológica, no este ejercicio exacto. Respetar senderos y patrimonio; sin extraer rocas ni acercarse a bordes para colocar escalas."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Lo excavó un río. Valles Marineris se abrió por fallas tectónicas y es unas 9 veces más largo y unas 4 veces más profundo. Se parecen las paredes en capas, no el origen.",
         "secondary_categories": [
         ]
@@ -476,6 +488,7 @@
                 "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). Usar colecciones autorizadas; la edad de la corteza no demuestra la misma alteración que Mawrth Vallis."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Es corteza antigua meteorizada por un clima tropical, con lluvia, vegetación y suelos con vida. Mawrth Vallis se alteró con agua hace miles de millones de años, sin vida conocida, y conserva cráteres que el escudo no tiene.",
         "secondary_categories": [
         ]
@@ -512,6 +525,7 @@
                 "restrictions": "Requiere coordinación con responsables locales, permisos y apoyo polar. La erosión puede ocultar rasgos; no extrapolar distancias de marcha a la gravedad lunar."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Mide unos 23 km y lo erosionaron glaciares y agua. Tycho mide unos 85 km, es joven y conserva sus rayos de eyecta porque en la Luna no hay aire ni agua que los borren.",
         "secondary_categories": [
             "environmental"
@@ -556,6 +570,7 @@
                 "restrictions": "No restringir suministros reales ni alterar soporte esencial del campamento. El ejercicio no certifica un hábitat presurizado."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Permite ensayar vehículos y procedimientos, pero con aire respirable, gravedad terrestre y apoyo cercano. En Utopia Planitia hacen falta trajes presurizados, hay demora en las comunicaciones y la gravedad es 0,38 veces la terrestre.",
         "secondary_categories": [
             "environmental"
@@ -587,6 +602,7 @@
                 "restrictions": "Adaptar el protocolo a la instalación y sus responsables. Consentimiento para datos personales; no restringir soporte vital ni crear emergencias reales."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Estudia el aislamiento y el trabajo en equipo, pero la tripulación sabe que puede salir y respira aire. No reproduce la gravedad, la radiación ni el riesgo real de una misión.",
         "secondary_categories": [
         ]
@@ -617,6 +633,7 @@
                 "restrictions": "F4: sugerido y ubicación aproximada; sin fuente específica de entrenamiento (source null). Primero verificar el afloramiento y los permisos; no tratar ignimbritas como basalto lunar."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Sus domos e ignimbritas son volcanismo andino rico en sílice. Olympus Mons es un volcán en escudo de basalto fluido, de unos 22 km de alto y 600 km de ancho. Se parece el tipo de depósito, no el volcán.",
         "secondary_categories": [
         ]
@@ -647,6 +664,7 @@
                 "restrictions": "F4: sugerido; método de F2, sección 8. Falta fuente específica del ejercicio (source null). Proteger formaciones; usar simulación, sin circular sobre relieves frágiles."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su erosión combina viento, agua y heladas nocturnas. En Medusae Fossae el viento actúa casi solo, durante millones de años, sobre un material mucho más blando.",
         "secondary_categories": [
         ]
@@ -677,6 +695,7 @@
                 "restrictions": "F4: propuesto. Ejercicio remoto; la visualización de NASA no confirma impacto. Cualquier campaña necesita permisos y coordinación con comunidades y autoridades locales."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su origen por impacto no está confirmado y está cubierta por selva y sedimentos húmedos. Los cráteres fantasma de Utopia Planitia están enterrados en un clima seco. Si no fuera un impacto, la analogía se cae.",
         "secondary_categories": [
         ]
@@ -713,6 +732,7 @@
                 "restrictions": "Usar imágenes o colecciones autorizadas y respetar cierres volcánicos. No acercarse a lava activa, gases o bordes inestables para el ejercicio."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es un volcán activo, con agua y aire que alteran sus basaltos rápido. Los mares lunares son basaltos de hace más de 3.000 millones de años, sin agua, y Olympus Mons es mucho más alto y ancho.",
         "secondary_categories": [
             "geomorphological"
@@ -750,6 +770,7 @@
                 "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). No confundir una imagen seca con desaparición permanente ni interpretar efectos humanos como equivalencia del clima marciano."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Se secó en pocas décadas por sequía y uso humano del agua. Jezero se secó hace más de 3.000 millones de años por un cambio del clima de todo el planeta. Se observan los depósitos que deja, no el proceso marciano.",
         "secondary_categories": [
             "mineralogical"
@@ -787,6 +808,7 @@
                 "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). No asignar edades solo por altura; observación o muestras de archivo antes que extracción nueva."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Registra los cambios de nivel de un lago de hace unos 15.000 años, en clima terrestre. Aureum Chaos es terreno hundido por la salida de agua del subsuelo: un proceso distinto y mucho más antiguo.",
         "secondary_categories": [
             "mineralogical"
@@ -824,6 +846,7 @@
                 "restrictions": "F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). Confirmar ubicación; sin entrar al agua ni tocar costras termales."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es agua termal estable, con vida actual, a presión terrestre. Home Plate fue un sistema hidrotermal hace miles de millones de años y hoy no tiene agua ni vida conocida.",
         "secondary_categories": [
             "mineralogical"
@@ -861,6 +884,7 @@
                 "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). No equiparar boro con bórax marciano. Priorizar datos de archivo y no perturbar fauna u orillas."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "El bórax permite formular preguntas sobre el boro, pero no prueba que los minerales de Gale sean iguales. Además es un lago vivo, con algas y flamencos, no un depósito antiguo convertido en roca.",
         "secondary_categories": [
             "environmental"
@@ -898,6 +922,7 @@
                 "restrictions": "F4: estudiado. Usar imágenes o muestreo autorizado; no extraer microbialitos. No trasladar evidencias de vida terrestre a Jezero."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Sus microbialitos los construyó vida que sí existe; en Jezero todavía no se ha confirmado vida. Registra unos 7.000 años, frente a los miles de millones de Marte.",
         "secondary_categories": [
             "environmental"
@@ -935,6 +960,7 @@
                 "restrictions": "Coordinar con gestores del terreno y programa. No se afirma que esta variante ya se haya realizado; no retirar muestras ni entrar en cavidades sin autorización."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Entrena la mirada geológica en lava y tubos volcánicos, pero con aire, gravedad terrestre y erosión por agua. Se cree que los tubos de lava lunares, como los de Marius Hills, serían mucho más grandes por la baja gravedad.",
         "secondary_categories": [
             "geomorphological"
@@ -972,6 +998,7 @@
                 "restrictions": "F4: estudiado. Trabajar primero con el estudio y sus muestras de referencia; acceso y muestreo requieren permisos. No pisar montículos ni tapetes microbianos."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es un sistema hidrotermal activo, con microbios vivos. En Home Plate solo queda el depósito mineral, sin evidencia de vida. Se compara la química del depósito, no un ambiente habitado.",
         "secondary_categories": [
             "environmental"
@@ -1016,6 +1043,7 @@
                 "restrictions": "Simular fallos sobre el papel o en réplica, sin apagar luces ni enlaces de seguridad reales. No extrapolar a una EVA en una cavidad lunar sin atmósfera."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es una cavidad terrestre con aire, humedad y acceso regulado. Sus dimensiones y estabilidad no prueban las de Marius Hills. La oscuridad no reproduce el frío de una sombra polar lunar.",
         "secondary_categories": [
             "geomorphological"
@@ -1060,6 +1088,7 @@
                 "restrictions": "F2, secciones 6 y 8; sin fuente específica de ensayo en este sitio (source null). Usar probetas, no personas. El UV terrestre no valida protección contra rayos cósmicos ni soporte vital."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Tiene UV muy alto y frío, pero agua líquida estable, oxígeno y una presión mucho mayor. Representa lagos antiguos de Marte, no el Marte actual.",
         "secondary_categories": [
             "mineralogical"
@@ -1104,6 +1133,7 @@
                 "restrictions": "Priorizar colecciones o simulantes; perforación y extracción solo con autorización. La humedad terrestre no debe confundirse con volátiles disponibles en Shackleton."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Los materiales volcánicos contienen agua y alteración terrestres. Perforar o extraer compuestos aquí no demuestra disponibilidad de hielo en Shackleton ni funcionamiento de una planta en vacío y gravedad lunar.",
         "secondary_categories": [
             "mineralogical"
@@ -1141,6 +1171,7 @@
                 "restrictions": "Propuesta del catálogo, sin fuente específica del ejercicio (source null). Priorizar datos públicos; campo sujeto a permisos antárticos y control de contaminación."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es de los lugares más parecidos en frío y sequedad, pero en verano hay algo de agua líquida y la presión del aire es más de cien veces la de Marte. En Shackleton, además, no hay atmósfera en absoluto.",
         "secondary_categories": [
             "geomorphological"
@@ -1185,6 +1216,7 @@
                 "restrictions": "No alterar servicios esenciales ni bloquear salidas. Cualquier toma de datos de tripulación exige consentimiento y acuerdos de privacidad."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Simula rutinas de misión con trajes que no están presurizados y con salida posible. No reproduce la baja presión, la radiación ni la demora real de las comunicaciones.",
         "secondary_categories": [
             "geomorphological"
@@ -1222,6 +1254,7 @@
                 "restrictions": "USGS documenta entrenamiento Apollo, no este ejercicio exacto. Acceso con responsables del sitio; no recoger fragmentos ni abandonar rutas autorizadas."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Mide 1,2 km y tiene unos 50.000 años. Tycho mide unos 85 km, tiene pico central y rayos de eyecta que la erosión de la Tierra borraría.",
         "secondary_categories": [
             "operational"
@@ -1272,6 +1305,7 @@
                 "restrictions": "Trabajar con datos o muestras autorizadas. No igualar toda anortosita terrestre con la composición lunar ni extraer rocas sin permiso."
             }
         ],
+        "recognition": "known",
         "breaking_point": "El lago, la erosión y la vegetación cambian la exposición de rocas. La anortosita comparte una familia de roca con la corteza lunar, pero no toda su composición, historia ni maduración superficial.",
         "secondary_categories": [
             "mineralogical",
@@ -1304,6 +1338,7 @@
                 "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). Trabajo remoto preferente. No tratar un estratovolcán como un escudo basáltico ni entrar a sectores volcánicos restringidos."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Es un estratovolcán andino de lava viscosa. Olympus Mons es un enorme escudo de basalto fluido. Lo que se parece es la poca erosión, no la forma ni el tamaño.",
         "secondary_categories": [
         ]
@@ -1340,6 +1375,7 @@
                 "restrictions": "F4: estudiado. El ejercicio no demuestra origen biológico de carbonatos en Marte. Muestreo solo autorizado; no afectar costras ni ecosistemas termales."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Tiene agua termal y vida actual que siguen formando carbonatos. Los carbonatos de Jezero son de hace miles de millones de años y su origen biológico no está demostrado.",
         "secondary_categories": [
             "environmental"
@@ -1377,6 +1413,7 @@
                 "restrictions": "F4: sugerido y ubicación aproximada; sin fuente específica del ejercicio (source null). Verificar el sitio y permisos; una noche bajo cero no demuestra permafrost."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su suelo se congela de noche y se descongela de día por encima de 0 °C. El hielo de Utopia Planitia está casi siempre congelado, muy bajo cero y con muy poca presión.",
         "secondary_categories": [
             "geomorphological"
@@ -1440,6 +1477,7 @@
                 "restrictions": null
             }
         ],
+        "recognition": "known",
         "breaking_point": "La presión del aire es de unos 709 mbar, unas cien veces la de Marte, y la temperatura media anual es de 3,5 °C. Sus sales se formaron en lagos de hace pocos millones de años; las de Marte son mucho más antiguas.",
         "secondary_categories": [
             "geomorphological",
@@ -1492,6 +1530,7 @@
                 "restrictions": "Usar colecciones con procedencia conocida. La textura visual no basta para identificar un mineral ni para inferir composición de Tycho."
             }
         ],
+        "recognition": "known",
         "breaking_point": "La erosión, el relleno posterior y la actividad humana modifican el cráter. Sus rocas objetivo y su escala difieren de Tycho; no reproduce eyecta lunar intacta ni condiciones de vacío.",
         "secondary_categories": [
             "mineralogical",
@@ -1530,6 +1569,7 @@
                 "restrictions": "Propuesta del catálogo sin fuente específica del ejercicio (source null). Usar datos o muestras autorizadas; no manipular aguas ácidas sin laboratorio y personal especializado."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Su acidez se mantiene por agua corriente, microbios que oxidan el hierro y minería antigua. En Meridiani el agua ácida desapareció hace miles de millones de años.",
         "secondary_categories": [
             "environmental"
@@ -1580,6 +1620,7 @@
                 "restrictions": "F2, secciones 4.4 y 8; sin fuente específica del ejercicio (source null). No usar personas para probar frío extremo ni reducción de presión. La prueba de destreza no certifica un traje EVA."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Pone a prueba baterías y pendientes con frío y altura, pero no con el frío extremo ni la presión de Marte. No todos sus materiales son basálticos como los de Olympus Mons.",
         "secondary_categories": [
             "geomorphological",
@@ -1618,6 +1659,7 @@
                 "restrictions": "F4: sugerido como análogo. El trabajo citado corresponde a los núcleos de hielo del Sajama. Usar archivos, sin nueva perforación ni ingreso a glaciares."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Es un archivo climático de miles de años, formado por nieve que también se derrite. Las capas de Planum Boreum mezclan hielo y polvo durante millones de años, al ritmo de los cambios de inclinación del eje de Marte.",
         "secondary_categories": [
             "environmental"
@@ -1655,6 +1697,7 @@
                 "restrictions": "F4: estudiado para el sitio; método de F2. Sin fuente específica de entrenamiento (source null). No perforar ni extraer material sin permiso; no asignar minerales por color."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Sus capas registran decenas de miles de años de clima terrestre. Las del Monte Sharp acumulan muchísimo más tiempo y se formaron en un Marte con agua que ya no existe.",
         "secondary_categories": [
             "mineralogical"
@@ -1692,6 +1735,7 @@
                 "restrictions": "El vínculo con Jezero respalda el contexto, no que este protocolo se haya ejecutado. Proteger orillas y depósitos; observar vida terrestre no demuestra vida en Marte."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es un lago activo, con agua y vida que siguen formando carbonatos. El lago de Jezero desapareció hace más de 3.000 millones de años.",
         "secondary_categories": [
             "geomorphological"
@@ -1729,6 +1773,7 @@
                 "restrictions": "F4: propuesto; método de F2, sección 8. Sin fuente específica del ejercicio (source null). Usar imágenes autorizadas o réplicas; no usar el Árbol de Piedra como pista."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "El viento esculpe sus rocas con ayuda del hielo y del agua ocasional. En Marte el aire es más de cien veces más tenue y el viento necesita mucha más velocidad para mover la arena.",
         "secondary_categories": [
             "environmental"
@@ -1766,6 +1811,7 @@
                 "restrictions": "F4: sugerido; F2 excluye operaciones en fumarolas. Sin fuente específica de entrenamiento (source null). No entrar en costras frágiles, barro ni gases; emplear datos existentes o puntos autorizados."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Tiene alteración ácida y UV alto, pero con agua y gases volcánicos activos a presión terrestre. Home Plate es un depósito apagado y muy antiguo.",
         "secondary_categories": [
             "environmental"
@@ -1810,6 +1856,7 @@
                 "restrictions": "Preferir datos o réplicas; movilidad real solo en pista autorizada. No trasladar directamente la tracción terrestre a Luna o Marte."
             }
         ],
+        "recognition": "known",
         "breaking_point": "El cono y la colada se formaron con aire y gravedad terrestres. No representan todo un mar lunar ni un volcán marciano gigante; cenizas, suelos y erosión pueden ocultar los contactos.",
         "secondary_categories": [
             "operational"
@@ -1860,6 +1907,7 @@
                 "restrictions": "F2, secciones 4.3 y 8; sin fuente específica de ejecución (source null). Canal de seguridad sin demora, apoyo real y evaluación de altura; no improvisar una EVA con soporte vital experimental."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Prueba suspensión y navegación sin GPS, pero con la gravedad, el aire y los suelos de la Tierra. El regolito marciano tiene otro tamaño de grano y otra cohesión.",
         "secondary_categories": [
             "geomorphological",
@@ -1898,6 +1946,7 @@
                 "restrictions": "F4: propuesto; sin fuente específica de entrenamiento (source null). Preferir imágenes o puntos autorizados; no extrapolar el viento terrestre directamente a Marte ni alterar dunas y humedales."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Sus dunas se mueven con el viento en aire denso. En Medusae Fossae el viento sopla en un aire mucho más tenue y el material es más fino y blando.",
         "secondary_categories": [
             "environmental"
@@ -1929,6 +1978,7 @@
                 "restrictions": "F4: sugerido como análogo; el estudio respalda la geología terrestre. No equiparar escala y gravedad con Marte. Usar datos remotos antes de cualquier campaña autorizada."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Su colapso, de hace unos 12.000 años, ocurrió en un volcán andino pequeño. Los grandes deslizamientos de Valles Marineris y los flancos de Olympus Mons son de una escala mucho mayor.",
         "secondary_categories": [
         ]
@@ -1985,6 +2035,7 @@
                 "restrictions": null
             }
         ],
+        "recognition": "known",
         "breaking_point": "Es un volcán activo, con nieve de hasta 2 m y un permafrost que ronda los 0 °C a 1.100 m de altura. Los volcanes de Tharsis están apagados desde hace mucho y el suelo marciano está muy por debajo de 0 °C, con 0,38 veces la gravedad terrestre.",
         "secondary_categories": [
             "environmental",
@@ -2030,6 +2081,7 @@
                 "restrictions": "F2, sección 4.6; sin fuente específica del ejercicio (source null). No circular sobre patrimonio. Un modelo visual no demuestra capacidad de ascenso real ni equivalencia geológica con Marte."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Sirve para entrenar la lectura de capas, pero su cañón es fluvial y de unos 300 m. Valles Marineris es tectónico y llega a 7 km de profundidad.",
         "secondary_categories": [
             "geomorphological"
@@ -2061,6 +2113,7 @@
                 "restrictions": "F4: sugerido; sin fuente específica del ejercicio (source null). Priorizar modelos; campo solo con autorización y especialistas. La cueva caliza no reproduce un tubo de lava lunar."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Es una cueva de caliza disuelta por agua, no un tubo de lava. Sirve para practicar navegación y comunicaciones bajo tierra, no para estudiar la geología de Marius Hills.",
         "secondary_categories": [
         ]
@@ -2151,6 +2204,7 @@
                 "restrictions": "F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). No atribuir percloratos a Uyuni ni agua actual a las RSL; sin extracción no autorizada."
             }
         ],
+        "recognition": "known",
         "breaking_point": "Se inunda cada año con agua de lluvia a presión terrestre y su sal es reciente: Aureum Chaos e Icaria Planum llevan miles de millones de años secos y helados. Sus salmueras son abundantes y templadas; las de Marte, si existen, serían escasas, temporales y muy frías. Sus polígonos vienen de la salmuera, no del hielo, y no se le atribuyen percloratos sin análisis local.",
         "secondary_categories": [
             "environmental",
@@ -2197,6 +2251,7 @@
                 "restrictions": "F2, sección 4.5; sin fuente específica del ejercicio (source null). Solo senderos y observaciones permitidos; el nombre del sitio no implica geología lunar."
             }
         ],
+        "recognition": "proposed",
         "breaking_point": "Sirve para practicar mapeo 3D, pero su relieve lo formó la lluvia sobre arcillas blandas. Gale no tiene lluvia hoy y su relieve es mucho más antiguo.",
         "secondary_categories": [
             "geomorphological"
@@ -2241,6 +2296,7 @@
                 "restrictions": null
             }
         ],
+        "recognition": "known",
         "breaking_point": "Sus depresiones se forman cuando el hielo se derrite y el agua escapa; en Utopia Planitia el hielo se sublima, pasando directo a gas. Además, en verano Yakutia llega a unos 38 °C y tiene ríos con suelo sin hielo debajo.",
         "secondary_categories": [
             "environmental"

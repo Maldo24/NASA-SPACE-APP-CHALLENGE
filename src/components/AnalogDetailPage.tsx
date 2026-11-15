@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type RefObject } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import AnalogPhoto from './AnalogPhoto'
+import RecognitionBadge from './RecognitionBadge'
 import AnalogAspects from './AnalogAspects'
 import AnalogTrainings from './AnalogTrainings'
 import AnalogCosts from './AnalogCosts'
@@ -114,7 +115,10 @@ function ReadyDetail({ analog: original, zone: rawZone, bodyId, bodyPath, headin
         {t.detail.backTo(zone.name)}
       </Link>
       <header className="detail-header">
-        <p className="detail-category">{t.categories[analog.category].label}</p>
+        <p className="detail-category">
+          {t.categories[analog.category].label}
+          <RecognitionBadge value={analog.recognition} />
+        </p>
         <h2 id="analog-detail-heading" ref={headingRef} tabIndex={-1}>{analog.name}</h2>
         <p className="detail-context">{t.detail.analogOf(zone.name, t.bodies[bodyId])}</p>
       </header>
@@ -128,6 +132,12 @@ function ReadyDetail({ analog: original, zone: rawZone, bodyId, bodyPath, headin
           <section className="detail-section" aria-labelledby="categories-heading">
             <h3 id="categories-heading">{t.detail.categories}</h3>
             <dl className="detail-categories">
+              {analog.recognition && <div>
+                <dt>{t.recognition.label}</dt>
+                <dd>
+                  {t.recognition[analog.recognition]}. {analog.recognition === 'known' ? t.recognition.knownHint : t.recognition.proposedHint}
+                </dd>
+              </div>}
               <div><dt>{t.detail.main}</dt><dd>{t.categories[analog.category].label}</dd></div>
               {analog.secondaryCategories.length > 0 && <div>
                 <dt>{t.detail.partial}</dt>

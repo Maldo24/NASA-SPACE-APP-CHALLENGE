@@ -20,6 +20,7 @@ import {
   TRAINING_AUDIENCES,
   type Analog,
   type AnalogAspect,
+  type AnalogRecognition,
   type AnalogRow,
   type AnalogTraining,
   type TrainingAudience,
@@ -74,6 +75,7 @@ type SeedAnalog = Pick<Analog, 'id' | 'name' | 'lat' | 'lon' | 'why'> & {
   source?: string | null
   secondary_categories?: string[]
   breaking_point?: string | null
+  recognition?: string | null
   aspects?: RawAspect[]
   trainings?: RawTraining[]
 }
@@ -83,6 +85,8 @@ const SEED_ZONES: Record<BodyId, { features: SeedZoneFeature[] }> = { moon: moon
 
 // Cadena vacía o ausente = pendiente (null), como en Supabase.
 const orNull = (v: string | null | undefined) => (v ? v : null)
+const toRecognition = (v: string | null | undefined): AnalogRecognition | null =>
+  (v === 'known' || v === 'proposed' ? v : null)
 
 const isCategory = (c: string): c is Analog['category'] =>
   (CATEGORY_IDS as readonly string[]).includes(c)
@@ -152,6 +156,7 @@ function loadSeed() {
       source: orNull(a.source),
       secondaryCategories: (a.secondary_categories ?? []).filter(isCategory),
       breakingPoint: orNull(a.breaking_point),
+      recognition: toRecognition(a.recognition),
       aspects: toAspects(a.aspects),
       trainings: toTrainings(a.trainings),
     })
@@ -213,6 +218,7 @@ const toAnalog = (r: AnalogRow): Analog => ({
   source: orNull(r.source),
   secondaryCategories: r.secondary_categories ?? [],
   breakingPoint: orNull(r.breaking_point),
+  recognition: toRecognition(r.recognition),
   aspects: toAspects(r.analog_aspects),
   trainings: toTrainings(r.analog_trainings),
 })
@@ -220,7 +226,7 @@ const toAnalog = (r: AnalogRow): Analog => ({
 const BODY_COLUMNS = 'id, name, layer_url, attribution, max_zoom'
 const ZONE_COLUMNS = 'id, body_id, name, zone_type, description, geometry, geology, environment, exploration, importance, sources'
 // Los límites y entrenamientos se piden embebidos (FK analog_id -> analogs.id) en la misma consulta.
-const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source, secondary_categories, breaking_point, '
+const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source, secondary_categories, breaking_point, recognition, '
   + 'analog_aspects (category, covers, breaks, source), '
   + 'analog_trainings (position, audience, activity, measures, restrictions, source)'
 

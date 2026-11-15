@@ -91,6 +91,9 @@ export interface AnalogTrainingRow {
   source: string | null
 }
 
+/** Ya conocido (usado o estudiado como análogo) o propuesto por la investigación. */
+export type AnalogRecognition = 'known' | 'proposed'
+
 export interface AnalogRow {
   id: string
   name: string
@@ -102,6 +105,7 @@ export interface AnalogRow {
   source: string | null // null = fuente pendiente
   secondary_categories: Category[] // otras analogías que cumple en parte (sin la principal)
   breaking_point: string | null    // lo que no llega a representar. null = pendiente
+  recognition: AnalogRecognition | null // ya conocido o propuesto. null = pendiente
   // Embebidos por Supabase a través de las FK (pueden faltar si no se piden en el select)
   analog_aspects?: Omit<AnalogAspectRow, 'analog_id'>[]
   analog_trainings?: Omit<AnalogTrainingRow, 'analog_id'>[]
@@ -174,6 +178,9 @@ export interface Analog {
   secondaryCategories: Category[]
   /** Punto de quiebre: lo que el sitio no llega a representar. null = pendiente. */
   breakingPoint: string | null
+  /** 'known' = ya usado o estudiado como análogo (NASA, otra agencia o publicación);
+   *  'proposed' = propuesto por la investigación (F4: propuesto/sugerido). null = pendiente. */
+  recognition: AnalogRecognition | null
   /** Límites por tipo de analogía, en el orden de CATEGORY_IDS. Vacío = pendiente.
    *  Las categorías que no aparecen son las que el análogo no cubre. */
   aspects: AnalogAspect[]

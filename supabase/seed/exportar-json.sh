@@ -31,7 +31,7 @@ zones_json moon > src/data/zones-moon.json
 zones_json mars > src/data/zones-mars.json
 $PSQL -c "select jsonb_pretty(jsonb_agg(jsonb_build_object('id',a.id,'name',a.name,'category',a.category,'lat',a.lat,'lon',a.lon,
   'why',a.why,'image',a.image,'source',a.source,
-  'secondary_categories',a.secondary_categories,'breaking_point',a.breaking_point,
+  'secondary_categories',a.secondary_categories,'breaking_point',a.breaking_point,'recognition',a.recognition,
   'aspects', (select coalesce(jsonb_agg(jsonb_build_object('category',s.category,'covers',s.covers,'breaks',s.breaks,'source',s.source)
       order by array_position(array['geomorphological','mineralogical','environmental','operational'], s.category)),'[]')
     from analog_aspects s where s.analog_id=a.id),
@@ -49,6 +49,8 @@ warn "Límites (06/09) en una categoría que el análogo no tiene como principal
      where s.category <> a.category and not (s.category = any(a.secondary_categories)) order by 1;")"
 warn "Análogos que no están en ninguna zona:" \
   "$($PSQL -c "select '   '||id from analogs a where not exists (select 1 from zone_analogs z where z.analog_id=a.id) order by 1;")"
+warn "Análogos sin 'ya conocido' / 'propuesto' (11_reconocimiento.sql):" \
+  "$($PSQL -c "select '   '||id from analogs where recognition is null order by 1;")"
 warn "Zonas sin análogos:" \
   "$($PSQL -c "select '   '||id from zones z where not exists (select 1 from zone_analogs za where za.zone_id=z.id) order by 1;")"
 

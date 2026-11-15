@@ -68,6 +68,13 @@ const es = {
   },
 
   card: { info: 'Información' },
+  recognition: {
+    label: 'Estado',
+    known: 'Ya conocido',
+    proposed: 'Propuesto',
+    knownHint: 'Ya lo usó o lo estudió como análogo la NASA, otra agencia espacial o una publicación científica.',
+    proposedHint: 'Lo propone nuestra investigación; todavía no hay estudios publicados que lo traten como análogo.',
+  },
   photo: {
     alt: (name: string) => `Paisaje de ${name}`,
     unavailable: 'Fotografía no disponible',
@@ -210,6 +217,13 @@ const en: UiStrings = {
   },
 
   card: { info: 'Details' },
+  recognition: {
+    label: 'Status',
+    known: 'Already known',
+    proposed: 'Proposed',
+    knownHint: 'Already used or studied as an analog by NASA, another space agency or a scientific publication.',
+    proposedHint: 'Proposed by our research; there are no published studies treating it as an analog yet.',
+  },
   photo: {
     alt: (name: string) => `Landscape of ${name}`,
     unavailable: 'Photo unavailable',

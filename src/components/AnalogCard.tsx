@@ -1,6 +1,7 @@
 import { useId } from 'react'
 import { Link } from 'react-router-dom'
 import AnalogPhoto from './AnalogPhoto'
+import RecognitionBadge from './RecognitionBadge'
 import { useI18n } from '../i18n/I18nProvider'
 import type { AnalogData, ZoneSummary } from './ui-types'
 
@@ -20,6 +21,7 @@ export default function AnalogCard({ analog, zone }: AnalogCardProps) {
     <article className="analog-card" aria-labelledby={titleId}>
       <AnalogPhoto analog={analog} />
       <div className="analog-content">
+        <RecognitionBadge value={analog.recognition} />
         <h3 id={titleId}>{analog.name}</h3>
         <Link className="information-button" to={detailPath} aria-describedby={titleId}>
           {t.card.info} <span aria-hidden="true">↗</span>

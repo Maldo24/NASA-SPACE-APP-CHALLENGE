@@ -44,6 +44,12 @@ Solo va la clave **anon**. La `service_role` nunca va en el frontend ni en el re
 24 zonas (8 en la Luna, 16 en Marte) y 56 análogos, de los cuales 32 están en Bolivia o en su frontera.
 Cada análogo boliviano indica su nivel de respaldo según el documento F4: **estudiado**, **propuesto** o **sugerido**.
 
+Cada análogo lleva además una etiqueta visible: **Ya conocido** (ya lo usó o estudió como análogo la NASA, otra
+agencia espacial o una publicación científica) o **Propuesto** (sale de nuestra investigación: los "propuesto" y
+"sugerido" de F4). Hoy son 33 y 23. La lista está en [supabase/seed/11_reconocimiento.sql](supabase/seed/11_reconocimiento.sql);
+si cambias el respaldo de un análogo, actualízala. En cada pestaña los análogos salen primero los de Bolivia,
+luego los de Latinoamérica y al final los del resto del mundo.
+
 ## Idiomas (español / inglés)
 
 La app tiene su propio botón **ES / EN** en la barra superior; no depende de la traducción del navegador
