@@ -1,6 +1,6 @@
 # Fotos pendientes de los análogos
 
-16 análogos todavía no tienen foto. Los otros 35 ya tienen foto.
+19 análogos todavía no tienen foto. Los otros 35 ya tienen foto.
 
 ## Cómo bajar cada foto
 
@@ -34,3 +34,6 @@ La foto de polígonos de sal de Uyuni que bajaste (`Salar_Uyuni_au01.jpg`) tiene
 | `sajama.jpg` | Volcán Sajama, Bolivia | [artículo](https://en.wikipedia.org/wiki/Nevado_Sajama) | [Volcán Sajama Bolivia](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Volc%C3%A1n%20Sajama%20Bolivia) |
 | `hi-seas.jpg` | HI-SEAS, Mauna Loa, Hawái, EE.UU. | [artículo](https://en.wikipedia.org/wiki/HI-SEAS) | [HI-SEAS Mauna Loa habitat](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=HI-SEAS%20Mauna%20Loa%20habitat) |
 | `kilauea.jpg` | Kīlauea, Hawái, EE.UU. | [artículo](https://en.wikipedia.org/wiki/K%C4%ABlauea) | [Kilauea lava Hawaii](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Kilauea%20lava%20Hawaii) |
+| `qaidam.jpg` | Playa de Dalangtan, cuenca de Qaidam, China | [artículo](https://en.wikipedia.org/wiki/Qaidam_Basin) | [Qaidam Basin yardang](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Qaidam%20Basin%20yardang) |
+| `tolbachik.jpg` | Volcán Tolbachik, Kamchatka, Rusia | [artículo](https://en.wikipedia.org/wiki/Tolbachik) | [Tolbachik volcano](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Tolbachik%20volcano) |
+| `yakutia.jpg` | Yakutia Central, cuenca del río Lena, Rusia | [artículo](https://en.wikipedia.org/wiki/Central_Yakutian_Lowland) | [Yakutia thermokarst](https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=Yakutia%20thermokarst) |

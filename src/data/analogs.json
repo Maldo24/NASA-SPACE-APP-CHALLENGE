@@ -919,7 +919,7 @@
                 "category": "geomorphological"
             },
             {
-                "breaks": "De día la superficie supera los 0 °C y se descongela. El hielo de Utopia Planitia está casi siempre muy bajo cero y a una presión mínima. Análogo sugerido, sin fuente propia.",
+                "breaks": "De día la superficie supera los 0 °C y se descongela. El hielo de Utopia Planitia está casi siempre muy bajo cero y a una presión mínima. Análogo sugerido, sin fuente propia. Para Utopia Planitia es más cercano el permafrost continuo de Yakutia: de −5 a −13 °C y unos 350 m de espesor medio.",
                 "covers": "Suelo congelado de forma permanente por encima de unos 4.700 m, con heladas casi todas las noches.",
                 "source": null,
                 "category": "environmental"
@@ -931,6 +931,50 @@
         "breaking_point": "Su suelo se congela de noche y se descongela de día por encima de 0 °C. El hielo de Utopia Planitia está casi siempre congelado, muy bajo cero y con muy poca presión.",
         "secondary_categories": [
             "geomorphological"
+        ]
+    },
+    {
+        "id": "qaidam",
+        "lat": 38.33,
+        "lon": 91.67,
+        "why": "Cuenca cerrada e hiperárida de la meseta tibetana, a unos 2.700 m. De sus 24 minerales de sal, 6 también se detectaron en Marte, y en su suelo hay percloratos. Se estudia como análogo de Marte desde 2008 y el Servicio Geológico de China la usa para probar equipos.",
+        "name": "Playa de Dalangtan, cuenca de Qaidam, China",
+        "image": null,
+        "source": "https://doi.org/10.1016/j.earscirev.2016.11.003",
+        "aspects": [
+            {
+                "breaks": "Sus yardangs están tallados en arenisca por vientos de hasta 20–22 m/s en aire denso; en Medusae Fossae el material es más blando y el aire mucho más tenue. Sin mediciones de tormentas de polvo.",
+                "covers": "Yardangs, dunas barján y costras de sal poligonales, todos con equivalentes en Marte; sus yardangs se comparan con los de Medusae Fossae. También tiene estructuras anulares de sal comparadas con estructuras del polo norte marciano.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Comparte minerales, no su historia: son sales jóvenes de lagos terrestres que se rehidratan con la humedad de cada madrugada (más del 60 %). En Marte esos minerales llevan miles de millones de años en un aire casi sin agua.",
+                "covers": "De 24 minerales de sal, 6 también están en Marte: yeso, starkeyita, kieserita, halita, silvita y bischofita. Hay sulfatos de magnesio en Dalangtan, cloruros en Qarhan, percloratos y cloratos en el suelo y arcillas como la clorita, también vista en Marte desde órbita.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La temperatura media es de 3,5 °C y en verano supera los 30 °C. La presión es de 709 mbar, el 70 % del nivel del mar, y la humedad de madrugada pasa del 60 %. Sin datos de permafrost ni cifras de radiación UV.",
+                "covers": "Hiperárido: unos 50 mm de lluvia al año frente a 2.590 mm de evaporación (índice de aridez de unos 0,02), con heladas por debajo de −25 °C y UV alta por la altura. En sus sales viven halófilos y se recuperaron lípidos de bacterias y arqueas. Permite estudiar los límites usados para las «regiones especiales» de Marte: −25 °C o más y actividad del agua mayor que 0,5.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "Sirve para pruebas de ingeniería y de instrumentos; las fuentes no describen simulaciones con tripulación. No hay cuevas documentadas, y la gravedad y el aire son terrestres.",
+                "covers": "El Servicio Geológico de China lo usa para probar espectroscopía y equipos. Es remoto pero de acceso relativamente fácil, con estación meteorológica propia desde 2012 y una serie de 32 años a menos de 50 km.",
+                "source": null,
+                "category": "operational"
+            }
+        ],
+        "category": "mineralogical",
+        "trainings": [
+        ],
+        "breaking_point": "La presión del aire es de unos 709 mbar, unas cien veces la de Marte, y la temperatura media anual es de 3,5 °C. Sus sales se formaron en lagos de hace pocos millones de años; las de Marte son mucho más antiguas.",
+        "secondary_categories": [
+            "geomorphological",
+            "environmental",
+            "operational"
         ]
     },
     {
@@ -1100,7 +1144,7 @@
         "source": "https://es.wikipedia.org/wiki/Desierto_Siloli",
         "aspects": [
             {
-                "breaks": "Sus ventifactos son rocas aisladas de unos metros. Medusae Fossae es un depósito continuo y blando tallado en crestas de kilómetros: otra escala y otro material.",
+                "breaks": "Sus ventifactos son rocas aisladas de unos metros. Medusae Fossae es un depósito continuo y blando tallado en crestas de kilómetros: otra escala y otro material. Para los yardangs de Medusae Fossae hay análogos más directos, como los de la cuenca de Qaidam.",
                 "covers": "Rocas esculpidas por el viento, como el Árbol de Piedra, un ventifacto de unos 7 m.",
                 "source": null,
                 "category": "geomorphological"
@@ -1241,6 +1285,43 @@
         ]
     },
     {
+        "id": "tolbachik",
+        "lat": 55.75,
+        "lon": 160.29,
+        "why": "Complejo volcánico activo con conos de ceniza, campos de lava, tubos de lava y permafrost dentro de depósitos volcánicos. Sus conos se compararon con posibles conos volcánicos del norte de Marte y su escoria tiene una textura cercana a la del regolito marciano. Coordenadas de su estación de monitoreo de permafrost. Patrimonio de la UNESCO: requiere permisos.",
+        "name": "Volcán Tolbachik, Kamchatka, Rusia",
+        "image": null,
+        "source": "https://en.wikipedia.org/wiki/Tolbachik",
+        "aspects": [
+            {
+                "breaks": "Son conos y coladas recientes y pequeños frente a Tharsis, y la comparación es de forma: no confirma que esos conos de Marte sean volcánicos. Su cueva mayor, Shokoladnaya, mide 339 m; se cree que los tubos marcianos serían mucho mayores.",
+                "covers": "La erupción de 1975–76 cubrió unos 500 km² con escoria y ceniza y formó tres conos nuevos y campos de lava; sus conos se compararon con 14 posibles conos volcánicos del norte de Marte. Tiene tubos de lava, el tipo de cueva más probable en Marte, y glaciares cubiertos de ceniza estudiados como análogo de los glaciares marcianos.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Los tubos de la erupción de 2012–13 tienen formaciones minerales inusuales, pero sin datos cuantitativos. La escoria se parece en textura; su composición no se ha comparado con la del regolito de Marte en estas fuentes.",
+                "covers": "Escoria basáltica muy porosa, con textura cercana a la del regolito marciano y conductividad térmica muy baja: 0,17 W/m·K seca y 0,44 W/m·K con 45 % de humedad.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Es un permafrost tibio, cerca de 0 °C, con nieve de más de 2 m en zonas de bosque y aire denso; el suelo de Marte está muy bajo cero. Sin datos de luz ni de polvo: no tiene noche polar ni tormentas de polvo, solo caída de ceniza sobre la nieve.",
+                "covers": "Permafrost dentro de escoria y ceniza: capa congelada de 12 a 16 m, con temperatura media de 0 a −1 °C a 1.100 m y de unos −7 °C a 2.600 m. En ese permafrost volcánico se encontraron microbios viables y metano (unos 1.100–1.900 µl de CH₄ por kg de muestra).",
+                "source": null,
+                "category": "environmental"
+            }
+        ],
+        "category": "geomorphological",
+        "trainings": [
+        ],
+        "breaking_point": "Es un volcán activo, con nieve de hasta 2 m y un permafrost que ronda los 0 °C a 1.100 m de altura. Los volcanes de Tharsis están apagados desde hace mucho y el suelo marciano está muy por debajo de 0 °C, con 0,38 veces la gravedad terrestre.",
+        "secondary_categories": [
+            "environmental",
+            "mineralogical"
+        ]
+    },
+    {
         "id": "torotoro",
         "lat": -18.13,
         "lon": -65.76,
@@ -1280,7 +1361,7 @@
         "source": "https://es.wikipedia.org/wiki/Caverna_de_Umajalanta",
         "aspects": [
             {
-                "breaks": "Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias.",
+                "breaks": "Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias. Para practicar en tubos de lava reales hay análogos volcánicos como Tolbachik, en Kamchatka.",
                 "covers": "Navegación, comunicaciones y mapeo bajo tierra en una cueva de unos 4,6 km.",
                 "source": null,
                 "category": "operational"
@@ -1303,7 +1384,7 @@
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
             {
-                "breaks": "No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años.",
+                "breaks": "No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años. En cambio, en el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.",
                 "covers": "Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Marte y con Aureum Chaos.",
                 "source": null,
                 "category": "mineralogical"
@@ -1379,7 +1460,7 @@
         "source": "https://doi.org/10.1103/PhysRevX.13.011025",
         "aspects": [
             {
-                "breaks": "No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum.",
+                "breaks": "No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.",
                 "covers": "Polígonos de 1–2 m que se forman por convección de la salmuera: un contraejemplo de polígonos sin hielo.",
                 "source": null,
                 "category": "geomorphological"
@@ -1408,7 +1489,7 @@
                 "category": "mineralogical"
             },
             {
-                "breaks": "Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación.",
+                "breaks": "Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.",
                 "covers": "Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde viven microbios incluso a 80 m de profundidad.",
                 "source": null,
                 "category": "environmental"
@@ -1450,6 +1531,36 @@
         "breaking_point": "Sirve para practicar mapeo 3D, pero su relieve lo formó la lluvia sobre arcillas blandas. Gale no tiene lluvia hoy y su relieve es mucho más antiguo.",
         "secondary_categories": [
             "geomorphological"
+        ]
+    },
+    {
+        "id": "yakutia",
+        "lat": 62.03,
+        "lon": 129.73,
+        "why": "Permafrost muy rico en hielo, con termokarst, lagos de deshielo y cuñas de hielo. Sus depresiones en las riberas del Lena se comparan con las depresiones festoneadas que deja la sublimación del hielo del subsuelo en Utopia Planitia. Ubicación aproximada (Yakutsk).",
+        "name": "Yakutia Central, cuenca del río Lena, Rusia",
+        "image": null,
+        "source": "https://doi.org/10.1029/2010JE003640",
+        "aspects": [
+            {
+                "breaks": "En Yakutia las depresiones se forman por deshielo, con agua líquida; en Utopia, por sublimación: se parece la forma, no el proceso. Bajo sus ríos hay taliks, suelo sin hielo, algo que no se conoce en Utopia Planitia. Sin datos de minerales.",
+                "covers": "Termokarst (hundimiento del suelo al perder hielo) en cerca de la mitad de Yakutia, con lagos, cuñas de hielo y depresiones en la ribera del Lena comparadas con las depresiones festoneadas de Utopia Planitia.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "En verano llega a unos 38 °C (más de 100 °C de diferencia en el año) y el suelo se descongela hasta 1,5–4 m de profundidad; Marte es frío todo el año, con una presión de cientos de pascales. Sin análogo documentado para el polvo.",
+                "covers": "Uno de los lugares habitados más fríos de la Tierra: récord de −67,7 °C cerca de Oymyakon y permafrost continuo de −5 a −13 °C. El permafrost siberiano tiene unos 350 m de espesor medio (hasta 1.450 m) y hasta un 50 % de hielo entre los granos; el del noreste de Siberia lleva más de 3 millones de años congelado.",
+                "source": null,
+                "category": "environmental"
+            }
+        ],
+        "category": "geomorphological",
+        "trainings": [
+        ],
+        "breaking_point": "Sus depresiones se forman cuando el hielo se derrite y el agua escapa; en Utopia Planitia el hielo se sublima, pasando directo a gas. Además, en verano Yakutia llega a unos 38 °C y tiene ríos con suelo sin hielo debajo.",
+        "secondary_categories": [
+            "environmental"
         ]
     }
 ]

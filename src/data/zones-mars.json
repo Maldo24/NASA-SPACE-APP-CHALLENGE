@@ -89,7 +89,8 @@
                 ],
                 "zoneType": "Mesetas con glaciares cubiertos de detritos",
                 "analogIds": [
-                    "glaciares-roca"
+                    "glaciares-roca",
+                    "tolbachik"
                 ],
                 "importance": "Permite investigar cómo cambió la distribución del hielo con el clima y cómo se conserva fuera de los polos. Los glaciares de roca andinos ofrecen comparaciones de forma y cobertura, con procesos y condiciones terrestres que deben evaluarse por separado.",
                 "description": "Región de mesetas y valles entre las tierras altas y las llanuras del norte. Al pie de las mesetas hay glaciares de hielo cubiertos por una capa de rocas y polvo.",
@@ -189,7 +190,8 @@
                 "analogIds": [
                     "basalt",
                     "kilauea",
-                    "sud-lipez"
+                    "sud-lipez",
+                    "tolbachik"
                 ],
                 "importance": "Relaciona el terreno superficial con el estudio de corteza, manto y núcleo. También ofrece un caso real para analizar cómo el polvo, la energía disponible y las condiciones del suelo influyen en la duración de una misión.",
                 "description": "Sector occidental de Elysium Planitia alrededor del lugar donde InSight estudió la estructura interna de Marte.",
@@ -292,8 +294,8 @@
                 "zoneType": "Depósito volcánico e hidrotermal",
                 "analogIds": [
                     "el-tatio",
-                    "la-salsa",
                     "laguna-blanca-termal",
+                    "la-salsa",
                     "sol-de-manana"
                 ],
                 "importance": "Los depósitos hidrotermales permiten estudiar cómo el agua caliente modifica las rocas y qué ambientes podrían conservar señales de vida antigua. La comparación con El Tatio y otros sistemas termales se limita a materiales y procesos identificables.",
@@ -343,6 +345,7 @@
                 "analogIds": [
                     "canapa",
                     "coipasa",
+                    "qaidam",
                     "uyuni-icaria",
                     "uyuni-poligonos",
                     "uyuni-salmueras"
@@ -495,6 +498,7 @@
                 "analogIds": [
                     "desierto-dali",
                     "italia-perdida",
+                    "qaidam",
                     "siloli",
                     "tajzara"
                 ],
@@ -547,6 +551,7 @@
                     "atacama",
                     "cerro-rico",
                     "mdrs",
+                    "qaidam",
                     "rio-tinto",
                     "uyuni",
                     "uyuni-navegacion"
@@ -597,8 +602,8 @@
                 ],
                 "zoneType": "Fracturas con olivino, arcillas y carbonatos",
                 "analogIds": [
-                    "la-salsa",
                     "laguna-verde",
+                    "la-salsa",
                     "pastos-grandes"
                 ],
                 "importance": "Permite comparar materiales volcánicos poco alterados con minerales producidos por interacción con agua. Los carbonatos terrestres ofrecen una comparación geoquímica parcial, mientras que el origen específico de cada depósito marciano debe investigarse por sus propias evidencias.",
@@ -653,7 +658,8 @@
                     "kilauea",
                     "ollague",
                     "sajama",
-                    "tata-sabaya"
+                    "tata-sabaya",
+                    "tolbachik"
                 ],
                 "importance": "Ayuda a reconstruir la historia del volcanismo de Tharsis y los colapsos de grandes edificios volcánicos. Las avalanchas terrestres y las coladas ofrecen analogías parciales que deben distinguir forma, material y escala.",
                 "description": "El volcán más grande del sistema solar, con unos 22 km de altura sobre el datum marciano y coladas de lava en sus flancos.",
@@ -753,7 +759,8 @@
                     "iturralde",
                     "mcmurdo",
                     "permafrost-occidental",
-                    "uyuni-poligonos"
+                    "uyuni-poligonos",
+                    "yakutia"
                 ],
                 "importance": "Permite estudiar la distribución del hielo y cómo cambian los suelos fríos. Comparar imágenes con radar y mediciones de superficie ayuda a distinguir hielo enterrado, heladas temporales y formas parecidas producidas por otros procesos.",
                 "description": "Gran llanura del hemisferio norte con terreno festoneado y polígonos asociados a hielo bajo la superficie. Sitio del Viking 2 (1976).",

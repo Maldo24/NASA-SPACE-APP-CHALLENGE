@@ -322,7 +322,7 @@ insert into public.analog_aspects (analog_id, category, covers, breaks, source) 
   -- ---------------------------------------------------------------- permafrost-occidental (amb + geo)
   ('permafrost-occidental', 'environmental',
    'Suelo congelado de forma permanente por encima de unos 4.700 m, con heladas casi todas las noches.',
-   'De día la superficie supera los 0 °C y se descongela. El hielo de Utopia Planitia está casi siempre muy bajo cero y a una presión mínima. Análogo sugerido, sin fuente propia.',
+   'De día la superficie supera los 0 °C y se descongela. El hielo de Utopia Planitia está casi siempre muy bajo cero y a una presión mínima. Análogo sugerido, sin fuente propia. Para Utopia Planitia es más cercano el permafrost continuo de Yakutia: de −5 a −13 °C y unos 350 m de espesor medio.',
    null),
   ('permafrost-occidental', 'geomorphological',
    'Suelo «ordenado» en pequeños patrones por la helada nocturna.',
@@ -386,7 +386,7 @@ insert into public.analog_aspects (analog_id, category, covers, breaks, source) 
   -- ---------------------------------------------------------------- siloli (geo + amb)
   ('siloli', 'geomorphological',
    'Rocas esculpidas por el viento, como el Árbol de Piedra, un ventifacto de unos 7 m.',
-   'Sus ventifactos son rocas aisladas de unos metros. Medusae Fossae es un depósito continuo y blando tallado en crestas de kilómetros: otra escala y otro material.',
+   'Sus ventifactos son rocas aisladas de unos metros. Medusae Fossae es un depósito continuo y blando tallado en crestas de kilómetros: otra escala y otro material. Para los yardangs de Medusae Fossae hay análogos más directos, como los de la cuenca de Qaidam.',
    null),
   ('siloli', 'environmental',
    'Desierto frío a más de 4.500 m, seco y con radiación UV alta.',
@@ -446,13 +446,13 @@ insert into public.analog_aspects (analog_id, category, covers, breaks, source) 
   -- ---------------------------------------------------------------- umajalanta (op)
   ('umajalanta', 'operational',
    'Navegación, comunicaciones y mapeo bajo tierra en una cueva de unos 4,6 km.',
-   'Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias.',
+   'Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias. Para practicar en tubos de lava reales hay análogos volcánicos como Tolbachik, en Kamchatka.',
    null),
 
   -- ---------------------------------------------------------------- uyuni (min + amb)
   ('uyuni', 'mineralogical',
    'Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Marte y con Aureum Chaos.',
-   'No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años.',
+   'No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años. En cambio, en el suelo de Dalangtan (Qaidam, China) sí se detectaron percloratos.',
    null),
   ('uyuni', 'environmental',
    'Frío nocturno, aire seco y radiación UV alta sobre una superficie salina.',
@@ -474,13 +474,13 @@ insert into public.analog_aspects (analog_id, category, covers, breaks, source) 
   -- ---------------------------------------------------------------- uyuni-poligonos (geo)
   ('uyuni-poligonos', 'geomorphological',
    'Polígonos de 1–2 m que se forman por convección de la salmuera: un contraejemplo de polígonos sin hielo.',
-   'No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum.',
+   'No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum. Las costras de sal poligonales de Qaidam (China) permiten comparar este mismo fenómeno en otro salar.',
    null),
 
   -- ---------------------------------------------------------------- uyuni-salmueras (amb + min)
   ('uyuni-salmueras', 'environmental',
    'Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde viven microbios incluso a 80 m de profundidad.',
-   'Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación.',
+   'Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación. Para Marte se usa como referencia −25 °C o más y una actividad del agua mayor que 0,5; habría que medir esos valores en Uyuni.',
    null),
   ('uyuni-salmueras', 'mineralogical',
    'Química de salmueras con cloruros y sales de litio y magnesio.',

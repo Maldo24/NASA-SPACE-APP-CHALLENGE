@@ -70,7 +70,7 @@ Necesita **podman o docker**. Quien no lo tenga le pide a Maldo que lo corra.
 
 | Archivo | Dueño |
 |---|---|
-| `06_limites.sql` | Maldo |
+| `06_limites.sql`, `10_analogos_rusia_china.sql` | Maldo |
 | `07_zonas.sql` | Santiago |
 | `08_entrenamientos.sql`, `09_analogos_nuevos.sql` | Miguel |
 | `01`–`05`, migraciones, `exportar-json.sh` | Nadie los edita sin avisar |
@@ -79,7 +79,8 @@ Necesita **podman o docker**. Quien no lo tenga le pide a Maldo que lo corra.
 
 - **Conflicto en `src/data/*.json` al unir un PR:** no se resuelve a mano. Se acepta cualquier versión y se
   vuelve a correr `bash supabase/seed/exportar-json.sh`.
-- **Orden de carga:** 06 → 07 → 08 → 09. Las zonas nuevas (07) existen antes que los análogos nuevos (09).
+- **Orden de carga:** 06 → 07 → 08 → 09 → 10. Las zonas nuevas (07) existen antes que los análogos nuevos (09 y 10).
+- **Nombres de archivo:** solo números al inicio (`10_…`, no `06a_…`): con letras, el orden cambia según el idioma del sistema.
 - Cada uno en su rama y con su PR. Revisión cruzada: A revisa a B, B a C y C a A.
 
 ## Reglas de contenido

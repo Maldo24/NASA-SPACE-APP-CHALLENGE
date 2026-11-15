@@ -6,7 +6,8 @@ Dueño: C. Ver el modelo completo en el [README principal](../README.md#modelo-d
 supabase/
   migrations/   esquema (tablas, relaciones, RLS). Un archivo por cambio, nunca se edita uno ya aplicado.
   seed/         datos, en orden: 01_bodies → 02_analogs → 03_zones → 04_zone_analogs → 05_analogias_quiebre
-                → 06_limites (Maldo) → 07_zonas (Santiago) → 08_entrenamientos y 09_analogos_nuevos (Miguel).
+                → 06_limites (Maldo) → 07_zonas (Santiago) → 08_entrenamientos y 09_analogos_nuevos (Miguel)
+                → 10_analogos_rusia_china (Maldo).
                 Reparto y reglas: docs/REPARTO.md
 ```
 
