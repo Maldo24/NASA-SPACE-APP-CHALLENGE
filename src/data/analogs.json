@@ -8,6 +8,18 @@
         "image": "img/analogs/atacama.jpg",
         "source": "https://en.wikipedia.org/wiki/Atacama_Desert",
         "aspects": [
+            {
+                "breaks": "Esas sales se formaron con la niebla y la atmósfera terrestres, en millones de años, no en los miles de millones de Meridiani. No reproduce las esférulas de hematita de Meridiani.",
+                "covers": "Suelos con sales y sulfatos y, en zonas como Yungay, percloratos: sales que también se encontraron en el suelo de Marte.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La presión del aire es unas 100 veces la de Marte, hay oxígeno y el campo magnético frena los rayos cósmicos. Incluso en sus zonas más secas hay humedad nocturna y microbios.",
+                "covers": "Aridez extrema, radiación UV alta y suelos donde la vida microbiana es escasa: sirve para probar cómo buscar vida en el límite de lo habitable.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -26,6 +38,24 @@
         "image": "img/analogs/basalt.jpg",
         "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
         "aspects": [
+            {
+                "breaks": "Las coladas de Idaho son pequeñas frente a las de Tharsis, y faltan los cráteres de impacto que cubren la Luna. En la Luna no hay viento ni agua que modifiquen el relieve.",
+                "covers": "Coladas, conos y tubos de lava basáltica, parecidos a los rasgos volcánicos de los mares lunares y de Tharsis.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "El basalto terrestre se altera con agua y oxígeno. El lunar es muy seco, y el regolito de la Luna y de Marte es polvo y roca triturados por impactos durante miles de millones de años.",
+                "covers": "Roca basáltica, el tipo de roca más común en la superficie de la Luna y de Marte.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La demora de las comunicaciones es simulada y el trabajo se hace con la gravedad, el aire y la temperatura de la Tierra.",
+                "covers": "Caminatas geológicas coordinadas con un equipo científico remoto, con comunicaciones demoradas y decisiones bajo límites de tiempo y energía.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -45,6 +75,12 @@
         "image": "img/analogs/canapa.jpg",
         "source": "https://es.wikipedia.org/wiki/Laguna_Ca%C3%B1apa",
         "aspects": [
+            {
+                "breaks": "Es un ecosistema abierto, con aves y microbios que llegan de fuera; en Marte no hay vida conocida que pueda colonizar una salmuera. Sirve para estudiar los límites de la vida, no para predecir si la hay en Marte.",
+                "covers": "Salmuera hipersalina y fría en altura, con radiación UV alta: un ambiente para preguntar cómo sobrevive la vida en la sal.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -62,6 +98,12 @@
         "image": "img/analogs/cerro-rico.jpg",
         "source": "https://en.wikipedia.org/wiki/Cerro_Rico",
         "aspects": [
+            {
+                "breaks": "Su química ácida la causó la minería, al exponer sulfuros al aire y al agua; en Meridiani se formó de forma natural hace miles de millones de años. Falta confirmar esos minerales con análisis.",
+                "covers": "Drenaje ácido con sulfatos de hierro. En sus relaves conviene buscar minerales como jarosita y schwertmannita, que indican agua ácida como en Meridiani.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -79,6 +121,18 @@
         "image": "img/analogs/coipasa.jpg",
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "Su sal es reciente y se moja con las lluvias; los depósitos de Aureum Chaos e Icaria Planum son antiguos y secos. La equivalencia debe demostrarse con análisis mineral, no por apariencia.",
+                "covers": "Costras de sal, salmueras y arcillas formadas por evaporación, en una cuenca distinta de Uyuni: permite comparar dos salares.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "No debe darse por firme ni accesible, y la gravedad y la tracción son las terrestres. Hay que evitar costras y ecosistemas frágiles.",
+                "covers": "Superficie salina para comparar la navegación y la clasificación de terreno de un mismo rover con lo medido en Uyuni.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -97,6 +151,18 @@
         "image": "img/analogs/concordia.jpg",
         "source": "https://en.wikipedia.org/wiki/Concordia_Station",
         "aspects": [
+            {
+                "breaks": "El polo sur lunar no tiene atmósfera: sus sombras permanentes son mucho más frías y la radiación llega sin el escudo del aire ni del campo magnético.",
+                "covers": "Frío extremo, aire muy seco y oscuridad durante el invierno polar.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "Se vive sin traje, respirando aire, con una gravedad unas seis veces la lunar. No hay vacío ni regolito, ni la radiación de la superficie lunar.",
+                "covers": "Aislamiento de meses con una tripulación pequeña, frío y oscuridad invernal, como en una base de larga duración.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -115,6 +181,18 @@
         "image": "img/analogs/cordillera-real.jpg",
         "source": "https://en.wikipedia.org/wiki/Cordillera_Real_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "Son glaciares de montaña. Planum Boreum es un casquete de capas de hielo y polvo cuyo relieve marcan la sublimación y el viento.",
+                "covers": "Terreno nuevo que queda al descubierto cuando el glaciar retrocede: morrenas y rocas pulidas por el hielo.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "El hielo se pierde sobre todo derritiéndose, con agua líquida. En Planum Boreum se pierde por sublimación, a una presión de cientos de pascales y muy bajo cero.",
+                "covers": "Hielo expuesto a mucha radiación solar en un ambiente frío y de altura, que se pierde año a año.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -133,6 +211,18 @@
         "image": "img/analogs/desierto-dali.jpg",
         "source": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD_Desert",
         "aspects": [
+            {
+                "breaks": "Medusae Fossae es un depósito fino y blando de cientos de kilómetros tallado en crestas (yardangs). Dalí es mucho más pequeño y de otro material.",
+                "covers": "Paisaje árido de arena y rocas aisladas modelado por el viento.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Su frío y su aridez son moderados frente a Marte, y tiene oxígeno y una presión decenas de veces mayor. Sin estudios microbiológicos, la analogía es una propuesta.",
+                "covers": "Desierto frío, seco y de altura, con radiación UV alta, donde aún no se ha estudiado qué vida microbiana hay.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -151,6 +241,18 @@
         "image": "img/analogs/el-tatio.jpg",
         "source": "https://en.wikipedia.org/wiki/El_Tatio",
         "aspects": [
+            {
+                "breaks": "Su sílice se sigue formando hoy con agua hirviendo; la de Home Plate es antigua. La vida actual de El Tatio deja señales que complican distinguir biofirmas antiguas.",
+                "covers": "Depósitos de sílice formados por aguas termales, como la sílice que encontró el rover Spirit cerca de Home Plate.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Hay agua líquida, oxígeno y presión terrestre. Home Plate hoy está seco y expuesto a la radiación marciana sin protección.",
+                "covers": "Agua termal en altura, con frío nocturno y radiación UV alta, donde viven microbios adaptados.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -169,6 +271,18 @@
         "image": null,
         "source": "https://doi.org/10.1002/ppp.1816",
         "aspects": [
+            {
+                "breaks": "Son mucho más pequeños y su hielo se renueva con nieve. Los glaciares de Marte son restos de climas antiguos y se mueven con 0,38 veces la gravedad terrestre.",
+                "covers": "Hielo protegido por una capa de rocas y detritos que frena su pérdida, con frentes y lóbulos como los de los glaciares de Deuteronilus Mensae.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "En verano superan los 0 °C y hay agua líquida. En Deuteronilus Mensae el hielo está siempre bajo cero y a una presión muy baja.",
+                "covers": "Ambiente seco y frío de altura donde son la principal reserva de hielo de la Cordillera Occidental.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -187,6 +301,12 @@
         "image": "img/analogs/grand-canyon.jpg",
         "source": "https://en.wikipedia.org/wiki/Grand_Canyon",
         "aspects": [
+            {
+                "breaks": "Sus capas son rocas de antiguos mares y ríos, con fósiles; las paredes de Valles Marineris se interpretan en buena parte como coladas volcánicas y depósitos cuyo origen aún se discute. Comparar capas no dice cómo se formaron.",
+                "covers": "Paredes de cientos de metros con capas expuestas y deslizamientos, que permiten leer la historia geológica como en las paredes de Valles Marineris.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -204,6 +324,12 @@
         "image": "img/analogs/guapore.jpg",
         "source": "https://en.wikipedia.org/wiki/Amazonian_Craton",
         "aspects": [
+            {
+                "breaks": "Se meteoriza en clima tropical, con lluvia, vegetación y vida en el suelo. Las arcillas de Mawrth Vallis se formaron con agua hace miles de millones de años, sin vida conocida. Es un análogo sugerido, sin estudios.",
+                "covers": "Corteza precámbrica muy antigua, útil para estudiar cómo se altera una roca vieja con el paso del tiempo.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -221,6 +347,18 @@
         "image": "img/analogs/haughton.jpg",
         "source": "https://en.wikipedia.org/wiki/Haughton_impact_crater",
         "aspects": [
+            {
+                "breaks": "Se formó en rocas sedimentarias y su levantamiento central está muy erosionado. Tycho se formó en roca lunar seca y conserva pico central, terrazas y charcos de roca fundida por el impacto.",
+                "covers": "Cráter de impacto de unos 23 km con roca fracturada, brechas de impacto y rastros de actividad hidrotermal causada por el impacto.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "En verano hay agua líquida y vida. La Luna no tiene atmósfera ni agua líquida, y su superficie pasa de mucho calor a mucho frío entre el día y la noche.",
+                "covers": "Desierto polar frío y seco, con suelo congelado.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -239,6 +377,18 @@
         "image": "img/analogs/haughton-hmp.jpg",
         "source": "https://en.wikipedia.org/wiki/Haughton%E2%80%93Mars_Project",
         "aspects": [
+            {
+                "breaks": "La presión del aire es más de cien veces la de Marte y en verano hay agua líquida.",
+                "covers": "Frío polar, aridez y aislamiento en un entorno sin vegetación.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "Se respira aire, la gravedad es terrestre y hay apoyo cercano. En Utopia Planitia harían falta trajes presurizados y las comunicaciones con la Tierra tardan minutos.",
+                "covers": "Ensayos de vehículos, caminatas con trajes simulados, robots y procedimientos de campo en un lugar remoto y frío.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -257,6 +407,12 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/HI-SEAS",
         "aspects": [
+            {
+                "breaks": "La tripulación respira aire, vive con gravedad terrestre y sabe que puede salir. La demora de las comunicaciones se simula, y no hay radiación ni el riesgo real de una misión.",
+                "covers": "Vida en un hábitat cerrado durante meses: convivencia, rutinas, comida y salidas planificadas sobre terreno volcánico.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -274,6 +430,12 @@
         "image": null,
         "source": null,
         "aspects": [
+            {
+                "breaks": "Las ignimbritas vienen de erupciones explosivas; Olympus Mons se formó con coladas tranquilas. Antes de usarlo como análogo hay que caracterizar el sitio: no tiene estudios ni fuente.",
+                "covers": "Domos de lava planos y amplios mantos de ignimbrita, depósitos de nubes volcánicas ardientes.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -291,6 +453,12 @@
         "image": "img/analogs/italia-perdida.jpg",
         "source": "https://es.wikipedia.org/wiki/Italia_Perdida",
         "aspects": [
+            {
+                "breaks": "Son rocas duras y aisladas, no un depósito continuo. Las formas de Medusae Fossae son crestas alargadas, de kilómetros de largo, en un material blando.",
+                "covers": "Rocas volcánicas talladas en formas irregulares por la erosión, comparables con las rocas pulidas por el viento que fotografían los rovers.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -308,6 +476,12 @@
         "image": "img/analogs/iturralde.jpg",
         "source": "https://svs.gsfc.nasa.gov/925",
         "aspects": [
+            {
+                "breaks": "Si fue una explosión en el aire, no sería un cráter de impacto propiamente dicho. Los cráteres fantasma de Marte son impactos reales enterrados por lava o sedimentos: hay que confirmar su origen antes de usarlo.",
+                "covers": "Estructura circular de unos 8 km, muy degradada y casi sin relieve, en sedimentos blandos: así se ven los cráteres «fantasma» de las llanuras del norte de Marte.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -325,6 +499,18 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
         "aspects": [
+            {
+                "breaks": "Olympus Mons es mucho más alto y ancho. Los domos de Marius Hills se formaron con lava más viscosa que la de los mares, distinta de la de Kīlauea.",
+                "covers": "Volcán en escudo con coladas fluidas, cráteres de hundimiento y tubos de lava, formas que también aparecen en la Luna y en Marte.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Su basalto contiene agua y se altera rápido con lluvia y oxígeno. Los basaltos lunares son muy secos y tienen más de 3.000 millones de años.",
+                "covers": "Basalto, el tipo de roca de los mares lunares y de los volcanes de Tharsis.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -343,6 +529,18 @@
         "image": "img/analogs/lago-poopo.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Poop%C3%B3",
         "aspects": [
+            {
+                "breaks": "Son depósitos recientes y húmedos. Los del lago de Jezero son antiguos, compactados y alterados durante miles de millones de años.",
+                "covers": "Costras de sal y sedimentos que quedan en el fondo al evaporarse el agua.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Al secarse murieron peces y aves, y la vida que quedó se adaptó a un agua cada vez más salada; en Jezero no se sabe si hubo vida. Sirve para ver qué rastros quedan, no para reconstruir el ambiente marciano.",
+                "covers": "Lago de altura que se seca: muestra cómo cambian la salinidad y la vida cuando un lago desaparece.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -361,6 +559,18 @@
         "image": "img/analogs/lago-tauca.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Tauca",
         "aspects": [
+            {
+                "breaks": "Sus orillas antiguas son líneas de playa de un lago tranquilo. Aureum Chaos muestra bloques hundidos y fracturados por el colapso del suelo, una forma que el Altiplano no tiene.",
+                "covers": "Antiguas orillas y terrazas que marcan los niveles que tuvo un gran lago.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "La sal es reciente y se moja cada año. Los depósitos de Aureum Chaos son antiguos y su composición debe confirmarse con análisis.",
+                "covers": "Sus depósitos de sal y yeso, hoy los salares, muestran qué queda cuando se evapora un gran lago.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -379,6 +589,18 @@
         "image": "img/analogs/laguna-blanca-termal.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Blanca_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "No hay estudios que comparen su mineralogía con la de Home Plate, rica en sílice: la comparación mineral está por confirmar.",
+                "covers": "Depósitos minerales que dejan las aguas termales al enfriarse.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Su calor viene de la actividad volcánica actual. En Home Plate esa fuente de calor se apagó hace miles de millones de años, así que sirve para imaginar el pasado, no el presente.",
+                "covers": "Agua termal de unos 36 °C a más de 4.300 m, con microbios que soportan frío, UV alta y cambios bruscos.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -397,6 +619,18 @@
         "image": "img/analogs/laguna-colorada.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Colorada",
         "aspects": [
+            {
+                "breaks": "El bórax permite formular preguntas sobre el boro, no prueba que los minerales de Gale sean iguales. En Gale el boro está en vetas de sulfato dentro de roca antigua.",
+                "covers": "Laguna hipersalina con islas de bórax, un mineral de boro. El rover Curiosity detectó boro en vetas del cráter Gale.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Es un lago vivo, con algas y flamencos, agua líquida abundante y presión terrestre. Gale hoy está seco.",
+                "covers": "Agua muy salada, fría y con radiación UV alta, donde viven algas con pigmentos.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -415,6 +649,18 @@
         "image": "img/analogs/laguna-verde.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Verde_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "En Jezero hay carbonatos, pero no se ha demostrado que tengan forma de microbialito. Y encontrar esa forma no bastaría para probar vida.",
+                "covers": "Terrazas con microbialitos, rocas de carbonato construidas por microbios, que registran cómo bajó el nivel del lago.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Tiene oxígeno, agua estable y presión terrestre. Representa un lago antiguo de Marte, no el ambiente marciano actual.",
+                "covers": "Laguna somera de altura sin refugio contra la radiación UV y con temperaturas del agua muy variables.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -433,6 +679,18 @@
         "image": "img/analogs/lanzarote-pangaea.jpg",
         "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
         "aspects": [
+            {
+                "breaks": "La lluvia, el viento y la vegetación modifican el relieve. Se cree que los tubos de lava lunares serían mucho más grandes por la baja gravedad.",
+                "covers": "Coladas de lava, conos y tubos volcánicos, formas que también existen en la Luna.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Se hace con aire, gravedad terrestre y sin trajes presurizados. En la Luna cada salida está limitada por el traje, el tiempo y la energía.",
+                "covers": "Entrenamiento de astronautas en geología de campo: reconocer rocas volcánicas, tomar muestras y describirlas a un equipo remoto.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -451,6 +709,18 @@
         "image": null,
         "source": "https://doi.org/10.3390/min9060380",
         "aspects": [
+            {
+                "breaks": "La sílice de Home Plate se formó probablemente con vapor o agua caliente sobre roca volcánica; La Salsa combina carbonato y sílice dentro de un lago. La comparación química exacta está por hacer.",
+                "covers": "Montículos hidrotermales con carbonato y sílice juntos, un tipo de depósito que puede conservar señales de vida.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Es un ambiente habitado hoy, con agua y oxígeno. Home Plate está seco desde hace miles de millones de años.",
+                "covers": "Fuente termal en altura con microbios que viven en condiciones cambiantes de temperatura y química.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -469,6 +739,18 @@
         "image": "img/analogs/licancabur.jpg",
         "source": "https://doi.org/10.1029/2008JG000818",
         "aspects": [
+            {
+                "breaks": "Son sedimentos recientes con vida actual. Los de Gale y Jezero son roca antigua y compactada.",
+                "covers": "Química del agua y sedimentos de lagos volcánicos de altura.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Su radiación UV es alta para la Tierra, pero el ozono y la atmósfera aún filtran parte de ella. En la superficie de Marte llega mucha más UV, incluida la UV-C.",
+                "covers": "Lagos a gran altura con frío, radiación UV muy alta y organismos adaptados, estudiados por el proyecto High-Lakes como modelo de lagos marcianos antiguos.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -487,6 +769,18 @@
         "image": "img/analogs/mcmurdo.jpg",
         "source": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys",
         "aspects": [
+            {
+                "breaks": "Sus polígonos se forman con ciclos de hielo bajo una atmósfera densa. En Marte influyen la sublimación y la baja presión, y ver polígonos no basta para afirmar que hay hielo.",
+                "covers": "Suelo con polígonos formados por el hielo, parecidos a los de las llanuras del norte de Marte.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Recibe luz solar normal, mientras que el fondo de Shackleton está en sombra permanente y es mucho más frío. Y frente a Utopia Planitia, falta la radiación que llega al suelo marciano sin campo magnético.",
+                "covers": "Uno de los lugares más fríos y secos de la Tierra, con suelos congelados y muy poca vida.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -505,6 +799,18 @@
         "image": "img/analogs/mdrs.jpg",
         "source": "https://mdrs.marssociety.org/",
         "aspects": [
+            {
+                "breaks": "Esas capas las formaron ríos y mares terrestres, y hoy las erosiona la lluvia. En Marte esos procesos se detuvieron hace miles de millones de años.",
+                "covers": "Terreno sedimentario árido con capas de colores, canales antiguos y suelos arcillosos, parecido a los sedimentos de Jezero y Gale.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Los trajes no están presurizados y se puede salir en cualquier momento. No reproduce la baja presión, la radiación ni la demora real de las comunicaciones.",
+                "covers": "Rutinas completas de misión: salidas con trajes simulados, trabajo en un hábitat pequeño, horarios y reportes a un equipo de apoyo.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -523,6 +829,18 @@
         "image": "img/analogs/meteor-crater.jpg",
         "source": "https://en.wikipedia.org/wiki/Meteor_Crater",
         "aspects": [
+            {
+                "breaks": "Tycho mide unos 85 km y tiene pico central y paredes en terrazas, propios de cráteres grandes. Sus rayos de eyecta se conservan porque en la Luna no hay erosión por aire ni agua.",
+                "covers": "Cráter de impacto simple de 1,2 km, con borde elevado y eyecta bien conservados.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Entrenaban con aire y gravedad terrestre, sin las limitaciones del traje ni del tiempo de una caminata lunar.",
+                "covers": "Los astronautas del programa Apolo entrenaron aquí para reconocer rocas de impacto.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -541,6 +859,12 @@
         "image": "img/analogs/ollague.jpg",
         "source": "https://en.wikipedia.org/wiki/Ollag%C3%BCe",
         "aspects": [
+            {
+                "breaks": "Es una montaña de casi 6 km sobre el nivel del mar con laderas empinadas; Olympus Mons tiene laderas muy suaves en un escudo enorme. Solo comparte la conservación por el clima seco.",
+                "covers": "Volcán muy bien conservado por la aridez, con domos y coladas casi sin erosión, como los volcanes marcianos.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -558,6 +882,18 @@
         "image": null,
         "source": "https://doi.org/10.3390/geosciences12020088",
         "aspects": [
+            {
+                "breaks": "Sus carbonatos se forman en un lago dentro de una caldera volcánica. Jezero es un cráter de impacto con un delta de río, y sus carbonatos pudieron formarse de otras maneras, por ejemplo al alterarse rocas con agua.",
+                "covers": "Costra de carbonatos y microbialitos dentro de una caldera, como los carbonatos de un lago dentro de un cráter.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Tiene agua líquida, oxígeno y presión terrestre. Jezero dejó de tener agua hace miles de millones de años.",
+                "covers": "Laguna salina de altura alimentada por fuentes termales, con frío, UV alta y microbios.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -576,6 +912,18 @@
         "image": null,
         "source": null,
         "aspects": [
+            {
+                "breaks": "Son patrones pequeños, de montaña tropical. Los polígonos de Utopia Planitia son mucho mayores y se formaron durante millones de años.",
+                "covers": "Suelo «ordenado» en pequeños patrones por la helada nocturna.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "De día la superficie supera los 0 °C y se descongela. El hielo de Utopia Planitia está casi siempre muy bajo cero y a una presión mínima. Análogo sugerido, sin fuente propia.",
+                "covers": "Suelo congelado de forma permanente por encima de unos 4.700 m, con heladas casi todas las noches.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -594,6 +942,18 @@
         "image": "img/analogs/rio-tinto.jpg",
         "source": "https://en.wikipedia.org/wiki/Rio_Tinto_(river)",
         "aspects": [
+            {
+                "breaks": "Además de jarosita, las rocas de Meridiani tienen esférulas de hematita y arena de basalto cementadas durante miles de millones de años. Río Tinto no reproduce esa mezcla.",
+                "covers": "Agua ácida rica en hierro que forma sulfatos de hierro como la jarosita, un mineral que el rover Opportunity encontró en Meridiani.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Hay agua corriente, oxígeno y temperatura templada. Meridiani hoy es seco, frío y está expuesto a la radiación sin protección.",
+                "covers": "Microbios que viven en agua muy ácida y cargada de metales: muestra que la vida tolera condiciones químicas extremas.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -612,6 +972,24 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Nevado_Sajama",
         "aspects": [
+            {
+                "breaks": "No todos sus materiales son basálticos y el volcán es mucho más pequeño que Olympus Mons. Cada sector requiere comprobación.",
+                "covers": "Laderas volcánicas con rocas sueltas de distintos tamaños y obstáculos naturales.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Hay oxígeno, la presión es decenas de veces la de Marte y el frío es moderado frente a la temperatura media marciana de unos −59 °C.",
+                "covers": "Frío de altura, heladas, nieve estacional y radiación UV alta.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "El frío no llega a los extremos marcianos y la presión es decenas de veces mayor. La altura es un riesgo médico para el equipo, no una simulación de Marte.",
+                "covers": "Pruebas de rovers y equipos con frío y altura: arranque de baterías, pendientes, estabilidad y procedimientos de campo.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -631,6 +1009,18 @@
         "image": null,
         "source": "https://doi.org/10.1126/science.282.5395.1858",
         "aspects": [
+            {
+                "breaks": "Es nieve compactada en un glaciar de montaña, que también se derrite. Planum Boreum acumula capas de hielo y polvo durante millones de años.",
+                "covers": "Capas de hielo que guardan un archivo del clima: sus núcleos registran unos 25.000 años.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "En Planum Boreum la temperatura es mucho menor, la presión es de cientos de pascales y el hielo se pierde por sublimación.",
+                "covers": "Hielo a gran altura, con frío, aire seco y radiación solar intensa.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -649,6 +1039,18 @@
         "image": "img/analogs/salares-capas.jpg",
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "Son capas casi horizontales en una cuenca plana; el Monte Sharp es una montaña de unos 5 km de capas que el viento ha erosionado. Se compara cómo se leen las capas, no su forma.",
+                "covers": "Capas alternadas de sal, yeso y barro que registran épocas secas y húmedas, como las capas del Monte Sharp.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "En Gale hay arcillas y sulfatos en roca antigua; la comparación mineral exacta requiere análisis.",
+                "covers": "Halita y yeso en las capas secas y barro con microfósiles en las húmedas.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -667,6 +1069,18 @@
         "image": "img/analogs/salda.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Salda",
         "aspects": [
+            {
+                "breaks": "Es un lago con agua; el delta de Jezero es roca antigua que el viento erosiona desde hace miles de millones de años.",
+                "covers": "Deltas y orillas de un lago, formas que también tiene el antiguo lago de Jezero.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Sus carbonatos se forman hoy con ayuda de microbios vivos. Los de Jezero son antiguos y su origen biológico no está demostrado.",
+                "covers": "Carbonatos de magnesio y sedimentos parecidos a los de Jezero; el equipo de Perseverance lo usó para preparar la misión.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -685,6 +1099,18 @@
         "image": "img/analogs/siloli.jpg",
         "source": "https://es.wikipedia.org/wiki/Desierto_Siloli",
         "aspects": [
+            {
+                "breaks": "Sus ventifactos son rocas aisladas de unos metros. Medusae Fossae es un depósito continuo y blando tallado en crestas de kilómetros: otra escala y otro material.",
+                "covers": "Rocas esculpidas por el viento, como el Árbol de Piedra, un ventifacto de unos 7 m.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Hay oxígeno y vida, y la presión es decenas de veces la de Marte. Medusae Fossae es mucho más fría.",
+                "covers": "Desierto frío a más de 4.500 m, seco y con radiación UV alta.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -703,6 +1129,18 @@
         "image": "img/analogs/sol-de-manana.jpg",
         "source": "https://en.wikipedia.org/wiki/Sol_de_Ma%C3%B1ana",
         "aspects": [
+            {
+                "breaks": "Es un sistema activo a presión terrestre. Home Plate es un depósito apagado y muy antiguo, rico en sílice.",
+                "covers": "Alteración hidrotermal ácida: fumarolas, barro hirviendo y minerales formados por gases y agua caliente.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Aun así, la presión es decenas de veces la de Marte. Es peligroso: la costra es delgada y se puede caer en barro hirviendo.",
+                "covers": "Agua y gases calientes a unos 4.900 m, con mucha radiación UV y poca presión para la Tierra.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -721,6 +1159,24 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Eduardo_Avaroa_Andean_Fauna_National_Reserve",
         "aspects": [
+            {
+                "breaks": "Su relieve se formó con agua, hielo y volcanes terrestres. Para comparar composiciones hace falta estudiar las rocas de cada sector.",
+                "covers": "Mosaico de arena, grava, rocas volcánicas, lagunas y relieve erosionado por el viento.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Los remolinos de polvo terrestres no equivalen a los marcianos, y la presión y el oxígeno son los de la Tierra.",
+                "covers": "Altura, noches frías, grandes cambios de temperatura y radiación solar intensa.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "Gravedad y aire terrestres, y suelos distintos del regolito marciano en tamaño de grano y cohesión. Es área protegida: requiere permisos.",
+                "covers": "Campo variado para probar suspensión, patinaje, navegación sin GPS y misiones geológicas completas de rovers.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -740,6 +1196,18 @@
         "image": "img/analogs/tajzara.jpg",
         "source": "https://en.wikipedia.org/wiki/Tajzara_Lake",
         "aspects": [
+            {
+                "breaks": "En Medusae Fossae domina la erosión de un depósito blando en crestas (yardangs), no las dunas, y el aire marciano es mucho más tenue.",
+                "covers": "Dunas de arena a gran altitud que el viento mueve y reforma.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Tiene oxígeno, presión terrestre de altura y lagunas cercanas. Sin estudios, la analogía ambiental es una propuesta.",
+                "covers": "Ambiente frío y seco de altura, todavía sin estudios microbiológicos.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -758,6 +1226,12 @@
         "image": "img/analogs/tata-sabaya.jpg",
         "source": "https://doi.org/10.5027/andgeoV39n3-a03",
         "aspects": [
+            {
+                "breaks": "Los deslizamientos de Valles Marineris recorren decenas de kilómetros y los flancos de Olympus Mons son mucho mayores. La gravedad terrestre cambia cómo se mueve una avalancha.",
+                "covers": "Avalancha de escombros de unos 6 km³ que cubrió 230–300 km² y dejó montículos, como los grandes deslizamientos de Marte.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -775,6 +1249,18 @@
         "image": "img/analogs/torotoro.jpg",
         "source": "https://en.wikipedia.org/wiki/Torotoro_National_Park",
         "aspects": [
+            {
+                "breaks": "Su origen es fluvial y su escala pequeña: Valles Marineris es tectónico y llega a unos 7 km de profundidad. Las rocas de Gale tienen otra edad y composición.",
+                "covers": "Cañón de 250–300 m con capas de lutitas, areniscas y calizas, y un gran pliegue (sinclinal).",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Es una analogía de método, no de rocas. La protección de sus huellas fósiles limita el trabajo físico y la toma de muestras.",
+                "covers": "Entrenamiento en lectura de estratos: identificar capas y contactos y fotografiarlos con escala, como hacen los equipos de los rovers.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -793,6 +1279,12 @@
         "image": "img/analogs/umajalanta.jpg",
         "source": "https://es.wikipedia.org/wiki/Caverna_de_Umajalanta",
         "aspects": [
+            {
+                "breaks": "Sus pasajes son estrechos, húmedos y tienen un río subterráneo; un tubo lunar sería seco, sin aire y quizá mucho más ancho. Equipos y rutas probados aquí deben adaptarse a esas diferencias.",
+                "covers": "Navegación, comunicaciones y mapeo bajo tierra en una cueva de unos 4,6 km.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -810,6 +1302,18 @@
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "No se le atribuyen percloratos sin análisis local, y su sal es reciente. Los depósitos de Aureum Chaos y Meridiani tienen miles de millones de años.",
+                "covers": "Costras de sal, salmueras y arcillas hidratadas que la NASA compara con Marte y con Aureum Chaos.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Hay oxígeno, la presión es decenas de veces la de Marte y se inunda cada año con agua de lluvia.",
+                "covers": "Frío nocturno, aire seco y radiación UV alta sobre una superficie salina.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -828,6 +1332,12 @@
         "image": null,
         "source": "https://doi.org/10.5194/epsc2024-483",
         "aspects": [
+            {
+                "breaks": "Los cloruros de Icaria Planum se detectan desde órbita, con instrumentos que miden la luz que reflejan; los de Uyuni se pueden tocar y analizar. La comparación depende de lo que esos instrumentos logran ver.",
+                "covers": "Cloruros formados por evaporación, comparados por investigadores de la UMSA con los cloruros de Icaria Planum.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
@@ -845,6 +1355,12 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
         "aspects": [
+            {
+                "breaks": "Meridiani tiene ondulaciones de arena y esférulas. La costra puede ocultar salmuera o zonas blandas, y la sal corroe contactos y equipos.",
+                "covers": "Superficie plana y repetitiva para probar la localización visual, la cartografía y la detección de costras de un rover.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
@@ -862,6 +1378,12 @@
         "image": null,
         "source": "https://doi.org/10.1103/PhysRevX.13.011025",
         "aspects": [
+            {
+                "breaks": "No representa los polígonos de hielo de Utopia Planitia. Sirve para no confundir causas, sobre todo en depósitos de sal como los de Icaria Planum.",
+                "covers": "Polígonos de 1–2 m que se forman por convección de la salmuera: un contraejemplo de polígonos sin hielo.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
@@ -879,6 +1401,18 @@
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "En Marte las salmueras podrían incluir percloratos, que no se han medido en Uyuni. La composición de las salmueras marcianas se infiere, no se ha medido directamente.",
+                "covers": "Química de salmueras con cloruros y sales de litio y magnesio.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Sus microbios crecen a temperatura y presión terrestres. Para saber si sobrevivirían en Marte habría que exponerlos en laboratorio a frío extremo, baja presión y radiación.",
+                "covers": "Salmueras ricas en litio y magnesio, con sales que desestabilizan biomoléculas, donde viven microbios incluso a 80 m de profundidad.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
@@ -897,6 +1431,18 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Valle_de_la_Luna_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "Sus pináculos miden pocos metros y son frágiles; las formas de Gale son de roca más dura y antigua. Sirve para practicar cómo se ve el relieve, no para entender cómo se formó.",
+                "covers": "Relieve erosionado en cárcavas y pináculos sobre sedimentos blandos.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Las formaciones son frágiles: conviene usar modelos digitales o réplicas. No reproduce la luz, el polvo ni la gravedad de Marte.",
+                "covers": "Cárcavas, pináculos y sombras para practicar fotogrametría, mapeo 3D y detección de obstáculos.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
