@@ -1,12 +1,10 @@
-// Persona A. Configuración común de Leaflet para los mapas de la Luna y de Marte.
+// Persona A. Globo 3D común para la Luna y Marte (antes era un mapa plano de Leaflet).
 // MoonMap y MarsMap solo eligen el cuerpo; todo lo demás vive aquí.
-import { useEffect, useMemo, useState } from 'react'
-import L from 'leaflet'
-import type { PathOptions } from 'leaflet'
-import { MapContainer, TileLayer, GeoJSON, CircleMarker, Tooltip, useMap } from 'react-leaflet'
-import type { Feature, FeatureCollection, Polygon as GeoPolygon } from 'geojson'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import Globe, { type GlobeMethods } from 'react-globe.gl'
 import { LAYERS } from '../../config/layers.ts'
 import { getZones } from '../../lib/data.ts'
+import { planetTexture } from '../../lib/planetTexture.ts'
 import type { BodyId, Zone } from '../../types/domain.ts'
 
 export type PlanetMapProps = {
@@ -14,10 +12,14 @@ export type PlanetMapProps = {
   onSelect: (zone: Zone) => void
 }
 
-type ZoneFeature = Feature<GeoPolygon, { id: string; name: string }>
+// Aspecto de cada cuerpo en el globo.
+const LOOK: Record<BodyId, { atmosphere: string | null }> = {
+  moon: { atmosphere: null },        // la Luna no tiene atmósfera
+  mars: { atmosphere: '#e08a5c' },   // halo rojizo, delgado como su atmósfera
+}
 
-const baseStyle: PathOptions = { color: '#ffd43b', weight: 1.5, fillOpacity: 0.15 }
-const selectedStyle: PathOptions = { color: '#ff6b6b', weight: 3, fillOpacity: 0.3 }
+const ALT_START = 2.4   // distancia inicial de la cámara, en radios del planeta
+const ALT_ZONE = 1.5    // distancia al enfocar una zona
 
 // Zonas del cuerpo, cargadas desde lib/data.ts. null = cargando.
 function useZones(body: BodyId) {
@@ -33,102 +35,144 @@ function useZones(body: BodyId) {
   return zones
 }
 
-const markerStyle: PathOptions = { color: '#1a1300', weight: 1.5, fillColor: '#ffd43b', fillOpacity: 0.95 }
-const markerSelectedStyle: PathOptions = { color: '#fff', weight: 2, fillColor: '#ff6b6b', fillOpacity: 1 }
+// Textura del planeta armada con los tiles de Trek. null = cargando o falló.
+function useTexture(body: BodyId) {
+  const [url, setUrl] = useState<string | null>(null)
+  useEffect(() => {
+    let alive = true
+    setUrl(null)
+    planetTexture(LAYERS[body].url)
+      .then((u) => { if (alive) setUrl(u) })
+      .catch((err) => console.error(`No se pudo armar la textura de ${body}`, err))
+    return () => { alive = false }
+  }, [body])
+  return url
+}
 
-// Centro del rectángulo que envuelve la zona, en [lat, lon] (la geometría guarda [lon, lat]).
-function zoneCenter(zone: Zone): [number, number] {
+// Tamaño del contenedor: el globo es un canvas WebGL y necesita ancho y alto en píxeles.
+function useSize<T extends HTMLElement>() {
+  const ref = useRef<T>(null)
+  const [size, setSize] = useState({ width: 0, height: 0 })
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const observer = new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect
+      setSize({ width: Math.round(width), height: Math.round(height) })
+    })
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+  return [ref, size] as const
+}
+
+// Centro del rectángulo que envuelve la zona (la geometría guarda [lon, lat]).
+function zoneCenter(zone: Zone): { lat: number; lng: number } {
   const ring = zone.geometry.coordinates[0] ?? []
   const lons = ring.map(([lon]) => lon)
   const lats = ring.map(([, lat]) => lat)
-  return [(Math.min(...lats) + Math.max(...lats)) / 2, (Math.min(...lons) + Math.max(...lons)) / 2]
+  return { lat: (Math.min(...lats) + Math.max(...lats)) / 2, lng: (Math.min(...lons) + Math.max(...lons)) / 2 }
 }
 
-// Todo el planeta en coordenadas [lat, lon].
-const WORLD: L.LatLngBoundsExpression = [[-90, -180], [90, 180]]
+type Marker = { zone: Zone; lat: number; lng: number }
+type Ring = Zone['geometry']['coordinates'][number]
 
-// Leaflet mide el contenedor una sola vez al montarse. Si en ese momento el layout aún no
-// tiene alto (grid, fuentes o panel cargando), el mapa queda como una franja y no dibuja las zonas.
-// Esto vuelve a medir cada vez que el contenedor cambia de tamaño (también al rotar el móvil)
-// y, la primera vez que hay tamaño real, encuadra el planeta completo para que ninguna zona
-// quede fuera de la vista.
-function AutoResize() {
-  const map = useMap()
-  useEffect(() => {
-    let fitted = false
-    const observer = new ResizeObserver(() => {
-      map.invalidateSize()
-      const { x, y } = map.getSize()
-      if (!fitted && x > 0 && y > 0) {
-        map.fitBounds(WORLD, { animate: false })
-        fitted = true
-      }
-    })
-    observer.observe(map.getContainer())
-    return () => observer.disconnect()
-  }, [map])
-  return null
+// El globo sigue la convención de d3-geo: el anillo exterior va en sentido horario. Con el sentido
+// antihorario de GeoJSON (RFC 7946) pinta "todo el planeta menos la zona", así que se invierte.
+function clockwise(ring: Ring): Ring {
+  let area = 0
+  for (let i = 0; i < ring.length - 1; i++) area += ring[i][0] * ring[i + 1][1] - ring[i + 1][0] * ring[i][1]
+  return area > 0 ? [...ring].reverse() : ring
 }
+const globeGeometry = (zone: Zone) => ({ type: 'Polygon', coordinates: zone.geometry.coordinates.map(clockwise) })
 
 export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapProps & { body: BodyId }) {
   const layer = LAYERS[body]
+  const look = LOOK[body]
   const zones = useZones(body)
+  const texture = useTexture(body)
+  const [wrapRef, size] = useSize<HTMLDivElement>()
+  const globeRef = useRef<GlobeMethods | undefined>(undefined)
+  const [ready, setReady] = useState(false)
 
-  // Leaflet dibuja GeoJSON; Zone guarda solo la geometría, así que se arma la colección aquí.
-  const collection = useMemo<FeatureCollection<GeoPolygon, ZoneFeature['properties']>>(() => ({
-    type: 'FeatureCollection',
-    features: (zones ?? []).map((z) => ({
-      type: 'Feature',
-      properties: { id: z.id, name: z.name },
-      geometry: z.geometry,
-    })),
-  }), [zones])
+  // Los marcadores HTML se crean una vez; el clic siempre llama al onSelect más reciente.
+  const onSelectRef = useRef(onSelect)
+  onSelectRef.current = onSelect
 
-  const zoneById = useMemo(() => new Map((zones ?? []).map((z) => [z.id, z])), [zones])
+  const markers = useMemo<Marker[]>(() => (zones ?? []).map((z) => ({ zone: z, ...zoneCenter(z) })), [zones])
+
+  // Cámara inicial y giro lento hasta que la persona toque el globo.
+  useEffect(() => {
+    const g = globeRef.current
+    if (!ready || !g) return
+    g.pointOfView({ lat: 10, lng: 0, altitude: ALT_START }, 0)
+    const controls = g.controls()
+    controls.autoRotate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    controls.autoRotateSpeed = 0.35
+    controls.minDistance = 101 * 1.15  // no deja atravesar la superficie (radio del globo = 100)
+    controls.maxDistance = 100 * 5
+    const stop = () => { controls.autoRotate = false }
+    controls.addEventListener('start', stop)
+    return () => controls.removeEventListener('start', stop)
+  }, [ready])
+
+  // Al elegir una zona (en el globo o desde la URL) la cámara vuela hasta ella.
+  useEffect(() => {
+    const g = globeRef.current
+    const m = markers.find((x) => x.zone.id === selectedId)
+    if (!ready || !g || !m) return
+    g.controls().autoRotate = false
+    g.pointOfView({ lat: m.lat, lng: m.lng, altitude: ALT_ZONE }, 1200)
+  }, [ready, selectedId, markers])
 
   return (
-    <MapContainer
-      className="planet-map"
-      crs={L.CRS.EPSG4326}          // tiles de Trek son equirectangulares
-      center={[0, 0]}
-      zoom={1}
-      minZoom={-1}                  // en móvil el planeta completo (512 px a zoom 0) no entra sin alejar más
-      maxZoom={layer.maxZoom}
-      zoomSnap={0.25}               // permite encuadrar el planeta sin saltos de zoom enteros
-      maxBounds={WORLD}             // no deja arrastrar el mapa fuera del planeta
-      maxBoundsViscosity={1}
-      worldCopyJump={false}
-    >
-      <AutoResize />
-      <TileLayer url={layer.url} attribution={layer.attribution} noWrap bounds={WORLD} tileSize={256}
-        minZoom={-1} minNativeZoom={0} />
-      {zones && (
-        <GeoJSON
-          key={`${zones.length}-${selectedId ?? 'none'}`}   // re-render al cargar y al cambiar la selección
-          data={collection}
-          style={(f) => (f?.properties.id === selectedId ? selectedStyle : baseStyle)}
-          onEachFeature={(feature: ZoneFeature, lyr) => {
-            lyr.bindTooltip(feature.properties.name)
-            lyr.on('click', () => {
-              const zone = zoneById.get(feature.properties.id)
-              if (zone) onSelect(zone)
-            })
+    <div ref={wrapRef} className="planet-map planet-globe">
+      {size.width > 0 && size.height > 0 && (
+        <Globe
+          ref={globeRef}
+          width={size.width}
+          height={size.height}
+          backgroundColor="rgba(0,0,0,0)"
+          globeImageUrl={texture}
+          showAtmosphere={look.atmosphere !== null}
+          atmosphereColor={look.atmosphere ?? undefined}
+          atmosphereAltitude={0.12}
+          showGraticules
+          onGlobeReady={() => setReady(true)}
+          // Contorno de cada zona, apenas levantado de la superficie.
+          polygonsData={zones ?? []}
+          // react-globe.gl tipa `coordinates` como number[] aunque acepta cualquier GeoJSON; de ahí el cast.
+          polygonGeoJsonGeometry={(d) => globeGeometry(d as Zone) as unknown as { type: string; coordinates: number[] }}
+          polygonCapColor={(d) => ((d as Zone).id === selectedId ? 'rgba(255,107,107,0.35)' : 'rgba(255,212,59,0.18)')}
+          polygonSideColor={() => 'rgba(255,212,59,0.08)'}
+          polygonStrokeColor={(d) => ((d as Zone).id === selectedId ? '#ff6b6b' : '#ffd43b')}
+          polygonAltitude={(d) => ((d as Zone).id === selectedId ? 0.012 : 0.006)}
+          polygonsTransitionDuration={300}
+          polygonLabel={(d) => (d as Zone).name}
+          onPolygonClick={(d) => onSelectRef.current(d as Zone)}
+          // Punto de tamaño fijo en el centro de cada zona: algunas zonas miden pocos píxeles
+          // vistas desde lejos y no se podrían tocar con el dedo.
+          htmlElementsData={markers}
+          htmlLat={(d) => (d as Marker).lat}
+          htmlLng={(d) => (d as Marker).lng}
+          htmlAltitude={0}
+          htmlTransitionDuration={0}
+          htmlElement={(d) => {
+            const { zone } = d as Marker
+            const el = document.createElement('button')
+            el.type = 'button'
+            el.className = `globe-marker${zone.id === selectedId ? ' is-selected' : ''}`
+            el.title = zone.name
+            el.setAttribute('aria-label', zone.name)
+            el.addEventListener('click', () => onSelectRef.current(zone))
+            return el
           }}
+          // Esconde los puntos del lado oculto del planeta.
+          htmlElementVisibilityModifier={(el, visible) => { el.classList.toggle('is-hidden', !visible) }}
         />
       )}
-      {/* Punto de tamaño fijo en el centro de cada zona: a zoom bajo muchas zonas miden
-          pocos píxeles (Jezero ~2 px en móvil) y no se pueden tocar con el dedo. */}
-      {zones?.map((z) => (
-        <CircleMarker
-          key={`${z.id}-${z.id === selectedId}`}
-          center={zoneCenter(z)}
-          radius={z.id === selectedId ? 9 : 7}
-          pathOptions={z.id === selectedId ? markerSelectedStyle : markerStyle}
-          eventHandlers={{ click: () => onSelect(z) }}
-        >
-          <Tooltip>{z.name}</Tooltip>
-        </CircleMarker>
-      ))}
-    </MapContainer>
+      {!texture && <p className="globe-status">Cargando {layer.name.toLowerCase()}…</p>}
+      <p className="globe-credit">{layer.attribution}</p>
+    </div>
   )
 }

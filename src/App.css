@@ -29,6 +29,15 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 .topbar h1::before { content: ''; display: block; width: 24px; height: 24px; flex-shrink: 0; border: 1px solid var(--accent); border-radius: 50%; background: radial-gradient(circle at 67% 32%, var(--accent) 0 3px, transparent 4px), linear-gradient(135deg, transparent 45%, #81b99a 46% 49%, transparent 50%); }
 .layout { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 440px); min-height: 0; }
 .planet-map { height: 100%; min-width: 0; background: #080d10; }
+.planet-globe { position: relative; overflow: hidden; background: radial-gradient(ellipse at 50% 45%, #0f1a20 0%, #05080a 70%); touch-action: none; cursor: grab; }
+.planet-globe:active { cursor: grabbing; }
+.globe-status { position: absolute; inset: auto 0 50% 0; text-align: center; color: var(--muted); font-size: .8rem; pointer-events: none; }
+.globe-credit { position: absolute; right: 10px; bottom: 8px; padding: 2px 8px; border-radius: 4px; background: #0009; color: #b0bfc5; font-size: .62rem; pointer-events: none; }
+.globe-marker { width: 14px; height: 14px; padding: 0; transform: translate(-50%, -50%); border: 1.5px solid #1a1300; border-radius: 50%; background: #ffd43b; box-shadow: 0 0 0 3px #ffd43b33; cursor: pointer; pointer-events: auto; transition: opacity .2s; }
+.globe-marker:hover { transform: translate(-50%, -50%) scale(1.25); }
+.globe-marker.is-selected { width: 18px; height: 18px; border-color: #fff; background: #ff6b6b; box-shadow: 0 0 0 4px #ff6b6b44; }
+.globe-marker.is-hidden { opacity: 0; pointer-events: none; }
+.globe-marker::before { content: ''; position: absolute; inset: -10px; border-radius: 50%; }
 .switcher { display: inline-flex; padding: 4px; gap: 4px; border: 1px solid var(--line); border-radius: 10px; background: #0b1318; }
 .switcher button { min-height: 38px; min-width: 78px; padding: 8px 18px; border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--muted); cursor: pointer; font-size: .85rem; font-weight: 600; }
 .switcher button:hover { color: #fff; background: #1a272f; }
