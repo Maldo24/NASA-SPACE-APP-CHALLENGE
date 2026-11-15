@@ -35,7 +35,7 @@
 -- on conflict (analog_id, category) do update set
 --   covers = excluded.covers, breaks = excluded.breaks, source = excluded.source;
 --
--- Checklist (51 análogos existentes; los nuevos de Sebastián van en 09):
+-- Checklist (51 análogos existentes; los nuevos de Miguel van en 09):
 --   [ ] atacama                principal: amb | en parte: min
 --   [ ] basalt                 principal: op  | en parte: geo, min
 --   [ ] canapa                 principal: amb | en parte: -

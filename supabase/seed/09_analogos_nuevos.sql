@@ -1,5 +1,5 @@
 -- =====================================================================
--- 09 · ANÁLOGOS NUEVOS (COMPLETOS)                        Dueño: Sebastián
+-- 09 · ANÁLOGOS NUEVOS (COMPLETOS)                        Dueño: Miguel
 -- =====================================================================
 -- Prioridad: análogos para la LUNA, que hoy tiene muy pocos.
 -- Cada análogo nuevo va completo en ESTE archivo, en este orden:

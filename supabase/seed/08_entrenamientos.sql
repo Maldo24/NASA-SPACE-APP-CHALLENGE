@@ -1,5 +1,5 @@
 -- =====================================================================
--- 08 · ENTRENAMIENTOS POSIBLES EN CADA ANÁLOGO           Dueño: Sebastián
+-- 08 · ENTRENAMIENTOS POSIBLES EN CADA ANÁLOGO           Dueño: Miguel
 -- =====================================================================
 -- Tabla: analog_trainings (supabase/migrations/20261116000000_profundizacion.sql)
 --
