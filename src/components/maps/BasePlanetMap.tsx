@@ -8,6 +8,7 @@ import { planetTexture } from '../../lib/planetTexture.ts'
 import type { BodyId, Zone } from '../../types/domain.ts'
 import { useI18n } from '../../i18n/I18nProvider.tsx'
 import { localizeZone } from '../../i18n/content.ts'
+import BackgroundEarth from './BackgroundEarth.tsx'
 
 // La librería del globo (three.js incluido) pesa casi 2 MB: se baja aparte, después de la página.
 const Globe = lazy(() => import('react-globe.gl'))
@@ -140,7 +141,9 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
     <div ref={wrapRef} className="planet-map planet-globe">
       {/* Fondo decorativo: no representa posiciones ni escalas astronómicas. */}
       <div className="space-backdrop" aria-hidden="true">
-        {body === 'moon' && <div className="space-earth" />}
+        <div className="space-distant-stars" />
+        <div className="space-sun"><div className="space-sun-surface" /></div>
+        {body === 'moon' && <div className="space-earth-orbit"><BackgroundEarth /></div>}
       </div>
       <div className="planet-scene">
       {size.width > 0 && size.height > 0 && (
@@ -192,7 +195,9 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
       )}
       </div>
       {(!texture || !ready) && <p className="globe-status">{t.map.loading(t.bodies[body])}</p>}
-      <p className="globe-credit">{layer.attribution}</p>
+      <p className="globe-credit">{layer.attribution}
+        {body === 'moon' && <> · <a href="https://commons.wikimedia.org/wiki/File:Land_ocean_ice_2048.jpg" target="_blank" rel="noopener noreferrer">Earth: NASA/GSFC · CC BY-SA</a></>}
+      </p>
     </div>
   )
 }
