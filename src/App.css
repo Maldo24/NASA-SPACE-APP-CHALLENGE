@@ -205,3 +205,22 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 .aspect-none { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
 .training-audience { display: inline-block; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; font-size: .68rem; font-weight: 600; color: var(--accent); }
 .item-source { display: inline-block; margin-top: 8px; font-size: .78rem; }
+
+/* Costo estimado de entrenar (AnalogCosts) */
+.analog-costs p { font-size: .88rem; line-height: 1.75; color: #b0bfc5; }
+.cost-toggle { display: inline-flex; gap: 6px; margin-bottom: 16px; }
+.cost-toggle button { min-height: 36px; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); font: inherit; font-size: .78rem; cursor: pointer; }
+.cost-toggle button[aria-pressed="true"] { border-color: #93bea2; background: #b5edca14; color: var(--accent); }
+.cost-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 16px; }
+.cost-metrics div { padding: 12px 14px; border-radius: 8px; background: var(--surface-raised); }
+.cost-metrics dt { font-size: .72rem; color: var(--muted); }
+.cost-metrics dd { margin: 4px 0 0; font-size: 1.05rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.cost-bar { display: flex; gap: 2px; height: 12px; border-radius: 6px; overflow: hidden; }
+.cost-flight { background: #6aa8e8; }
+.cost-perdiem { background: #e8915f; }
+.cost-fees { background: #5fcf9f; }
+.cost-legend { margin: 10px 0 0; padding: 0; list-style: none; font-size: .78rem; color: #b0bfc5; }
+.cost-legend li { display: flex; align-items: center; gap: 8px; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.cost-legend li span { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.analog-costs .cost-note { margin-top: 12px; font-size: .78rem; color: var(--muted); }
+.analog-costs .cost-disclaimer { margin-top: 8px; font-size: .72rem; color: #8d9ca3; font-style: italic; }

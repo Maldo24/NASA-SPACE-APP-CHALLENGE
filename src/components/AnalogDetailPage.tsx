@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import AnalogPhoto from './AnalogPhoto'
 import AnalogAspects from './AnalogAspects'
 import AnalogTrainings from './AnalogTrainings'
+import AnalogCosts from './AnalogCosts'
 import EarthMiniMap from './EarthMiniMap.jsx'
 import { CATEGORIES } from '../config/categories'
 import { getAnalogsForZone, getZone } from '../lib/data'
@@ -124,6 +125,7 @@ function AnalogDetails({ bodyId, zoneId, analogId, onReturnToZone }: AnalogDetai
           </section>
           <AnalogAspects aspects={analog.aspects} />
           <AnalogTrainings trainings={analog.trainings} />
+          <AnalogCosts analog={analog} />
         </div>
         <aside className="detail-sidebar" aria-label="Ubicación y fuente del análogo">
           <section className="detail-location" aria-labelledby="location-heading">
