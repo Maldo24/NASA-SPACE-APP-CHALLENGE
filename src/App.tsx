@@ -5,7 +5,8 @@ import MoonMap from './components/maps/MoonMap.tsx'
 import MarsMap from './components/maps/MarsMap.tsx'
 import ZonePanel from './components/ZonePanel.tsx'
 import AnalogDetailPage from './components/AnalogDetailPage.tsx'
-import { LAYERS } from './config/layers.ts'
+import LanguageSwitch from './i18n/LanguageSwitch.tsx'
+import { useI18n } from './i18n/I18nProvider.tsx'
 import type { BodyId, Category, Zone } from './types/domain.ts'
 
 const ROUTES: { body: BodyId; path: string }[] = [
@@ -14,6 +15,7 @@ const ROUTES: { body: BodyId; path: string }[] = [
 ]
 
 export default function App() {
+  const { t } = useI18n()
   const { pathname } = useLocation()
   const navigate = useNavigate()
 
@@ -38,7 +40,8 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <h1>Pacha-X</h1>
-        <nav className="switcher" aria-label="Cuerpo celeste">
+        <div className="topbar-controls">
+        <nav className="switcher" aria-label={t.bodies.nav}>
           {ROUTES.map((r) => (
             <button
               key={r.path}
@@ -46,10 +49,12 @@ export default function App() {
               aria-current={pathname === r.path || pathname.startsWith(`${r.path}/`) ? 'page' : undefined}
               onClick={() => navigate(r.path)}
             >
-              {LAYERS[r.body].name}
+              {t.bodies[r.body]}
             </button>
           ))}
         </nav>
+        <LanguageSwitch />
+        </div>
       </header>
       <main className={isDetailPage ? 'analog-detail-layout' : 'layout'}>
         <Routes>

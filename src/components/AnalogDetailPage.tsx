@@ -1,12 +1,13 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type RefObject } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import AnalogPhoto from './AnalogPhoto'
 import AnalogAspects from './AnalogAspects'
 import AnalogTrainings from './AnalogTrainings'
 import AnalogCosts from './AnalogCosts'
 import EarthMiniMap from './EarthMiniMap.jsx'
-import { CATEGORIES } from '../config/categories'
 import { getAnalogsForZone, getZone } from '../lib/data'
+import { useI18n } from '../i18n/I18nProvider'
+import { localizeAnalog, localizeZone } from '../i18n/content'
 import type { Analog, BodyId, Category, Zone } from '../types/domain'
 
 interface AnalogDetailPageProps {
@@ -39,6 +40,7 @@ function AnalogDetails({ bodyId, zoneId, analogId, onReturnToZone }: AnalogDetai
   zoneId: string
   analogId: string
 }) {
+  const { t } = useI18n()
   const [state, setState] = useState<DetailState>({ status: 'loading' })
   const [attempt, setAttempt] = useState(0)
   const headingRef = useRef<HTMLHeadingElement>(null)
@@ -72,78 +74,92 @@ function AnalogDetails({ bodyId, zoneId, analogId, onReturnToZone }: AnalogDetai
   if (state.status !== 'ready') {
     return (
       <section className="analog-detail detail-status" aria-busy={state.status === 'loading'}>
-        <Link className="detail-back" to={bodyPath}>← Volver al mapa</Link>
-        {state.status === 'loading' && <p role="status">Cargando información del análogo…</p>}
+        <Link className="detail-back" to={bodyPath}>{t.detail.backToMap}</Link>
+        {state.status === 'loading' && <p role="status">{t.detail.loading}</p>}
         {state.status === 'not-found' && <>
-          <h2 ref={headingRef} tabIndex={-1}>Análogo no encontrado</h2>
-          <p>Este enlace no corresponde a un análogo de esta zona. Selecciona un lugar desde el mapa.</p>
+          <h2 ref={headingRef} tabIndex={-1}>{t.detail.notFoundTitle}</h2>
+          <p>{t.detail.notFoundText}</p>
         </>}
         {state.status === 'error' && <div role="alert">
-          <h2 ref={headingRef} tabIndex={-1}>No se pudo cargar la información</h2>
-          <p>Revisa tu conexión y vuelve a intentarlo.</p>
-          <button className="information-button" type="button" onClick={() => setAttempt((value) => value + 1)}>Reintentar</button>
+          <h2 ref={headingRef} tabIndex={-1}>{t.detail.errorTitle}</h2>
+          <p>{t.detail.errorText}</p>
+          <button className="information-button" type="button" onClick={() => setAttempt((value) => value + 1)}>{t.detail.retry}</button>
         </div>}
       </section>
     )
   }
 
-  const { analog, zone } = state
+  return <ReadyDetail {...state} bodyId={bodyId} bodyPath={bodyPath} headingRef={headingRef} onReturnToZone={onReturnToZone} />
+}
+
+function ReadyDetail({ analog: original, zone: rawZone, bodyId, bodyPath, headingRef, onReturnToZone }: {
+  analog: Analog
+  zone: Zone
+  bodyId: BodyId
+  bodyPath: string
+  headingRef: RefObject<HTMLHeadingElement>
+  onReturnToZone: (zone: Zone, category: Category) => void
+}) {
+  const { t, lang } = useI18n()
+  // Se muestra traducido; los costos usan el original (su cálculo lee el texto en español).
+  const analog = useMemo(() => localizeAnalog(original, lang), [original, lang])
+  const zone = useMemo(() => localizeZone(rawZone, lang), [rawZone, lang])
   const source = externalSource(analog.source)
   const hasLocation = Number.isFinite(analog.lat) && Number.isFinite(analog.lon)
     && Math.abs(analog.lat) <= 90 && Math.abs(analog.lon) <= 180
 
   return (
     <article className="analog-detail" aria-labelledby="analog-detail-heading">
-      <Link className="detail-back" to={bodyPath} onClick={() => onReturnToZone(zone, analog.category)}>
-        ← Volver a {zone.name}
+      <Link className="detail-back" to={bodyPath} onClick={() => onReturnToZone(rawZone, analog.category)}>
+        {t.detail.backTo(zone.name)}
       </Link>
       <header className="detail-header">
-        <p className="detail-category">{CATEGORIES[analog.category].label}</p>
+        <p className="detail-category">{t.categories[analog.category].label}</p>
         <h2 id="analog-detail-heading" ref={headingRef} tabIndex={-1}>{analog.name}</h2>
-        <p className="detail-context">Análogo de {zone.name} · {bodyId === 'moon' ? 'Luna' : 'Marte'}</p>
+        <p className="detail-context">{t.detail.analogOf(zone.name, t.bodies[bodyId])}</p>
       </header>
       <div className="detail-grid">
         <div className="detail-main">
           <AnalogPhoto analog={analog} loading="eager" />
           <section className="detail-section" aria-labelledby="analogy-heading">
-            <h3 id="analogy-heading">Por qué se parece</h3>
+            <h3 id="analogy-heading">{t.detail.why}</h3>
             <p>{analog.why}</p>
           </section>
           <section className="detail-section" aria-labelledby="categories-heading">
-            <h3 id="categories-heading">Analogías que cumple</h3>
+            <h3 id="categories-heading">{t.detail.categories}</h3>
             <dl className="detail-categories">
-              <div><dt>Principal</dt><dd>{CATEGORIES[analog.category].label}</dd></div>
+              <div><dt>{t.detail.main}</dt><dd>{t.categories[analog.category].label}</dd></div>
               {analog.secondaryCategories.length > 0 && <div>
-                <dt>También cumple en parte</dt>
-                <dd>{analog.secondaryCategories.map((category) => CATEGORIES[category].label).join(', ')}</dd>
+                <dt>{t.detail.partial}</dt>
+                <dd>{analog.secondaryCategories.map((category) => t.categories[category].label).join(', ')}</dd>
               </div>}
             </dl>
           </section>
           <section className="detail-section detail-breaking-point" aria-labelledby="breaking-heading">
-            <h3 id="breaking-heading">Punto de quiebre</h3>
-            <p>{analog.breakingPoint ?? 'Pendiente de analizar.'}</p>
+            <h3 id="breaking-heading">{t.detail.breakingPoint}</h3>
+            <p>{analog.breakingPoint ?? t.detail.pendingAnalysis}</p>
           </section>
           <AnalogAspects aspects={analog.aspects} />
           <AnalogTrainings trainings={analog.trainings} />
-          <AnalogCosts analog={analog} />
+          <AnalogCosts analog={original} />
         </div>
-        <aside className="detail-sidebar" aria-label="Ubicación y fuente del análogo">
+        <aside className="detail-sidebar" aria-label={t.detail.sidebar}>
           <section className="detail-location" aria-labelledby="location-heading">
-            <h3 id="location-heading">Ubicación en la Tierra</h3>
+            <h3 id="location-heading">{t.detail.location}</h3>
             {hasLocation ? <>
               <p className="detail-coordinates">{analog.lat.toFixed(2)}°, {analog.lon.toFixed(2)}°</p>
               <EarthMiniMap key={analog.id} lat={analog.lat} lon={analog.lon} />
               <a className="map-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a>
-            </> : <p className="muted">Ubicación pendiente de confirmar.</p>}
+            </> : <p className="muted">{t.detail.locationPending}</p>}
           </section>
           <section className="detail-source" aria-labelledby="source-heading">
-            <h3 id="source-heading">Fuente</h3>
+            <h3 id="source-heading">{t.detail.source}</h3>
             {source ? (
               <a className="source-link" href={source} target="_blank" rel="noopener noreferrer">
-                Consultar fuente <span aria-hidden="true">↗</span>
-                <span className="sr-only"> de {analog.name} (abre en otra pestaña)</span>
+                {t.detail.sourceLink} <span aria-hidden="true">↗</span>
+                <span className="sr-only">{t.detail.sourceOf(analog.name)}</span>
               </a>
-            ) : <p className="source-pending">Fuente pendiente de verificar</p>}
+            ) : <p className="source-pending">{t.detail.sourcePending}</p>}
           </section>
         </aside>
       </div>

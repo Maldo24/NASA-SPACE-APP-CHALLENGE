@@ -1,5 +1,6 @@
 import { useRef, type KeyboardEvent } from 'react'
 import { CATEGORIES, CATEGORY_KEYS, type Category } from '../config/categories'
+import { useI18n } from '../i18n/I18nProvider'
 import type { GroupedAnalogs } from './ui-types'
 
 interface CategoryTabsProps {
@@ -10,6 +11,7 @@ interface CategoryTabsProps {
 }
 
 export default function CategoryTabs({ active, counts, onChange, idPrefix }: CategoryTabsProps) {
+  const { t } = useI18n()
   const buttons = useRef<Partial<Record<Category, HTMLButtonElement | null>>>({})
 
   function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>, category: Category) {
@@ -29,26 +31,29 @@ export default function CategoryTabs({ active, counts, onChange, idPrefix }: Cat
   }
 
   return (
-    <div className="tabs" role="tablist" aria-label="Tipo de analogía">
-      {CATEGORY_KEYS.map((category) => (
-        <button
-          key={category}
-          ref={(element) => { buttons.current[category] = element }}
-          id={`${idPrefix}-tab-${category}`}
-          type="button" role="tab"
-          aria-selected={category === active}
-          aria-controls={`${idPrefix}-panel-${category}`}
-          aria-label={`${CATEGORIES[category].label}, ${counts[category]?.length ?? 0} ${(counts[category]?.length ?? 0) === 1 ? 'análogo' : 'análogos'}`}
-          tabIndex={category === active ? 0 : -1}
-          className={category === active ? 'active' : ''}
-          onClick={() => onChange(category)}
-          onKeyDown={(event) => handleKeyDown(event, category)}
-        >
-          <span className="tab-number" aria-hidden="true">{CATEGORIES[category].number}</span>
-          <span>{CATEGORIES[category].short}</span>
-          <span className="tab-count" aria-hidden="true">{counts[category]?.length ?? 0}</span>
-        </button>
-      ))}
+    <div className="tabs" role="tablist" aria-label={t.panel.tabsLabel}>
+      {CATEGORY_KEYS.map((category) => {
+        const count = counts[category]?.length ?? 0
+        return (
+          <button
+            key={category}
+            ref={(element) => { buttons.current[category] = element }}
+            id={`${idPrefix}-tab-${category}`}
+            type="button" role="tab"
+            aria-selected={category === active}
+            aria-controls={`${idPrefix}-panel-${category}`}
+            aria-label={t.panel.tabLabel(t.categories[category].label, count)}
+            tabIndex={category === active ? 0 : -1}
+            className={category === active ? 'active' : ''}
+            onClick={() => onChange(category)}
+            onKeyDown={(event) => handleKeyDown(event, category)}
+          >
+            <span className="tab-number" aria-hidden="true">{CATEGORIES[category].number}</span>
+            <span>{t.categories[category].short}</span>
+            <span className="tab-count" aria-hidden="true">{count}</span>
+          </button>
+        )
+      })}
     </div>
   )
 }

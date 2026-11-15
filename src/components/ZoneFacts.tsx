@@ -1,38 +1,35 @@
 // Ficha completa de una zona de la Luna o de Marte (tarea 2, datos: Santiago).
-// Datos: supabase/seed/07_zonas.sql.
+// Datos: supabase/seed/07_zonas.sql. Recibe la zona ya traducida.
+import { useI18n } from '../i18n/I18nProvider'
 import type { Zone } from '../types/domain'
 
-const SECTIONS = [
-  ['geology', 'Geología'],
-  ['environment', 'Ambiente'],
-  ['exploration', 'Exploración'],
-  ['importance', 'Por qué interesa'],
-] as const
+const SECTIONS = ['geology', 'environment', 'exploration', 'importance'] as const
 
 export default function ZoneFacts({ zone }: { zone: Zone }) {
-  const filled = SECTIONS.filter(([key]) => zone[key])
+  const { t } = useI18n()
+  const filled = SECTIONS.filter((key) => zone[key])
 
   if (filled.length === 0 && zone.sources.length === 0) {
-    return <p className="item-pending">Ficha detallada de la zona: pendiente.</p>
+    return <p className="item-pending">{t.zoneFacts.pending}</p>
   }
 
   return (
     <details className="zone-facts">
-      <summary>Ficha de la zona</summary>
+      <summary>{t.zoneFacts.summary}</summary>
       <dl>
-        {filled.map(([key, label]) => (
+        {filled.map((key) => (
           <div key={key}>
-            <dt>{label}</dt>
+            <dt>{t.zoneFacts[key]}</dt>
             <dd>{zone[key]}</dd>
           </div>
         ))}
       </dl>
       {zone.sources.length > 0 && (
         <p className="zone-facts-sources">
-          Fuentes:{' '}
+          {t.zoneFacts.sources}{' '}
           {zone.sources.map((url, i) => (
             <a key={url} href={url} target="_blank" rel="noopener noreferrer">
-              [{i + 1}]<span className="sr-only"> (abre en otra pestaña)</span>
+              [{i + 1}]<span className="sr-only"> {t.newTab}</span>
             </a>
           ))}
         </p>

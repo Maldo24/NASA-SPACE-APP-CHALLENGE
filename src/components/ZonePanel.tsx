@@ -1,9 +1,11 @@
-import { useEffect, useId, useState } from 'react'
+import { useEffect, useId, useMemo, useState } from 'react'
 import CategoryTabs from './CategoryTabs'
 import AnalogCard from './AnalogCard'
 import ZoneFacts from './ZoneFacts'
-import { CATEGORIES, CATEGORY_KEYS, type Category } from '../config/categories'
+import { CATEGORY_KEYS, type Category } from '../config/categories'
 import { emptyAnalogsByCategory, getAnalogsForZone } from '../lib/data'
+import { useI18n, type Lang } from '../i18n/I18nProvider'
+import { localizeAnalog, localizeZone } from '../i18n/content'
 import type { GroupedAnalogs, ZoneSummary } from './ui-types'
 
 // Carga asíncrona de los análogos de la zona. null = cargando.
@@ -24,20 +26,34 @@ function useGroupedAnalogs(zoneId: string | undefined) {
   return state && state.zoneId === zoneId ? state.grouped : null
 }
 
+// Traduce los análogos y los ordena por su nombre en el idioma actual.
+function localizeGrouped(grouped: GroupedAnalogs, lang: Lang): GroupedAnalogs {
+  const out: GroupedAnalogs = {}
+  for (const key of CATEGORY_KEYS) {
+    out[key] = (grouped[key] ?? [])
+      .map((a) => localizeAnalog(a, lang))
+      .sort((a, b) => a.name.localeCompare(b.name, lang))
+  }
+  return out
+}
+
 interface ZonePanelProps {
   zone: ZoneSummary | null
   initialCategory?: Category
   onCategoryChange?: (category: Category) => void
 }
 
-export default function ZonePanel({ zone, initialCategory, onCategoryChange }: ZonePanelProps) {
+export default function ZonePanel({ zone: rawZone, initialCategory, onCategoryChange }: ZonePanelProps) {
+  const { t, lang } = useI18n()
   const headingId = useId()
-  const grouped = useGroupedAnalogs(zone?.id)
+  const rawGrouped = useGroupedAnalogs(rawZone?.id)
+  const zone = useMemo(() => (rawZone ? localizeZone(rawZone, lang) : null), [rawZone, lang])
+  const grouped = useMemo(() => (rawGrouped ? localizeGrouped(rawGrouped, lang) : null), [rawGrouped, lang])
 
   if (!zone) {
     return (
       <aside className="zone-panel zone-panel-welcome" aria-labelledby={headingId}>
-        <div className="panel-kicker"><span className="status-dot" /> Explorador planetario</div>
+        <div className="panel-kicker"><span className="status-dot" /> {t.welcome.kicker}</div>
         <div className="welcome-orbit" aria-hidden="true">
           <svg viewBox="0 0 240 200" fill="none">
             <ellipse cx="120" cy="100" rx="108" ry="38" transform="rotate(-28 120 100)" />
@@ -46,15 +62,15 @@ export default function ZonePanel({ zone, initialCategory, onCategoryChange }: Z
             <circle className="orbit-point" cx="209" cy="57" r="6" />
           </svg>
         </div>
-        <p className="eyebrow">Luna · Marte · Tierra</p>
-        <h2 id={headingId}>Otros mundos,<br /><span>terrenos en común.</span></h2>
-        <p className="welcome-description">Descubre qué lugares de la Tierra ayudan a estudiar y explorar la Luna y Marte.</p>
+        <p className="eyebrow">{t.welcome.eyebrow}</p>
+        <h2 id={headingId}>{t.welcome.title}<br /><span>{t.welcome.titleAccent}</span></h2>
+        <p className="welcome-description">{t.welcome.description}</p>
         <ol className="explorer-steps">
-          <li><span aria-hidden="true">01</span><div><strong>Elige un mundo</strong><p>Usa el selector de Luna y Marte.</p></div></li>
-          <li><span aria-hidden="true">02</span><div><strong>Selecciona una zona</strong><p>Toca un área delimitada en el mapa.</p></div></li>
-          <li><span aria-hidden="true">03</span><div><strong>Compara sus análogos</strong><p>Explora relieve, minerales, ambiente y operaciones.</p></div></li>
+          {t.welcome.steps.map((step, i) => (
+            <li key={i}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span><div><strong>{step.title}</strong><p>{step.text}</p></div></li>
+          ))}
         </ol>
-        <p className="science-note">Cada análogo comparte aspectos concretos. Ningún lugar terrestre reproduce por completo otro mundo.</p>
+        <p className="science-note">{t.welcome.note}</p>
       </aside>
     )
   }
@@ -63,12 +79,12 @@ export default function ZonePanel({ zone, initialCategory, onCategoryChange }: Z
     return (
       <aside className="zone-panel" aria-busy="true" aria-labelledby={headingId}>
         <header className="zone-heading">
-          <div className="panel-kicker"><span className="status-dot" /> Zona seleccionada</div>
+          <div className="panel-kicker"><span className="status-dot" /> {t.panel.selected}</div>
           <p className="zone-type">{zone.zoneType}</p>
           <h2 id={headingId}>{zone.name}</h2>
           <p className="zone-description">{zone.description}</p>
         </header>
-        <p className="muted" role="status">Cargando análogos…</p>
+        <p className="muted" role="status">{t.panel.loading}</p>
       </aside>
     )
   }
@@ -82,22 +98,22 @@ function ZoneDetails({ zone, grouped, initialCategory, onCategoryChange }: {
   initialCategory?: Category
   onCategoryChange?: (category: Category) => void
 }) {
+  const { t } = useI18n()
   const idPrefix = useId()
   const [category, setCategory] = useState<Category>(
     () => initialCategory ?? CATEGORY_KEYS.find((key) => (grouped[key]?.length ?? 0) > 0) ?? 'geomorphological',
   )
-  const properties = zone
   const total = CATEGORY_KEYS.reduce((sum, key) => sum + (grouped[key]?.length ?? 0), 0)
 
   return (
     <aside className="zone-panel" aria-labelledby={`${idPrefix}-heading`}>
       <header className="zone-heading">
-        <div className="panel-kicker"><span className="status-dot" /> Zona seleccionada</div>
-        <p className="zone-type">{properties.zoneType}</p>
-        <h2 id={`${idPrefix}-heading`}>{properties.name}</h2>
-        <p className="zone-description">{properties.description}</p>
-        <ZoneFacts zone={properties} />
-        <div className="zone-summary"><span><strong>{total}</strong> {total === 1 ? 'análogo terrestre' : 'análogos terrestres'}</span><span>4 categorías</span></div>
+        <div className="panel-kicker"><span className="status-dot" /> {t.panel.selected}</div>
+        <p className="zone-type">{zone.zoneType}</p>
+        <h2 id={`${idPrefix}-heading`}>{zone.name}</h2>
+        <p className="zone-description">{zone.description}</p>
+        <ZoneFacts zone={zone} />
+        <div className="zone-summary"><span><strong>{total}</strong> {t.panel.analogCount(total)}</span><span>{t.panel.categoryCount}</span></div>
       </header>
       <CategoryTabs active={category} counts={grouped} onChange={(nextCategory) => {
         setCategory(nextCategory)
@@ -107,18 +123,18 @@ function ZoneDetails({ zone, grouped, initialCategory, onCategoryChange }: {
         <section key={key} id={`${idPrefix}-panel-${key}`} role="tabpanel"
           aria-labelledby={`${idPrefix}-tab-${key}`} tabIndex={0} hidden={category !== key}>
           {category === key && <>
-            <div className="category-intro"><h3>{CATEGORIES[key].label}</h3><p>{CATEGORIES[key].description}</p></div>
+            <div className="category-intro"><h3>{t.categories[key].label}</h3><p>{t.categories[key].description}</p></div>
             {(grouped[key]?.length ?? 0) === 0 ? (
               <div className="empty-category" role="status">
                 <span className="empty-symbol" aria-hidden="true">⌁</span>
-                <h3>Aún no hay análogos en esta categoría</h3>
-                <p>Prueba otra pestaña para explorar los lugares disponibles para esta zona.</p>
+                <h3>{t.panel.emptyTitle}</h3>
+                <p>{t.panel.emptyText}</p>
               </div>
             ) : grouped[key]?.map((analog) => <AnalogCard key={analog.id} analog={analog} zone={zone} />)}
           </>}
         </section>
       ))}
-      <p className="science-note">Las semejanzas son parciales. Consulta la fuente de cada lugar para conocer su alcance.</p>
+      <p className="science-note">{t.panel.note}</p>
     </aside>
   )
 }

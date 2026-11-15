@@ -6,6 +6,8 @@ import { LAYERS } from '../../config/layers.ts'
 import { getZones } from '../../lib/data.ts'
 import { planetTexture } from '../../lib/planetTexture.ts'
 import type { BodyId, Zone } from '../../types/domain.ts'
+import { useI18n } from '../../i18n/I18nProvider.tsx'
+import { localizeZone } from '../../i18n/content.ts'
 
 // La librería del globo (three.js incluido) pesa casi 2 MB: se baja aparte, después de la página.
 const Globe = lazy(() => import('react-globe.gl'))
@@ -91,6 +93,7 @@ const globeGeometry = (zone: Zone) => ({ type: 'Polygon', coordinates: zone.geom
 
 export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapProps & { body: BodyId }) {
   const layer = LAYERS[body]
+  const { t, lang } = useI18n()
   const look = LOOK[body]
   const zones = useZones(body)
   const texture = useTexture(body)
@@ -103,6 +106,11 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
   onSelectRef.current = onSelect
 
   const markers = useMemo<Marker[]>(() => (zones ?? []).map((z) => ({ zone: z, ...zoneCenter(z) })), [zones])
+  // Nombres de zona en el idioma actual, para el texto al pasar el mouse y los lectores de pantalla.
+  const zoneName = (z: Zone) => localizeZone(z, lang).name
+  // El globo crea cada botón una sola vez: una lista nueva al cambiar de idioma los vuelve a crear
+  // con el nombre traducido. La cámara sigue usando `markers`, así no vuelve a volar a la zona.
+  const labeledMarkers = useMemo(() => markers.map((m) => ({ ...m, label: localizeZone(m.zone, lang).name })), [markers, lang])
 
   // Cámara inicial y giro lento hasta que la persona toque el globo.
   useEffect(() => {
@@ -152,11 +160,11 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
           polygonStrokeColor={(d) => ((d as Zone).id === selectedId ? '#ff6b6b' : '#ffd43b')}
           polygonAltitude={(d) => ((d as Zone).id === selectedId ? 0.012 : 0.006)}
           polygonsTransitionDuration={300}
-          polygonLabel={(d) => (d as Zone).name}
+          polygonLabel={(d) => zoneName(d as Zone)}
           onPolygonClick={(d) => onSelectRef.current(d as Zone)}
           // Punto de tamaño fijo en el centro de cada zona: algunas zonas miden pocos píxeles
           // vistas desde lejos y no se podrían tocar con el dedo.
-          htmlElementsData={markers}
+          htmlElementsData={labeledMarkers}
           htmlLat={(d) => (d as Marker).lat}
           htmlLng={(d) => (d as Marker).lng}
           htmlAltitude={0}
@@ -166,8 +174,9 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
             const el = document.createElement('button')
             el.type = 'button'
             el.className = `globe-marker${zone.id === selectedId ? ' is-selected' : ''}`
-            el.title = zone.name
-            el.setAttribute('aria-label', zone.name)
+            const { label } = d as Marker & { label: string }
+            el.title = label
+            el.setAttribute('aria-label', label)
             el.addEventListener('click', () => onSelectRef.current(zone))
             return el
           }}
@@ -176,7 +185,7 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
         />
         </Suspense>
       )}
-      {(!texture || !ready) && <p className="globe-status">Cargando {layer.name.toLowerCase()}…</p>}
+      {(!texture || !ready) && <p className="globe-status">{t.map.loading(t.bodies[body])}</p>}
       <p className="globe-credit">{layer.attribution}</p>
     </div>
   )

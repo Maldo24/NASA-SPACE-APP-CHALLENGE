@@ -224,3 +224,18 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 .cost-legend li span { width: 10px; height: 10px; border-radius: 2px; flex: none; }
 .analog-costs .cost-note { margin-top: 12px; font-size: .78rem; color: var(--muted); }
 .analog-costs .cost-disclaimer { margin-top: 8px; font-size: .72rem; color: #8d9ca3; font-style: italic; }
+
+/* ---------------------------------------------------------------------
+   Cambio de idioma (src/i18n/LanguageSwitch.tsx), junto al selector Luna / Marte.
+   --------------------------------------------------------------------- */
+.topbar-controls { display: flex; align-items: center; gap: 10px; }
+.lang-switch button { min-width: 48px; padding: 8px 12px; letter-spacing: .04em; }
+@media (max-width: 800px) {
+  .topbar-controls { gap: 8px; }
+  .lang-switch button { min-width: 42px; padding: 8px 9px; }
+}
+@media (max-width: 430px) {
+  .topbar-controls { gap: 6px; }
+  .lang-switch { gap: 0; padding: 3px; }
+  .lang-switch button { min-width: 38px; padding: 7px 6px; }
+}
