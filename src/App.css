@@ -138,3 +138,27 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 @media (prefers-reduced-motion: no-preference) {
   button { transition: background-color .15s ease, border-color .15s ease, color .15s ease; }
 }
+
+/* ---------------------------------------------------------------------
+   Profundización (Paso 0): ficha de zona, límites por analogía y entrenamientos.
+   Componentes: ZoneFacts.tsx, AnalogAspects.tsx, AnalogTrainings.tsx
+   --------------------------------------------------------------------- */
+.detail-pending { margin-top: 12px; font-size: .67rem; color: #8d9ca3; font-style: italic; }
+.zone-facts, .analog-detail { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-raised); }
+.zone-facts > summary, .analog-detail > summary { cursor: pointer; padding: 10px 12px; font-size: .74rem; font-weight: 600; color: #d0dcd7; list-style-position: inside; }
+.zone-facts > summary:hover, .analog-detail > summary:hover { color: #fff; }
+.zone-facts dl { margin: 0; padding: 0 12px 4px; }
+.zone-facts dl > div { padding: 10px 0; border-top: 1px solid var(--line); }
+.zone-facts dt { font-size: .66rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.zone-facts dd { margin: 6px 0 0; font-size: .8rem; line-height: 1.7; color: #c3d0d5; }
+.zone-facts-sources { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 12px 12px; border-top: 1px solid var(--line); font-size: .7rem; color: var(--muted); }
+.aspect-list, .training-list { margin: 0; padding: 0 12px 4px; list-style: none; }
+.aspect-list li, .training-list li { padding: 10px 0; border-top: 1px solid var(--line); }
+.aspect-list p, .training-list p { margin-top: 6px; font-size: .76rem; line-height: 1.65; color: #b0bfc5; overflow-wrap: anywhere; }
+.aspect-category { margin-top: 0 !important; font-size: .7rem !important; font-weight: 600; color: #d0dcd7 !important; }
+.aspect-tag { display: inline-block; margin-right: 4px; padding: 1px 6px; border-radius: 4px; font-size: .62rem; font-weight: 600; }
+.aspect-tag.covers { background: #1f3a2c; color: var(--accent); }
+.aspect-tag.breaks { background: #3d2a22; color: #f0c2a8; }
+.aspect-none { padding: 10px 12px 12px; border-top: 1px solid var(--line); font-size: .74rem; color: var(--muted); }
+.training-audience { display: inline-block; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; font-size: .62rem; font-weight: 600; color: var(--accent); }
+.detail-source { display: inline-block; margin-top: 6px; font-size: .7rem; }

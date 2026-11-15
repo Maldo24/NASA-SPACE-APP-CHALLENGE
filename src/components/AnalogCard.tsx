@@ -1,5 +1,7 @@
 import { useId, useState } from 'react'
 import EarthMiniMap from './EarthMiniMap.jsx'
+import AnalogAspects from './AnalogAspects'
+import AnalogTrainings from './AnalogTrainings'
 import { CATEGORIES } from '../config/categories'
 import type { AnalogData } from './ui-types'
 
@@ -54,6 +56,8 @@ export default function AnalogCard({ analog }: { analog: AnalogData }) {
         </p>
         <p className="analogy-heading">Punto de quiebre</p>
         <p className="analog-reason">{analog.breakingPoint ?? 'Pendiente de analizar.'}</p>
+        <AnalogAspects aspects={analog.aspects} />
+        <AnalogTrainings trainings={analog.trainings} />
         {hasLocation ? (
           <div className="analog-location" role="group" aria-label={`Ubicación de ${analog.name}`}>
             <div className="location-label">
