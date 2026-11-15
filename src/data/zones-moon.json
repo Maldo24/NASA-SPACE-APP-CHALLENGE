@@ -8,6 +8,155 @@
                 "coordinates": [
                     [
                         [
+                            -53,
+                            21
+                        ],
+                        [
+                            -44,
+                            21
+                        ],
+                        [
+                            -44,
+                            30
+                        ],
+                        [
+                            -53,
+                            30
+                        ],
+                        [
+                            -53,
+                            21
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-aristarchus",
+                "name": "Meseta de Aristarchus",
+                "geology": "La meseta reúne canales sinuosos, materiales volcánicos y una extensa cubierta de depósitos piroclásticos. El cráter Aristarchus expone y redistribuye materiales de la región. Esta combinación permite comparar erupciones, coladas e impactos dentro de una misma zona.",
+                "sources": [
+                    "https://science.nasa.gov/3d-resources/moon-aristarchus-region/",
+                    "https://science.nasa.gov/asset/hubble/aristarchus-plateau-on-the-moon/",
+                    "https://ntrs.nasa.gov/api/citations/20000040479/downloads/20000040479.pdf"
+                ],
+                "zoneType": "Meseta volcánica con depósitos piroclásticos y cráter de impacto",
+                "analogIds": [
+                    "kilauea",
+                    "lanzarote-pangaea"
+                ],
+                "importance": "Ayuda a investigar la diversidad del volcanismo lunar y la mezcla de materiales por impactos. Los terrenos volcánicos terrestres permiten practicar observación y comparación de procesos, sin garantizar composiciones idénticas.",
+                "description": "Región de Oceanus Procellarum con canales de lava, depósitos de erupciones explosivas y el brillante cráter Aristarchus.",
+                "environment": "Las superficies claras y oscuras reflejan cantidades diferentes de luz. El relieve de cráteres y canales produce sombras que cambian con el Sol. Las diferencias de brillo deben analizarse junto con datos espectrales antes de asignarles una composición mineral.",
+                "exploration": "Hubble observó Aristarchus y su entorno en 2005 en luz visible y ultravioleta. Los modelos del relieve y las imágenes permiten estudiar el cráter, Vallis Schroeteri y los depósitos de la meseta desde fuera de la superficie."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -22,
+                            7.5
+                        ],
+                        [
+                            -18,
+                            7.5
+                        ],
+                        [
+                            -18,
+                            11.8
+                        ],
+                        [
+                            -22,
+                            11.8
+                        ],
+                        [
+                            -22,
+                            7.5
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-copernicus",
+                "name": "Cráter Copernicus",
+                "geology": "Cráter complejo formado por un gran impacto. El choque excavó material, levantó estructuras centrales y expulsó fragmentos que produjeron rayos y cráteres secundarios. Sus paredes muestran el colapso y reajuste del terreno tras la excavación.",
+                "sources": [
+                    "https://science.nasa.gov/3d-resources/moon-copernicus-crater/",
+                    "https://science.nasa.gov/resource/copernicus-crater/",
+                    "https://science.nasa.gov/photojournal/limb-of-copernicus-impact-crater/"
+                ],
+                "zoneType": "Cráter de impacto con rayos y picos centrales",
+                "analogIds": [
+                    "haughton",
+                    "meteor-crater"
+                ],
+                "importance": "Permite comparar cómo se forman cráteres complejos y cómo se distribuye el material expulsado. Meteor Crater y Haughton ofrecen referencias terrestres para partes de estos procesos, con diferencias de tamaño y conservación.",
+                "description": "Cráter de impacto de la cara visible con paredes escalonadas y extensos rayos de material expulsado.",
+                "environment": "Su relieve combina un fondo relativamente bajo con paredes, bloques y pendientes. La iluminación resalta u oculta detalles según el ángulo solar. Como en otras zonas lunares, el regolito y los cambios térmicos condicionan la exploración de superficie.",
+                "exploration": "El Apolo 17 fotografió Copernicus desde órbita en 1972. Las imágenes orbitales y los modelos del relieve permiten estudiar el cráter y relacionarlo con las cadenas de cráteres secundarios de sus alrededores."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            1.5,
+                            24.5
+                        ],
+                        [
+                            4.8,
+                            24.5
+                        ],
+                        [
+                            4.8,
+                            27.5
+                        ],
+                        [
+                            1.5,
+                            27.5
+                        ],
+                        [
+                            1.5,
+                            24.5
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-hadley-rille",
+                "name": "Hadley Rille y entorno del Apolo 15",
+                "geology": "Hadley Rille corta llanuras basálticas cerca del frente de las montañas Apeninas. Se interpreta como un sistema relacionado con el transporte de lava, con posibles etapas de canal y tubo. Las paredes exponen capas útiles para reconstruir las erupciones.",
+                "sources": [
+                    "https://www.nasa.gov/missions/apollo/apollo-15-mission-details/",
+                    "https://www.nasa.gov/image-article/soaring-over-lunar-mt-hadley/",
+                    "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloland.html",
+                    "https://ntrs.nasa.gov/api/citations/19860013039/downloads/19860013039.pdf"
+                ],
+                "zoneType": "Canal volcánico junto a las montañas Apeninas",
+                "analogIds": [
+                    "basalt",
+                    "kilauea",
+                    "lanzarote-pangaea"
+                ],
+                "importance": "Permite unir geología observada por personas, muestras de laboratorio y cartografía orbital. Es una referencia para planificar recorridos científicos y estudiar la secuencia de coladas a partir de paredes expuestas.",
+                "description": "Canal sinuoso asociado a antiguas lavas, junto al lugar que exploró la tripulación del Apolo 15 en 1971.",
+                "environment": "El terreno combina llanuras, bloques, laderas de montaña y el borde de un canal profundo. Las sombras de ese relieve influyen en la visibilidad. La misión de superficie se realizó con iluminación diurna; esa experiencia no caracteriza toda la noche lunar.",
+                "exploration": "El Apolo 15 exploró la región Hadley-Apennine en 1971 con astronautas y un vehículo lunar. Regresó con muestras, fotografías y observaciones geológicas. LRO obtuvo después vistas del entorno y del lugar de aterrizaje."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -58,
                             11
                         ],
@@ -33,8 +182,11 @@
             "properties": {
                 "id": "moon-marius-hills",
                 "name": "Marius Hills",
-                "geology": null,
+                "geology": "Campo volcánico con domos, conos y canales sinuosos en Oceanus Procellarum. El pozo de Marius Hills corta varias capas de lava y deja ver una cavidad bajo uno de sus bordes. Esa observación apoya la presencia de espacios subterráneos, pero no determina la extensión de un tubo completo.",
                 "sources": [
+                    "https://www.lroc.im-ldi.com/images/202",
+                    "https://lroc.im-ldi.com/images/286",
+                    "https://science.nasa.gov/moon/facts/"
                 ],
                 "zoneType": "Domos volcánicos y posible tubo de lava",
                 "analogIds": [
@@ -42,10 +194,10 @@
                     "lanzarote-pangaea",
                     "umajalanta"
                 ],
-                "importance": null,
+                "importance": "Permite estudiar cómo se acumularon las coladas de lava y cómo se forman las cavidades volcánicas. También ayuda a definir qué tendría que medir un robot antes de evaluar una cueva como posible lugar de trabajo o refugio.",
                 "description": "Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava.",
-                "environment": null,
-                "exploration": null
+                "environment": "La superficie está cubierta de regolito y expuesta al vacío, al Sol y a cambios térmicos entre el día y la noche lunar. Las paredes del pozo producen sombras locales. Las imágenes de una entrada no bastan para conocer la temperatura, la estabilidad o la protección radiativa de toda una cavidad.",
+                "exploration": "La misión japonesa SELENE/Kaguya identificó el pozo en imágenes orbitales. La cámara LROC de Lunar Reconnaissance Orbiter lo observó después con más detalle y desde un ángulo que permitió ver parte del espacio bajo el borde. El interior completo sigue siendo una cuestión de investigación."
             }
         },
         {
@@ -80,18 +232,71 @@
             "properties": {
                 "id": "moon-shackleton",
                 "name": "Cráter Shackleton (polo sur)",
-                "geology": null,
+                "geology": "Cráter de impacto situado en el polo sur lunar. Su borde elevado y su fondo profundo generan condiciones de iluminación muy distintas a poca distancia. El relieve permite conservar regiones que el Sol no ilumina directamente.",
                 "sources": [
+                    "https://science.nasa.gov/resource/shackleton-craters-illuminated-rim-shadowed-interior/",
+                    "https://science.nasa.gov/image-detail/faces-of-shackleton/",
+                    "https://www.nasa.gov/blogs/missions/2023/02/09/nasas-shadowcam-images-permanently-shadowed-regions-from-lunar-orbit/"
                 ],
                 "zoneType": "Cráter polar con sombra permanente",
                 "analogIds": [
                     "concordia",
                     "mcmurdo"
                 ],
-                "importance": null,
+                "importance": "Ayuda a investigar el almacenamiento de agua y otros volátiles en zonas frías, junto con las dificultades de energía, navegación y control térmico de la exploración polar. La iluminación prolongada de ciertos puntos no garantiza energía continua en cualquier sector del borde.",
                 "description": "Cráter en el polo sur lunar. Partes de su borde tienen iluminación prolongada y su interior está en sombra permanente, donde podría haber hielo de agua. Hay una base planificada en la región, no construida.",
-                "environment": null,
-                "exploration": null
+                "environment": "El Sol se mantiene cerca del horizonte. Algunos puntos altos del borde reciben iluminación prolongada, mientras que gran parte del interior permanece en sombra y muy frío. Las trampas frías podrían conservar hielo y otros volátiles; su cantidad y accesibilidad deben comprobarse en cada lugar.",
+                "exploration": "LRO ha estudiado su forma, iluminación y señales de radar con instrumentos como LOLA y Mini-RF. ShadowCam, a bordo del orbitador coreano Danuri, obtuvo imágenes de su interior oscuro. Estas fuentes describen observaciones orbitales del cráter."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -175,
+                            -55
+                        ],
+                        [
+                            -140,
+                            -55
+                        ],
+                        [
+                            -140,
+                            -30
+                        ],
+                        [
+                            -175,
+                            -30
+                        ],
+                        [
+                            -175,
+                            -55
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "moon-south-pole-aitken",
+                "name": "Cuenca Polo Sur-Aitken, sector de Apollo",
+                "geology": "Polo Sur-Aitken es una de las mayores y más antiguas cuencas de impacto lunares. El choque excavó y redistribuyó materiales y otros impactos y episodios volcánicos modificaron después su interior. El sector representado incluye parte de la cuenca Apollo, dentro de esa estructura mayor.",
+                "sources": [
+                    "https://science.nasa.gov/moon/lunar-craters/what-is-the-south-pole-aitken-basin/",
+                    "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/First_detection_of_negative_ions_on_the_Moon",
+                    "https://www.esa.int/Enabling_Support/Operations/ESA_Ground_Stations/ESA_stations_support_three_Moon_missions_in_2024"
+                ],
+                "zoneType": "Sector de una antigua cuenca de impacto de la cara oculta",
+                "analogIds": [
+                    "haughton",
+                    "haughton-hmp",
+                    "meteor-crater"
+                ],
+                "importance": "Las rocas ayudan a reconstruir grandes impactos y la evolución de la cara oculta. Las muestras obtenidas permiten contrastar interpretaciones orbitales, pero no debe asumirse que todo material recogido procede directamente del manto lunar.",
+                "description": "Sector de la gran cuenca Polo Sur-Aitken que incluye el entorno de Apollo, donde Chang'e-6 recogió muestras en 2024.",
+                "environment": "Este sector de la cara oculta presenta relieve craterizado y alternancia de día y noche lunar. La localización dentro de una cuenca llamada Polo Sur-Aitken no convierte toda su superficie en sombra permanente. La temperatura y la iluminación dependen del lugar y del momento de observación.",
+                "exploration": "LRO y GRAIL aportaron datos sobre el relieve y la estructura de la gran cuenca. Chang'e-6 aterrizó en el sector de Apollo y retornó muestras a la Tierra en junio de 2024. ESA participó con el instrumento NILS y con apoyo de estaciones terrestres."
             }
         },
         {
@@ -126,8 +331,11 @@
             "properties": {
                 "id": "moon-tranquillitatis",
                 "name": "Mare Tranquillitatis",
-                "geology": null,
+                "geology": "Llanura oscura formada por antiguas coladas de lava basáltica. Impactos posteriores fragmentaron las rocas y produjeron el regolito superficial. Las muestras del Apolo 11 permiten estudiar directamente la composición y la historia de estos basaltos.",
                 "sources": [
+                    "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11info.html",
+                    "https://ares.jsc.nasa.gov/astromaterials3d/sample-catalog.htm?origin=A11",
+                    "https://science.nasa.gov/moon/facts/"
                 ],
                 "zoneType": "Mar basáltico",
                 "analogIds": [
@@ -135,10 +343,10 @@
                     "kilauea",
                     "lanzarote-pangaea"
                 ],
-                "importance": null,
+                "importance": "Relaciona la observación orbital con rocas de origen conocido y permite reconstruir episodios de volcanismo lunar. También conserva la experiencia del primer alunizaje tripulado para estudiar operaciones sobre llanuras de basalto y regolito.",
                 "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969.",
-                "environment": null,
-                "exploration": null
+                "environment": "Es una superficie de baja latitud con alternancia de día y noche lunar. El regolito, los bloques y los pequeños cráteres influyen en el desplazamiento. La exosfera lunar es demasiado tenue para ofrecer una protección comparable a la atmósfera terrestre.",
+                "exploration": "El Apolo 11 alunizó en el sector suroeste de Mare Tranquillitatis en julio de 1969. Armstrong y Aldrin realizaron observaciones y recogieron muestras que regresaron a la Tierra. Es un sitio con exploración humana histórica y material disponible para estudios de laboratorio."
             }
         },
         {
@@ -173,18 +381,21 @@
             "properties": {
                 "id": "moon-tycho",
                 "name": "Cráter Tycho",
-                "geology": null,
+                "geology": "Cráter de impacto complejo con paredes escalonadas, un pico central y depósitos de material fundido por el choque. Sus rayos brillantes son material expulsado durante el impacto. La forma relativamente bien conservada permite reconocer distintas partes del proceso de formación.",
                 "sources": [
+                    "https://science.nasa.gov/resource/tycho-craters-central-peak-on-the-moon/",
+                    "https://science.nasa.gov/moon/lunar-craters/",
+                    "https://science.nasa.gov/moon/facts/"
                 ],
                 "zoneType": "Cráter de impacto joven",
                 "analogIds": [
                     "haughton",
                     "meteor-crater"
                 ],
-                "importance": null,
+                "importance": "Sirve para investigar la excavación de rocas, la formación de picos centrales y la distribución de material expulsado. Los cráteres terrestres permiten comparar procesos concretos, con diferencias importantes de escala, gravedad y erosión.",
                 "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra.",
-                "environment": null,
-                "exploration": null
+                "environment": "Las paredes y el pico central generan pendientes fuertes, bloques y sombras que cambian con la iluminación. El polvo y el regolito cubren parte de los depósitos. La exposición solar y las bajas presiones propias de la Luna condicionan cualquier operación de superficie.",
+                "exploration": "LRO ha fotografiado el pico central, sus grandes bloques y depósitos de impacto, incluso con vistas oblicuas. La ficha se apoya en ese estudio orbital del relieve y de las texturas. Su aspecto joven se interpreta en comparación con cráteres lunares más erosionados por impactos posteriores."
             }
         }
     ]
