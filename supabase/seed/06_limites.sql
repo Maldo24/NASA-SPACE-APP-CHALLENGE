@@ -1,0 +1,89 @@
+-- =====================================================================
+-- 06 · LÍMITES POR TIPO DE ANALOGÍA                         Dueño: Maldo
+-- =====================================================================
+-- Qué reproduce cada análogo y dónde se rompe, por cada tipo de analogía que cumple.
+-- Tabla: analog_aspects (supabase/migrations/20261116000000_profundizacion.sql)
+--
+--   analog_id  id del análogo (ver checklist abajo)
+--   category   geomorphological | mineralogical | environmental | operational
+--   covers     qué reproduce el sitio en esa categoría
+--   breaks     dónde deja de servir la analogía en esa categoría
+--   source     enlace específico de ese límite, o null si vale la fuente del análogo
+--
+-- Una fila por cada categoría que el análogo cumple: la principal y las de "en parte".
+-- Las categorías sin fila se muestran en la app como "No cubre".
+-- environmental = condiciones para la vida (frío, aridez, UV, salinidad, presión, radiación).
+-- operational   = qué se puede practicar ahí (astronautas, rovers, trajes, hábitats).
+--
+-- Reglas de contenido (README y CONTEXTO_EXPLORACION_ESPACIAL_BOLIVIA.md, sección 12):
+--   * Nada sin fuente real. Si no hay fuente, deja source en null y dilo en el texto.
+--   * Lenguaje sencillo: lo lee un estudiante, no un especialista.
+--   * Comillas simples dentro del texto se escriben dobles: 'no ''simula'' Marte'.
+-- Después de editar: bash supabase/seed/exportar-json.sh  (regenera src/data/*.json)
+--
+-- Ejemplo (formato; los textos hay que comprobarlos antes de usarlos):
+--
+-- insert into public.analog_aspects (analog_id, category, covers, breaks, source) values
+--   ('uyuni', 'mineralogical',
+--    'Cloruros, yeso y salmueras formados por evaporación de antiguos lagos.',
+--    'No tiene percloratos comprobados y la sal es reciente, no de hace miles de millones de años.',
+--    null),
+--   ('uyuni', 'environmental',
+--    'Frío nocturno, radiación UV alta y salmueras donde vive poca vida.',
+--    'La presión del aire es unas 100 veces la de Marte, hay oxígeno y el campo magnético frena los rayos cósmicos.',
+--    null)
+-- on conflict (analog_id, category) do update set
+--   covers = excluded.covers, breaks = excluded.breaks, source = excluded.source;
+--
+-- Checklist (51 análogos existentes; los nuevos de Sebastián van en 09):
+--   [ ] atacama                principal: amb | en parte: min
+--   [ ] basalt                 principal: op  | en parte: geo, min
+--   [ ] canapa                 principal: amb | en parte: -
+--   [ ] cerro-rico             principal: min | en parte: -
+--   [ ] coipasa                principal: min | en parte: op
+--   [ ] concordia              principal: op  | en parte: amb
+--   [ ] cordillera-real        principal: amb | en parte: geo
+--   [ ] desierto-dali          principal: amb | en parte: geo
+--   [ ] el-tatio               principal: min | en parte: amb
+--   [ ] glaciares-roca         principal: geo | en parte: amb
+--   [ ] grand-canyon           principal: geo | en parte: -
+--   [ ] guapore                principal: min | en parte: -
+--   [ ] haughton               principal: geo | en parte: amb
+--   [ ] haughton-hmp           principal: op  | en parte: amb
+--   [ ] hi-seas                principal: op  | en parte: -
+--   [ ] intersalar             principal: geo | en parte: -
+--   [ ] italia-perdida         principal: geo | en parte: -
+--   [ ] iturralde              principal: geo | en parte: -
+--   [ ] kilauea                principal: min | en parte: geo
+--   [ ] lago-poopo             principal: amb | en parte: min
+--   [ ] lago-tauca             principal: geo | en parte: min
+--   [ ] laguna-blanca-termal   principal: amb | en parte: min
+--   [ ] laguna-colorada        principal: min | en parte: amb
+--   [ ] laguna-verde           principal: min | en parte: amb
+--   [ ] lanzarote-pangaea      principal: op  | en parte: geo
+--   [ ] la-salsa               principal: min | en parte: amb
+--   [ ] licancabur             principal: amb | en parte: min
+--   [ ] mcmurdo                principal: amb | en parte: geo
+--   [ ] mdrs                   principal: op  | en parte: geo
+--   [ ] meteor-crater          principal: geo | en parte: op
+--   [ ] ollague                principal: geo | en parte: -
+--   [ ] pastos-grandes         principal: min | en parte: amb
+--   [ ] permafrost-occidental  principal: amb | en parte: geo
+--   [ ] rio-tinto              principal: min | en parte: amb
+--   [ ] sajama                 principal: op  | en parte: geo, amb
+--   [ ] sajama-hielo           principal: geo | en parte: amb
+--   [ ] salares-capas          principal: geo | en parte: min
+--   [ ] salda                  principal: min | en parte: geo
+--   [ ] siloli                 principal: geo | en parte: amb
+--   [ ] sol-de-manana          principal: min | en parte: amb
+--   [ ] sud-lipez              principal: op  | en parte: geo, amb
+--   [ ] tajzara                principal: geo | en parte: amb
+--   [ ] tata-sabaya            principal: geo | en parte: -
+--   [ ] torotoro               principal: op  | en parte: geo
+--   [ ] umajalanta             principal: op  | en parte: -
+--   [ ] uyuni                  principal: min | en parte: amb
+--   [ ] uyuni-icaria           principal: min | en parte: -
+--   [ ] uyuni-navegacion       principal: op  | en parte: -
+--   [ ] uyuni-poligonos        principal: geo | en parte: -
+--   [ ] uyuni-salmueras        principal: amb | en parte: min
+--   [ ] valle-de-la-luna       principal: op  | en parte: geo

@@ -1,0 +1,86 @@
+-- =====================================================================
+-- 08 · ENTRENAMIENTOS POSIBLES EN CADA ANÁLOGO           Dueño: Sebastián
+-- =====================================================================
+-- Tabla: analog_trainings (supabase/migrations/20261116000000_profundizacion.sql)
+--
+--   analog_id     id del análogo
+--   position      1, 2, 3… orden dentro del análogo (de 1 a 3 actividades por análogo)
+--   audience      astronauts | rovers | suits | habitats | science
+--   activity      qué se practica
+--   measures      qué se mide para saber si salió bien
+--   restrictions  permisos, seguridad o conservación (null si no aplica)
+--   source        enlace específico, o null si vale la fuente del análogo
+--
+-- Base principal para Bolivia: tmp/lectura/F2.txt, secciones 4.1–4.7, 8 y 11.
+-- Son actividades POSIBLES o PROPUESTAS: no afirmes que ya se hicieron si la fuente no lo dice.
+--
+-- Reglas de contenido (README y CONTEXTO_EXPLORACION_ESPACIAL_BOLIVIA.md, sección 12):
+--   * Nada sin fuente real. Si no hay fuente, deja source en null y dilo en el texto.
+--   * Lenguaje sencillo: lo lee un estudiante, no un especialista.
+--   * Comillas simples dentro del texto se escriben dobles: 'no ''simula'' Marte'.
+-- Después de editar: bash supabase/seed/exportar-json.sh  (regenera src/data/*.json)
+--
+-- Ejemplo (formato; los textos hay que comprobarlos antes de usarlos):
+--
+-- insert into public.analog_trainings (analog_id, position, audience, activity, measures, restrictions, source) values
+--   ('sajama', 1, 'rovers',
+--    'Arranque de baterías en frío y ascenso por pendientes conocidas.',
+--    'Voltaje y tiempo de arranque, patinaje y estabilidad lateral.',
+--    'No circular sobre bofedales ni sitios arqueológicos. Evaluación médica de altura obligatoria.',
+--    null)
+-- on conflict (analog_id, position) do update set
+--   audience = excluded.audience, activity = excluded.activity, measures = excluded.measures,
+--   restrictions = excluded.restrictions, source = excluded.source;
+--
+-- Checklist (51 análogos existentes):
+--   [ ] atacama
+--   [ ] basalt
+--   [ ] canapa
+--   [ ] cerro-rico
+--   [ ] coipasa
+--   [ ] concordia
+--   [ ] cordillera-real
+--   [ ] desierto-dali
+--   [ ] el-tatio
+--   [ ] glaciares-roca
+--   [ ] grand-canyon
+--   [ ] guapore
+--   [ ] haughton
+--   [ ] haughton-hmp
+--   [ ] hi-seas
+--   [ ] intersalar
+--   [ ] italia-perdida
+--   [ ] iturralde
+--   [ ] kilauea
+--   [ ] lago-poopo
+--   [ ] lago-tauca
+--   [ ] laguna-blanca-termal
+--   [ ] laguna-colorada
+--   [ ] laguna-verde
+--   [ ] lanzarote-pangaea
+--   [ ] la-salsa
+--   [ ] licancabur
+--   [ ] mcmurdo
+--   [ ] mdrs
+--   [ ] meteor-crater
+--   [ ] ollague
+--   [ ] pastos-grandes
+--   [ ] permafrost-occidental
+--   [ ] rio-tinto
+--   [ ] sajama
+--   [ ] sajama-hielo
+--   [ ] salares-capas
+--   [ ] salda
+--   [ ] siloli
+--   [ ] sol-de-manana
+--   [ ] sud-lipez
+--   [ ] tajzara
+--   [ ] tata-sabaya
+--   [ ] torotoro
+--   [ ] umajalanta
+--   [ ] uyuni
+--   [ ] uyuni-icaria
+--   [ ] uyuni-navegacion
+--   [ ] uyuni-poligonos
+--   [ ] uyuni-salmueras
+--   [ ] valle-de-la-luna
