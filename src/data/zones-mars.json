@@ -182,8 +182,8 @@
                 "zoneType": "Depósito volcánico e hidrotermal",
                 "analogIds": [
                     "el-tatio",
-                    "laguna-blanca-termal",
                     "la-salsa",
+                    "laguna-blanca-termal",
                     "sol-de-manana"
                 ],
                 "importance": null,
@@ -478,6 +478,7 @@
                     "kilauea",
                     "ollague",
                     "sajama",
+                    "sp-mountain",
                     "tata-sabaya"
                 ],
                 "importance": null,

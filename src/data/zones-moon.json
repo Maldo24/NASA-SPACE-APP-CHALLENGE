@@ -40,6 +40,8 @@
                 "analogIds": [
                     "kilauea",
                     "lanzarote-pangaea",
+                    "lava-river-cave-az",
+                    "sp-mountain",
                     "umajalanta"
                 ],
                 "importance": null,
@@ -86,6 +88,7 @@
                 "zoneType": "Cráter polar con sombra permanente",
                 "analogIds": [
                     "concordia",
+                    "mauna-kea-isru",
                     "mcmurdo"
                 ],
                 "importance": null,
@@ -132,8 +135,11 @@
                 "zoneType": "Mar basáltico",
                 "analogIds": [
                     "basalt",
+                    "cinder-lake",
                     "kilauea",
-                    "lanzarote-pangaea"
+                    "lanzarote-pangaea",
+                    "mauna-kea-isru",
+                    "sp-mountain"
                 ],
                 "importance": null,
                 "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969.",
@@ -178,8 +184,11 @@
                 ],
                 "zoneType": "Cráter de impacto joven",
                 "analogIds": [
+                    "cinder-lake",
                     "haughton",
-                    "meteor-crater"
+                    "meteor-crater",
+                    "mistastin",
+                    "ries-crater"
                 ],
                 "importance": null,
                 "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra.",

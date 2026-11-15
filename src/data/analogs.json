@@ -8,9 +8,28 @@
         "image": "img/analogs/atacama.jpg",
         "source": "https://en.wikipedia.org/wiki/Atacama_Desert",
         "aspects": [
+            {
+                "breaks": "La mezcla de sales varía entre sectores. No basta para atribuir a Marte los mismos minerales o la misma historia del agua. Falta una fuente específica para el sector de esta ficha.",
+                "covers": "Los depósitos salinos permiten comparar la concentración de sales y la conservación de señales orgánicas en terrenos secos; F4 recoge esta comparación.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Incluso aquí hay vida y aportes de humedad. El aire, la gravedad y la protección atmosférica terrestres no reproducen la superficie marciana.",
+                "covers": "La sequedad extrema permite estudiar cómo persisten organismos y señales de vida con muy poca agua.",
+                "source": "https://science.nasa.gov/solar-system/analog-explorer/",
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": "https://science.nasa.gov/solar-system/analog-explorer/",
+                "activity": "Propuesta: diseñar una búsqueda de señales de vida en un ambiente seco, comparando objetivos minerales con muestras de referencia y blancos de contaminación.",
+                "audience": "science",
+                "measures": "Objetivos documentados, blancos sin contaminación, falsos positivos y concordancia con el análisis de referencia.",
+                "restrictions": "Permisos para muestreo y protección de ecosistemas. Trabajar con materiales preparados cuando no se autorice extracción; no equiparar sequedad con esterilidad."
+            }
         ],
         "breaking_point": "Tiene aire denso con oxígeno, gravedad terrestre y la protección del campo magnético: la radiación que llega es sobre todo UV, no los rayos cósmicos que recibe Meridiani. Incluso en su zona más seca hay humedad nocturna y vida microbiana.",
         "secondary_categories": [
@@ -26,9 +45,41 @@
         "image": "img/analogs/basalt.jpg",
         "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
         "aspects": [
+            {
+                "breaks": "La forma y la rugosidad son comparaciones parciales: faltan la historia de impactos y las condiciones de formación del relieve lunar o marciano.",
+                "covers": "Las coladas y superficies volcánicas de Craters of the Moon permiten reconocer unidades del terreno y planear recorridos entre obstáculos.",
+                "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Compartir el nombre basalto no implica igual composición. El agua y el aire terrestres alteran las rocas de otra manera que en la Luna o Marte.",
+                "covers": "Los terrenos basálticos permiten distinguir rocas volcánicas y seleccionar muestras con distintos grados de alteración.",
+                "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La demora es artificial. El aire y la gravedad son terrestres; un resultado de coordinación no certifica un traje ni un rover para vuelo.",
+                "covers": "BASALT ensaya exploración y selección de muestras con equipos de campo y apoyo científico remoto, introduciendo demoras de comunicación.",
+                "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+                "activity": "Propuesta basada en BASALT: seleccionar y documentar muestras volcánicas coordinando al equipo de campo con científicos remotos y una demora de enlace definida.",
+                "audience": "astronauts",
+                "measures": "Objetivos completados, calidad de fotografías y descripciones, tiempo de decisión y mensajes que llegan fuera de la ventana de trabajo.",
+                "restrictions": "Introducir demora solo en el canal del ejercicio; mantener comunicación de seguridad inmediata. El precedente no demuestra que este ejercicio concreto ya se haya hecho."
+            },
+            {
+                "source": "https://www.nasa.gov/missions/analog-field-testing/what-is-basalt/",
+                "activity": "Propuesta: comparar rutas de un rover por superficies volcánicas previamente caracterizadas, con igual carga, ruedas y velocidad objetivo.",
+                "audience": "rovers",
+                "measures": "Patinaje, energía por metro, error de posición, obstáculos detectados e intervenciones por recorrido.",
+                "restrictions": "Acceso autorizado y trayecto inspeccionado. Los resultados de tracción deben corregirse antes de extrapolarlos a gravedad lunar o marciana."
+            }
         ],
         "breaking_point": "Ensaya procedimientos y comunicaciones demoradas, pero con la gravedad, el aire y la temperatura de la Tierra. La demora se simula, y el basalto de Idaho no tiene la historia de impactos ni el polvo de la Luna o de Marte.",
         "secondary_categories": [
@@ -45,9 +96,22 @@
         "image": "img/analogs/canapa.jpg",
         "source": "https://es.wikipedia.org/wiki/Laguna_Ca%C3%B1apa",
         "aspects": [
+            {
+                "breaks": "F4 señala falta de estudios microbiológicos; no se afirma ausencia de vida ni de estudios posteriores. Falta una fuente específica verificada. El agua líquida y la presión terrestre difieren de Marte.",
+                "covers": "F4 propone las lagunas Cañapa y Chiarkota para investigar la habitabilidad de aguas salinas de altura. Respaldo: propuesto.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: planear una campaña no invasiva que compare luz, temperatura y salinidad en sectores autorizados de las lagunas Cañapa y Chiarkota.",
+                "audience": "science",
+                "measures": "Cobertura de estaciones, incertidumbre de sensores y cambios de condiciones por sitio y hora; blancos si se autoriza muestreo.",
+                "restrictions": "F4: propuesto; F2, sección 4.7, como método. Sin fuente específica del ejercicio (source null). No afirmar comunidades microbianas no verificadas ni entrar a orillas sensibles."
+            }
         ],
         "breaking_point": "Es agua líquida abundante y estable, con vida terrestre. En Marte las salmueras serían escasas, temporales y a una presión muchísimo menor. Todavía no tiene estudios microbiológicos: la analogía es una propuesta.",
         "secondary_categories": [
@@ -62,12 +126,69 @@
         "image": "img/analogs/cerro-rico.jpg",
         "source": "https://en.wikipedia.org/wiki/Cerro_Rico",
         "aspects": [
+            {
+                "breaks": "La minería expone materiales y modifica la circulación del agua. Falta una fuente analítica específica para esta comparación; no se confirma jarosita u otro mineral en cada punto sin análisis.",
+                "covers": "F4 sugiere comparar el hierro y los sulfatos del drenaje ácido minero con minerales de alteración marcianos. Respaldo: sugerido.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: clasificar espectros o muestras de referencia autorizadas de alteración ácida y contrastar la identificación de minerales con un análisis de laboratorio.",
+                "audience": "science",
+                "measures": "Aciertos por mineral, falsos positivos, calidad espectral y trazabilidad entre muestra, ubicación y análisis.",
+                "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). Priorizar datos existentes o muestras de archivo. No entrar en labores mineras ni manipular drenajes sin especialistas."
+            }
         ],
         "breaking_point": "Su química ácida viene de casi 500 años de minería, no de un proceso natural. Meridiani se alteró sin intervención humana, hace miles de millones de años.",
         "secondary_categories": [
+        ]
+    },
+    {
+        "id": "cinder-lake",
+        "lat": 35.306,
+        "lon": -111.505,
+        "why": "Campo artificial construido para practicar exploración lunar. Permite ensayar localización, recorridos y observación de pequeños cráteres; su uso histórico está documentado por USGS.",
+        "name": "Cinder Lake, campo de cráteres de entrenamiento, Arizona, EE.UU.",
+        "image": null,
+        "source": "https://www.usgs.gov/data/cinder-lake-crater-field-uncrewed-aerial-system-derived-digital-elevation-models-2023-and-2024",
+        "aspects": [
+            {
+                "breaks": "Se hicieron con explosivos: no reproducen el choque, los minerales ni la distribución de eyecta de un impacto a alta velocidad. El agua y el viento modifican el campo.",
+                "covers": "Las depresiones artificiales ofrecen bordes, sombras y superposiciones para interpretar la forma de pequeños cráteres.",
+                "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "El entrenamiento es terrestre; la movilidad y los tiempos no se trasladan directamente a gravedad lunar. Los precedentes históricos no validan cualquier ejercicio nuevo.",
+                "covers": "El campo y sus modelos de elevación permiten practicar localización, planificación de recorridos y reconocimiento de cráteres.",
+                "source": "https://www.usgs.gov/data/cinder-lake-crater-field-uncrewed-aerial-system-derived-digital-elevation-models-2023-and-2024",
+                "category": "operational"
+            }
+        ],
+        "category": "operational",
+        "trainings": [
+            {
+                "source": "https://www.usgs.gov/data/cinder-lake-crater-field-uncrewed-aerial-system-derived-digital-elevation-models-2023-and-2024",
+                "activity": "Propuesta: localizarse en el campo usando un mapa y las relaciones entre pequeños cráteres, después priorizar estaciones de observación.",
+                "audience": "astronauts",
+                "measures": "Error de posición, cráteres reconocidos, objetivos documentados y tiempo de decisión.",
+                "restrictions": "No crear cráteres nuevos ni alterar los históricos. Actividad con responsables del terreno; mantener ayuda de seguridad disponible aunque el ejercicio limite el apoyo científico."
+            },
+            {
+                "source": "https://www.usgs.gov/data/cinder-lake-crater-field-uncrewed-aerial-system-derived-digital-elevation-models-2023-and-2024",
+                "activity": "Propuesta: usar el modelo de elevación para evaluar rutas alrededor de bordes y comparar resultados con distintas iluminaciones simuladas.",
+                "audience": "rovers",
+                "measures": "Colisiones simuladas, margen al borde, error de localización y rutas completadas.",
+                "restrictions": "El modelo debe indicar resolución y fecha. Una ruta virtual segura no demuestra firmeza del suelo ni estabilidad real del vehículo."
+            }
+        ],
+        "breaking_point": "Los cráteres se excavaron con explosivos en materiales volcánicos terrestres. No son impactos naturales ni reproducen vacío, gravedad lunar o regolito madurado por impactos; la erosión cambia sus formas.",
+        "secondary_categories": [
+            "geomorphological"
         ]
     },
     {
@@ -79,9 +200,35 @@
         "image": "img/analogs/coipasa.jpg",
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "Las sales se forman bajo clima y presión terrestres. No se puede trasladar la composición de Coipasa a una zona marciana sin contrastar sus datos minerales.",
+                "covers": "Los depósitos salinos de una cuenca evaporítica permiten comparar concentración de sales y sedimentación lacustre. Respaldo en F4: estudiado.",
+                "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Es una posibilidad, no una campaña acreditada. Falta una fuente específica de ensayos. Hay que verificar resistencia de la costra, zonas inundadas y permisos; la tracción sigue siendo terrestre.",
+                "covers": "F2 propone reconocimiento geológico y pruebas de movilidad en sectores autorizados de la cuenca salina.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: repetir un recorrido autorizado con el mismo rover y configuración usados en Uyuni, sobre clases de superficie previamente inspeccionadas.",
+                "audience": "rovers",
+                "measures": "Patinaje, energía por metro, error lateral y falsas clasificaciones de terreno transitable por tipo de superficie.",
+                "restrictions": "F4: estudiado para el sitio, no para este ensayo. F2, sección 4.2; sin fuente de campaña específica (source null). Verificar costra y evitar agua, ecosistemas y sectores blandos."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: interpretar imágenes de la cuenca y delimitar zonas seguras para observaciones de depósitos salinos sin extracción.",
+                "audience": "astronauts",
+                "measures": "Concordancia con el mapa validado, riesgos omitidos, estaciones completadas y tiempo de planificación.",
+                "restrictions": "F2, sección 4.2; falta fuente específica de ejecución (source null). Permisos, reconocimiento local y protección de costras; no deducir firmeza solo de una fotografía."
+            }
         ],
         "breaking_point": "Comparte procesos de evaporación, pero bajo la presión, la gravedad y el clima de la Tierra, con lluvias que inundan la superficie cada año. Aureum Chaos e Icaria Planum se formaron hace miles de millones de años y hoy no tienen agua.",
         "secondary_categories": [
@@ -97,9 +244,28 @@
         "image": "img/analogs/concordia.jpg",
         "source": "https://en.wikipedia.org/wiki/Concordia_Station",
         "aspects": [
+            {
+                "breaks": "La falta de oxígeno por altura es una condición terrestre. No equivale al vacío lunar ni a la atmósfera de CO2 y la radiación de Marte.",
+                "covers": "Combina frío polar, aire seco, oscuridad estacional y menor disponibilidad de oxígeno por la altura.",
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Concordia/Spaceship_Concordia",
+                "category": "environmental"
+            },
+            {
+                "breaks": "La evacuación puede ser imposible durante el invierno, pero el hábitat conserva gravedad y aire terrestres. No reproduce el soporte vital ni todos los riesgos de una misión espacial.",
+                "covers": "La estación permite estudiar convivencia, autonomía y trabajo de equipos durante aislamiento prolongado y oscuridad invernal.",
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Concordia/Spaceship_Concordia",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Concordia/Spaceship_Concordia",
+                "activity": "Propuesta: simular mantenimiento y reparto de tareas de un hábitat durante aislamiento, registrando carga de trabajo y necesidades de apoyo.",
+                "audience": "habitats",
+                "measures": "Tareas completadas, tiempo de mantenimiento, incidencias, consumo de suministros del ejercicio y carga de trabajo declarada.",
+                "restrictions": "No interrumpir servicios esenciales ni introducir aislamiento adicional sin evaluación. Los estudios con personas requieren consentimiento y supervisión; la evacuación invernal puede no ser posible."
+            }
         ],
         "breaking_point": "Reproduce aislamiento, frío y oscuridad, pero la tripulación respira aire, vive con gravedad terrestre y puede ser evacuada. No hay vacío, regolito ni la radiación del polo sur lunar.",
         "secondary_categories": [
@@ -115,9 +281,28 @@
         "image": "img/analogs/cordillera-real.jpg",
         "source": "https://en.wikipedia.org/wiki/Cordillera_Real_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "El retroceso combina procesos terrestres y agua de fusión. Las formas por sí solas no prueban igual origen que las de Marte. Falta una fuente específica de la comparación.",
+                "covers": "Los frentes glaciares y el terreno descubierto permiten comparar formas de erosión y depósitos ligados al hielo, según la sugerencia de F4.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "El deshielo aporta agua líquida bajo aire terrestre; no representa la estabilidad del hielo marciano. Falta una fuente específica que valide la comparación planetaria.",
+                "covers": "F4 sugiere estudiar el cambio de hábitats al retirarse los glaciares y quedar expuestas nuevas superficies frías de altura. Respaldo: sugerido.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: cartografiar cambios del frente glaciar y del terreno recién expuesto mediante imágenes repetidas y puntos de referencia estables.",
+                "audience": "science",
+                "measures": "Error de posición del frente, cambio de superficie, cobertura del mapa e incertidumbre debida a nieve y sombras.",
+                "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). Priorizar imágenes; no ingresar a hielo, grietas o laderas inestables sin personal especializado."
+            }
         ],
         "breaking_point": "Sus glaciares pierden hielo derritiéndose, con agua líquida. En Planum Boreum el hielo se pierde sobre todo por sublimación (pasa directo a gas), a una presión y una temperatura mucho menores.",
         "secondary_categories": [
@@ -133,9 +318,28 @@
         "image": "img/analogs/desierto-dali.jpg",
         "source": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD_Desert",
         "aspects": [
+            {
+                "breaks": "La semejanza visual no demuestra que sean los mismos depósitos que Medusae Fossae. Falta una fuente específica que compare procesos y materiales de ambos sitios.",
+                "covers": "El paisaje árido con materiales volcánicos permite plantear comparaciones de superficies expuestas y erosión, como propuesta de F4.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Falta una fuente microbiológica específica verificada; no se da por demostrada una comunidad concreta. La altura no reproduce presión, temperatura ni radiación ionizante marcianas.",
+                "covers": "F4 propone el ambiente frío y seco de altura para investigar tolerancia a la desecación. Respaldo: propuesto.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: evaluar navegación visual sobre un modelo digital de superficies áridas y comparar imágenes con distintas sombras.",
+                "audience": "rovers",
+                "measures": "Error de localización, pérdida de seguimiento, colisiones simuladas y porcentaje de ruta completada.",
+                "restrictions": "F4: propuesto; método de F2, secciones 8 y 11. Sin fuente específica del ejercicio (source null). Usar imágenes autorizadas; una simulación no valida la tracción real."
+            }
         ],
         "breaking_point": "Su frío y su aridez son moderados frente a Marte, y conserva atmósfera y vida. Medusae Fossae es un depósito fino y blando que el viento erosiona desde hace millones de años. Todavía no tiene estudios microbiológicos.",
         "secondary_categories": [
@@ -151,9 +355,28 @@
         "image": "img/analogs/el-tatio.jpg",
         "source": "https://en.wikipedia.org/wiki/El_Tatio",
         "aspects": [
+            {
+                "breaks": "Texturas parecidas no prueban vida en Marte: el estudio admite procesos no biológicos. El Tatio es activo y terrestre; el depósito marciano conserva una historia antigua.",
+                "covers": "La sílice depositada por aguas termales y sus texturas se han comparado con la sílice observada por Spirit cerca de Home Plate.",
+                "source": "https://www.nature.com/articles/ncomms13554",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Hay agua líquida y organismos actuales bajo presión terrestre. No se reproduce el ambiente marciano actual ni se demuestra que Home Plate haya estado habitado.",
+                "covers": "Las fuentes calientes en un ambiente alto, frío y seco permiten estudiar comunidades microbianas y conservación de sus señales.",
+                "source": "https://www.nature.com/articles/ncomms13554",
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://www.nature.com/articles/ncomms13554",
+                "activity": "Propuesta: distinguir texturas de sílice que podrían conservar señales de vida mediante imágenes y espectros de referencia.",
+                "audience": "science",
+                "measures": "Aciertos de clasificación, falsos positivos y calidad de la descripción de alternativas biológicas y no biológicas.",
+                "restrictions": "Usar datos o muestras de archivo; cualquier muestreo exige permiso. No caminar sobre costras termales. Las texturas parecidas no prueban vida en Home Plate."
+            }
         ],
         "breaking_point": "Es un sistema hidrotermal activo, con agua hirviendo a presión terrestre. Home Plate es un depósito antiguo y apagado. La sílice se parece, pero la vida actual de El Tatio complica distinguir biofirmas antiguas.",
         "secondary_categories": [
@@ -169,9 +392,28 @@
         "image": null,
         "source": "https://doi.org/10.1002/ppp.1816",
         "aspects": [
+            {
+                "breaks": "El inventario distingue formas activas y relictas: no todas contienen hielo. La forma no determina por sí sola cuánto hielo existe ni iguala la evolución de un glaciar marciano.",
+                "covers": "Los cuerpos de hielo y detritos inventariados permiten comparar lenguas y frentes de material rocoso con relieves glaciares marcianos. Respaldo en F4: estudiado.",
+                "source": "https://doi.org/10.1002/ppp.1816",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "No todos los cuerpos inventariados contienen hielo. Las condiciones de presión, balance de agua y clima son terrestres; no equivalen a las de las latitudes medias marcianas.",
+                "covers": "Los glaciares de roca activos permiten estudiar conservación de hielo bajo detritos en los Andes áridos.",
+                "source": "https://doi.org/10.1002/ppp.1816",
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://doi.org/10.1002/ppp.1816",
+                "activity": "Propuesta: delimitar glaciares de roca en imágenes y comparar la clasificación de formas activas y relictas con el inventario publicado.",
+                "audience": "science",
+                "measures": "Coincidencia de límites, precisión de la clasificación, área estimada y casos de incertidumbre.",
+                "restrictions": "F4: estudiado para el inventario. Las imágenes no miden por sí solas el hielo interno. Verificación de campo solo con autorización y evaluación de estabilidad."
+            }
         ],
         "breaking_point": "Su hielo se renueva con nieve y en verano la temperatura supera los 0 °C. Los glaciares de Deuteronilus Mensae son restos de climas pasados, siempre bajo cero y con 0,38 veces la gravedad terrestre.",
         "secondary_categories": [
@@ -187,9 +429,22 @@
         "image": "img/analogs/grand-canyon.jpg",
         "source": "https://en.wikipedia.org/wiki/Grand_Canyon",
         "aspects": [
+            {
+                "breaks": "El río excavó el Gran Cañón; la apertura tectónica fue fundamental en Valles Marineris. Cambian origen y escala; se compara la lectura del relieve, no una génesis idéntica.",
+                "covers": "Las paredes y capas expuestas permiten comparar estratos, pendientes y erosión; el USGS documenta su uso para enseñar interpretación geológica.",
+                "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
+                "activity": "Propuesta: describir una secuencia de capas desde miradores autorizados y transmitir al equipo remoto una interpretación con fotografías y escala.",
+                "audience": "astronauts",
+                "measures": "Contactos identificados, concordancia con la sección de referencia y calidad del reporte dentro del tiempo asignado.",
+                "restrictions": "El USGS documenta precedentes de formación geológica, no este ejercicio exacto. Respetar senderos y patrimonio; sin extraer rocas ni acercarse a bordes para colocar escalas."
+            }
         ],
         "breaking_point": "Lo excavó un río. Valles Marineris se abrió por fallas tectónicas y es unas 9 veces más largo y unas 4 veces más profundo. Se parecen las paredes en capas, no el origen.",
         "secondary_categories": [
@@ -204,9 +459,22 @@
         "image": "img/analogs/guapore.jpg",
         "source": "https://en.wikipedia.org/wiki/Amazonian_Craton",
         "aspects": [
+            {
+                "breaks": "La meteorización tropical incluye lluvia, suelos y organismos. No demuestra la misma mineralogía que Mawrth Vallis. Falta una fuente específica y caracterización del afloramiento elegido.",
+                "covers": "F4 sugiere investigar la alteración de rocas de corteza precámbrica como comparación de una corteza antigua. Respaldo: sugerido.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: contrastar fotografías y análisis de rocas antiguas con distintos grados de meteorización, indicando qué minerales requieren confirmación instrumental.",
+                "audience": "science",
+                "measures": "Aciertos respecto del análisis de referencia, hipótesis descartadas y trazabilidad de las muestras.",
+                "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). Usar colecciones autorizadas; la edad de la corteza no demuestra la misma alteración que Mawrth Vallis."
+            }
         ],
         "breaking_point": "Es corteza antigua meteorizada por un clima tropical, con lluvia, vegetación y suelos con vida. Mawrth Vallis se alteró con agua hace miles de millones de años, sin vida conocida, y conserva cráteres que el escudo no tiene.",
         "secondary_categories": [
@@ -221,9 +489,28 @@
         "image": "img/analogs/haughton.jpg",
         "source": "https://en.wikipedia.org/wiki/Haughton_impact_crater",
         "aspects": [
+            {
+                "breaks": "La erosión por hielo y agua modifica el relieve terrestre; no conserva el mismo registro que un cráter lunar ni reproduce su gravedad.",
+                "covers": "El cráter Haughton permite estudiar formas de impacto y materiales excavados en un ambiente polar, como recoge Haughton-Mars Project.",
+                "source": "https://www.marsinstitute.no/hmp",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Hay atmósfera, agua estacional y ecosistemas terrestres. No se reproducen el vacío lunar ni la radiación ionizante marciana.",
+                "covers": "El frío y la aridez del entorno polar permiten estudiar superficies con poca disponibilidad de agua.",
+                "source": "https://www.marsinstitute.no/hmp",
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://www.marsinstitute.no/hmp",
+                "activity": "Propuesta: planear una travesía de reconocimiento de unidades de impacto y justificar qué estaciones aportan más información científica.",
+                "audience": "astronauts",
+                "measures": "Unidades reconocidas, prioridades justificadas, tiempo de recorrido y calidad de documentación por estación.",
+                "restrictions": "Requiere coordinación con responsables locales, permisos y apoyo polar. La erosión puede ocultar rasgos; no extrapolar distancias de marcha a la gravedad lunar."
+            }
         ],
         "breaking_point": "Mide unos 23 km y lo erosionaron glaciares y agua. Tycho mide unos 85 km, es joven y conserva sus rayos de eyecta porque en la Luna no hay aire ni agua que los borren.",
         "secondary_categories": [
@@ -239,9 +526,35 @@
         "image": "img/analogs/haughton-hmp.jpg",
         "source": "https://en.wikipedia.org/wiki/Haughton%E2%80%93Mars_Project",
         "aspects": [
+            {
+                "breaks": "El suelo y la vida son terrestres, con disponibilidad de agua variable. No equivale a la presión ni a la radiación espacial de Utopia Planitia.",
+                "covers": "El entorno polar ofrece frío, aridez y estacionalidad para estudios ambientales de campo.",
+                "source": "https://www.marsinstitute.no/hmp",
+                "category": "environmental"
+            },
+            {
+                "breaks": "La gravedad y la atmósfera son terrestres. Las restricciones de comunicaciones deben definirse para cada ensayo; el campamento no reproduce una misión completa.",
+                "covers": "Haughton-Mars Project investiga exploración humana y robótica desde un campamento en terreno polar remoto.",
+                "source": "https://www.marsinstitute.no/hmp",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.marsinstitute.no/hmp",
+                "activity": "Propuesta: ensayar cooperación entre un rover y un equipo de campo con cortes y demoras artificiales en el enlace de misión.",
+                "audience": "rovers",
+                "measures": "Objetivos completados, intervenciones, recuperación de enlace, error de mapa y tiempo de decisión.",
+                "restrictions": "El campamento es un precedente, no prueba de este protocolo concreto. Mantener un enlace de seguridad independiente y operar solo en corredores autorizados."
+            },
+            {
+                "source": "https://www.marsinstitute.no/hmp",
+                "activity": "Propuesta: simular inventario, mantenimiento y salida de equipos desde una base remota con un presupuesto de suministros definido.",
+                "audience": "habitats",
+                "measures": "Errores de inventario, tareas terminadas, repuestos solicitados y tiempo de preparación y retorno.",
+                "restrictions": "No restringir suministros reales ni alterar soporte esencial del campamento. El ejercicio no certifica un hábitat presurizado."
+            }
         ],
         "breaking_point": "Permite ensayar vehículos y procedimientos, pero con aire respirable, gravedad terrestre y apoyo cercano. En Utopia Planitia hacen falta trajes presurizados, hay demora en las comunicaciones y la gravedad es 0,38 veces la terrestre.",
         "secondary_categories": [
@@ -257,9 +570,22 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/HI-SEAS",
         "aspects": [
+            {
+                "breaks": "El confinamiento es de simulación y el entorno tiene aire y gravedad terrestres. Las reglas y equipos varían según la campaña; no se validan sistemas para vuelo solo por este ensayo.",
+                "covers": "El hábitat permite estudiar convivencia, aislamiento y rutinas de una tripulación en terreno volcánico.",
+                "source": "https://www.hi-seas.org/about-hi-seas",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.hi-seas.org/about-hi-seas",
+                "activity": "Propuesta: organizar rutinas de trabajo, mantenimiento e inventario durante una estancia simulada y revisar cómo afectan a la coordinación.",
+                "audience": "habitats",
+                "measures": "Tareas pendientes, cumplimiento del plan, errores de inventario y carga de trabajo registrada voluntariamente.",
+                "restrictions": "Adaptar el protocolo a la instalación y sus responsables. Consentimiento para datos personales; no restringir soporte vital ni crear emergencias reales."
+            }
         ],
         "breaking_point": "Estudia el aislamiento y el trabajo en equipo, pero la tripulación sabe que puede salir y respira aire. No reproduce la gravedad, la radiación ni el riesgo real de una misión.",
         "secondary_categories": [
@@ -274,9 +600,22 @@
         "image": null,
         "source": null,
         "aspects": [
+            {
+                "breaks": "Las ignimbritas y domos andinos no equivalen a un escudo basáltico como Olympus Mons. Falta una fuente específica y la comprobación del depósito concreto; la ubicación es aproximada.",
+                "covers": "F4 sugiere comparar domos y depósitos de flujos piroclásticos entre Uyuni y Coipasa con terrenos volcánicos marcianos. Respaldo: sugerido.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: reconocer domos y depósitos volcánicos en imágenes y elegir afloramientos que permitan comprobar su origen.",
+                "audience": "astronauts",
+                "measures": "Unidades delimitadas, confianza declarada y concordancia con una interpretación revisada por geólogos.",
+                "restrictions": "F4: sugerido y ubicación aproximada; sin fuente específica de entrenamiento (source null). Primero verificar el afloramiento y los permisos; no tratar ignimbritas como basalto lunar."
+            }
         ],
         "breaking_point": "Sus domos e ignimbritas son volcanismo andino rico en sílice. Olympus Mons es un volcán en escudo de basalto fluido, de unos 22 km de alto y 600 km de ancho. Se parece el tipo de depósito, no el volcán.",
         "secondary_categories": [
@@ -291,9 +630,22 @@
         "image": "img/analogs/italia-perdida.jpg",
         "source": "https://es.wikipedia.org/wiki/Italia_Perdida",
         "aspects": [
+            {
+                "breaks": "Viento, agua y heladas pueden producir formas parecidas por caminos distintos. Falta una fuente específica que separe sus aportes; no se atribuye todo el relieve al viento.",
+                "covers": "F4 sugiere comparar rocas volcánicas esculpidas por erosión con formas fotografiadas por rovers. Respaldo: sugerido.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: crear un modelo digital de formas erosivas con fotografías autorizadas y evaluar rutas alrededor de salientes y pasos estrechos.",
+                "audience": "rovers",
+                "measures": "Error del modelo, obstáculos omitidos, colisiones simuladas y rutas completadas.",
+                "restrictions": "F4: sugerido; método de F2, sección 8. Falta fuente específica del ejercicio (source null). Proteger formaciones; usar simulación, sin circular sobre relieves frágiles."
+            }
         ],
         "breaking_point": "Su erosión combina viento, agua y heladas nocturnas. En Medusae Fossae el viento actúa casi solo, durante millones de años, sobre un material mucho más blando.",
         "secondary_categories": [
@@ -308,9 +660,22 @@
         "image": "img/analogs/iturralde.jpg",
         "source": "https://svs.gsfc.nasa.gov/925",
         "aspects": [
+            {
+                "breaks": "Su origen por impacto no está confirmado. La imagen de NASA no lo resuelve; la selva y los sedimentos dificultan el análisis. No debe presentarse como cráter de impacto demostrado.",
+                "covers": "La estructura circular de bajo relieve permite comparar la apariencia de una depresión degradada o cubierta de sedimentos. Respaldo en F4: propuesto.",
+                "source": "https://svs.gsfc.nasa.gov/925/",
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://svs.gsfc.nasa.gov/925/",
+                "activity": "Propuesta: comparar mapas de elevación e imágenes de la depresión y formular hipótesis alternativas para explicar su forma circular.",
+                "audience": "science",
+                "measures": "Perfil del relieve, incertidumbre de altura, rasgos diagnósticos encontrados y evidencia que falta para distinguir hipótesis.",
+                "restrictions": "F4: propuesto. Ejercicio remoto; la visualización de NASA no confirma impacto. Cualquier campaña necesita permisos y coordinación con comunidades y autoridades locales."
+            }
         ],
         "breaking_point": "Su origen por impacto no está confirmado y está cubierta por selva y sedimentos húmedos. Los cráteres fantasma de Utopia Planitia están enterrados en un clima seco. Si no fuera un impacto, la analogía se cae.",
         "secondary_categories": [
@@ -325,13 +690,69 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
         "aspects": [
+            {
+                "breaks": "Las escalas, la gravedad y las condiciones de erupción difieren. Un escudo terrestre no reproduce el tamaño de Olympus Mons ni toda su historia.",
+                "covers": "Las coladas y la construcción de un volcán en escudo permiten plantear comparaciones de formas volcánicas.",
+                "source": "https://www.usgs.gov/volcanoes/kilauea/science/geology-and-history",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Basalto no significa composición idéntica: deben compararse minerales y química. El agua y el aire terrestres producen una alteración distinta a la de la Luna.",
+                "covers": "Las lavas basálticas documentadas por USGS ofrecen una referencia terrestre para comparar rocas volcánicas lunares y marcianas.",
+                "source": "https://www.usgs.gov/publications/geology-kilauea-volcano",
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://www.usgs.gov/publications/geology-kilauea-volcano",
+                "activity": "Propuesta: identificar texturas de lavas y comparar muestras o imágenes con análisis de referencia para separar composición y aspecto superficial.",
+                "audience": "science",
+                "measures": "Aciertos de clasificación, calidad de descripciones y diferencias entre identificación visual e instrumental.",
+                "restrictions": "Usar imágenes o colecciones autorizadas y respetar cierres volcánicos. No acercarse a lava activa, gases o bordes inestables para el ejercicio."
+            }
         ],
         "breaking_point": "Es un volcán activo, con agua y aire que alteran sus basaltos rápido. Los mares lunares son basaltos de hace más de 3.000 millones de años, sin agua, y Olympus Mons es mucho más alto y ancho.",
         "secondary_categories": [
             "geomorphological"
+        ]
+    },
+    {
+        "id": "la-salsa",
+        "lat": -21.75,
+        "lon": -67.83,
+        "why": "Montículos hidrotermales de calcio y sílice con microbialitos. Son análogos de depósitos mixtos de carbonato y sílice que pueden conservar señales de vida. Respaldo: estudiado.",
+        "name": "Fuente La Salsa, Laguna Pastos Grandes, Bolivia",
+        "image": null,
+        "source": "https://doi.org/10.3390/min9060380",
+        "aspects": [
+            {
+                "breaks": "La forma del depósito no basta para identificar una biofirma. Los aportes volcánicos, el agua y los microbios actuales no demuestran el mismo proceso en Home Plate.",
+                "covers": "Los montículos hidrotermales ricos en calcio y sílice permiten estudiar aportes biológicos y no biológicos a depósitos minerales. Respaldo en F4: estudiado.",
+                "source": "https://doi.org/10.3390/min9060380",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "El aporte de agua y calor sostiene vida terrestre actual. No representa la presión ni el ambiente seco de Marte hoy, ni confirma vida antigua allí.",
+                "covers": "El sistema termal permite comparar comunidades y depósitos a lo largo de cambios locales de condiciones físico-químicas.",
+                "source": "https://doi.org/10.3390/min9060380",
+                "category": "environmental"
+            }
+        ],
+        "category": "mineralogical",
+        "trainings": [
+            {
+                "source": "https://doi.org/10.3390/min9060380",
+                "activity": "Propuesta: analizar imágenes y datos de depósitos de calcio y sílice para distinguir aportes químicos y biológicos a lo largo de una surgencia.",
+                "audience": "science",
+                "measures": "Cambios minerales identificados, coincidencia con datos publicados y falsos positivos en la búsqueda de señales biológicas.",
+                "restrictions": "F4: estudiado. Trabajar primero con el estudio y sus muestras de referencia; acceso y muestreo requieren permisos. No pisar montículos ni tapetes microbianos."
+            }
+        ],
+        "breaking_point": "Es un sistema hidrotermal activo, con microbios vivos. En Home Plate solo queda el depósito mineral, sin evidencia de vida. Se compara la química del depósito, no un ambiente habitado.",
+        "secondary_categories": [
+            "environmental"
         ]
     },
     {
@@ -343,9 +764,28 @@
         "image": "img/analogs/lago-poopo.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Poop%C3%B3",
         "aspects": [
+            {
+                "breaks": "No se identifica una sal por el color de la superficie ni se iguala su composición a Jezero sin análisis. Falta una fuente mineralógica específica que valide esa comparación.",
+                "covers": "F4 sugiere estudiar los sedimentos y las sales que quedan expuestos cuando disminuye el agua.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "El balance de agua responde al clima y uso humano actuales; no reproduce el cambio planetario antiguo de Marte. Falta una fuente específica de la comparación y una serie local para cada fecha.",
+                "covers": "F4 sugiere seguir cambios de agua y salinidad de un lago somero para estudiar efectos de la desecación sobre hábitats. Respaldo: sugerido.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: reconstruir cambios de superficie de agua y de depósitos expuestos mediante una serie de imágenes fechadas.",
+                "audience": "science",
+                "measures": "Área por fecha, error de clasificación agua/suelo, cobertura temporal e incertidumbre por nubes y humedad.",
+                "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). No confundir una imagen seca con desaparición permanente ni interpretar efectos humanos como equivalencia del clima marciano."
+            }
         ],
         "breaking_point": "Se secó en pocas décadas por sequía y uso humano del agua. Jezero se secó hace más de 3.000 millones de años por un cambio del clima de todo el planeta. Se observan los depósitos que deja, no el proceso marciano.",
         "secondary_categories": [
@@ -361,9 +801,28 @@
         "image": "img/analogs/lago-tauca.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Tauca",
         "aspects": [
+            {
+                "breaks": "Un registro lacustre no reproduce el colapso del subsuelo de Aureum Chaos. Cambian edad y procesos. Falta una fuente específica que valide esta comparación planetaria.",
+                "covers": "F4 sugiere usar antiguas orillas y terrazas de Tauca y Minchin para interpretar cambios de nivel de lagos. Respaldo: sugerido.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "No todas las capas tienen igual composición ni corresponden al mismo paleolago. Falta una fuente analítica específica para vincularlas a minerales de una zona marciana.",
+                "covers": "F4 sugiere comparar la sucesión de sedimentos de lago y sales de evaporación como registro de cambios del agua.",
+                "source": null,
+                "category": "mineralogical"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: reconocer paleoorillas y terrazas en imágenes y ordenar evidencias de antiguos cambios de nivel del agua.",
+                "audience": "astronauts",
+                "measures": "Niveles delimitados, coherencia de perfiles de altura y relaciones temporales justificadas con la referencia disponible.",
+                "restrictions": "F4: sugerido; falta fuente específica del ejercicio (source null). No asignar edades solo por altura; observación o muestras de archivo antes que extracción nueva."
+            }
         ],
         "breaking_point": "Registra los cambios de nivel de un lago de hace unos 15.000 años, en clima terrestre. Aureum Chaos es terreno hundido por la salida de agua del subsuelo: un proceso distinto y mucho más antiguo.",
         "secondary_categories": [
@@ -379,9 +838,28 @@
         "image": "img/analogs/laguna-blanca-termal.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Blanca_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "Falta una fuente mineralógica específica de esta surgencia: no se confirma sílice, carbonatos ni una mezcla equivalente a Home Plate sin análisis local.",
+                "covers": "F4 plantea el interés de los depósitos de un entorno termal para investigar la relación entre minerales y señales microbianas.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La ubicación es aproximada y falta una fuente específica verificada de esa fuente termal. No se extienden sus condiciones a toda la laguna; la presión y el aporte de agua son terrestres.",
+                "covers": "F4 recoge una fuente termal cercana a Laguna Blanca con comunidades microbianas: permite preguntar por vida en aguas calientes de altura. Respaldo: estudiado.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: diseñar una cadena de registro y control de contaminación para estudiar una fuente termal, usando muestras artificiales fuera del ecosistema.",
+                "audience": "science",
+                "measures": "Etiquetas correctas, blancos sin contaminar, registros completos y tiempo de traslado al análisis.",
+                "restrictions": "F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). Confirmar ubicación; sin entrar al agua ni tocar costras termales."
+            }
         ],
         "breaking_point": "Es agua termal estable, con vida actual, a presión terrestre. Home Plate fue un sistema hidrotermal hace miles de millones de años y hoy no tiene agua ni vida conocida.",
         "secondary_categories": [
@@ -397,9 +875,28 @@
         "image": "img/analogs/laguna-colorada.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Colorada",
         "aspects": [
+            {
+                "breaks": "Detectar boro en Gale no identifica bórax ni demuestra la misma química. Falta una fuente específica que establezca equivalencia entre los minerales de ambos lugares.",
+                "covers": "F4 sugiere estudiar depósitos de boratos como punto de partida para preguntas sobre el boro en ambientes lacustres. Respaldo: sugerido.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Es un ecosistema terrestre con agua líquida. Falta una fuente específica que cuantifique condiciones comparables; su color o sus organismos no prueban habitabilidad de Gale.",
+                "covers": "La salinidad y la exposición de un lago alto permiten plantear preguntas de habitabilidad, como sugerencia de F4.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: comparar espectros de boratos de referencia con imágenes de depósitos y explicar qué puede y qué no puede deducirse del boro.",
+                "audience": "science",
+                "measures": "Identificaciones confirmadas, falsos positivos y afirmaciones que requieren análisis adicional.",
+                "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). No equiparar boro con bórax marciano. Priorizar datos de archivo y no perturbar fauna u orillas."
+            }
         ],
         "breaking_point": "El bórax permite formular preguntas sobre el boro, pero no prueba que los minerales de Gale sean iguales. Además es un lago vivo, con algas y flamencos, no un depósito antiguo convertido en roca.",
         "secondary_categories": [
@@ -415,9 +912,28 @@
         "image": "img/analogs/laguna-verde.jpg",
         "source": "https://en.wikipedia.org/wiki/Laguna_Verde_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "Su origen biológico terrestre no demuestra vida en Jezero. La mineralogía y la conservación deben contrastarse muestra por muestra, sin trasladar edades o especies a Marte.",
+                "covers": "Los microbialitos fósiles de sus terrazas permiten estudiar cómo quedan registradas señales biológicas en depósitos de un antiguo lago. Respaldo en F4: estudiado.",
+                "source": "https://doi.org/10.1029/2008JG000818",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "El lago conserva agua líquida y vida terrestre. La altitud no reproduce la presión ni el espectro de radiación de Marte; interesa como comparación parcial del Marte antiguo.",
+                "covers": "High-Lakes estudia cómo el frío, la exposición solar y los cambios del agua afectan ecosistemas de lagos altos, incluida Laguna Verde.",
+                "source": "https://astrobiology.nasa.gov/nai/annual-reports/2008/objective-4.1/index.html",
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://doi.org/10.1029/2008JG000818",
+                "activity": "Propuesta: documentar depósitos de antiguas orillas y diferenciar señales biológicas posibles de formas que también pueden surgir sin vida.",
+                "audience": "science",
+                "measures": "Observaciones con ubicación y escala, alternativas consideradas y concordancia con análisis de referencia.",
+                "restrictions": "F4: estudiado. Usar imágenes o muestreo autorizado; no extraer microbialitos. No trasladar evidencias de vida terrestre a Jezero."
+            }
         ],
         "breaking_point": "Sus microbialitos los construyó vida que sí existe; en Jezero todavía no se ha confirmado vida. Registra unos 7.000 años, frente a los miles de millones de Marte.",
         "secondary_categories": [
@@ -433,9 +949,28 @@
         "image": "img/analogs/lanzarote-pangaea.jpg",
         "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
         "aspects": [
+            {
+                "breaks": "No reproducen tamaños, conservación ni estabilidad de cavidades lunares. La erosión terrestre y la gravedad modifican el relieve.",
+                "covers": "Los paisajes volcánicos y tubos de lava permiten reconocer formas y relacionarlas con procesos de erupción.",
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Es entrenamiento de métodos bajo aire y gravedad terrestres. No valida por sí solo movilidad con traje presurizado ni operaciones en vacío.",
+                "covers": "PANGAEA entrena observación geológica, reconocimiento de rocas y selección y documentación de muestras en terreno volcánico.",
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_PANGAEA",
+                "activity": "Propuesta basada en PANGAEA: reconocer unidades volcánicas, seleccionar objetivos y comunicar la historia geológica al equipo remoto.",
+                "audience": "astronauts",
+                "measures": "Unidades correctamente relacionadas, calidad de muestras o fotografías autorizadas y claridad del informe en el tiempo disponible.",
+                "restrictions": "Coordinar con gestores del terreno y programa. No se afirma que esta variante ya se haya realizado; no retirar muestras ni entrar en cavidades sin autorización."
+            }
         ],
         "breaking_point": "Entrena la mirada geológica en lava y tubos volcánicos, pero con aire, gravedad terrestre y erosión por agua. Se cree que los tubos de lava lunares, como los de Marius Hills, serían mucho más grandes por la baja gravedad.",
         "secondary_categories": [
@@ -443,21 +978,47 @@
         ]
     },
     {
-        "id": "la-salsa",
-        "lat": -21.75,
-        "lon": -67.83,
-        "why": "Montículos hidrotermales de calcio y sílice con microbialitos. Son análogos de depósitos mixtos de carbonato y sílice que pueden conservar señales de vida. Respaldo: estudiado.",
-        "name": "Fuente La Salsa, Laguna Pastos Grandes, Bolivia",
+        "id": "lava-river-cave-az",
+        "lat": 35.3422,
+        "lon": -111.8353,
+        "why": "Tubo de lava para plantear estudios de navegación y cartografía subterránea. A diferencia de una cueva caliza, comparte el proceso volcánico general con las cavidades que se investigan en la Luna.",
+        "name": "Lava River Cave, Coconino, Arizona, EE.UU.",
         "image": null,
-        "source": "https://doi.org/10.3390/min9060380",
+        "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
         "aspects": [
+            {
+                "breaks": "Su tamaño y conservación terrestres no determinan los de una cavidad lunar; la existencia de este tubo no confirma una red accesible bajo Marius Hills.",
+                "covers": "El conducto se originó por circulación de lava bajo una cubierta solidificada, útil para reconocer formas de un tubo volcánico.",
+                "source": "https://www.fs.usda.gov/r03/coconino/recreation/lava-river-cave",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Son ejercicios posibles sujetos a permiso; no se afirma que todos se hayan realizado. Hay aire y gravedad terrestres; la falta de luz no equivale a vacío o frío lunar.",
+                "covers": "La cavidad permite plantear navegación con iluminación propia, cartografía y estudio de enlaces con línea de visión limitada.",
+                "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
+                "category": "operational"
+            }
         ],
-        "category": "mineralogical",
+        "category": "operational",
         "trainings": [
+            {
+                "source": "https://www.fs.usda.gov/r03/coconino/recreation/lava-river-cave",
+                "activity": "Propuesta: reconstruir un tramo de cueva con cámara e iluminación propia, primero sobre un modelo o réplica.",
+                "audience": "rovers",
+                "measures": "Error de mapa, cobertura, consumo de iluminación y recuperaciones tras perder referencias visuales.",
+                "restrictions": "Campo solo con permiso y especialistas, respetando cierres y fauna. No dejar equipos ni marcas en la cueva; la simulación no demuestra estabilidad del techo."
+            },
+            {
+                "source": "https://www.usgs.gov/science/science-explorer/planetary-science/terrestrial-analogs",
+                "activity": "Propuesta: planear observación subterránea y retorno con un presupuesto de tiempo y contingencias ficticias de pérdida de iluminación o enlace.",
+                "audience": "astronauts",
+                "measures": "Tiempo de retorno, objetivos registrados y decisiones correctas ante avisos simulados.",
+                "restrictions": "Simular fallos sobre el papel o en réplica, sin apagar luces ni enlaces de seguridad reales. No extrapolar a una EVA en una cavidad lunar sin atmósfera."
+            }
         ],
-        "breaking_point": "Es un sistema hidrotermal activo, con microbios vivos. En Home Plate solo queda el depósito mineral, sin evidencia de vida. Se compara la química del depósito, no un ambiente habitado.",
+        "breaking_point": "Es una cavidad terrestre con aire, humedad y acceso regulado. Sus dimensiones y estabilidad no prueban las de Marius Hills. La oscuridad no reproduce el frío de una sombra polar lunar.",
         "secondary_categories": [
-            "environmental"
+            "geomorphological"
         ]
     },
     {
@@ -469,11 +1030,81 @@
         "image": "img/analogs/licancabur.jpg",
         "source": "https://doi.org/10.1029/2008JG000818",
         "aspects": [
+            {
+                "breaks": "El conjunto reúne varios lagos con química distinta; no se extiende la mineralogía de Laguna Verde al lago del cráter. Cada comparación con Marte necesita análisis propios.",
+                "covers": "Los sedimentos y depósitos de antiguos niveles lacustres permiten investigar cómo se guardan señales de cambios del lago.",
+                "source": "https://doi.org/10.1029/2008JG000818",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Las condiciones cambian entre lagos y campañas. Hay agua y vida terrestre; la altura no reproduce la presión marciana ni su radiación ionizante. La comparación se orienta a lagos antiguos.",
+                "covers": "High-Lakes estudia respuestas de ecosistemas lacustres de altura al frío, la irradiancia solar y cambios rápidos del ambiente. Respaldo en F4: estudiado.",
+                "source": "https://astrobiology.nasa.gov/nai/annual-reports/2008/objective-4.1/index.html",
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": "https://astrobiology.nasa.gov/nai/annual-reports/2008/objective-4.1/index.html",
+                "activity": "Propuesta: comparar registros fechados de luz, temperatura y química de lagos de altura para formular preguntas sobre límites de habitabilidad.",
+                "audience": "science",
+                "measures": "Series con metadatos completos, incertidumbre instrumental y relaciones que se mantienen al separar lagos y fechas.",
+                "restrictions": "F4: estudiado; High-Lakes es el precedente. No combinar máximos de campañas distintas ni generalizar irradiancia a toda Bolivia. Campo solo con permisos y apoyo especializado de altura."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: comparar muestras de tejido o recubrimiento de un prototipo bajo exposición ambiental registrada, con controles protegidos.",
+                "audience": "suits",
+                "measures": "Exposición UV medida, temperatura del material y cambio de propiedades ópticas o mecánicas respecto del control.",
+                "restrictions": "F2, secciones 6 y 8; sin fuente específica de ensayo en este sitio (source null). Usar probetas, no personas. El UV terrestre no valida protección contra rayos cósmicos ni soporte vital."
+            }
         ],
         "breaking_point": "Tiene UV muy alto y frío, pero agua líquida estable, oxígeno y una presión mucho mayor. Representa lagos antiguos de Marte, no el Marte actual.",
+        "secondary_categories": [
+            "mineralogical"
+        ]
+    },
+    {
+        "id": "mauna-kea-isru",
+        "lat": 19.7609,
+        "lon": -155.4707,
+        "why": "Campo volcánico donde se documentaron ensayos de instrumentos, perforación y aprovechamiento de recursos locales (ISRU). El punto corresponde al sector de ensayos de 2010, no a la cumbre.",
+        "name": "Pu'u Hiwahine, Mauna Kea — ensayos ISRU, Hawái, EE.UU.",
+        "image": null,
+        "source": "https://www.hou.usra.edu/meetings/8thmars2014/pdf/1497.pdf",
+        "aspects": [
+            {
+                "breaks": "Agua, alteración y materia orgánica terrestres pueden cambiar la señal. No se deducen concentraciones de hielo lunar ni composición de un mar lunar de estos materiales.",
+                "covers": "Los materiales volcánicos permiten comparar respuestas de instrumentos que caracterizan minerales y compuestos aprovechables como recursos.",
+                "source": "https://www.hou.usra.edu/meetings/8thmars2014/pdf/1497.pdf",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "El rendimiento terrestre no certifica una planta lunar: cambian presión, gravedad, transferencia de calor y propiedades del suelo.",
+                "covers": "Los ensayos documentados combinan instrumentos, perforación y análisis de recursos del subsuelo en un terreno volcánico.",
+                "source": "https://www.nasa.gov/mission/in-situ-resource-utilization-isru/",
+                "category": "operational"
+            }
+        ],
+        "category": "operational",
+        "trainings": [
+            {
+                "source": "https://www.nasa.gov/mission/in-situ-resource-utilization-isru/",
+                "activity": "Propuesta: coordinar reconocimiento de terreno, selección de un punto de análisis y entrega de datos para una operación de recursos locales.",
+                "audience": "rovers",
+                "measures": "Objetivos completados, error de ubicación, intervenciones y consumo por tarea.",
+                "restrictions": "Usar un sector expresamente autorizado y respetar patrimonio cultural y ambiental. Los precedentes no implican acceso actual; el ensayo no demuestra presencia de hielo lunar."
+            },
+            {
+                "source": "https://www.hou.usra.edu/meetings/8thmars2014/pdf/1497.pdf",
+                "activity": "Propuesta: comparar resultados de instrumentos sobre materiales volcánicos de referencia para decidir qué análisis reduce la incertidumbre sobre recursos.",
+                "audience": "science",
+                "measures": "Repetibilidad, diferencias entre instrumentos, contaminación de blancos y error respecto de composición conocida.",
+                "restrictions": "Priorizar colecciones o simulantes; perforación y extracción solo con autorización. La humedad terrestre no debe confundirse con volátiles disponibles en Shackleton."
+            }
+        ],
+        "breaking_point": "Los materiales volcánicos contienen agua y alteración terrestres. Perforar o extraer compuestos aquí no demuestra disponibilidad de hielo en Shackleton ni funcionamiento de una planta en vacío y gravedad lunar.",
         "secondary_categories": [
             "mineralogical"
         ]
@@ -487,9 +1118,28 @@
         "image": "img/analogs/mcmurdo.jpg",
         "source": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys",
         "aspects": [
+            {
+                "breaks": "El parecido de polígonos no demuestra igual mecanismo o contenido de hielo. Falta una fuente específica que compare el sector elegido con una zona marciana.",
+                "covers": "Los suelos con patrones y el relieve ligado al hielo permiten comparar formas de terrenos fríos, según el catálogo.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Hay aire terrestre y agua líquida estacional en algunos sectores. No equivale a Marte ni a una sombra lunar permanente. Falta una fuente específica de condiciones medidas para esta ficha.",
+                "covers": "El catálogo utiliza los Valles Secos como ambiente polar árido para estudiar disponibilidad de agua y suelos congelados.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: interpretar imágenes de suelos congelados y patrones de superficie, separando lo observado de las hipótesis sobre hielo interno.",
+                "audience": "science",
+                "measures": "Patrones delimitados, desacuerdos entre observadores y proporción de hipótesis que cuentan con mediciones independientes.",
+                "restrictions": "Propuesta del catálogo, sin fuente específica del ejercicio (source null). Priorizar datos públicos; campo sujeto a permisos antárticos y control de contaminación."
+            }
         ],
         "breaking_point": "Es de los lugares más parecidos en frío y sequedad, pero en verano hay algo de agua líquida y la presión del aire es más de cien veces la de Marte. En Shackleton, además, no hay atmósfera en absoluto.",
         "secondary_categories": [
@@ -505,9 +1155,35 @@
         "image": "img/analogs/mdrs.jpg",
         "source": "https://mdrs.marssociety.org/",
         "aspects": [
+            {
+                "breaks": "La erosión terrestre y los materiales locales no equivalen a los de una zona marciana por el aspecto del paisaje. Falta una fuente específica que valide esa comparación geológica.",
+                "covers": "El catálogo destaca capas y afloramientos sedimentarios del desierto de Utah para practicar lectura del terreno.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "La atmósfera y la gravedad siguen siendo terrestres. Cada campaña fija sus reglas; no se supone que todas incluyan demora de enlace o los mismos equipos.",
+                "covers": "La estación se usa como simulación de misión: convivencia, trabajo de campo y coordinación científica de tripulaciones.",
+                "source": "https://mdrs.marssociety.org/",
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": "https://mdrs.marssociety.org/",
+                "activity": "Propuesta: planear y ejecutar una salida geológica simulada con presupuesto de tiempo, reporte remoto y retorno documentado.",
+                "audience": "astronauts",
+                "measures": "Objetivos completados, tiempo de preparación y retorno, calidad de informes y cumplimiento de criterios de interrupción.",
+                "restrictions": "Coordinar con la estación. Reglas de demora y traje dependen de la campaña; los equipos del ejercicio no se presuponen presurizados ni aptos para vuelo."
+            },
+            {
+                "source": "https://mdrs.marssociety.org/",
+                "activity": "Propuesta: simular gestión de inventario y mantenimiento del hábitat durante una misión con roles y turnos definidos.",
+                "audience": "habitats",
+                "measures": "Faltantes de inventario, tareas pendientes, errores de traspaso de turno y tiempo de solución de incidencias ficticias.",
+                "restrictions": "No alterar servicios esenciales ni bloquear salidas. Cualquier toma de datos de tripulación exige consentimiento y acuerdos de privacidad."
+            }
         ],
         "breaking_point": "Simula rutinas de misión con trajes que no están presurizados y con salida posible. No reproduce la baja presión, la radiación ni la demora real de las comunicaciones.",
         "secondary_categories": [
@@ -523,12 +1199,82 @@
         "image": "img/analogs/meteor-crater.jpg",
         "source": "https://en.wikipedia.org/wiki/Meteor_Crater",
         "aspects": [
+            {
+                "breaks": "No reproduce el pico central y las estructuras de grandes cráteres complejos como Tycho. La erosión y la gravedad son terrestres.",
+                "covers": "Su borde, cavidad y materiales expulsados permiten estudiar la forma de un cráter de impacto simple.",
+                "source": "https://www.usgs.gov/centers/astrogeology-science-center/science/meteor-crater-sample-collection",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "La práctica propuesta debe ajustarse al acceso autorizado. El precedente histórico no demuestra que se hayan hecho los mismos ejercicios actuales ni reproduce una EVA en vacío.",
+                "covers": "Se puede practicar reconocimiento de impactos y selección de observaciones; USGS documenta el entrenamiento histórico de astronautas Apollo en este sitio.",
+                "source": "https://www.usgs.gov/centers/astrogeology-science-center/science/meteor-crater-sample-collection",
+                "category": "operational"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://www.usgs.gov/centers/astrogeology-science-center/science/meteor-crater-sample-collection",
+                "activity": "Propuesta: reconocer borde, eyecta y rocas alteradas por impacto y justificar un conjunto de observaciones geológicas.",
+                "audience": "astronauts",
+                "measures": "Rasgos identificados, concordancia con el mapa de referencia y calidad de las razones para seleccionar cada objetivo.",
+                "restrictions": "USGS documenta entrenamiento Apollo, no este ejercicio exacto. Acceso con responsables del sitio; no recoger fragmentos ni abandonar rutas autorizadas."
+            }
         ],
         "breaking_point": "Mide 1,2 km y tiene unos 50.000 años. Tycho mide unos 85 km, tiene pico central y rayos de eyecta que la erosión de la Tierra borraría.",
         "secondary_categories": [
+            "operational"
+        ]
+    },
+    {
+        "id": "mistastin",
+        "lat": 55.8833,
+        "lon": -63.3,
+        "why": "Cráter de impacto complejo con parte de sus rocas objetivo de anortosita, útil para estudiar impactos y formar astronautas en geología de interés lunar; el precedente está documentado por la agencia canadiense.",
+        "name": "Kamestastin / Mistastin, Labrador, Canadá",
+        "image": null,
+        "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+        "aspects": [
+            {
+                "breaks": "Lago, vegetación y erosión ocultan o modifican rasgos. No conserva el relieve ni el sistema de rayos de un cráter lunar joven.",
+                "covers": "La estructura de impacto complejo permite estudiar relaciones entre materiales y formas producidos por un gran impacto.",
+                "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Compartir esa familia de roca no iguala química, edad ni efectos acumulados de impactos. Las muestras terrestres no sustituyen análisis de material lunar.",
+                "covers": "Parte de las rocas objetivo son anortositas, una familia relevante para estudiar la corteza clara de la Luna y su transformación por impactos.",
+                "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La logística remota no reproduce vacío ni gravedad lunar. Una campaña necesita coordinación local y apoyo real, además de los protocolos del ejercicio.",
+                "covers": "La agencia canadiense documenta formación de astronautas en reconocimiento de geología de impacto en este entorno remoto.",
+                "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+                "category": "operational"
+            }
+        ],
+        "category": "geomorphological",
+        "trainings": [
+            {
+                "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+                "activity": "Propuesta: planear una travesía para reconocer rocas objetivo y materiales de impacto, priorizando contexto antes que cantidad de muestras.",
+                "audience": "astronauts",
+                "measures": "Estaciones justificadas, relaciones entre rocas correctamente descritas y calidad de registros de ubicación.",
+                "restrictions": "Coordinar permisos con autoridades y comunidades locales, apoyo remoto y evacuación real. No se afirma ejecución de esta variante; usar datos de archivo si no hay acceso autorizado."
+            },
+            {
+                "source": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19470?type=2",
+                "activity": "Propuesta: comparar anortositas y rocas de impacto mediante imágenes y análisis de referencia, declarando límites de la identificación visual.",
+                "audience": "science",
+                "measures": "Clases identificadas, diferencias con la referencia y proporción de conclusiones que necesitan análisis adicional.",
+                "restrictions": "Trabajar con datos o muestras autorizadas. No igualar toda anortosita terrestre con la composición lunar ni extraer rocas sin permiso."
+            }
+        ],
+        "breaking_point": "El lago, la erosión y la vegetación cambian la exposición de rocas. La anortosita comparte una familia de roca con la corteza lunar, pero no toda su composición, historia ni maduración superficial.",
+        "secondary_categories": [
+            "mineralogical",
             "operational"
         ]
     },
@@ -541,9 +1287,22 @@
         "image": "img/analogs/ollague.jpg",
         "source": "https://en.wikipedia.org/wiki/Ollag%C3%BCe",
         "aspects": [
+            {
+                "breaks": "Ollagüe es un estratovolcán andino; no reproduce la arquitectura ni escala del escudo Olympus Mons. Falta una fuente específica que valide esta comparación planetaria.",
+                "covers": "F4 sugiere comparar domos y coladas poco erosionados en clima árido. Respaldo: sugerido.",
+                "source": null,
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: delimitar domos y coladas en imágenes y comparar qué rasgos se conservan mejor en un paisaje árido.",
+                "audience": "science",
+                "measures": "Límites de unidades, confianza de interpretación y coincidencia con cartografía geológica revisada.",
+                "restrictions": "F4: sugerido; sin fuente específica de entrenamiento (source null). Trabajo remoto preferente. No tratar un estratovolcán como un escudo basáltico ni entrar a sectores volcánicos restringidos."
+            }
         ],
         "breaking_point": "Es un estratovolcán andino de lava viscosa. Olympus Mons es un enorme escudo de basalto fluido. Lo que se parece es la poca erosión, no la forma ni el tamaño.",
         "secondary_categories": [
@@ -558,9 +1317,28 @@
         "image": null,
         "source": "https://doi.org/10.3390/geosciences12020088",
         "aspects": [
+            {
+                "breaks": "La asociación de carbonatos y microbios en Bolivia no determina el origen de los carbonatos de Jezero. Deben separarse precipitación química y aportes biológicos.",
+                "covers": "F4 recoge depósitos de carbonatos y microbialitos ligados a aguas termales como comparación para estudiar preservación de señales de vida. Respaldo: estudiado.",
+                "source": "https://doi.org/10.3390/min9060380",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "El sistema recibe agua y calor en la actualidad bajo atmósfera terrestre. No equivale al ambiente marciano actual ni demuestra que su antiguo lago estuviera habitado.",
+                "covers": "El agua termal y los cambios locales de salinidad permiten estudiar hábitats en una cuenca volcánica de altura.",
+                "source": "https://doi.org/10.3390/min9060380",
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://doi.org/10.3390/min9060380",
+                "activity": "Propuesta: establecer un protocolo de descripción de carbonatos y posibles señales microbianas usando imágenes y datos publicados como referencia.",
+                "audience": "science",
+                "measures": "Rasgos documentados, repetibilidad de la clasificación, falsos positivos y trazabilidad de cada interpretación.",
+                "restrictions": "F4: estudiado. El ejercicio no demuestra origen biológico de carbonatos en Marte. Muestreo solo autorizado; no afectar costras ni ecosistemas termales."
+            }
         ],
         "breaking_point": "Tiene agua termal y vida actual que siguen formando carbonatos. Los carbonatos de Jezero son de hace miles de millones de años y su origen biológico no está demostrado.",
         "secondary_categories": [
@@ -576,13 +1354,83 @@
         "image": null,
         "source": null,
         "aspects": [
+            {
+                "breaks": "Falta una fuente específica y verificación local del mecanismo. Ver patrones superficiales no demuestra hielo permanente ni equivalencia con los polígonos marcianos.",
+                "covers": "F4 sugiere comparar formas de suelo ordenado por procesos de congelación y deshielo.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Congelarse una noche no demuestra permafrost: el suelo debe permanecer a 0 °C o menos al menos dos años consecutivos. Falta una serie térmica local; la altura no iguala la presión de Marte.",
+                "covers": "F4 sugiere investigar conservación de suelo congelado en sectores altos de la Cordillera Occidental. Respaldo: sugerido.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: diseñar una serie de mediciones de temperatura del suelo que permita distinguir heladas diarias de suelo permanentemente congelado.",
+                "audience": "science",
+                "measures": "Continuidad de la serie, profundidad y calibración de sensores, duración de congelación y datos faltantes.",
+                "restrictions": "F4: sugerido y ubicación aproximada; sin fuente específica del ejercicio (source null). Verificar el sitio y permisos; una noche bajo cero no demuestra permafrost."
+            }
         ],
         "breaking_point": "Su suelo se congela de noche y se descongela de día por encima de 0 °C. El hielo de Utopia Planitia está casi siempre congelado, muy bajo cero y con muy poca presión.",
         "secondary_categories": [
             "geomorphological"
+        ]
+    },
+    {
+        "id": "ries-crater",
+        "lat": 48.8833,
+        "lon": 10.6167,
+        "why": "Estructura de impacto usada en formación geológica de astronautas, incluido PANGAEA. Permite reconocer materiales fragmentados y fundidos por impacto y relacionarlos con su posición en el terreno.",
+        "name": "Cráter Nördlinger Ries, Alemania",
+        "image": null,
+        "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Planetary_geology_with_Pangaea",
+        "aspects": [
+            {
+                "breaks": "El relieve está erosionado y parcialmente rellenado. La escala y las rocas objetivo no equivalen a las de Tycho ni permiten inferir sus procesos solo por parecido.",
+                "covers": "La estructura y depósitos de impacto permiten relacionar materiales excavados, deformación y ubicación dentro y fuera del cráter.",
+                "source": "https://www.lpi.usra.edu/lpi/contribution_docs/TR/TR_8803.pdf",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Los minerales dependen de las rocas objetivo terrestres. La presencia de fundido no implica la misma composición que los depósitos lunares.",
+                "covers": "Las rocas fragmentadas con material fundido permiten reconocer productos de un impacto y distinguirlos de rocas sin esa transformación.",
+                "source": "https://www.lpi.usra.edu/lpi/contribution_docs/TR/TR_8803.pdf",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La práctica ocurre con afloramientos y accesos terrestres. No reproduce desplazamiento con traje presurizado ni riesgos de una misión lunar completa.",
+                "covers": "PANGAEA usa el cráter para formación geológica: lectura del terreno, selección de observaciones y relación entre muestras y contexto.",
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Planetary_geology_with_Pangaea",
+                "category": "operational"
+            }
+        ],
+        "category": "geomorphological",
+        "trainings": [
+            {
+                "source": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Planetary_geology_with_Pangaea",
+                "activity": "Propuesta: seleccionar observaciones que distingan material excavado, fragmentado y fundido, y comunicar su contexto al equipo científico.",
+                "audience": "astronauts",
+                "measures": "Aciertos frente a una referencia, muestras o imágenes documentadas y calidad de la justificación científica.",
+                "restrictions": "El precedente PANGAEA no prueba este protocolo exacto. Observación o colecciones autorizadas; sin entrar a canteras ni retirar material sin permiso."
+            },
+            {
+                "source": "https://www.lpi.usra.edu/lpi/contribution_docs/TR/TR_8803.pdf",
+                "activity": "Propuesta: clasificar imágenes de rocas de impacto y contrastar las hipótesis con descripciones petrográficas de referencia.",
+                "audience": "science",
+                "measures": "Precisión por clase, falsos positivos y casos que necesitan microscopía o análisis adicional.",
+                "restrictions": "Usar colecciones con procedencia conocida. La textura visual no basta para identificar un mineral ni para inferir composición de Tycho."
+            }
+        ],
+        "breaking_point": "La erosión, el relleno posterior y la actividad humana modifican el cráter. Sus rocas objetivo y su escala difieren de Tycho; no reproduce eyecta lunar intacta ni condiciones de vacío.",
+        "secondary_categories": [
+            "mineralogical",
+            "operational"
         ]
     },
     {
@@ -594,9 +1442,28 @@
         "image": "img/analogs/rio-tinto.jpg",
         "source": "https://en.wikipedia.org/wiki/Rio_Tinto_(river)",
         "aspects": [
+            {
+                "breaks": "El agua, la actividad microbiana y la minería intervienen en el sistema terrestre. Falta una fuente específica para contrastar las fases minerales de esta ficha con las marcianas.",
+                "covers": "El catálogo compara minerales de hierro y sulfatos de un sistema ácido con la alteración observada en Meridiani Planum.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "La acidez no reproduce por sí sola el frío, la presión ni la radiación de Marte. Falta una fuente específica de la comparación; la vida local no demuestra vida marciana.",
+                "covers": "El agua ácida rica en hierro permite formular preguntas sobre vida en ambientes químicamente extremos, según el catálogo.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: identificar minerales de hierro en espectros de referencia y revisar qué otras mediciones se necesitan para interpretar un ambiente ácido.",
+                "audience": "science",
+                "measures": "Precisión por mineral, falsos positivos y coherencia con pH y análisis químicos disponibles.",
+                "restrictions": "Propuesta del catálogo sin fuente específica del ejercicio (source null). Usar datos o muestras autorizadas; no manipular aguas ácidas sin laboratorio y personal especializado."
+            }
         ],
         "breaking_point": "Su acidez se mantiene por agua corriente, microbios que oxidan el hierro y minería antigua. En Meridiani el agua ácida desapareció hace miles de millones de años.",
         "secondary_categories": [
@@ -612,9 +1479,41 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Nevado_Sajama",
         "aspects": [
+            {
+                "breaks": "No todos los materiales son basálticos ni equivalen al regolito marciano. Falta una fuente específica de caracterización del sector y no se traslada la tracción terrestre sin ajustes.",
+                "covers": "F2 propone aprovechar pendientes, rocas y superficies volcánicas para comparar problemas de recorrido.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Falta una fuente específica con mediciones del ensayo. La presión de altura sigue siendo mucho mayor que la de Marte y el UV no reproduce las partículas de la radiación espacial.",
+                "covers": "F2 propone caracterizar frío, oscilación térmica y exposición solar para estudiar respuestas de materiales y equipos.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "No se afirma que los ensayos ya se hicieron: falta una fuente de campaña específica. Se requieren permisos y caracterización del sector; frío y altura terrestres no certifican equipos para Marte.",
+                "covers": "F2 propone pruebas de baterías, estabilidad y procedimientos de campo en sectores volcánicos de altura. Es candidato por procesos.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: comparar arranques de batería y recorridos cortos sobre pendientes conocidas, manteniendo carga y configuración constantes.",
+                "audience": "rovers",
+                "measures": "Temperatura y voltaje iniciales, tiempo de arranque, energía por metro, patinaje y estabilidad.",
+                "restrictions": "F2, sección 4.4: candidato por procesos; sin fuente de campaña específica (source null). Límites de batería del fabricante, pista autorizada y protección antivuelco; evitar bofedales y patrimonio."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: practicar manejo de instrumentos con guantes de un prototipo no presurizado sobre una mesa o pista autorizada.",
+                "audience": "suits",
+                "measures": "Tiempo de tarea, errores, objetos caídos y comodidad declarada, comparados con una línea base sin esos guantes.",
+                "restrictions": "F2, secciones 4.4 y 8; sin fuente específica del ejercicio (source null). No usar personas para probar frío extremo ni reducción de presión. La prueba de destreza no certifica un traje EVA."
+            }
         ],
         "breaking_point": "Pone a prueba baterías y pendientes con frío y altura, pero no con el frío extremo ni la presión de Marte. No todos sus materiales son basálticos como los de Olympus Mons.",
         "secondary_categories": [
@@ -631,9 +1530,28 @@
         "image": null,
         "source": "https://doi.org/10.1126/science.282.5395.1858",
         "aspects": [
+            {
+                "breaks": "El estudio citado trata del Sajama y no valida por extensión todo el Illimani. La acumulación y conservación terrestres difieren de las capas de hielo y polvo marcianas.",
+                "covers": "Las capas de hielo del Sajama guardan un registro climático; F4 sugiere la comparación conceptual con archivos de hielo polar marciano. Respaldo: sugerido.",
+                "source": "https://doi.org/10.1126/science.282.5395.1858",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Hay nieve, posible fusión y aire terrestre; no se reproduce el balance energético polar de Marte. Falta una fuente ambiental específica para ambos glaciares y sus condiciones locales.",
+                "covers": "F4 sugiere usar glaciares altos como comparación parcial de conservación de hielo y respuesta al clima.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://doi.org/10.1126/science.282.5395.1858",
+                "activity": "Propuesta: interpretar perfiles de núcleos de hielo publicados y ordenar qué cambios ambientales pueden explicar sus capas.",
+                "audience": "science",
+                "measures": "Capas reconocidas, incertidumbre temporal y concordancia con la cronología y mediciones del estudio.",
+                "restrictions": "F4: sugerido como análogo. El trabajo citado corresponde al Sajama; no valida todo el Illimani. Usar archivos, sin nueva perforación ni ingreso a glaciares."
+            }
         ],
         "breaking_point": "Es un archivo climático de miles de años, formado por nieve que también se derrite. Las capas de Planum Boreum mezclan hielo y polvo durante millones de años, al ritmo de los cambios de inclinación del eje de Marte.",
         "secondary_categories": [
@@ -649,9 +1567,28 @@
         "image": "img/analogs/salares-capas.jpg",
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "Las capas terrestres no reproducen toda la edad, extensión ni historia de enterramiento del Monte Sharp. La semejanza de estratos no demuestra una secuencia climática idéntica.",
+                "covers": "La alternancia de capas salinas y sedimentos lacustres permite leer cambios entre periodos húmedos y secos. Respaldo en F4: estudiado.",
+                "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Cada capa necesita análisis mineralógico. No toda capa clara es yeso ni se deducen percloratos por semejanza con Marte.",
+                "covers": "Sales y sedimentos finos permiten comparar depósitos de evaporación y episodios con mayor presencia de agua.",
+                "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+                "category": "mineralogical"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: elaborar una columna de capas a partir de perfiles e imágenes autorizados y explicar alternancias entre sedimentos de lago y depósitos de sal.",
+                "audience": "astronauts",
+                "measures": "Orden correcto de capas, contactos documentados, calidad del esquema y separación entre observaciones e hipótesis.",
+                "restrictions": "F4: estudiado para el sitio; método de F2. Sin fuente específica de entrenamiento (source null). No perforar ni extraer material sin permiso; no asignar minerales por color."
+            }
         ],
         "breaking_point": "Sus capas registran decenas de miles de años de clima terrestre. Las del Monte Sharp acumulan muchísimo más tiempo y se formaron en un Marte con agua que ya no existe.",
         "secondary_categories": [
@@ -667,9 +1604,28 @@
         "image": "img/analogs/salda.jpg",
         "source": "https://en.wikipedia.org/wiki/Lake_Salda",
         "aspects": [
+            {
+                "breaks": "Jezero es una cuenca de impacto con una historia antigua distinta. La geometría del lago terrestre no basta para reconstruir el caudal o la duración del lago marciano.",
+                "covers": "Las orillas, depósitos de costa y deltas permiten comparar relaciones entre relieve, aporte de sedimentos y nivel del lago.",
+                "source": "https://science.nasa.gov/blogs/earth-matters/2021/02/17/what-a-lake-in-turkey-can-tell-us-about-mars/",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Salda tiene agua y vida actuales. No se demuestra que los carbonatos marcianos tengan el mismo origen ni idéntica composición.",
+                "covers": "Los carbonatos del lago permiten estudiar precipitación mineral y conservación de señales en comparación con depósitos de Jezero.",
+                "source": "https://science.nasa.gov/blogs/earth-matters/2021/02/17/what-a-lake-in-turkey-can-tell-us-about-mars/",
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://science.nasa.gov/blogs/earth-matters/2021/02/17/what-a-lake-in-turkey-can-tell-us-about-mars/",
+                "activity": "Propuesta: comparar depósitos de costa y carbonatos en mapas e imágenes y formular un plan de observación aplicable a un antiguo lago.",
+                "audience": "science",
+                "measures": "Unidades reconocidas, objetivos justificados y correspondencia con análisis minerales de referencia.",
+                "restrictions": "El vínculo con Jezero respalda el contexto, no que este protocolo se haya ejecutado. Proteger orillas y depósitos; observar vida terrestre no demuestra vida en Marte."
+            }
         ],
         "breaking_point": "Es un lago activo, con agua y vida que siguen formando carbonatos. El lago de Jezero desapareció hace más de 3.000 millones de años.",
         "secondary_categories": [
@@ -685,9 +1641,28 @@
         "image": "img/analogs/siloli.jpg",
         "source": "https://es.wikipedia.org/wiki/Desierto_Siloli",
         "aspects": [
+            {
+                "breaks": "Falta una fuente específica que cuantifique el aporte del viento frente al agua y las heladas. Una forma parecida no implica igual mecanismo de erosión que en Marte.",
+                "covers": "F4 propone comparar rocas esculpidas por erosión en un desierto alto, incluido el Árbol de Piedra. Respaldo: propuesto.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Falta una fuente específica de mediciones locales. La atmósfera y la humedad son terrestres; ni la altura ni el UV igualan presión y radiación ionizante marcianas.",
+                "covers": "F4 propone el frío y la sequedad de altura como combinación parcial de factores ambientales de interés.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: probar reconstrucción 3D y detección de obstáculos con imágenes de rocas erosionadas y distintas sombras.",
+                "audience": "rovers",
+                "measures": "Error de profundidad, obstáculos omitidos, falsas alarmas y porcentaje de rutas virtuales completadas.",
+                "restrictions": "F4: propuesto; método de F2, sección 8. Sin fuente específica del ejercicio (source null). Usar imágenes autorizadas o réplicas; no usar el Árbol de Piedra como pista."
+            }
         ],
         "breaking_point": "El viento esculpe sus rocas con ayuda del hielo y del agua ocasional. En Marte el aire es más de cien veces más tenue y el viento necesita mucha más velocidad para mover la arena.",
         "secondary_categories": [
@@ -703,13 +1678,76 @@
         "image": "img/analogs/sol-de-manana.jpg",
         "source": "https://en.wikipedia.org/wiki/Sol_de_Ma%C3%B1ana",
         "aspects": [
+            {
+                "breaks": "Falta una fuente mineralógica específica del punto de muestreo. No se confirma sílice o sulfatos concretos sin análisis; un sistema activo no reproduce la historia del depósito de Home Plate.",
+                "covers": "F4 sugiere estudiar la alteración de materiales por fluidos y gases hidrotermales. Respaldo: sugerido.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Falta una fuente específica de condiciones y comunidades locales. Agua caliente, gases y costras frágiles restringen el acceso; la presión sigue siendo terrestre, no marciana.",
+                "covers": "F4 sugiere investigar contrastes entre fluidos calientes y ambiente frío de altura para preguntas sobre habitabilidad.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: definir estaciones de observación remota para reconocer alteración hidrotermal y separar objetivos seguros de zonas excluidas.",
+                "audience": "science",
+                "measures": "Cobertura de imágenes, riesgos omitidos, confianza de identificación y mediciones adicionales necesarias para confirmar minerales.",
+                "restrictions": "F4: sugerido; F2 excluye operaciones en fumarolas. Sin fuente específica de entrenamiento (source null). No entrar en costras frágiles, barro ni gases; emplear datos existentes o puntos autorizados."
+            }
         ],
         "breaking_point": "Tiene alteración ácida y UV alto, pero con agua y gases volcánicos activos a presión terrestre. Home Plate es un depósito apagado y muy antiguo.",
         "secondary_categories": [
             "environmental"
+        ]
+    },
+    {
+        "id": "sp-mountain",
+        "lat": 35.5822,
+        "lon": -111.6319,
+        "why": "Cono volcánico y colada usados para estudiar procesos planetarios y practicar interpretación geológica. Complementa los mares lunares por formas volcánicas y los campos de prueba por recorridos.",
+        "name": "SP Mountain y su colada, Arizona, EE.UU.",
+        "image": null,
+        "source": "https://www.usgs.gov/news/virtual-field-trip-guide-s-p-mountain-just-released-astrogeology-science-center",
+        "aspects": [
+            {
+                "breaks": "Un cono de escorias terrestre no es igual a un domo lunar ni al escudo de Olympus Mons. Cambian gravedad, escala y preservación.",
+                "covers": "El cono y la colada permiten reconocer un centro de emisión y relacionarlo con superficies y contactos volcánicos.",
+                "source": "https://www.usgs.gov/news/virtual-field-trip-guide-s-p-mountain-just-released-astrogeology-science-center",
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Interpretar afloramientos con aire y gravedad terrestres no valida equipos para el vacío. El acceso y los recorridos necesitan autorización del responsable del terreno.",
+                "covers": "La guía de campo permite practicar observación, cartografía y decisiones de recorrido en un paisaje volcánico.",
+                "source": "https://www.usgs.gov/news/virtual-field-trip-guide-s-p-mountain-just-released-astrogeology-science-center",
+                "category": "operational"
+            }
+        ],
+        "category": "geomorphological",
+        "trainings": [
+            {
+                "source": "https://www.usgs.gov/news/virtual-field-trip-guide-s-p-mountain-just-released-astrogeology-science-center",
+                "activity": "Propuesta: relacionar cono, colada y contactos visibles para reconstruir una secuencia de eventos y explicarla al equipo remoto.",
+                "audience": "astronauts",
+                "measures": "Contactos reconocidos, relaciones temporales correctas, calidad del croquis y claridad del informe.",
+                "restrictions": "Usar la guía y puntos autorizados. No recoger muestras ni recorrer propiedad privada sin permiso; adaptar la ruta a estabilidad y accesibilidad."
+            },
+            {
+                "source": "https://www.usgs.gov/publications/assessment-planetary-geologic-mapping-techniques-mars-using-terrestrial-analogs-sp",
+                "activity": "Propuesta: contrastar un mapa de imágenes con una referencia revisada en campo y evaluar cómo cambian las rutas al reconocer contactos inciertos.",
+                "audience": "rovers",
+                "measures": "Coincidencia de unidades, contactos omitidos, incertidumbre declarada e intervenciones de planificación.",
+                "restrictions": "Preferir datos o réplicas; movilidad real solo en pista autorizada. No trasladar directamente la tracción terrestre a Luna o Marte."
+            }
+        ],
+        "breaking_point": "El cono y la colada se formaron con aire y gravedad terrestres. No representan todo un mar lunar ni un volcán marciano gigante; cenizas, suelos y erosión pueden ocultar los contactos.",
+        "secondary_categories": [
+            "operational"
         ]
     },
     {
@@ -721,9 +1759,41 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Eduardo_Avaroa_Andean_Fauna_National_Reserve",
         "aspects": [
+            {
+                "breaks": "Falta una fuente específica del sector seleccionado. Un mosaico terrestre no representa una sola unidad geológica marciana; cambian materiales, escala y procesos de erosión.",
+                "covers": "F2 propone usar la variedad de terrenos volcánicos y sedimentarios para reconocer obstáculos y planear rutas.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Falta una fuente específica con mediciones por sitio y fecha. No se generalizan condiciones de una laguna a toda la reserva; la altura no reproduce presión ni radiación espacial de Marte.",
+                "covers": "El frío, la aridez y la exposición solar son factores que F2 propone registrar durante pruebas de campo.",
+                "source": null,
+                "category": "environmental"
+            },
+            {
+                "breaks": "Es una propuesta sin fuente específica de campaña. Deben excluirse fumarolas y lagunas sensibles; el suelo, la gravedad y la atmósfera no reproducen una misión marciana.",
+                "covers": "F2 propone movilidad y navegación de rovers entre arena, grava y rocas en sectores autorizados de la reserva.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: repetir recorridos sobre terreno firme, grava y obstáculos autorizados con un perfil de misión constante.",
+                "audience": "rovers",
+                "measures": "Patinaje, energía por metro, intervenciones, tiempo total y éxito de recuperación tras una pérdida de enlace simulada.",
+                "restrictions": "F2, sección 4.3: propuesta sin fuente específica de campaña (source null). Permisos de la reserva; excluir fumarolas, orillas, vegetación y fauna. Interrumpir ante cambios de seguridad."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: priorizar estaciones geológicas y coordinar observaciones con un equipo remoto usando una demora artificial definida.",
+                "audience": "astronauts",
+                "measures": "Calidad de informes, tareas terminadas, tiempo de decisión, retorno y carga de trabajo.",
+                "restrictions": "F2, secciones 4.3 y 8; sin fuente específica de ejecución (source null). Canal de seguridad sin demora, apoyo real y evaluación de altura; no improvisar una EVA con soporte vital experimental."
+            }
         ],
         "breaking_point": "Prueba suspensión y navegación sin GPS, pero con la gravedad, el aire y los suelos de la Tierra. El regolito marciano tiene otro tamaño de grano y otra cohesión.",
         "secondary_categories": [
@@ -740,9 +1810,28 @@
         "image": "img/analogs/tajzara.jpg",
         "source": "https://en.wikipedia.org/wiki/Tajzara_Lake",
         "aspects": [
+            {
+                "breaks": "La densidad del aire, la gravedad y los granos controlan el transporte; no se trasladan velocidades de viento a Marte directamente. Falta una fuente específica de la comparación.",
+                "covers": "F4 propone estudiar formas y transporte de arena en dunas de altura. Respaldo: propuesto.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "F4 señala una oportunidad de investigación microbiológica, no un resultado demostrado. Falta una fuente específica verificada; no se igualan presión, agua disponible o radiación con Marte.",
+                "covers": "F4 propone el entorno árido de altura para investigar condiciones ambientales y posibles hábitats en arena.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: comparar perfiles e imágenes repetidas de dunas para estimar cambios de forma y desplazamiento de arena.",
+                "audience": "science",
+                "measures": "Desplazamiento con incertidumbre, cambios de perfil, intervalo entre observaciones y condiciones de viento registradas.",
+                "restrictions": "F4: propuesto; sin fuente específica de entrenamiento (source null). Preferir imágenes o puntos autorizados; no extrapolar el viento terrestre directamente a Marte ni alterar dunas y humedales."
+            }
         ],
         "breaking_point": "Sus dunas se mueven con el viento en aire denso. En Medusae Fossae el viento sopla en un aire mucho más tenue y el material es más fino y blando.",
         "secondary_categories": [
@@ -758,9 +1847,22 @@
         "image": "img/analogs/tata-sabaya.jpg",
         "source": "https://doi.org/10.5027/andgeoV39n3-a03",
         "aspects": [
+            {
+                "breaks": "El estudio geológico terrestre no valida una equivalencia con todos los deslizamientos marcianos. Cambian el volumen, la gravedad y el contexto; deben contrastarse las geometrías.",
+                "covers": "F4 sugiere comparar los montículos del depósito de avalancha de un flanco volcánico con grandes movimientos de ladera. Respaldo: sugerido.",
+                "source": "https://doi.org/10.5027/andgeoV39n3-a03",
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://doi.org/10.5027/andgeoV39n3-a03",
+                "activity": "Propuesta: cartografiar montículos y límites del depósito de avalancha en un modelo de elevación y contrastar hipótesis de movimiento de ladera.",
+                "audience": "science",
+                "measures": "Área delimitada, dimensiones con incertidumbre y concordancia con el depósito descrito en el estudio.",
+                "restrictions": "F4: sugerido como análogo; el estudio respalda la geología terrestre. No equiparar escala y gravedad con Marte. Usar datos remotos antes de cualquier campaña autorizada."
+            }
         ],
         "breaking_point": "Su colapso, de hace unos 12.000 años, ocurrió en un volcán andino pequeño. Los grandes deslizamientos de Valles Marineris y los flancos de Olympus Mons son de una escala mucho mayor.",
         "secondary_categories": [
@@ -775,9 +1877,35 @@
         "image": "img/analogs/torotoro.jpg",
         "source": "https://en.wikipedia.org/wiki/Torotoro_National_Park",
         "aspects": [
+            {
+                "breaks": "El cañón fluvial no reproduce la apertura tectónica ni la escala de Valles Marineris. Falta una fuente específica que valide esta comparación planetaria.",
+                "covers": "Las paredes del cañón y sus capas permiten comparar relaciones entre estratos y erosión, como sugerencia de F4.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Falta una fuente específica de entrenamiento ya realizado. La práctica exige permisos y protección del patrimonio; no reproduce limitaciones de un traje ni comunicaciones de una misión espacial.",
+                "covers": "F2 propone practicar lectura de estratos, fotografía con escala y selección de observaciones geológicas. F4 lo mantiene como sugerido.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: describir contactos entre capas con fotografías y comunicar una interpretación al equipo remoto dentro de un tiempo asignado.",
+                "audience": "astronauts",
+                "measures": "Contactos reconocidos, informes completos, tiempo de decisión y concordancia con una referencia revisada por especialistas.",
+                "restrictions": "F4: sugerido; F2, sección 4.6. Sin fuente específica de ejecución (source null). Protección estricta de fósiles y formaciones; sin extracción ni salida de senderos autorizados."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: evaluar segmentación de estratos y planificación de rutas sobre fotografías o un modelo digital validado.",
+                "audience": "rovers",
+                "measures": "Precisión y recuperación de estratos, error del mapa, colisiones simuladas y rutas completadas.",
+                "restrictions": "F2, sección 4.6; sin fuente específica del ejercicio (source null). No circular sobre patrimonio. Un modelo visual no demuestra capacidad de ascenso real ni equivalencia geológica con Marte."
+            }
         ],
         "breaking_point": "Sirve para entrenar la lectura de capas, pero su cañón es fluvial y de unos 300 m. Valles Marineris es tectónico y llega a 7 km de profundidad.",
         "secondary_categories": [
@@ -793,9 +1921,22 @@
         "image": "img/analogs/umajalanta.jpg",
         "source": "https://es.wikipedia.org/wiki/Caverna_de_Umajalanta",
         "aspects": [
+            {
+                "breaks": "Falta una fuente específica de ensayos. Es una cueva de caliza formada por agua, no un tubo de lava. Aire, humedad, acceso y estabilidad difieren de una cavidad lunar.",
+                "covers": "F4 sugiere navegación, cartografía y comunicaciones en una cavidad como práctica posible. Respaldo: sugerido.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: evaluar navegación sin GNSS y cartografía de pasos subterráneos en un modelo digital o réplica de la cueva.",
+                "audience": "rovers",
+                "measures": "Error del mapa, pérdidas de seguimiento, cobertura, recuperación de enlace y colisiones simuladas.",
+                "restrictions": "F4: sugerido; sin fuente específica del ejercicio (source null). Priorizar modelos; campo solo con autorización y especialistas. La cueva caliza no reproduce un tubo de lava lunar."
+            }
         ],
         "breaking_point": "Es una cueva de caliza disuelta por agua, no un tubo de lava. Sirve para practicar navegación y comunicaciones bajo tierra, no para estudiar la geología de Marius Hills.",
         "secondary_categories": [
@@ -810,9 +1951,35 @@
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "No se atribuyen percloratos sin análisis local. La mezcla y edad de las sales no se trasladan directamente a Aureum Chaos.",
+                "covers": "Sales, salmueras y sedimentos permiten comparar procesos de evaporación. F4 conserva el sitio como propuesto por NASA para una comparación marciana.",
+                "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Falta una fuente específica de mediciones ambientales de esta ficha. La inundación estacional y la atmósfera terrestre permiten agua líquida; la altura no reproduce la presión ni la radiación de Marte.",
+                "covers": "F4 recoge frío, sequedad y salinidad como factores de interés para estudiar ambientes salinos. Respaldo: propuesto por NASA.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: planificar observaciones no invasivas de depósitos y costras dentro de un presupuesto de tiempo, con apoyo científico remoto.",
+                "audience": "astronauts",
+                "measures": "Objetivos completados, calidad de fotografías y registros, tiempo de retorno y riesgos correctamente identificados.",
+                "restrictions": "F4: propuesto por NASA para el sitio; F2, sección 4.1. Sin fuente específica del ejercicio (source null). Sectores autorizados y costra evaluada; no perforar ni asumir firmeza homogénea."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: evaluar cambios en probetas de cubiertas y conectores expuestos al ambiente salino, comparándolos con controles protegidos.",
+                "audience": "suits",
+                "measures": "Sal depositada, cambio de transmitancia, resistencia de contacto y daños tras una limpieza definida.",
+                "restrictions": "F2, secciones 4.1 y 8; sin fuente específica de campaña (source null). Probetas recuperables, sin liberar materiales ni ensuciar el salar. No equivale a abrasión por polvo lunar ni certifica un traje."
+            }
         ],
         "breaking_point": "Se inunda cada año con agua de lluvia a presión terrestre. Aureum Chaos es terreno hundido hace miles de millones de años. No se le atribuyen percloratos sin análisis local.",
         "secondary_categories": [
@@ -828,9 +1995,22 @@
         "image": null,
         "source": "https://doi.org/10.5194/epsc2024-483",
         "aspects": [
+            {
+                "breaks": "Es una comparación presentada en congreso, no identidad mineral completa ni prueba de vida. Los depósitos marcianos están retrabajados; no se deducen percloratos en Uyuni de esta comparación.",
+                "covers": "El trabajo EPSC 2024 compara distribución y formación de depósitos de cloruros en Icaria Planum con Uyuni. Respaldo en F4: estudiado.",
+                "source": "https://doi.org/10.5194/epsc2024-483",
+                "category": "mineralogical"
+            }
         ],
         "category": "mineralogical",
         "trainings": [
+            {
+                "source": "https://doi.org/10.5194/epsc2024-483",
+                "activity": "Propuesta: reproducir una comparación cartográfica de cloruros con imágenes orbitales y explicar similitudes y diferencias entre Uyuni e Icaria Planum.",
+                "audience": "science",
+                "measures": "Límites de depósitos, coincidencia entre observadores, incertidumbre de resolución y evidencia espectral de cada clasificación.",
+                "restrictions": "El resumen de congreso respalda la comparación, no una identidad completa. No inferir percloratos ni vida; usar coordenadas y datos originales, sin trasladar cifras no verificadas."
+            }
         ],
         "breaking_point": "La comparación es entre cloruros formados por evaporación. Uyuni recibe lluvia y tiene vida microbiana; Icaria Planum lleva miles de millones de años seco y helado.",
         "secondary_categories": [
@@ -845,9 +2025,29 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
         "aspects": [
+            {
+                "breaks": "Falta una fuente específica de pruebas realizadas. Debe comprobarse la costra y operar en sectores autorizados; salmuera e inundación cambian la movilidad y no reproducen el suelo marciano.",
+                "covers": "F2 propone probar localización visual y cartografía en superficies planas y repetitivas, usando GNSS solo como referencia externa si el ensayo lo requiere.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: recorrer una ruta inspeccionada usando cámara e IMU, reservando GNSS como referencia externa de evaluación.",
+                "audience": "rovers",
+                "measures": "Error lateral y final, deriva por distancia, pérdidas de seguimiento y energía por metro.",
+                "restrictions": "F2, sección 4.1; sin fuente específica de ensayo realizado (source null). No degradar la comunicación de seguridad; verificar costra, luz y humedad. Sin circular por agua o sectores inciertos."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: clasificar imágenes de costras y evaluar si el sistema reconoce incertidumbre y solicita detención antes de avanzar.",
+                "audience": "rovers",
+                "measures": "Falsos negativos de terreno inseguro, falsas alarmas, tiempo de detención y solicitudes de ayuda correctas.",
+                "restrictions": "F2, secciones 4.1 y 8; sin fuente específica del ejercicio (source null). Usar un conjunto etiquetado o una pista de réplica; no comprobar errores conduciendo hacia costras peligrosas."
+            }
         ],
         "breaking_point": "Su superficie es plana y firme por sectores, a diferencia del terreno de Meridiani, con ondulaciones de arena y esférulas. Además, la costra puede ocultar salmuera o zonas blandas.",
         "secondary_categories": [
@@ -862,9 +2062,22 @@
         "image": null,
         "source": "https://doi.org/10.1103/PhysRevX.13.011025",
         "aspects": [
+            {
+                "breaks": "El patrón no prueba hielo ni permafrost. El estudio de convección no demuestra que ese mecanismo opere en cada polígono de Uyuni ni en los polígonos de Marte.",
+                "covers": "F4 recoge los polígonos salinos y el modelo de convección de salmuera como ejemplo de patrones que pueden parecerse con orígenes distintos. Respaldo: estudiado.",
+                "source": "https://doi.org/10.1103/PhysRevX.13.011025",
+                "category": "geomorphological"
+            }
         ],
         "category": "geomorphological",
         "trainings": [
+            {
+                "source": "https://doi.org/10.1103/PhysRevX.13.011025",
+                "activity": "Propuesta: medir tamaño y separación de polígonos en imágenes y contrastar explicaciones por salmuera, hielo o contracción sin decidir solo por su forma.",
+                "audience": "science",
+                "measures": "Distribución de tamaños, incertidumbre de escala y evidencia independiente necesaria para cada hipótesis.",
+                "restrictions": "F4: estudiado para el mecanismo de polígonos salinos. El estudio no demuestra la causa de cada polígono local ni de los marcianos. No abrir zanjas ni alterar costras."
+            }
         ],
         "breaking_point": "Es un contraejemplo: sus polígonos vienen de la convección de la salmuera, no del hielo. Sirve para no confundir causas, no para representar los polígonos de hielo de Marte.",
         "secondary_categories": [
@@ -879,9 +2092,28 @@
         "image": null,
         "source": "https://science.nasa.gov/earth/earth-observatory/bolivian-salt-flats-151813/",
         "aspects": [
+            {
+                "breaks": "Falta una fuente analítica específica del punto muestreado. No se asumen igual concentración ni mezcla en toda la cuenca; no se atribuyen percloratos sin detección local.",
+                "covers": "F4 recoge el interés de comparar sales disueltas y precipitados de las salmueras con ambientes evaporíticos.",
+                "source": null,
+                "category": "mineralogical"
+            },
+            {
+                "breaks": "Falta una fuente microbiológica específica verificada para esta ficha. No se atribuyen comunidades o tolerancias a toda la cuenca. Las RSL no prueban salmueras ni agua líquida actual en Marte.",
+                "covers": "F4 recoge las salmueras como medio para estudiar límites de habitabilidad por salinidad y poca agua disponible. Respaldo: estudiado.",
+                "source": null,
+                "category": "environmental"
+            }
         ],
         "category": "environmental",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta: practicar registro, blancos y trazabilidad de un estudio de salmueras con muestras artificiales de composición conocida.",
+                "audience": "science",
+                "measures": "Errores de etiquetado, blancos contaminados, recuperación de componentes conocidos y registros completos.",
+                "restrictions": "F4: estudiado para el sitio; método de F2, sección 4.7. Sin fuente específica del ejercicio (source null). No atribuir percloratos a Uyuni ni agua actual a las RSL; sin extracción no autorizada."
+            }
         ],
         "breaking_point": "Sus salmueras son abundantes, estables y a temperatura terrestre. Las salmueras marcianas, si existen, serían escasas, temporales y muy frías.",
         "secondary_categories": [
@@ -897,9 +2129,35 @@
         "image": null,
         "source": "https://en.wikipedia.org/wiki/Valle_de_la_Luna_(Bolivia)",
         "aspects": [
+            {
+                "breaks": "La erosión por agua de materiales blandos no reproduce por sí sola procesos de Gale ni cráteres lunares. Falta una fuente específica de comparación; el nombre del lugar no demuestra equivalencia geológica.",
+                "covers": "F2 propone reconocer cárcavas, pendientes y sombras como ejercicio de interpretación del relieve.",
+                "source": null,
+                "category": "geomorphological"
+            },
+            {
+                "breaks": "Es un candidato metodológico, sin fuente específica de ensayos realizados. Las formaciones son frágiles: se priorizan réplicas o modelos; no se validan ruedas o trajes para Marte con un mapa.",
+                "covers": "F2 propone usar imágenes o modelos digitales de cárcavas y pináculos para practicar fotogrametría, cartografía y navegación.",
+                "source": null,
+                "category": "operational"
+            }
         ],
         "category": "operational",
         "trainings": [
+            {
+                "source": null,
+                "activity": "Propuesta de F2: construir un modelo digital con fotografías autorizadas y probar detección de bordes y rutas entre cárcavas.",
+                "audience": "rovers",
+                "measures": "Error de reconstrucción, obstáculos omitidos, falsas detecciones por sombras y rutas virtuales completadas.",
+                "restrictions": "F2, sección 4.5: candidato metodológico sin fuente específica de ejecución (source null). No usar formaciones originales como pista; trabajar con gemelos digitales o réplicas."
+            },
+            {
+                "source": null,
+                "activity": "Propuesta de F2: interpretar pendientes y formas erosivas desde imágenes y explicar qué observaciones permiten distinguir procesos geológicos.",
+                "audience": "astronauts",
+                "measures": "Riesgos reconocidos, calidad de hipótesis, referencias fotográficas y tiempo de reporte.",
+                "restrictions": "F2, sección 4.5; sin fuente específica del ejercicio (source null). Solo senderos y observaciones permitidos; el nombre del sitio no implica geología lunar."
+            }
         ],
         "breaking_point": "Sirve para practicar mapeo 3D, pero su relieve lo formó la lluvia sobre arcillas blandas. Gale no tiene lluvia hoy y su relieve es mucho más antiguo.",
         "secondary_categories": [
