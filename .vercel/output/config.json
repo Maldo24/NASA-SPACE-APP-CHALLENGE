@@ -1,0 +1,1 @@
+{"version": 3, "routes": [{"handle": "filesystem"}, {"src": "/luna(?:/.*)?", "dest": "/index.html"}, {"src": "/marte(?:/.*)?", "dest": "/index.html"}]}

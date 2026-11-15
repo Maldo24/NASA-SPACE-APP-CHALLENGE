@@ -8,6 +8,8 @@ import { planetTexture } from '../../lib/planetTexture.ts'
 import type { BodyId, Zone } from '../../types/domain.ts'
 import { useI18n } from '../../i18n/I18nProvider.tsx'
 import { localizeZone } from '../../i18n/content.ts'
+import BackgroundEarth from './BackgroundEarth.tsx'
+import { useSpacePerspective } from './useSpacePerspective.ts'
 
 // La librería del globo (three.js incluido) pesa casi 2 MB: se baja aparte, después de la página.
 const Globe = lazy(() => import('react-globe.gl'))
@@ -127,6 +129,8 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
     return () => controls.removeEventListener('start', stop)
   }, [ready])
 
+  const { skyRef, sunRef, earthRef, earthLight } = useSpacePerspective(globeRef, ready, body)
+
   // Al elegir una zona (en el globo o desde la URL) la cámara vuela hasta ella.
   useEffect(() => {
     const g = globeRef.current
@@ -138,6 +142,14 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
 
   return (
     <div ref={wrapRef} className="planet-map planet-globe">
+      {/* Fondo decorativo: no representa posiciones ni escalas astronómicas. */}
+      <div ref={skyRef} className="space-backdrop" aria-hidden="true">
+        <div className="space-starfield" />
+        <div className="space-distant-stars" />
+        <div ref={sunRef} className="space-sun"><div className="space-sun-surface" /></div>
+        {body === 'moon' && <div ref={earthRef} className="space-earth-anchor"><BackgroundEarth light={earthLight} /></div>}
+      </div>
+      <div className="planet-scene">
       {size.width > 0 && size.height > 0 && (
         <Suspense fallback={null}>
         <Globe
@@ -185,8 +197,11 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
         />
         </Suspense>
       )}
+      </div>
       {(!texture || !ready) && <p className="globe-status">{t.map.loading(t.bodies[body])}</p>}
-      <p className="globe-credit">{layer.attribution}</p>
+      <p className="globe-credit">{layer.attribution}
+        {body === 'moon' && <> · <a href="https://commons.wikimedia.org/wiki/File:Land_ocean_ice_2048.jpg" target="_blank" rel="noopener noreferrer">Earth: NASA/GSFC · CC BY-SA</a></>}
+      </p>
     </div>
   )
 }
