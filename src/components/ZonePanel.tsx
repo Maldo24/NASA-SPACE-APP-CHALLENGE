@@ -6,6 +6,7 @@ import { CATEGORY_KEYS, type Category } from '../config/categories'
 import { emptyAnalogsByCategory, getAnalogsForZone } from '../lib/data'
 import { useI18n, type Lang } from '../i18n/I18nProvider'
 import { localizeAnalog, localizeZone } from '../i18n/content'
+import { regionRank } from '../lib/analogRegion'
 import type { GroupedAnalogs, ZoneSummary } from './ui-types'
 
 // Carga asíncrona de los análogos de la zona. null = cargando.
@@ -26,13 +27,15 @@ function useGroupedAnalogs(zoneId: string | undefined) {
   return state && state.zoneId === zoneId ? state.grouped : null
 }
 
-// Traduce los análogos y los ordena por su nombre en el idioma actual.
+// Traduce los análogos y los ordena: primero Bolivia, luego Latinoamérica y al final el resto del
+// mundo; dentro de cada grupo, por nombre en el idioma actual. La región sale del nombre en español.
 function localizeGrouped(grouped: GroupedAnalogs, lang: Lang): GroupedAnalogs {
   const out: GroupedAnalogs = {}
   for (const key of CATEGORY_KEYS) {
     out[key] = (grouped[key] ?? [])
-      .map((a) => localizeAnalog(a, lang))
-      .sort((a, b) => a.name.localeCompare(b.name, lang))
+      .map((a) => ({ rank: regionRank(a.name), analog: localizeAnalog(a, lang) }))
+      .sort((a, b) => a.rank - b.rank || a.analog.name.localeCompare(b.analog.name, lang))
+      .map((x) => x.analog)
   }
   return out
 }
