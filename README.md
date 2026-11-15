@@ -41,8 +41,32 @@ Solo va la clave **anon**. La `service_role` nunca va en el frontend ni en el re
 
 ### Contenido actual
 
-24 zonas (8 en la Luna, 16 en Marte) y 60 análogos, de los cuales 36 están en Bolivia o en su frontera.
+24 zonas (8 en la Luna, 16 en Marte) y 56 análogos, de los cuales 32 están en Bolivia o en su frontera.
 Cada análogo boliviano indica su nivel de respaldo según el documento F4: **estudiado**, **propuesto** o **sugerido**.
+
+## Idiomas (español / inglés)
+
+La app tiene su propio botón **ES / EN** en la barra superior; no depende de la traducción del navegador
+(que además queda desactivada para que no traduzca encima). El idioma inicial sale de `?lang=en` o `?lang=es`
+en la URL, luego de la última elección guardada y luego del idioma del navegador.
+
+| Qué | Dónde |
+|---|---|
+| Textos de la interfaz | [src/i18n/strings.ts](src/i18n/strings.ts). El inglés tiene el mismo tipo que el español: si falta una clave, no compila. |
+| Contenido en inglés (zonas y análogos) | [src/i18n/content/en/](src/i18n/content/en/), por id. Si falta un campo, se muestra el español. |
+| Datos originales | Siguen en español en `supabase/seed/` → `src/data/*.json`. No se tocan para traducir. |
+
+**Si cambias un texto en español** (seed SQL) o agregas una zona o un análogo:
+
+```bash
+bash supabase/seed/exportar-json.sh     # regenera src/data/*.json
+npm run i18n:check                      # dice qué falta traducir o quedó desactualizado
+# ...actualiza src/i18n/content/en/zones.json o analogs.json...
+npm run i18n:check -- --stamp           # marca lo traducido como al día
+```
+
+Los costos de entrenamiento se calculan siempre con el texto original en español; cambiar de idioma
+no cambia las cifras.
 
 ## Deploy en Vercel
 

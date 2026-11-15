@@ -1,1 +1,1416 @@
-{}
+{
+  "atacama": {
+    "_src": "bb694bf56d",
+    "name": "Atacama Desert, Chile",
+    "why": "One of the driest places on Earth, with salts and high UV radiation. It is used to study the limits of life under extreme dryness.",
+    "breakingPoint": "It has dense air with oxygen, Earth's gravity and the protection of the magnetic field: the radiation that reaches it is mostly UV, not the cosmic rays that hit Meridiani. Even its driest areas have night-time humidity and microbial life.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Soils with salts and sulfates and, in areas such as Yungay, perchlorates: salts that have also been found in the soil of Mars.",
+        "breaks": "Those salts formed with Earth's fog and atmosphere over millions of years, not the billions of years of Meridiani. It does not reproduce Meridiani's hematite spherules."
+      },
+      "environmental": {
+        "covers": "Extreme aridity, high UV radiation and soils where microbial life is scarce: useful for testing how to search for life at the edge of habitability.",
+        "breaks": "Air pressure is about 100 times that of Mars, there is oxygen and the magnetic field blocks cosmic rays. Even its driest areas have night-time humidity and microbes."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: design a search for signs of life in a dry environment, comparing mineral targets with reference samples and contamination blanks.",
+        "measures": "Documented targets, uncontaminated blanks, false positives and agreement with the reference analysis.",
+        "restrictions": "Permits for sampling and ecosystem protection. Work with prepared materials when extraction is not authorised; do not equate dryness with sterility."
+      }
+    ]
+  },
+  "basalt": {
+    "_src": "25feb7b073",
+    "name": "NASA BASALT, Craters of the Moon, Idaho, USA",
+    "why": "NASA project that combines geological exploration on basaltic terrain with science decisions and delayed communications.",
+    "breakingPoint": "It rehearses procedures and delayed communications, but with Earth's gravity, air and temperature. The delay is simulated, and the Idaho basalt lacks the impact history and dust of the Moon or Mars.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Basaltic lava flows, cones and tubes, similar to the volcanic features of the lunar maria and Tharsis.",
+        "breaks": "The Idaho lava flows are small compared with those of Tharsis, and the impact craters that cover the Moon are missing. On the Moon there is no wind or water to reshape the relief."
+      },
+      "mineralogical": {
+        "covers": "Basaltic rock, the most common rock type on the surfaces of the Moon and Mars.",
+        "breaks": "Earth basalt is altered by water and oxygen. Lunar basalt is very dry, and the regolith of the Moon and Mars is dust and rock crushed by impacts over billions of years."
+      },
+      "operational": {
+        "covers": "Geology traverses coordinated with a remote science team, with delayed communications and decisions under time and energy limits.",
+        "breaks": "The communication delay is simulated and the work is done with Earth's gravity, air and temperature."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal based on BASALT: select and document volcanic samples, coordinating the field team with remote scientists under a set communication delay.",
+        "measures": "Targets completed, quality of photographs and descriptions, decision time and messages arriving outside the work window.",
+        "restrictions": "Add the delay only to the exercise channel; keep immediate safety communication. The precedent does not show that this specific exercise has already been done."
+      },
+      {
+        "activity": "Proposal: compare rover routes over previously characterised volcanic surfaces, with the same load, wheels and target speed.",
+        "measures": "Slip, energy per metre, position error, obstacles detected and interventions per traverse.",
+        "restrictions": "Authorised access and inspected route. Traction results must be corrected before extrapolating them to lunar or Martian gravity."
+      }
+    ]
+  },
+  "canapa": {
+    "_src": "dde6df1abb",
+    "name": "Cañapa and Chiarkota lagoons, Bolivia",
+    "why": "Hypersaline lagoons with no microbiological studies yet. They are an opportunity for new research on life in brines. Support: proposed.",
+    "breakingPoint": "It is abundant, stable liquid water with Earth life. On Mars, brines would be scarce, temporary and at a far lower pressure. It has no microbiological studies yet: the analogy is a proposal.",
+    "aspects": {
+      "environmental": {
+        "covers": "Cold, hypersaline brine at high altitude with high UV radiation: a setting for asking how life survives in salt.",
+        "breaks": "It is an open ecosystem, with birds and microbes arriving from outside; on Mars there is no known life that could colonise a brine. It is useful for studying the limits of life, not for predicting whether there is life on Mars."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: plan a non-invasive campaign comparing light, temperature and salinity in authorised sectors of the Cañapa and Chiarkota lagoons.",
+        "measures": "Station coverage, sensor uncertainty and changes in conditions by site and time; blanks if sampling is authorised.",
+        "restrictions": "F4: proposed; F2, section 4.7, as a method. No specific source for the exercise (source null). Do not claim unverified microbial communities or enter sensitive shorelines."
+      }
+    ]
+  },
+  "cerro-rico": {
+    "_src": "cfdede7e76",
+    "name": "Cerro Rico of Potosí, Bolivia",
+    "why": "Acid mine drainage with iron- and sulfate-rich chemistry, similar to that of Río Tinto and Meridiani Planum. Its origin is human (almost 500 years of mining). Support: suggested.",
+    "breakingPoint": "Its acidic chemistry comes from almost 500 years of mining, not from a natural process. Meridiani was altered without human intervention, billions of years ago.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Acid drainage with iron sulfates. Its tailings are worth searching for minerals such as jarosite and schwertmannite, which point to acidic water as at Meridiani.",
+        "breaks": "Its acidic chemistry was caused by mining, which exposed sulfides to air and water; at Meridiani it formed naturally billions of years ago. Those minerals still need to be confirmed by analysis."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: classify spectra or authorised reference samples of acid alteration and check the mineral identification against a laboratory analysis.",
+        "measures": "Correct identifications per mineral, false positives, spectral quality and traceability between sample, location and analysis.",
+        "restrictions": "F4: suggested; no specific source for the exercise (source null). Prioritise existing data or archive samples. Do not enter mine workings or handle drainage without specialists."
+      }
+    ]
+  },
+  "cinder-lake": {
+    "_src": "e3d87d2131",
+    "name": "Cinder Lake training crater field, Arizona, USA",
+    "why": "Artificial field built to practise lunar exploration. It allows rehearsing navigation, traverses and observation of small craters; its historical use is documented by the USGS.",
+    "breakingPoint": "The craters were blasted with explosives into Earth volcanic materials. They are not natural impacts and do not reproduce vacuum, lunar gravity or impact-matured regolith; erosion changes their shapes.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The artificial depressions offer rims, shadows and overlaps for interpreting the shape of small craters.",
+        "breaks": "They were made with explosives: they do not reproduce the shock, minerals or ejecta distribution of a high-velocity impact. Water and wind modify the field."
+      },
+      "operational": {
+        "covers": "The field and its elevation models allow practising navigation, traverse planning and crater recognition.",
+        "breaks": "The training takes place on Earth; mobility and timings do not transfer directly to lunar gravity. Historical precedents do not validate every new exercise."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: find your position in the field using a map and the relationships between small craters, then prioritise observation stations.",
+        "measures": "Position error, craters recognised, targets documented and decision time.",
+        "restrictions": "Do not create new craters or alter the historic ones. Activity with the site managers; keep safety support available even if the exercise limits science support."
+      },
+      {
+        "activity": "Proposal: use the elevation model to evaluate routes around crater rims and compare results under different simulated lighting.",
+        "measures": "Simulated collisions, distance kept from rims, localisation error and routes completed.",
+        "restrictions": "The model must state its resolution and date. A safe virtual route does not prove ground firmness or the vehicle's real stability."
+      }
+    ]
+  },
+  "coipasa": {
+    "_src": "d4e381bd06",
+    "name": "Salar de Coipasa, Bolivia",
+    "why": "Salt flat next to Uyuni, separated from it by volcanoes. NASA describes it, together with Uyuni, as a natural laboratory for studying the Martian environment. It allows comparing two salt basins. Support: studied.",
+    "breakingPoint": "It shares evaporation processes, but under Earth's pressure, gravity and climate, with rains that flood the surface every year. Aureum Chaos and Icaria Planum formed billions of years ago and have no water today.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Salt crusts, brines and clays formed by evaporation, in a different basin from Uyuni: it allows comparing two salt flats.",
+        "breaks": "Its salt is recent and gets wet with the rains; the deposits of Aureum Chaos and Icaria Planum are old and dry. Equivalence must be shown by mineral analysis, not by appearance."
+      },
+      "operational": {
+        "covers": "Salt surface for comparing the navigation and terrain classification of the same rover with what was measured at Uyuni.",
+        "breaks": "It must not be assumed to be firm or accessible, and gravity and traction are those of Earth. Fragile crusts and ecosystems must be avoided."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: repeat an authorised traverse with the same rover and configuration used at Uyuni, over previously inspected surface types.",
+        "measures": "Slip, energy per metre, lateral error and false classifications of traversable ground by surface type.",
+        "restrictions": "F4: studied for the site, not for this test. F2, section 4.2; no specific campaign source (source null). Check the crust and avoid water, ecosystems and soft sectors."
+      },
+      {
+        "activity": "F2 proposal: interpret images of the basin and outline safe areas for observing salt deposits without extraction.",
+        "measures": "Agreement with the validated map, risks missed, stations completed and planning time.",
+        "restrictions": "F2, section 4.2; no specific source for carrying it out (source null). Permits, local reconnaissance and crust protection; do not infer firmness from a photograph alone."
+      }
+    ]
+  },
+  "concordia": {
+    "_src": "5f3cc80685",
+    "name": "Concordia Station, Antarctica",
+    "why": "Base on the Antarctic plateau used to study prolonged isolation, cold and darkness, as in a long-duration mission.",
+    "breakingPoint": "It reproduces isolation, cold and darkness, but the crew breathes air, lives in Earth's gravity and can be evacuated. There is no vacuum, no regolith and no radiation like that of the lunar south pole.",
+    "aspects": {
+      "environmental": {
+        "covers": "Extreme cold, very dry air and darkness during the polar winter.",
+        "breaks": "The lunar south pole has no atmosphere: its permanent shadows are much colder and radiation arrives without the shield of air or a magnetic field."
+      },
+      "operational": {
+        "covers": "Months of isolation with a small crew, cold and winter darkness, as in a long-duration base.",
+        "breaks": "People live without suits, breathing air, in gravity about six times that of the Moon. There is no vacuum or regolith, nor the radiation of the lunar surface."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: simulate habitat maintenance and task sharing during isolation, recording workload and support needs.",
+        "measures": "Tasks completed, maintenance time, incidents, consumption of exercise supplies and reported workload.",
+        "restrictions": "Do not interrupt essential services or add extra isolation without assessment. Studies with people require consent and supervision; winter evacuation may not be possible."
+      }
+    ]
+  },
+  "cordillera-real": {
+    "_src": "27dadb3f6d",
+    "name": "Cordillera Real, Bolivia",
+    "why": "Its glaciers are retreating quickly and leaving new ground exposed: a natural laboratory for studying ice loss. Support: suggested.",
+    "breakingPoint": "Its glaciers lose ice by melting, with liquid water. At Planum Boreum ice is lost mostly by sublimation (turning straight into gas), at a much lower pressure and temperature.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "New ground uncovered as the glacier retreats: moraines and ice-polished rock.",
+        "breaks": "These are mountain glaciers. Planum Boreum is a cap of ice and dust layers whose relief is shaped by sublimation and wind."
+      },
+      "environmental": {
+        "covers": "Ice exposed to strong sunlight in a cold, high-altitude setting, lost year after year.",
+        "breaks": "The ice is lost mainly by melting, with liquid water. At Planum Boreum it is lost by sublimation, at a pressure of a few hundred pascals and far below freezing."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: map changes in the glacier front and in the newly exposed ground using repeat images and stable reference points.",
+        "measures": "Position error of the front, change in area, map coverage and uncertainty due to snow and shadows.",
+        "restrictions": "F4: suggested; no specific training source (source null). Prioritise images; do not go onto ice, crevasses or unstable slopes without specialised staff."
+      }
+    ]
+  },
+  "desierto-dali": {
+    "_src": "0d08506ead",
+    "name": "Dalí Desert, Sud Lípez, Bolivia",
+    "why": "Cold, arid high-altitude desert with no microbiological studies yet; highlighted as an opportunity to study life in extreme conditions. Support: proposed.",
+    "breakingPoint": "Its cold and aridity are moderate compared with Mars, and it keeps an atmosphere and life. Medusae Fossae is a fine, soft deposit that the wind has been eroding for millions of years. It has no microbiological studies yet.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Arid landscape of sand and isolated rocks shaped by the wind.",
+        "breaks": "Medusae Fossae is a fine, soft deposit hundreds of kilometres across, carved into ridges (yardangs). Dalí is much smaller and made of a different material."
+      },
+      "environmental": {
+        "covers": "Cold, dry high-altitude desert with high UV radiation, where it is not yet known what microbial life exists.",
+        "breaks": "Its cold and aridity are moderate compared with Mars, and it has oxygen and a pressure tens of times higher. With no microbiological studies, the analogy is a proposal."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: evaluate visual navigation over a digital model of arid surfaces and compare images with different shadows.",
+        "measures": "Localisation error, tracking loss, simulated collisions and percentage of the route completed.",
+        "restrictions": "F4: proposed; method from F2, sections 8 and 11. No specific source for the exercise (source null). Use authorised images; a simulation does not validate real traction."
+      }
+    ]
+  },
+  "el-tatio": {
+    "_src": "798be6eb34",
+    "name": "El Tatio geysers, Chile",
+    "why": "High-altitude geothermal field with silica deposits, comparable to the hydrothermal deposits of Home Plate and relevant to the preservation of biosignatures.",
+    "breakingPoint": "It is an active hydrothermal system, with boiling water at Earth pressure. Home Plate is an ancient, extinct deposit. The silica is similar, but El Tatio's present-day life makes it harder to tell ancient biosignatures apart.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Silica deposits formed by hot springs, like the silica the Spirit rover found near Home Plate.",
+        "breaks": "Its silica is still forming today with boiling water; Home Plate's is ancient. El Tatio's present-day life leaves traces that make it harder to tell ancient biosignatures apart."
+      },
+      "environmental": {
+        "covers": "Hot water at high altitude, with night-time cold and high UV radiation, where adapted microbes live.",
+        "breaks": "There is liquid water, oxygen and Earth pressure. Home Plate is dry today and exposed to Martian radiation without protection."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: tell apart silica textures that could preserve signs of life, using images and reference spectra.",
+        "measures": "Correct classifications, false positives and quality of the description of biological and non-biological alternatives.",
+        "restrictions": "Use archive data or samples; any sampling requires a permit. Do not walk on thermal crusts. Similar textures do not prove life at Home Plate."
+      }
+    ]
+  },
+  "glaciares-roca": {
+    "_src": "b39f18a74b",
+    "name": "Rock glaciers of the Bolivian Andes (incl. Caquella)",
+    "why": "Ice covered by a layer of rock in a dry environment, just like the debris-covered glaciers of the Martian mid-latitudes. There are 94 inventoried, 54 of them active. Approximate location (Caquella, Lípez). Support: studied.",
+    "breakingPoint": "Their ice is renewed by snow and in summer temperatures rise above 0 °C. The glaciers of Deuteronilus Mensae are remnants of past climates, always below freezing and in 0.38 times Earth's gravity.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Ice protected by a layer of rock and debris that slows its loss, with fronts and lobes like those of the glaciers of Deuteronilus Mensae.",
+        "breaks": "They are much smaller and their ice is renewed by snow. The glaciers of Mars are remnants of ancient climates and flow in 0.38 times Earth's gravity."
+      },
+      "environmental": {
+        "covers": "Dry, cold high-altitude setting where they are the main ice reserve of the Cordillera Occidental.",
+        "breaks": "In summer they rise above 0 °C and there is liquid water. At Deuteronilus Mensae the ice is always below freezing and at a very low pressure."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: outline rock glaciers in images and compare the classification of active and relict forms with the published inventory.",
+        "measures": "Agreement of outlines, classification accuracy, estimated area and uncertain cases.",
+        "restrictions": "F4: studied for the inventory. Images alone do not measure the internal ice. Field verification only with authorisation and a stability assessment."
+      }
+    ]
+  },
+  "grand-canyon": {
+    "_src": "07c4657468",
+    "name": "Grand Canyon, USA",
+    "why": "Canyon with exposed layered walls. It resembles Valles Marineris in shape and layers, although at a much smaller scale and with a different origin (river erosion, not tectonics).",
+    "breakingPoint": "It was carved by a river. Valles Marineris opened along tectonic faults and is about 9 times longer and about 4 times deeper. The layered walls are similar, not the origin.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Walls hundreds of metres high with exposed layers and landslides, which allow reading geological history as in the walls of Valles Marineris.",
+        "breaks": "Its layers are rocks from ancient seas and rivers, with fossils; the walls of Valles Marineris are largely interpreted as lava flows and deposits whose origin is still debated. Comparing layers does not tell you how they formed."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: describe a sequence of layers from authorised viewpoints and send the remote team an interpretation with photographs and scale.",
+        "measures": "Contacts identified, agreement with the reference section and quality of the report within the allotted time.",
+        "restrictions": "The USGS documents precedents for geology training, not this exact exercise. Respect trails and heritage; do not remove rocks or approach edges to place scale bars."
+      }
+    ]
+  },
+  "guapore": {
+    "_src": "a893fc23fd",
+    "name": "Guaporé Shield (Amazonian Craton), Bolivia",
+    "why": "Very old (Precambrian) crust that could be used to study how old crust weathers. It does not have cratered relief like Mars. Approximate location. Support: suggested.",
+    "breakingPoint": "It is ancient crust weathered by a tropical climate, with rain, vegetation and living soils. Mawrth Vallis was altered by water billions of years ago, with no known life, and keeps craters the shield does not have.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Very old Precambrian crust, useful for studying how old rock is altered over time.",
+        "breaks": "It weathers in a tropical climate, with rain, vegetation and life in the soil. The clays of Mawrth Vallis formed with water billions of years ago, with no known life. It is a suggested analog, without studies."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare photographs and analyses of old rocks with different degrees of weathering, stating which minerals need instrumental confirmation.",
+        "measures": "Correct identifications against the reference analysis, hypotheses ruled out and sample traceability.",
+        "restrictions": "F4: suggested; no specific source for the exercise (source null). Use authorised collections; the age of the crust does not prove the same alteration as at Mawrth Vallis."
+      }
+    ]
+  },
+  "haughton": {
+    "_src": "277de5d321",
+    "name": "Haughton Crater, Devon Island, Canada",
+    "why": "Impact crater in a cold, dry polar environment, useful for studying ejecta, erosion and impact-driven hydrothermal activity.",
+    "breakingPoint": "It is about 23 km across and was eroded by glaciers and water. Tycho is about 85 km across, young, and keeps its ejecta rays because the Moon has no air or water to erase them.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Impact crater about 23 km across with fractured rock, impact breccias and traces of hydrothermal activity caused by the impact.",
+        "breaks": "It formed in sedimentary rock and its central uplift is heavily eroded. Tycho formed in dry lunar rock and keeps a central peak, terraces and pools of impact-melted rock."
+      },
+      "environmental": {
+        "covers": "Cold, dry polar desert with frozen ground.",
+        "breaks": "In summer there is liquid water and life. The Moon has no atmosphere or liquid water, and its surface swings from very hot to very cold between day and night."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: plan a reconnaissance traverse of impact units and justify which stations provide the most scientific information.",
+        "measures": "Units recognised, justified priorities, traverse time and documentation quality per station.",
+        "restrictions": "Requires coordination with local authorities, permits and polar support. Erosion can hide features; do not extrapolate walking distances to lunar gravity."
+      }
+    ]
+  },
+  "haughton-hmp": {
+    "_src": "bcb7b53804",
+    "name": "Haughton-Mars Project, Devon Island, Canada",
+    "why": "Research camp where human and robotic exploration, vehicles and field procedures are rehearsed in polar conditions.",
+    "breakingPoint": "It allows rehearsing vehicles and procedures, but with breathable air, Earth's gravity and nearby support. Utopia Planitia requires pressurised suits, has communication delays and 0.38 times Earth's gravity.",
+    "aspects": {
+      "environmental": {
+        "covers": "Polar cold, aridity and isolation in a landscape without vegetation.",
+        "breaks": "Air pressure is more than a hundred times that of Mars and there is liquid water in summer."
+      },
+      "operational": {
+        "covers": "Tests of vehicles, walks in simulated suits, robots and field procedures at a remote, cold site.",
+        "breaks": "People breathe air, gravity is Earth's and support is nearby. Utopia Planitia would require pressurised suits, and communications with Earth take minutes."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: rehearse cooperation between a rover and a field team with artificial outages and delays in the mission link.",
+        "measures": "Targets completed, interventions, link recovery, map error and decision time.",
+        "restrictions": "The camp is a precedent, not proof of this specific protocol. Keep an independent safety link and operate only in authorised corridors."
+      },
+      {
+        "activity": "Proposal: simulate inventory, maintenance and equipment deployment from a remote base with a defined supply budget.",
+        "measures": "Inventory errors, tasks completed, spare parts requested and preparation and return time.",
+        "restrictions": "Do not restrict real supplies or alter the camp's essential support. The exercise does not certify a pressurised habitat."
+      }
+    ]
+  },
+  "hi-seas": {
+    "_src": "fc357feafb",
+    "name": "HI-SEAS, Mauna Loa, Hawaii, USA",
+    "why": "Simulation habitat on volcanic terrain for studying isolation, operations and crew work.",
+    "breakingPoint": "It studies isolation and teamwork, but the crew knows it can leave and breathes air. It does not reproduce the gravity, radiation or real risk of a mission.",
+    "aspects": {
+      "operational": {
+        "covers": "Life in a closed habitat for months: living together, routines, food and planned outings on volcanic terrain.",
+        "breaks": "The crew breathes air, lives in Earth's gravity and knows it can leave. The communication delay is simulated, and there is no radiation or real mission risk."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: organise work, maintenance and inventory routines during a simulated stay and review how they affect coordination.",
+        "measures": "Pending tasks, plan compliance, inventory errors and voluntarily recorded workload.",
+        "restrictions": "Adapt the protocol to the facility and its managers. Consent for personal data; do not restrict life support or create real emergencies."
+      }
+    ]
+  },
+  "intersalar": {
+    "_src": "3ae5ed83ed",
+    "name": "Cordillera Intersalar, Bolivia",
+    "why": "Flat lava domes and extensive pyroclastic flow deposits (ignimbrites) between the Uyuni and Coipasa salt flats. Analog of Martian volcanic deposits. Approximate location. Support: suggested.",
+    "breakingPoint": "Its domes and ignimbrites are silica-rich Andean volcanism. Olympus Mons is a shield volcano of fluid basalt, about 22 km high and 600 km wide. The type of deposit is similar, not the volcano.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Flat lava domes and broad ignimbrite sheets, deposits from scorching volcanic clouds.",
+        "breaks": "Ignimbrites come from explosive eruptions; Olympus Mons formed from quiet lava flows. The site must be characterised before using it as an analog: it has no studies or source."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: recognise domes and volcanic deposits in images and choose outcrops that would allow testing their origin.",
+        "measures": "Units outlined, stated confidence and agreement with an interpretation reviewed by geologists.",
+        "restrictions": "F4: suggested, with an approximate location; no specific training source (source null). First verify the outcrop and permits; do not treat ignimbrites as lunar basalt."
+      }
+    ]
+  },
+  "italia-perdida": {
+    "_src": "cf3f0d9fb3",
+    "name": "Italia Perdida and Bosque de Piedras, Bolivia",
+    "why": "Volcanic rocks sculpted by erosion, comparable to the wind-polished rocks that rovers photograph. Support: suggested.",
+    "breakingPoint": "Its erosion combines wind, water and night-time frost. At Medusae Fossae the wind acts almost alone, over millions of years, on a much softer material.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Volcanic rocks carved into irregular shapes by erosion, comparable to the wind-polished rocks that rovers photograph.",
+        "breaks": "They are hard, isolated rocks, not a continuous deposit. The landforms of Medusae Fossae are elongated ridges, kilometres long, in a soft material."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: build a digital model of the erosional landforms from authorised photographs and evaluate routes around overhangs and narrow passages.",
+        "measures": "Model error, obstacles missed, simulated collisions and routes completed.",
+        "restrictions": "F4: suggested; method from F2, section 8. No specific source for the exercise (source null). Protect the formations; use simulation, without driving over fragile relief."
+      }
+    ]
+  },
+  "iturralde": {
+    "_src": "c70c85ff82",
+    "name": "Iturralde structure (Araona), La Paz, Bolivia",
+    "why": "Circular structure about 8 km across and only 20 m deep in the Amazon lowlands. It is compared with the degraded (\"ghost\") craters of the northern plains of Mars. Its impact origin is not yet confirmed. Support: proposed.",
+    "breakingPoint": "Its impact origin is not confirmed and it is covered by rainforest and wet sediments. The ghost craters of Utopia Planitia are buried in a dry climate. If it were not an impact, the analogy falls apart.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Circular structure about 8 km across, heavily degraded and almost without relief, in soft sediments: this is how the \"ghost\" craters of the northern plains of Mars look.",
+        "breaks": "If it was an airburst, it would not be an impact crater as such. The ghost craters of Mars are real impacts buried by lava or sediment: its origin must be confirmed before using it."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare elevation maps and images of the depression and put forward alternative hypotheses to explain its circular shape.",
+        "measures": "Relief profile, height uncertainty, diagnostic features found and evidence still needed to tell the hypotheses apart.",
+        "restrictions": "F4: proposed. Remote exercise; the NASA visualisation does not confirm an impact. Any campaign needs permits and coordination with local communities and authorities."
+      }
+    ]
+  },
+  "kilauea": {
+    "_src": "d1ca89fddf",
+    "name": "Kīlauea, Hawaii, USA",
+    "why": "Basaltic shield volcano. Its lava flows are used to compare the basalts of the lunar maria and the volcanoes of Tharsis.",
+    "breakingPoint": "It is an active volcano, with water and air that alter its basalts quickly. The lunar maria are basalts more than 3 billion years old, without water, and Olympus Mons is much taller and wider.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Shield volcano with fluid lava flows, pit craters and lava tubes, landforms that also appear on the Moon and Mars.",
+        "breaks": "Olympus Mons is much taller and wider. The domes of Marius Hills formed from lava more viscous than that of the maria, unlike Kīlauea's."
+      },
+      "mineralogical": {
+        "covers": "Basalt, the rock type of the lunar maria and the volcanoes of Tharsis.",
+        "breaks": "Its basalt contains water and is altered quickly by rain and oxygen. Lunar basalts are very dry and more than 3 billion years old."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: identify lava textures and compare samples or images with reference analyses to separate composition from surface appearance.",
+        "measures": "Correct classifications, quality of descriptions and differences between visual and instrumental identification.",
+        "restrictions": "Use authorised images or collections and respect volcanic closures. Do not approach active lava, gases or unstable edges for the exercise."
+      }
+    ]
+  },
+  "la-salsa": {
+    "_src": "914ff16ddf",
+    "name": "La Salsa spring, Laguna Pastos Grandes, Bolivia",
+    "why": "Hydrothermal mounds of calcium and silica with microbialites. They are analogs of mixed carbonate–silica deposits that can preserve signs of life. Support: studied.",
+    "breakingPoint": "It is an active hydrothermal system, with living microbes. At Home Plate only the mineral deposit remains, with no evidence of life. The comparison is of the deposit's chemistry, not of an inhabited environment.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Hydrothermal mounds with carbonate and silica together, a type of deposit that can preserve signs of life.",
+        "breaks": "Home Plate's silica probably formed from steam or hot water on volcanic rock; La Salsa combines carbonate and silica inside a lake. The exact chemical comparison has yet to be made."
+      },
+      "environmental": {
+        "covers": "High-altitude hot spring with microbes living in changing temperature and chemical conditions.",
+        "breaks": "It is an inhabited environment today, with water and oxygen. Home Plate has been dry for billions of years."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: analyse images and data from calcium and silica deposits to separate chemical and biological contributions along a spring outflow.",
+        "measures": "Mineral changes identified, agreement with published data and false positives in the search for biological signs.",
+        "restrictions": "F4: studied. Work first with the study and its reference samples; access and sampling require permits. Do not step on mounds or microbial mats."
+      }
+    ]
+  },
+  "lago-poopo": {
+    "_src": "34f79e2186",
+    "name": "Lake Poopó, Oruro, Bolivia",
+    "why": "High-altitude lake that almost disappeared in the last decade. It allows watching in real time how a lake dries up and what deposits it leaves. Support: suggested.",
+    "breakingPoint": "It dried up in a few decades because of drought and human water use. Jezero dried up more than 3 billion years ago because of a change in the whole planet's climate. What can be observed are the deposits it leaves, not the Martian process.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Salt crusts and sediments left on the bed as the water evaporates.",
+        "breaks": "They are recent, damp deposits. Those of Jezero's lake are ancient, compacted and altered over billions of years."
+      },
+      "environmental": {
+        "covers": "A high-altitude lake drying up: it shows how salinity and life change when a lake disappears.",
+        "breaks": "As it dried up, fish and birds died, and the remaining life adapted to ever saltier water; it is not known whether Jezero ever had life. It is useful for seeing what traces remain, not for reconstructing the Martian environment."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: reconstruct changes in water area and exposed deposits using a series of dated images.",
+        "measures": "Area per date, water/land classification error, time coverage and uncertainty due to clouds and humidity.",
+        "restrictions": "F4: suggested; no specific training source (source null). Do not mistake a dry image for permanent disappearance, or treat human effects as equivalent to the Martian climate."
+      }
+    ]
+  },
+  "lago-tauca": {
+    "_src": "065f37f94b",
+    "name": "Paleolakes Tauca and Minchin, Bolivian Altiplano",
+    "why": "Large Pleistocene lakes whose remains are today's salt flats. Their level rose and fell a great deal: they are used to study how such changes are recorded. Approximate location. Support: suggested.",
+    "breakingPoint": "It records the level changes of a lake from about 15,000 years ago, in an Earth climate. Aureum Chaos is ground that collapsed as water escaped from the subsurface: a different and much older process.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Ancient shorelines and terraces that mark the levels a large lake once reached.",
+        "breaks": "Its old shorelines are beach lines of a calm lake. Aureum Chaos shows blocks sunk and fractured by ground collapse, a landform the Altiplano does not have."
+      },
+      "mineralogical": {
+        "covers": "Its salt and gypsum deposits, today's salt flats, show what remains when a large lake evaporates.",
+        "breaks": "The salt is recent and gets wet every year. The deposits of Aureum Chaos are ancient and their composition must be confirmed by analysis."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: recognise paleoshorelines and terraces in images and put evidence of past water-level changes in order.",
+        "measures": "Levels outlined, consistency of height profiles and time relationships justified with the available reference.",
+        "restrictions": "F4: suggested; no specific source for the exercise (source null). Do not assign ages from height alone; observation or archive samples before any new extraction."
+      }
+    ]
+  },
+  "laguna-blanca-termal": {
+    "_src": "4e4ad3f376",
+    "name": "Laguna Blanca hot spring, Sud Lípez, Bolivia",
+    "why": "Hot spring of about 36 °C at 4,328 m with microbial communities, included in studies of Andean extremophiles. It helps understand what life a high-altitude hydrothermal system could support. Approximate location (next to the lagoon). Support: studied.",
+    "breakingPoint": "It is stable thermal water, with present-day life, at Earth pressure. Home Plate was a hydrothermal system billions of years ago and today has no water or known life.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Mineral deposits that hot spring water leaves as it cools.",
+        "breaks": "There are no studies comparing its mineralogy with that of silica-rich Home Plate: the mineral comparison has yet to be confirmed."
+      },
+      "environmental": {
+        "covers": "Thermal water of about 36 °C at more than 4,300 m, with microbes that withstand cold, high UV and sudden changes.",
+        "breaks": "Its heat comes from present-day volcanic activity. At Home Plate that heat source died out billions of years ago, so it helps picture the past, not the present."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: design a recording and contamination-control chain for studying a hot spring, using artificial samples away from the ecosystem.",
+        "measures": "Correct labels, uncontaminated blanks, complete records and transfer time to analysis.",
+        "restrictions": "F4: studied for the site; method from F2, section 4.7. No specific source for the exercise (source null). Confirm the location; do not enter the water or touch thermal crusts."
+      }
+    ]
+  },
+  "laguna-colorada": {
+    "_src": "458607123b",
+    "name": "Laguna Colorada, Sud Lípez, Bolivia",
+    "why": "Hypersaline lagoon with islands of borax. It is of interest because the Curiosity rover detected boron in veins in Gale crater; borax allows asking questions, but does not show that the minerals are the same. Support: suggested.",
+    "breakingPoint": "Borax allows asking questions about boron, but does not prove that Gale's minerals are the same. It is also a living lake, with algae and flamingos, not an ancient deposit turned to rock.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Hypersaline lagoon with islands of borax, a boron mineral. The Curiosity rover detected boron in veins in Gale crater.",
+        "breaks": "Borax allows asking questions about boron, but does not prove that Gale's minerals are the same. At Gale the boron is in sulfate veins within ancient rock."
+      },
+      "environmental": {
+        "covers": "Very salty, cold water with high UV radiation, where pigmented algae live.",
+        "breaks": "It is a living lake, with algae and flamingos, abundant liquid water and Earth pressure. Gale is dry today."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare reference borate spectra with images of the deposits and explain what can and cannot be inferred from the boron.",
+        "measures": "Confirmed identifications, false positives and claims that require further analysis.",
+        "restrictions": "F4: suggested; no specific training source (source null). Do not equate boron with Martian borax. Prioritise archive data and do not disturb wildlife or shorelines."
+      }
+    ]
+  },
+  "laguna-verde": {
+    "_src": "6fcd85a6b8",
+    "name": "Laguna Verde, Sud Lípez, Bolivia",
+    "why": "Ancient terraces with microbialites (rocks built by microbes) that record about 7,000 years of changes in the lake. They help understand how the lakes of Mars dried up. Support: studied.",
+    "breakingPoint": "Its microbialites were built by life that does exist; life has not been confirmed at Jezero. It records about 7,000 years, compared with the billions of years of Mars.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Terraces with microbialites, carbonate rocks built by microbes, that record how the lake level fell.",
+        "breaks": "There are carbonates at Jezero, but it has not been shown that they have microbialite shapes. And finding that shape would not be enough to prove life."
+      },
+      "environmental": {
+        "covers": "Shallow high-altitude lagoon with no refuge from UV radiation and highly variable water temperatures.",
+        "breaks": "It has oxygen, stable water and Earth pressure. It represents an ancient lake on Mars, not today's Martian environment."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: document ancient shoreline deposits and tell possible biological signs apart from shapes that can also form without life.",
+        "measures": "Observations with location and scale, alternatives considered and agreement with reference analyses.",
+        "restrictions": "F4: studied. Use images or authorised sampling; do not remove microbialites. Do not transfer evidence of Earth life to Jezero."
+      }
+    ]
+  },
+  "lanzarote-pangaea": {
+    "_src": "5bbc7c23d2",
+    "name": "Lanzarote, Spain (ESA PANGAEA)",
+    "why": "Geology training for ESA astronauts on volcanic terrain and lava tubes.",
+    "breakingPoint": "It trains a geologist's eye on lava and volcanic tubes, but with air, Earth's gravity and erosion by water. Lunar lava tubes, such as those at Marius Hills, are thought to be much larger because of the low gravity.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Lava flows, cones and volcanic tubes, landforms that also exist on the Moon.",
+        "breaks": "Rain, wind and vegetation modify the relief. Lunar lava tubes are thought to be much larger because of the low gravity."
+      },
+      "operational": {
+        "covers": "Field geology training for astronauts: recognising volcanic rocks, taking samples and describing them to a remote team.",
+        "breaks": "It is done with air, Earth's gravity and no pressurised suits. On the Moon each outing is limited by the suit, time and energy."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal based on PANGAEA: recognise volcanic units, select targets and communicate the geological history to the remote team.",
+        "measures": "Units correctly related, quality of authorised samples or photographs and clarity of the report within the available time.",
+        "restrictions": "Coordinate with the site managers and the programme. This variant is not claimed to have been carried out; do not remove samples or enter cavities without authorisation."
+      }
+    ]
+  },
+  "lava-river-cave-az": {
+    "_src": "9c7ee8b5eb",
+    "name": "Lava River Cave, Coconino, Arizona, USA",
+    "why": "Lava tube for planning studies of underground navigation and mapping. Unlike a limestone cave, it shares the general volcanic process of the cavities being investigated on the Moon.",
+    "breakingPoint": "It is a cavity on Earth with air, humidity and regulated access. Its size and stability do not prove those of Marius Hills. The darkness does not reproduce the cold of a lunar polar shadow.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The conduit formed as lava flowed beneath a solidified crust, useful for recognising the shapes of a volcanic tube.",
+        "breaks": "Its Earth size and preservation do not determine those of a lunar cavity; the existence of this tube does not confirm an accessible network beneath Marius Hills."
+      },
+      "operational": {
+        "covers": "The cavity allows planning navigation with onboard lighting, mapping and the study of communication links with limited line of sight.",
+        "breaks": "These are possible exercises subject to permits; not all of them are claimed to have been done. There is air and Earth's gravity; the lack of light does not equal lunar vacuum or cold."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: reconstruct a stretch of cave with a camera and onboard lighting, first on a model or replica.",
+        "measures": "Map error, coverage, lighting power use and recoveries after losing visual references.",
+        "restrictions": "Fieldwork only with a permit and specialists, respecting closures and wildlife. Do not leave equipment or marks in the cave; the simulation does not prove the roof is stable."
+      },
+      {
+        "activity": "Proposal: plan underground observation and return under a time budget, with simulated contingencies of lost lighting or link.",
+        "measures": "Return time, targets recorded and correct decisions in response to simulated alerts.",
+        "restrictions": "Simulate failures on paper or in a replica, without switching off real lights or safety links. Do not extrapolate to an EVA in an airless lunar cavity."
+      }
+    ]
+  },
+  "licancabur": {
+    "_src": "71788317cc",
+    "name": "Licancabur volcano and the Blanca and Verde lagoons, Bolivia–Chile",
+    "why": "High-altitude lakes with cold, very high UV radiation and adapted organisms, studied by the High-Lakes project as analogs of ancient Martian lakes. They do not represent the whole of present-day Mars. Support: studied.",
+    "breakingPoint": "It has very high UV and cold, but stable liquid water, oxygen and a much higher pressure. It represents ancient lakes on Mars, not Mars today.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Water chemistry and sediments of high-altitude volcanic lakes.",
+        "breaks": "These are recent sediments with present-day life. Those of Gale and Jezero are ancient, compacted rock."
+      },
+      "environmental": {
+        "covers": "Lakes at high altitude with cold, very high UV radiation and adapted organisms, studied by the High-Lakes project as a model of ancient Martian lakes.",
+        "breaks": "Its UV radiation is high for Earth, but the ozone layer and the atmosphere still filter part of it. Much more UV reaches the surface of Mars, including UV-C."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare dated records of light, temperature and chemistry from high-altitude lakes to frame questions about the limits of habitability.",
+        "measures": "Series with complete metadata, instrumental uncertainty and relationships that hold when lakes and dates are separated.",
+        "restrictions": "F4: studied; High-Lakes is the precedent. Do not combine maxima from different campaigns or generalise irradiance to all of Bolivia. Fieldwork only with permits and specialised high-altitude support."
+      },
+      {
+        "activity": "F2 proposal: compare fabric or coating samples from a prototype under recorded environmental exposure, with protected controls.",
+        "measures": "Measured UV exposure, material temperature and change in optical or mechanical properties relative to the control.",
+        "restrictions": "F2, sections 6 and 8; no specific source for a test at this site (source null). Use test specimens, not people. Earth's UV does not validate protection against cosmic rays or life support."
+      }
+    ]
+  },
+  "mauna-kea-isru": {
+    "_src": "94f4bb79b6",
+    "name": "Puʻu Hiwahine, Mauna Kea — ISRU tests, Hawaii, USA",
+    "why": "Volcanic field where tests of instruments, drilling and the use of local resources (ISRU) were documented. The point marks the 2010 test area, not the summit.",
+    "breakingPoint": "The volcanic materials contain Earth water and alteration. Drilling or extracting compounds here does not show that ice is available at Shackleton or that a plant would work in lunar vacuum and gravity.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "The volcanic materials allow comparing how instruments respond when characterising minerals and compounds usable as resources.",
+        "breaks": "Earth water, alteration and organic matter can change the signal. Lunar ice concentrations or the composition of a lunar mare cannot be inferred from these materials."
+      },
+      "operational": {
+        "covers": "The documented tests combine instruments, drilling and analysis of subsurface resources on volcanic terrain.",
+        "breaks": "Performance on Earth does not certify a lunar plant: pressure, gravity, heat transfer and soil properties all change."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: coordinate terrain reconnaissance, selection of an analysis point and data delivery for a local-resources operation.",
+        "measures": "Targets completed, location error, interventions and power use per task.",
+        "restrictions": "Use an expressly authorised area and respect cultural and environmental heritage. Precedents do not imply current access; the test does not show the presence of lunar ice."
+      },
+      {
+        "activity": "Proposal: compare instrument results on reference volcanic materials to decide which analysis best reduces uncertainty about resources.",
+        "measures": "Repeatability, differences between instruments, blank contamination and error against a known composition.",
+        "restrictions": "Prioritise collections or simulants; drilling and extraction only with authorisation. Earth moisture must not be mistaken for volatiles available at Shackleton."
+      }
+    ]
+  },
+  "mcmurdo": {
+    "_src": "3bd145e866",
+    "name": "McMurdo Dry Valleys, Antarctica",
+    "why": "Very cold, dry polar desert with frozen ground and polygons. It is compared with the subsurface ice of the Martian plains and with the extreme cold of the poles.",
+    "breakingPoint": "It is one of the most similar places in cold and dryness, but in summer there is some liquid water and air pressure is more than a hundred times that of Mars. At Shackleton, moreover, there is no atmosphere at all.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Ground with polygons formed by ice, similar to those of the northern plains of Mars.",
+        "breaks": "Its polygons form through ice cycles under a dense atmosphere. On Mars, sublimation and low pressure play a part, and seeing polygons is not enough to claim there is ice."
+      },
+      "environmental": {
+        "covers": "One of the coldest, driest places on Earth, with frozen ground and very little life.",
+        "breaks": "It gets normal sunlight, whereas the floor of Shackleton is in permanent shadow and much colder. Compared with Utopia Planitia, it lacks the radiation that reaches the Martian ground without a magnetic field."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: interpret images of frozen ground and surface patterns, separating what is observed from hypotheses about internal ice.",
+        "measures": "Patterns outlined, disagreements between observers and share of hypotheses backed by independent measurements.",
+        "restrictions": "Catalogue proposal, with no specific source for the exercise (source null). Prioritise public data; fieldwork is subject to Antarctic permits and contamination control."
+      }
+    ]
+  },
+  "mdrs": {
+    "_src": "811dee6cff",
+    "name": "Mars Desert Research Station, Utah, USA",
+    "why": "Station for simulating crewed missions to Mars on arid sedimentary terrain near Hanksville.",
+    "breakingPoint": "It simulates mission routines with suits that are not pressurised and with the option of leaving. It does not reproduce low pressure, radiation or the real communication delay.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Arid sedimentary terrain with colourful layers, ancient channels and clay soils, similar to the sediments of Jezero and Gale.",
+        "breaks": "Those layers were formed by Earth's rivers and seas and are eroded by rain today. On Mars those processes stopped billions of years ago."
+      },
+      "operational": {
+        "covers": "Full mission routines: outings in simulated suits, work in a small habitat, schedules and reports to a support team.",
+        "breaks": "The suits are not pressurised and people can leave at any time. It does not reproduce low pressure, radiation or the real communication delay."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: plan and carry out a simulated geology outing with a time budget, remote reporting and a documented return.",
+        "measures": "Targets completed, preparation and return time, report quality and compliance with abort criteria.",
+        "restrictions": "Coordinate with the station. Delay and suit rules depend on the campaign; the exercise equipment is not assumed to be pressurised or flight-ready."
+      },
+      {
+        "activity": "Proposal: simulate inventory management and habitat maintenance during a mission with defined roles and shifts.",
+        "measures": "Inventory shortfalls, pending tasks, shift handover errors and time to resolve simulated incidents.",
+        "restrictions": "Do not alter essential services or block exits. Any collection of crew data requires consent and privacy agreements."
+      }
+    ]
+  },
+  "meteor-crater": {
+    "_src": "ca6eeb0678",
+    "name": "Meteor Crater, Arizona, USA",
+    "why": "Simple, well-preserved impact crater with a raised rim and ejecta. A classic reference for comparing lunar and Martian craters.",
+    "breakingPoint": "It is 1.2 km across and about 50,000 years old. Tycho is about 85 km across, with a central peak and ejecta rays that erosion on Earth would erase.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Simple impact crater 1.2 km across, with a well-preserved raised rim and ejecta.",
+        "breaks": "Tycho is about 85 km across and has a central peak and terraced walls, typical of large craters. Its ejecta rays survive because the Moon has no erosion by air or water."
+      },
+      "operational": {
+        "covers": "Apollo program astronauts trained here to recognise impact rocks.",
+        "breaks": "They trained with air and Earth's gravity, without the suit and time limits of a lunar walk."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: recognise the rim, ejecta and impact-altered rocks and justify a set of geological observations.",
+        "measures": "Features identified, agreement with the reference map and quality of the reasons for selecting each target.",
+        "restrictions": "The USGS documents Apollo training, not this exact exercise. Access with the site managers; do not collect fragments or leave authorised routes."
+      }
+    ]
+  },
+  "mistastin": {
+    "_src": "bcd166f00f",
+    "name": "Kamestastin / Mistastin, Labrador, Canada",
+    "why": "Complex impact crater with part of its target rock made of anorthosite, useful for studying impacts and training astronauts in geology relevant to the Moon; the precedent is documented by the Canadian Space Agency.",
+    "breakingPoint": "The lake, erosion and vegetation change how rocks are exposed. Anorthosite belongs to the same rock family as the lunar crust, but does not share its full composition, history or surface maturation.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The complex impact structure allows studying the relationships between materials and landforms produced by a large impact.",
+        "breaks": "The lake, vegetation and erosion hide or modify features. It does not preserve the relief or ray system of a young lunar crater."
+      },
+      "mineralogical": {
+        "covers": "Part of the target rocks are anorthosites, a rock family relevant to studying the Moon's light-coloured crust and how impacts transformed it.",
+        "breaks": "Sharing that rock family does not match chemistry, age or the accumulated effects of impacts. Earth samples do not replace analysis of lunar material."
+      },
+      "operational": {
+        "covers": "The Canadian Space Agency documents astronaut training in recognising impact geology in this remote setting.",
+        "breaks": "Remote logistics do not reproduce lunar vacuum or gravity. A campaign needs local coordination and real support, in addition to the exercise protocols."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: plan a traverse to recognise target rocks and impact materials, prioritising context over the number of samples.",
+        "measures": "Justified stations, rock relationships correctly described and quality of location records.",
+        "restrictions": "Coordinate permits with local authorities and communities, remote support and real evacuation. This variant is not claimed to have been carried out; use archive data if there is no authorised access."
+      },
+      {
+        "activity": "Proposal: compare anorthosites and impact rocks using images and reference analyses, stating the limits of visual identification.",
+        "measures": "Classes identified, differences from the reference and share of conclusions that need further analysis.",
+        "restrictions": "Work with authorised data or samples. Do not equate all Earth anorthosite with lunar composition or remove rocks without a permit."
+      }
+    ]
+  },
+  "ollague": {
+    "_src": "dee9164772",
+    "name": "Ollagüe volcano, Bolivia–Chile",
+    "why": "Volcano with domes and lava flows, very well preserved thanks to the aridity: it is barely eroded, like Martian volcanoes. Support: suggested.",
+    "breakingPoint": "It is an Andean stratovolcano of viscous lava. Olympus Mons is an enormous shield of fluid basalt. What is similar is the low erosion, not the shape or size.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Volcano very well preserved by the aridity, with domes and lava flows almost uneroded, like Martian volcanoes.",
+        "breaks": "It is a mountain almost 6 km above sea level with steep slopes; Olympus Mons has very gentle slopes on an enormous shield. It only shares preservation by a dry climate."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: outline domes and lava flows in images and compare which features are best preserved in an arid landscape.",
+        "measures": "Unit boundaries, interpretation confidence and agreement with reviewed geological mapping.",
+        "restrictions": "F4: suggested; no specific training source (source null). Remote work preferred. Do not treat a stratovolcano as a basaltic shield or enter restricted volcanic areas."
+      }
+    ]
+  },
+  "pastos-grandes": {
+    "_src": "d504c5efc5",
+    "name": "Laguna Pastos Grandes, Sud Lípez, Bolivia",
+    "why": "Lagoon inside a volcanic caldera, fed by hot springs, with a carbonate crust and microbialites. It is compared with lakes inside craters with carbonates, such as Jezero. Difficult access. Support: studied.",
+    "breakingPoint": "It has thermal water and present-day life that keep forming carbonates. The carbonates of Jezero are billions of years old and their biological origin has not been shown.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Carbonate crust and microbialites inside a caldera, like the carbonates of a lake inside a crater.",
+        "breaks": "Its carbonates form in a lake inside a volcanic caldera. Jezero is an impact crater with a river delta, and its carbonates could have formed in other ways, for example as rocks were altered by water."
+      },
+      "environmental": {
+        "covers": "Saline high-altitude lagoon fed by hot springs, with cold, high UV and microbes.",
+        "breaks": "It has liquid water, oxygen and Earth pressure. Jezero lost its water billions of years ago."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: set up a protocol for describing carbonates and possible microbial signs, using images and published data as a reference.",
+        "measures": "Features documented, classification repeatability, false positives and traceability of each interpretation.",
+        "restrictions": "F4: studied. The exercise does not show a biological origin for carbonates on Mars. Sampling only when authorised; do not damage crusts or thermal ecosystems."
+      }
+    ]
+  },
+  "permafrost-occidental": {
+    "_src": "7110c974d6",
+    "name": "Permafrost of the Cordillera Occidental, Bolivia",
+    "why": "Above about 4,700 m there is frozen ground and ground \"sorted\" by night-time frost, a process that is compared with ground ice on Mars. Approximate location. Support: suggested.",
+    "breakingPoint": "Its ground freezes at night and thaws during the day above 0 °C. The ice of Utopia Planitia is almost always frozen, far below zero and at very low pressure.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Ground \"sorted\" into small patterns by night-time frost.",
+        "breaks": "These are small, tropical-mountain patterns. The polygons of Utopia Planitia are much larger and formed over millions of years."
+      },
+      "environmental": {
+        "covers": "Permanently frozen ground above about 4,700 m, with frost almost every night.",
+        "breaks": "During the day the surface rises above 0 °C and thaws. The ice of Utopia Planitia is almost always far below zero and at minimal pressure. Suggested analog, with no source of its own. For Utopia Planitia, the continuous permafrost of Yakutia is closer: −5 to −13 °C and about 350 m thick on average."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: design a series of ground temperature measurements that can tell daily frost apart from permanently frozen ground.",
+        "measures": "Continuity of the series, sensor depth and calibration, freezing duration and missing data.",
+        "restrictions": "F4: suggested, with an approximate location; no specific source for the exercise (source null). Verify the site and permits; one night below zero does not prove permafrost."
+      }
+    ]
+  },
+  "qaidam": {
+    "_src": "71f6d4f179",
+    "name": "Dalangtan playa, Qaidam Basin, China",
+    "why": "Closed, hyperarid basin on the Tibetan Plateau, at about 2,700 m. Of its 24 salt minerals, 6 have also been detected on Mars, and its soil contains perchlorates. It has been studied as a Mars analog since 2008 and the China Geological Survey uses it to test equipment.",
+    "breakingPoint": "Air pressure is about 709 mbar, about a hundred times that of Mars, and the mean annual temperature is 3.5 °C. Its salts formed in lakes a few million years ago; those of Mars are much older.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Yardangs, barchan dunes and polygonal salt crusts, all with counterparts on Mars; its yardangs are compared with those of Medusae Fossae. It also has ring-shaped salt structures compared with structures at the Martian north pole.",
+        "breaks": "Its yardangs are carved in sandstone by winds of up to 20–22 m/s in dense air; at Medusae Fossae the material is softer and the air much thinner. No dust storm measurements."
+      },
+      "mineralogical": {
+        "covers": "Of 24 salt minerals, 6 are also found on Mars: gypsum, starkeyite, kieserite, halite, sylvite and bischofite. There are magnesium sulfates at Dalangtan, chlorides at Qarhan, perchlorates and chlorates in the soil, and clays such as chlorite, also seen on Mars from orbit.",
+        "breaks": "It shares minerals, not their history: these are young salts from Earth lakes that rehydrate with the humidity of every early morning (over 60 %). On Mars those minerals have spent billions of years in air with almost no water."
+      },
+      "environmental": {
+        "covers": "Hyperarid: about 50 mm of rain a year against 2,590 mm of evaporation (aridity index about 0.02), with frosts below −25 °C and high UV due to the altitude. Halophiles live in its salts and lipids from bacteria and archaea have been recovered. It allows studying the limits used for Mars \"special regions\": −25 °C or above and water activity greater than 0.5.",
+        "breaks": "The mean temperature is 3.5 °C and in summer it exceeds 30 °C. Pressure is 709 mbar, 70 % of sea level, and early-morning humidity exceeds 60 %. No permafrost data or UV radiation figures."
+      },
+      "operational": {
+        "covers": "The China Geological Survey uses it to test spectroscopy and equipment. It is remote but relatively easy to reach, with its own weather station since 2012 and a 32-year record less than 50 km away.",
+        "breaks": "It is useful for engineering and instrument tests; the sources do not describe crewed simulations. There are no documented caves, and gravity and air are Earth's."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Test spectrometers and other instruments on salts that also exist on Mars (gypsum, kieserite, halite), as the China Geological Survey does.",
+        "measures": "Which minerals the instrument identifies, compared with laboratory analysis of the same samples.",
+        "restrictions": "The salts rehydrate with the early-morning humidity (over 60 %): record the time and humidity of each measurement."
+      },
+      {
+        "activity": "Engineering tests of equipment and vehicles for future missions at a remote but relatively accessible site, over salt crusts, dunes and yardangs.",
+        "measures": "Performance in winds of up to 20–22 m/s and daily swings of 15–20 °C, compared with the site's weather station.",
+        "restrictions": "Gravity and pressure (709 mbar) are Earth's; there are no dust storm measurements."
+      },
+      {
+        "activity": "Study on site the limits of Mars \"special regions\" (−25 °C or above and water activity greater than 0.5) and the life that survives inside the salts.",
+        "measures": "Temperature, humidity and water activity in the salts; presence of halophiles and of lipids from bacteria and archaea.",
+        "restrictions": null
+      }
+    ]
+  },
+  "ries-crater": {
+    "_src": "bb8c1773cb",
+    "name": "Nördlinger Ries crater, Germany",
+    "why": "Impact structure used in geology training for astronauts, including PANGAEA. It allows recognising impact-fragmented and impact-melted materials and relating them to their position in the terrain.",
+    "breakingPoint": "Erosion, later infilling and human activity have modified the crater. Its target rocks and scale differ from Tycho; it does not reproduce intact lunar ejecta or vacuum conditions.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The impact structure and deposits allow relating excavated materials, deformation and location inside and outside the crater.",
+        "breaks": "The relief is eroded and partly infilled. Its scale and target rocks are not equivalent to those of Tycho and do not allow inferring its processes from resemblance alone."
+      },
+      "mineralogical": {
+        "covers": "Fragmented rocks with melted material allow recognising the products of an impact and telling them apart from rocks without that transformation.",
+        "breaks": "The minerals depend on Earth target rocks. The presence of melt does not imply the same composition as lunar deposits."
+      },
+      "operational": {
+        "covers": "PANGAEA uses the crater for geology training: reading the terrain, selecting observations and relating samples to context.",
+        "breaks": "The practice happens with Earth outcrops and access. It does not reproduce moving in a pressurised suit or the risks of a full lunar mission."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: select observations that tell excavated, fragmented and melted material apart, and communicate their context to the science team.",
+        "measures": "Correct identifications against a reference, documented samples or images and quality of the scientific justification.",
+        "restrictions": "The PANGAEA precedent does not prove this exact protocol. Observation or authorised collections; do not enter quarries or remove material without a permit."
+      },
+      {
+        "activity": "Proposal: classify images of impact rocks and check the hypotheses against reference petrographic descriptions.",
+        "measures": "Accuracy per class, false positives and cases that need microscopy or further analysis.",
+        "restrictions": "Use collections of known provenance. Visual texture is not enough to identify a mineral or to infer Tycho's composition."
+      }
+    ]
+  },
+  "rio-tinto": {
+    "_src": "e89599a9f7",
+    "name": "Río Tinto, Spain",
+    "why": "Acidic, iron-rich waters with iron sulfates, comparable to the sulfates and chemical alteration of Meridiani Planum.",
+    "breakingPoint": "Its acidity is kept up by running water, iron-oxidising microbes and ancient mining. At Meridiani the acidic water disappeared billions of years ago.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Acidic, iron-rich water that forms iron sulfates such as jarosite, a mineral the Opportunity rover found at Meridiani.",
+        "breaks": "Besides jarosite, Meridiani's rocks contain hematite spherules and basaltic sand cemented over billions of years. Río Tinto does not reproduce that mixture."
+      },
+      "environmental": {
+        "covers": "Microbes that live in very acidic, metal-laden water: it shows that life tolerates extreme chemical conditions.",
+        "breaks": "There is running water, oxygen and a mild temperature. Meridiani today is dry, cold and exposed to radiation without protection."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: identify iron minerals in reference spectra and review what other measurements are needed to interpret an acidic environment.",
+        "measures": "Accuracy per mineral, false positives and consistency with available pH and chemical analyses.",
+        "restrictions": "Catalogue proposal with no specific source for the exercise (source null). Use authorised data or samples; do not handle acidic water without a laboratory and specialised staff."
+      }
+    ]
+  },
+  "sajama": {
+    "_src": "45e249fe92",
+    "name": "Sajama volcano, Bolivia",
+    "why": "High-altitude volcanic terrain, with slopes and cold, for testing battery start-up, stability and rover field procedures. A candidate based on processes: not all its materials are basaltic and each sector needs checking.",
+    "breakingPoint": "It tests batteries and slopes in cold and altitude, but not in the extreme cold or pressure of Mars. Not all its materials are basaltic like those of Olympus Mons.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Volcanic slopes with loose rocks of different sizes and natural obstacles.",
+        "breaks": "Not all its materials are basaltic and the volcano is much smaller than Olympus Mons. Each sector needs checking."
+      },
+      "environmental": {
+        "covers": "High-altitude cold, frost, seasonal snow and high UV radiation.",
+        "breaks": "There is oxygen, pressure is tens of times that of Mars and the cold is moderate compared with the Martian mean temperature of about −59 °C."
+      },
+      "operational": {
+        "covers": "Tests of rovers and equipment in cold and altitude: battery start-up, slopes, stability and field procedures.",
+        "breaks": "The cold does not reach Martian extremes and the pressure is tens of times higher. The altitude is a medical risk for the team, not a simulation of Mars."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: compare battery start-ups and short traverses over known slopes, keeping load and configuration constant.",
+        "measures": "Initial temperature and voltage, start-up time, energy per metre, slip and stability.",
+        "restrictions": "F2, section 4.4: a candidate based on processes; no specific campaign source (source null). Manufacturer's battery limits, authorised track and rollover protection; avoid high-Andean wetlands and heritage sites."
+      },
+      {
+        "activity": "F2 proposal: practise handling instruments with gloves from an unpressurised prototype on a table or authorised track.",
+        "measures": "Task time, errors, dropped objects and reported comfort, compared with a baseline without those gloves.",
+        "restrictions": "F2, sections 4.4 and 8; no specific source for the exercise (source null). Do not use people to test extreme cold or reduced pressure. A dexterity test does not certify an EVA suit."
+      }
+    ]
+  },
+  "sajama-hielo": {
+    "_src": "fa7d16d080",
+    "name": "Sajama glacier, Bolivia",
+    "why": "Ice cores holding thousands of years of climate history were drilled from these glaciers. It is a conceptual analog of the ice and dust layers at the poles of Mars, which also keep a record of climate. Support: suggested.",
+    "breakingPoint": "It is a climate archive spanning thousands of years, formed by snow that also melts. The layers of Planum Boreum mix ice and dust over millions of years, following changes in the tilt of Mars's axis.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Ice layers that hold a climate archive: its cores record about 25,000 years.",
+        "breaks": "It is compacted snow in a mountain glacier that also melts. Planum Boreum accumulates layers of ice and dust over millions of years."
+      },
+      "environmental": {
+        "covers": "Ice at high altitude, with cold, dry air and intense solar radiation.",
+        "breaks": "At Planum Boreum the temperature is much lower, the pressure is a few hundred pascals and the ice is lost by sublimation."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: interpret published ice-core profiles and work out which environmental changes could explain their layers.",
+        "measures": "Layers recognised, time uncertainty and agreement with the study's chronology and measurements.",
+        "restrictions": "F4: suggested as an analog. The cited work refers to the Sajama ice cores. Use archives, with no new drilling or entry onto glaciers."
+      }
+    ]
+  },
+  "salares-capas": {
+    "_src": "e2495a0a17",
+    "name": "Uyuni and Coipasa salt flats, Bolivia — layers",
+    "why": "Layers of salt and gypsum mark dry periods, and mud layers with microfossils mark wet periods. It is an archive of past climate, like the layers of Mount Sharp in Gale crater. Support: studied.",
+    "breakingPoint": "Its layers record tens of thousands of years of Earth's climate. Those of Mount Sharp span vastly more time and formed on a Mars with water that no longer exists.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Alternating layers of salt, gypsum and mud that record dry and wet periods, like the layers of Mount Sharp.",
+        "breaks": "These are almost horizontal layers in a flat basin; Mount Sharp is a mountain of layers about 5 km high that the wind has eroded. What is compared is how the layers are read, not their shape."
+      },
+      "mineralogical": {
+        "covers": "Halite and gypsum in the dry layers and mud with microfossils in the wet ones.",
+        "breaks": "Gale has clays and sulfates in ancient rock; an exact mineral comparison requires analysis."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: build a column of layers from authorised profiles and images and explain the alternation between lake sediments and salt deposits.",
+        "measures": "Correct order of layers, documented contacts, quality of the diagram and separation between observations and hypotheses.",
+        "restrictions": "F4: studied for the site; method from F2. No specific training source (source null). Do not drill or remove material without a permit; do not assign minerals by colour."
+      }
+    ]
+  },
+  "salda": {
+    "_src": "e1690dcab9",
+    "name": "Lake Salda, Turkey",
+    "why": "Lake with carbonates and sediments that is compared with the ancient lake and delta of Jezero crater.",
+    "breakingPoint": "It is an active lake, with water and life that keep forming carbonates. Jezero's lake disappeared more than 3 billion years ago.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Deltas and shorelines of a lake, landforms that Jezero's ancient lake also has.",
+        "breaks": "It is a lake with water; Jezero's delta is ancient rock that the wind has been eroding for billions of years."
+      },
+      "mineralogical": {
+        "covers": "Magnesium carbonates and sediments similar to those of Jezero; the Perseverance team used it to prepare the mission.",
+        "breaks": "Its carbonates form today with the help of living microbes. Those of Jezero are ancient and their biological origin has not been shown."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare shoreline deposits and carbonates in maps and images and draw up an observation plan applicable to an ancient lake.",
+        "measures": "Units recognised, justified targets and agreement with reference mineral analyses.",
+        "restrictions": "The link with Jezero supports the context, not that this protocol has been carried out. Protect shorelines and deposits; observing Earth life does not show life on Mars."
+      }
+    ]
+  },
+  "siloli": {
+    "_src": "b1ea1bc1e1",
+    "name": "Siloli Desert and the Árbol de Piedra, Bolivia",
+    "why": "Cold desert above 4,500 m with wind-sculpted rocks; the Árbol de Piedra (\"Stone Tree\") is a ventifact about 7 m tall. It is used to compare wind erosion on Mars. Support: proposed.",
+    "breakingPoint": "The wind sculpts its rocks with the help of ice and occasional water. On Mars the air is more than a hundred times thinner and the wind needs much higher speeds to move sand.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Wind-sculpted rocks, such as the Árbol de Piedra, a ventifact about 7 m tall.",
+        "breaks": "Its ventifacts are isolated rocks a few metres tall. Medusae Fossae is a continuous, soft deposit carved into ridges kilometres long: a different scale and material. For the yardangs of Medusae Fossae there are more direct analogs, such as those of the Qaidam Basin."
+      },
+      "environmental": {
+        "covers": "Cold desert above 4,500 m, dry and with high UV radiation.",
+        "breaks": "There is oxygen and life, and pressure is tens of times that of Mars. Medusae Fossae is much colder."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: test 3D reconstruction and obstacle detection with images of eroded rocks under different shadows.",
+        "measures": "Depth error, obstacles missed, false alarms and percentage of virtual routes completed.",
+        "restrictions": "F4: proposed; method from F2, section 8. No specific source for the exercise (source null). Use authorised images or replicas; do not use the Árbol de Piedra as a test track."
+      }
+    ]
+  },
+  "sol-de-manana": {
+    "_src": "2d32b6673e",
+    "name": "Sol de Mañana, Sud Lípez, Bolivia",
+    "why": "Field of fumaroles, mud pots and hot springs at about 4,900 m. It is used to study acidic hydrothermal alteration at low pressure and high UV radiation. Dangerous: the crust is thin. Support: suggested.",
+    "breakingPoint": "It has acidic alteration and high UV, but with active water and volcanic gases at Earth pressure. Home Plate is an extinct and very ancient deposit.",
+    "aspects": {
+      "mineralogical": {
+        "covers": "Acidic hydrothermal alteration: fumaroles, boiling mud and minerals formed by gases and hot water.",
+        "breaks": "It is an active system at Earth pressure. Home Plate is an extinct, very ancient, silica-rich deposit."
+      },
+      "environmental": {
+        "covers": "Hot water and gases at about 4,900 m, with intense UV radiation and low pressure for Earth.",
+        "breaks": "Even so, the pressure is tens of times that of Mars. It is dangerous: the crust is thin and you can fall into boiling mud."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: define remote observation stations to recognise hydrothermal alteration and separate safe targets from exclusion zones.",
+        "measures": "Image coverage, risks missed, identification confidence and additional measurements needed to confirm minerals.",
+        "restrictions": "F4: suggested; F2 rules out operations at fumaroles. No specific training source (source null). Do not step onto fragile crusts, mud or gases; use existing data or authorised points."
+      }
+    ]
+  },
+  "sp-mountain": {
+    "_src": "14a56e04d5",
+    "name": "SP Mountain and its lava flow, Arizona, USA",
+    "why": "Volcanic cone and lava flow used to study planetary processes and practise geological interpretation. It complements the lunar maria with volcanic landforms and the test fields with traverses.",
+    "breakingPoint": "The cone and flow formed with Earth's air and gravity. They do not represent a whole lunar mare or a giant Martian volcano; ash, soils and erosion can hide the contacts.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The cone and flow allow recognising an eruptive vent and relating it to volcanic surfaces and contacts.",
+        "breaks": "A cinder cone on Earth is not the same as a lunar dome or the shield of Olympus Mons. Gravity, scale and preservation all change."
+      },
+      "operational": {
+        "covers": "The field guide allows practising observation, mapping and traverse decisions in a volcanic landscape.",
+        "breaks": "Interpreting outcrops with Earth's air and gravity does not validate equipment for vacuum. Access and traverses need authorisation from the landowner."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: relate the cone, the flow and the visible contacts to reconstruct a sequence of events and explain it to the remote team.",
+        "measures": "Contacts recognised, correct time relationships, quality of the sketch and clarity of the report.",
+        "restrictions": "Use the guide and authorised points. Do not collect samples or cross private property without permission; adapt the route to stability and accessibility."
+      },
+      {
+        "activity": "Proposal: check an image-based map against a field-reviewed reference and evaluate how routes change when uncertain contacts are recognised.",
+        "measures": "Agreement of units, contacts missed, stated uncertainty and planning interventions.",
+        "restrictions": "Prefer data or replicas; real mobility only on an authorised track. Do not transfer Earth traction directly to the Moon or Mars."
+      }
+    ]
+  },
+  "sud-lipez": {
+    "_src": "40f1b5cb71",
+    "name": "Eduardo Avaroa Reserve, Sud Lípez, Bolivia",
+    "why": "Mosaic of sand, gravel, volcanic rocks and lagoons for testing rover suspension, slip and navigation without GPS. It is a protected area: it requires permits and fumaroles and sensitive lagoons are off limits. Approximate location. Support: proposal from the F2 report.",
+    "breakingPoint": "It tests suspension and navigation without GPS, but with Earth's gravity, air and soils. Martian regolith has a different grain size and cohesion.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Mosaic of sand, gravel, volcanic rocks, lagoons and wind-eroded relief.",
+        "breaks": "Its relief was shaped by water, ice and volcanoes on Earth. Comparing compositions requires studying the rocks of each sector."
+      },
+      "environmental": {
+        "covers": "Altitude, cold nights, large temperature swings and intense sunlight.",
+        "breaks": "Dust devils on Earth are not equivalent to those on Mars, and pressure and oxygen are Earth's."
+      },
+      "operational": {
+        "covers": "A varied field for testing rover suspension, slip, navigation without GPS and complete geological missions.",
+        "breaks": "Earth's gravity and air, and soils different from Martian regolith in grain size and cohesion. It is a protected area: permits are required."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: repeat traverses over firm ground, gravel and authorised obstacles with a constant mission profile.",
+        "measures": "Slip, energy per metre, interventions, total time and recovery success after a simulated link loss.",
+        "restrictions": "F2, section 4.3: a proposal with no specific campaign source (source null). Reserve permits; exclude fumaroles, shorelines, vegetation and wildlife. Stop if safety conditions change."
+      },
+      {
+        "activity": "F2 proposal: prioritise geology stations and coordinate observations with a remote team using a defined artificial delay.",
+        "measures": "Report quality, tasks completed, decision time, return and workload.",
+        "restrictions": "F2, sections 4.3 and 8; no specific source for carrying it out (source null). Safety channel without delay, real support and altitude assessment; do not improvise an EVA with experimental life support."
+      }
+    ]
+  },
+  "tajzara": {
+    "_src": "b9824a19bd",
+    "name": "Tajzara dunes, Tarija, Bolivia",
+    "why": "High-altitude dunes, useful for studying sand movement in a cold, dry environment. No microbiological studies yet. Support: proposed.",
+    "breakingPoint": "Its dunes move with the wind in dense air. At Medusae Fossae the wind blows in much thinner air and the material is finer and softer.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "High-altitude sand dunes that the wind moves and reshapes.",
+        "breaks": "At Medusae Fossae the dominant process is the erosion of a soft deposit into ridges (yardangs), not dunes, and the Martian air is much thinner."
+      },
+      "environmental": {
+        "covers": "Cold, dry high-altitude setting, with no microbiological studies yet.",
+        "breaks": "It has oxygen, Earth pressure at altitude and nearby lagoons. Without studies, the environmental analogy is a proposal."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: compare repeat profiles and images of dunes to estimate changes in shape and sand movement.",
+        "measures": "Displacement with uncertainty, profile changes, interval between observations and recorded wind conditions.",
+        "restrictions": "F4: proposed; no specific training source (source null). Prefer images or authorised points; do not extrapolate Earth wind directly to Mars or disturb dunes and wetlands."
+      }
+    ]
+  },
+  "tata-sabaya": {
+    "_src": "87ee1f71a0",
+    "name": "Tata Sabaya volcano, Oruro, Bolivia",
+    "why": "About 12,000 years ago its flank collapsed and formed a debris avalanche that left mounds, now \"islands\" in the Coipasa salt flat. It is an analog of volcanic collapses and of the large landslides of Mars. Support: suggested.",
+    "breakingPoint": "Its collapse, about 12,000 years ago, happened on a small Andean volcano. The large landslides of Valles Marineris and the flanks of Olympus Mons are on a much larger scale.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Debris avalanche of about 6 km³ that covered 230–300 km² and left mounds, like the large landslides of Mars.",
+        "breaks": "The landslides of Valles Marineris travel tens of kilometres and the flanks of Olympus Mons are much larger. Earth's gravity changes how an avalanche moves."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: map the mounds and edges of the avalanche deposit on an elevation model and test hypotheses of slope movement.",
+        "measures": "Area outlined, dimensions with uncertainty and agreement with the deposit described in the study.",
+        "restrictions": "F4: suggested as an analog; the study supports the Earth geology. Do not equate scale and gravity with Mars. Use remote data before any authorised campaign."
+      }
+    ]
+  },
+  "tolbachik": {
+    "_src": "38570c7ca4",
+    "name": "Tolbachik volcano, Kamchatka, Russia",
+    "why": "Active volcanic complex with cinder cones, lava fields, lava tubes and permafrost inside volcanic deposits. Its cones have been compared with possible volcanic cones in northern Mars and its scoria has a texture close to that of Martian regolith. Coordinates of its permafrost monitoring station. UNESCO World Heritage site: permits required.",
+    "breakingPoint": "It is an active volcano, with up to 2 m of snow and permafrost around 0 °C at 1,100 m altitude. The volcanoes of Tharsis went extinct long ago and Martian ground is far below 0 °C, in 0.38 times Earth's gravity.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "The 1975–76 eruption covered about 500 km² with scoria and ash and formed three new cones and lava fields; its cones have been compared with 14 possible volcanic cones in northern Mars. It has lava tubes, the most likely type of cave on Mars, and ash-covered glaciers studied as an analog of Martian glaciers.",
+        "breaks": "These are recent cones and flows, small compared with Tharsis, and the comparison is one of shape: it does not confirm that those Martian cones are volcanic. Its largest cave, Shokoladnaya, is 339 m long; Martian tubes are thought to be much larger."
+      },
+      "mineralogical": {
+        "covers": "Highly porous basaltic scoria, with a texture close to that of Martian regolith and very low thermal conductivity: 0.17 W/m·K dry and 0.44 W/m·K at 45 % moisture.",
+        "breaks": "The tubes from the 2012–13 eruption contain unusual mineral formations, but without quantitative data. The scoria is similar in texture; these sources have not compared its composition with that of Martian regolith."
+      },
+      "environmental": {
+        "covers": "Permafrost inside scoria and ash: a frozen layer 12 to 16 m thick, with mean temperatures of 0 to −1 °C at 1,100 m and about −7 °C at 2,600 m. Viable microbes and methane were found in this volcanic permafrost (about 1,100–1,900 µl of CH₄ per kg of sample).",
+        "breaks": "It is warm permafrost, close to 0 °C, with more than 2 m of snow in forested areas and dense air; the ground on Mars is far below zero. No data on light or dust: there is no polar night and no dust storms, only ash falling on the snow."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Monitor permafrost inside volcanic deposits with boreholes and temperature loggers, as at its station at 1,330 m.",
+        "measures": "Ground temperature at different depths and altitudes (loggers between 800 and 3,075 m) and active-layer thickness.",
+        "restrictions": "UNESCO World Heritage site and protected area: access requires permits."
+      },
+      {
+        "activity": "Practise 3D mapping of lava tubes and volcanic caves, like the topographic model of the Luch-2 tube.",
+        "measures": "Accuracy of the 3D model and of the traverse; for reference, Shokoladnaya cave is 339 m long and 25 m deep.",
+        "restrictions": "Active volcano and protected area: access with permits."
+      },
+      {
+        "activity": "Measure the thermal properties of the scoria, whose texture is similar to that of Martian regolith.",
+        "measures": "Thermal conductivity depending on moisture: 0.17 W/m·K dry and 0.44 W/m·K at 45 % moisture.",
+        "restrictions": null
+      }
+    ]
+  },
+  "torotoro": {
+    "_src": "1292f92b1f",
+    "name": "Torotoro National Park, Bolivia",
+    "why": "Canyon 250–300 m deep with exposed sedimentary layers, for training in reading strata and interpreting images, as rover teams do. An analogy of method: its origin is fluvial, not tectonic like Valles Marineris. Support: suggested.",
+    "breakingPoint": "It is useful for training in reading layers, but its canyon is fluvial and about 300 m deep. Valles Marineris is tectonic and reaches 7 km in depth.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Canyon 250–300 m deep with layers of shale, sandstone and limestone, and a large fold (syncline).",
+        "breaks": "Its origin is fluvial and its scale small: Valles Marineris is tectonic and reaches about 7 km in depth. The rocks of Gale have a different age and composition."
+      },
+      "operational": {
+        "covers": "Training in reading strata: identifying layers and contacts and photographing them with a scale, as rover teams do.",
+        "breaks": "It is an analogy of method, not of rocks. The protection of its fossil footprints limits physical work and sampling."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: describe contacts between layers with photographs and send an interpretation to the remote team within an allotted time.",
+        "measures": "Contacts recognised, complete reports, decision time and agreement with a specialist-reviewed reference.",
+        "restrictions": "F4: suggested; F2, section 4.6. No specific source for carrying it out (source null). Strict protection of fossils and formations; no extraction and no leaving authorised trails."
+      },
+      {
+        "activity": "F2 proposal: evaluate strata segmentation and route planning on photographs or a validated digital model.",
+        "measures": "Strata precision and recall, map error, simulated collisions and routes completed.",
+        "restrictions": "F2, section 4.6; no specific source for the exercise (source null). Do not drive over heritage sites. A visual model does not prove real climbing ability or geological equivalence with Mars."
+      }
+    ]
+  },
+  "umajalanta": {
+    "_src": "e5d0dc8fef",
+    "name": "Umajalanta Cave, Torotoro, Bolivia",
+    "why": "The longest cave in Bolivia (about 4.6 km). It is used to practise underground navigation, communications and mapping. It is a limestone cave, not a lava tube: the analog is operational, not geological. Support: suggested.",
+    "breakingPoint": "It is a limestone cave dissolved by water, not a lava tube. It is useful for practising underground navigation and communications, not for studying the geology of Marius Hills.",
+    "aspects": {
+      "operational": {
+        "covers": "Underground navigation, communications and mapping in a cave about 4.6 km long.",
+        "breaks": "Its passages are narrow, wet and have an underground river; a lunar tube would be dry, airless and perhaps much wider. Equipment and routes tested here must be adapted to those differences. For practising in real lava tubes there are volcanic analogs such as Tolbachik, in Kamchatka."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Proposal: evaluate navigation without GNSS and mapping of underground passages on a digital model or replica of the cave.",
+        "measures": "Map error, tracking losses, coverage, link recovery and simulated collisions.",
+        "restrictions": "F4: suggested; no specific source for the exercise (source null). Prioritise models; fieldwork only with authorisation and specialists. A limestone cave does not reproduce a lunar lava tube."
+      }
+    ]
+  },
+  "uyuni": {
+    "_src": "766b2d62a1",
+    "name": "Salar de Uyuni, Bolivia",
+    "why": "A single salt flat that supports several comparisons with Mars. Its salt crusts, brines and clays resemble Aureum Chaos (proposed by NASA), and its chlorides have been compared with those of Icaria Planum (UMSA, EPSC 2024). Its lithium- and magnesium-rich brines host salt-adapted microbes (studied). Its natural salt polygons, 1–2 m across, form by brine convection, not by ice (Physical Review X, 2023). Its flat, repetitive surface is useful for testing rover navigation (proposal from the F2 report). No perchlorates are attributed to it without local analysis.",
+    "breakingPoint": "It floods with rainwater every year at Earth pressure and its salt is recent: Aureum Chaos and Icaria Planum have been dry and frozen for billions of years. Its brines are abundant and mild; those of Mars, if they exist, would be scarce, temporary and very cold. Its polygons come from the brine, not from ice, and no perchlorates are attributed to it without local analysis.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Natural polygons 1–2 m across in the crust, formed by brine convection beneath the surface: a counterexample of polygons without ice.",
+        "breaks": "It does not represent the ice polygons of Utopia Planitia. It is useful for not confusing causes, especially in salt deposits such as those of Icaria Planum. The polygonal salt crusts of Qaidam (China) allow comparing the same phenomenon in another salt flat."
+      },
+      "mineralogical": {
+        "covers": "Salt crusts, brines and hydrated clays that NASA compares with Aureum Chaos, and chlorides formed by evaporation that UMSA researchers compared with those of Icaria Planum. Its brines contain chlorides and lithium and magnesium salts.",
+        "breaks": "No perchlorates are attributed to it without local analysis, and its salt is recent: the deposits of Aureum Chaos, Icaria Planum and Meridiani are billions of years old. The chlorides of Icaria Planum are detected from orbit, so the comparison depends on what those instruments can see. Perchlorates have been detected in the soil of Dalangtan (Qaidam, China)."
+      },
+      "environmental": {
+        "covers": "Night-time cold, dry air and high UV radiation over a salt surface. Its lithium- and magnesium-rich brines contain salts that destabilise biomolecules and still host microbes even 80 m deep.",
+        "breaks": "There is oxygen, pressure is tens of times that of Mars and it floods with rainwater every year. Its microbes grow at Earth temperature and pressure; to know whether they would survive on Mars they would need to be exposed in the laboratory to extreme cold, low pressure and radiation. For Mars, −25 °C or above and water activity greater than 0.5 are used as reference; those values would need to be measured at Uyuni."
+      },
+      "operational": {
+        "covers": "Flat, repetitive surface for testing a rover's visual localisation, mapping and crust detection.",
+        "breaks": "Meridiani has sand ripples and spherules. The crust can hide brine or soft areas, and salt corrodes contacts and equipment."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: plan non-invasive observations of deposits and crusts within a time budget, with remote science support.",
+        "measures": "Targets completed, quality of photographs and records, return time and risks correctly identified.",
+        "restrictions": "F4: proposed by NASA for the site; F2, section 4.1. No specific source for the exercise (source null). Authorised sectors and an assessed crust; do not drill or assume uniform firmness."
+      },
+      {
+        "activity": "F2 proposal: evaluate changes in test specimens of covers and connectors exposed to the salty environment, comparing them with protected controls.",
+        "measures": "Salt deposited, change in transmittance, contact resistance and damage after a defined cleaning.",
+        "restrictions": "F2, sections 4.1 and 8; no specific campaign source (source null). Retrievable specimens, without releasing materials or soiling the salt flat. It is not equivalent to abrasion by lunar dust and does not certify a suit."
+      },
+      {
+        "activity": "Proposal: reproduce a cartographic comparison of chlorides using orbital images and explain the similarities and differences between Uyuni and Icaria Planum.",
+        "measures": "Deposit boundaries, agreement between observers, resolution uncertainty and spectral evidence for each classification.",
+        "restrictions": "The conference abstract supports the comparison, not a full identity. Do not infer perchlorates or life; use the original coordinates and data, without carrying over unverified figures."
+      },
+      {
+        "activity": "F2 proposal: drive an inspected route using a camera and IMU, keeping GNSS as an external evaluation reference.",
+        "measures": "Lateral and final error, drift per distance, tracking losses and energy per metre.",
+        "restrictions": "F2, section 4.1; no specific source for a completed test (source null). Do not degrade safety communications; check the crust, light and humidity. Do not drive through water or uncertain sectors."
+      },
+      {
+        "activity": "F2 proposal: classify images of crusts and evaluate whether the system recognises uncertainty and asks to stop before moving on.",
+        "measures": "False negatives for unsafe ground, false alarms, stopping time and correct requests for help.",
+        "restrictions": "F2, sections 4.1 and 8; no specific source for the exercise (source null). Use a labelled dataset or a replica track; do not check errors by driving towards dangerous crusts."
+      },
+      {
+        "activity": "Proposal: measure the size and spacing of polygons in images and weigh explanations by brine, ice or contraction without deciding from shape alone.",
+        "measures": "Size distribution, scale uncertainty and the independent evidence needed for each hypothesis.",
+        "restrictions": "F4: studied for the salt-polygon mechanism. The study does not show the cause of each local polygon or of the Martian ones. Do not dig trenches or disturb crusts."
+      },
+      {
+        "activity": "Proposal: practise recording, blanks and traceability for a brine study using artificial samples of known composition.",
+        "measures": "Labelling errors, contaminated blanks, recovery of known components and complete records.",
+        "restrictions": "F4: studied for the site; method from F2, section 4.7. No specific source for the exercise (source null). Do not attribute perchlorates to Uyuni or present-day water to RSL; no unauthorised extraction."
+      }
+    ]
+  },
+  "valle-de-la-luna": {
+    "_src": "73abf3e08a",
+    "name": "Valle de la Luna, Mallasa, La Paz, Bolivia",
+    "why": "Gullies, pinnacles and shadows for practising photogrammetry, 3D mapping and rover navigation. Digital models are recommended: the formations are fragile. Similar relief does not imply the same origin. Support: methodological candidate (F2).",
+    "breakingPoint": "It is useful for practising 3D mapping, but its relief was shaped by rain on soft clays. Gale has no rain today and its relief is much older.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Relief eroded into gullies and pinnacles in soft sediments.",
+        "breaks": "Its pinnacles are a few metres tall and fragile; the landforms of Gale are made of harder, older rock. It is useful for practising how relief looks, not for understanding how it formed."
+      },
+      "operational": {
+        "covers": "Gullies, pinnacles and shadows for practising photogrammetry, 3D mapping and obstacle detection.",
+        "breaks": "The formations are fragile: digital models or replicas are advisable. It does not reproduce the light, dust or gravity of Mars."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "F2 proposal: build a digital model from authorised photographs and test edge detection and routes between gullies.",
+        "measures": "Reconstruction error, obstacles missed, false detections caused by shadows and virtual routes completed.",
+        "restrictions": "F2, section 4.5: methodological candidate with no specific source for carrying it out (source null). Do not use the original formations as a track; work with digital twins or replicas."
+      },
+      {
+        "activity": "F2 proposal: interpret slopes and erosional landforms from images and explain which observations allow telling geological processes apart.",
+        "measures": "Risks recognised, quality of hypotheses, photographic references and reporting time.",
+        "restrictions": "F2, section 4.5; no specific source for the exercise (source null). Only permitted trails and observations; the site's name does not imply lunar geology."
+      }
+    ]
+  },
+  "yakutia": {
+    "_src": "588ea928b7",
+    "name": "Central Yakutia, Lena River basin, Russia",
+    "why": "Very ice-rich permafrost, with thermokarst, thaw lakes and ice wedges. Its depressions along the banks of the Lena are compared with the scalloped depressions left by the sublimation of subsurface ice in Utopia Planitia. Approximate location (Yakutsk).",
+    "breakingPoint": "Its depressions form when ice melts and the water escapes; in Utopia Planitia the ice sublimates, turning straight into gas. In addition, in summer Yakutia reaches about 38 °C and has rivers with unfrozen ground beneath them.",
+    "aspects": {
+      "geomorphological": {
+        "covers": "Thermokarst (ground subsiding as it loses ice) across about half of Yakutia, with lakes, ice wedges and depressions along the Lena compared with the scalloped depressions of Utopia Planitia.",
+        "breaks": "In Yakutia the depressions form by thawing, with liquid water; in Utopia, by sublimation: the shape is similar, not the process. Beneath its rivers there are taliks, unfrozen ground, something not known in Utopia Planitia. No mineral data."
+      },
+      "environmental": {
+        "covers": "One of the coldest inhabited places on Earth: a record −67.7 °C near Oymyakon and continuous permafrost at −5 to −13 °C. Siberian permafrost is about 350 m thick on average (up to 1,450 m) and up to 50 % ice between the grains; in northeastern Siberia it has been frozen for more than 3 million years.",
+        "breaks": "In summer it reaches about 38 °C (a swing of more than 100 °C over the year) and the ground thaws down to 1.5–4 m; Mars is cold all year round, with a pressure of a few hundred pascals. No documented analog for dust."
+      }
+    },
+    "trainings": [
+      {
+        "activity": "Compare the thermokarst and the depressions along the Lena with images of the scalloped depressions of Utopia Planitia.",
+        "measures": "Shape, size and orientation of the depressions and ice content of the ground.",
+        "restrictions": "They form by thawing, not by sublimation: the shape is compared, not the process."
+      },
+      {
+        "activity": "Study how very ice-rich permafrost responds to temperature changes.",
+        "measures": "Permafrost temperature (−5 to −13 °C), active-layer thickness (1.5–4 m) and air warming trend (0.03 °C per year).",
+        "restrictions": null
+      }
+    ]
+  }
+}

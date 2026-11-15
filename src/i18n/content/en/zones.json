@@ -1,1 +1,242 @@
-{}
+{
+  "mars-aureum-chaos": {
+    "_src": "4c2a4c2ac3",
+    "name": "Aureum Chaos",
+    "zoneType": "Chaotic terrain",
+    "description": "Terrain of sunken, fractured blocks, interpreted as the collapse of the subsurface after water or ice was released.",
+    "geology": "Region of blocks, mesas and depressions that make up chaotic terrain. One interpretation links its collapse to the subsurface losing support as water or ice moved. Some light-toned outcrops contain clay minerals detected from orbit.",
+    "environment": "Today it is a dry landscape with uneven ground and accumulations of sand. Wind can reshape the surface deposits. The clays record ancient interaction between water and rock; on their own they do not indicate liquid water in the terrain today.",
+    "exploration": "The HRSC camera and the OMEGA instrument on Mars Express studied its relief and mineralogy. HiRISE images from the Mars Reconnaissance Orbiter show outcrops and small landforms in more detail. The information in this profile comes from orbital observation.",
+    "importance": "It helps reconstruct past episodes of collapse and water circulation. The comparison with salt basins on Earth focuses on specific deposits and geochemical processes, without turning an entire salt flat into a replica of the chaotic terrain."
+  },
+  "mars-deuteronilus-mensae": {
+    "_src": "c9140da3a4",
+    "name": "Deuteronilus Mensae",
+    "zoneType": "Mesas with debris-covered glaciers",
+    "description": "Region of mesas and valleys between the highlands and the northern plains. At the foot of the mesas there are glaciers of ice covered by a layer of rock and dust.",
+    "geology": "Region of mesas and valleys in the transition between the highlands and the northern plains. The lobate deposits at the foot of some slopes contain abundant water ice under a cover of rock and dust. Their shape and structure are consistent with debris-covered glaciers.",
+    "environment": "The cold helps preserve the buried ice, while the debris cover limits its loss by sublimation. The amount of ice and the thickness of the cover vary between deposits. A smooth or lobate appearance is not enough to calculate the ice in each sector.",
+    "exploration": "The SHARAD radar on the Mars Reconnaissance Orbiter detected ice deposits in the region. Mars Express provided images of the relief and of traces of glacial activity. These are orbital results, with no samples taken from these glaciers.",
+    "importance": "It allows investigating how the distribution of ice changed with the climate and how ice is preserved away from the poles. Andean rock glaciers offer comparisons of shape and cover, with Earth processes and conditions that must be evaluated separately."
+  },
+  "mars-eberswalde": {
+    "_src": "8b3ddfc0d8",
+    "name": "Eberswalde Crater",
+    "zoneType": "Crater with a preserved river delta",
+    "description": "Crater that preserves an ancient delta, with branching channels and layers deposited when water carried sediment into a lake.",
+    "geology": "The delta preserves a network of distributary channels, meanders of old riverbeds and layers of sediment. Some channels now stand above the surrounding ground because of differential erosion. These landforms support the interpretation of a river flowing into an ancient body of water.",
+    "environment": "Today it is a dry landscape with exposed deposits modified by erosion. Light and shadow on the layers change with the relief and the time of observation. The delta records an ancient watery environment, not a river mouth with liquid water today.",
+    "exploration": "Mars Global Surveyor made it possible to recognise the delta in MOC images. Mars Express and HiRISE on the Mars Reconnaissance Orbiter provided later observations. Eberswalde was a finalist landing site for Curiosity, but the mission chose Gale.",
+    "importance": "It allows studying sediment transport and how long ancient lakes lasted. The delta's layers are of interest in the search for materials that could preserve signs of past life, if it ever existed."
+  },
+  "mars-elysium-planitia": {
+    "_src": "7fe235f471",
+    "name": "Elysium Planitia, InSight site",
+    "zoneType": "Volcanic plain with measurements of the interior of Mars",
+    "description": "Western sector of Elysium Planitia around the site where InSight studied the internal structure of Mars.",
+    "geology": "Plain of volcanic origin covered by regolith and surface sediments. InSight's landing area was chosen for its gentle slopes and few large obstacles. Impacts and the transport of particles modified the surface after the lavas.",
+    "environment": "Dust build-up and changes in wind, pressure and temperature affect instruments and solar power generation. InSight recorded atmospheric changes at its site. Those measurements are local and do not amount to a climatology of the whole Elysium province.",
+    "exploration": "InSight landed in November 2018 and used a seismometer to study the planet's interior. NASA ended the mission in December 2022, after its dust-covered solar panels could no longer generate enough power.",
+    "importance": "It links the surface terrain with the study of the crust, mantle and core. It also offers a real case for analysing how dust, available power and ground conditions affect how long a mission lasts."
+  },
+  "mars-gale": {
+    "_src": "d2efcb40ac",
+    "name": "Gale Crater",
+    "zoneType": "Crater with lake sediments",
+    "description": "Crater about 154 km across with a central mountain of sedimentary layers (Aeolis Mons). Site of the Curiosity rover (2012), which found evidence of an ancient lake.",
+    "geology": "Crater with a central mountain, Aeolis Mons or Mount Sharp, built from a long succession of layers. The sediments record ancient lakes, river inputs and dry periods. Erosion exposed rocks with clays, sulfates and other signs of environmental change.",
+    "environment": "Today's landscape is dry, cold and subject to blowing dust and sand. Slopes and lighting change between the crater floor and the mountain. Measurements from one spot, one hour or one season do not represent Gale's whole climate.",
+    "exploration": "Curiosity landed in Gale in 2012 and began surface exploration with images, rock analyses and environmental measurements. Its traverses across the layers of Mount Sharp make it possible to test interpretations made from orbit against observations on the ground.",
+    "importance": "It is an archive of the transition from watery environments to drier stages. The habitability question is whether there were suitable conditions for microorganisms and whether any signs of them could be preserved in the rocks."
+  },
+  "mars-gusev-home-plate": {
+    "_src": "90d3a4c991",
+    "name": "Gusev — Home Plate",
+    "zoneType": "Volcanic and hydrothermal deposit",
+    "description": "Plateau of volcanic rocks in Gusev crater. Near it, the Spirit rover found soils very rich in silica, linked to hydrothermal activity.",
+    "geology": "Home Plate is a small plateau of layered volcanic rocks in the Columbia Hills of Gusev crater. Near it, Spirit found materials very rich in silica. The observations are interpreted as evidence of an ancient hydrothermal system, with hot springs or steam vents.",
+    "environment": "Today the surroundings have dust, sand and exposed rocks under a thin atmosphere. The hydrothermal signs describe past conditions. The silica does not show that hot springs or liquid water exist at this site today.",
+    "exploration": "Spirit landed in Gusev in 2004 and explored the Columbia Hills and Home Plate. A dragging wheel uncovered the silica-rich material studied in 2007. The mission has ended and its data remain available for research.",
+    "importance": "Hydrothermal deposits allow studying how hot water alters rocks and which environments could preserve signs of ancient life. The comparison with El Tatio and other thermal systems is limited to identifiable materials and processes."
+  },
+  "mars-icaria-planum": {
+    "_src": "972669fd88",
+    "name": "Icaria Planum",
+    "zoneType": "Plain with chloride deposits",
+    "description": "Plain in the southern hemisphere where chloride (salt) deposits have been mapped; they would have formed as salty water evaporated.",
+    "geology": "Plain in the southern hemisphere with outcrops interpreted as chloride deposits. One explanation links them to salts concentrating as salty water disappeared. The work presented at EPSC 2024 maps these materials and examines a possible comparison with Uyuni.",
+    "environment": "The deposits are seen in a Martian setting that is dry today. The interest lies in the mineral record of ancient water episodes, not in a proven flooded salt flat today. Their resemblance to Uyuni does not imply the same pressure, radiation or full soil composition.",
+    "exploration": "The mapping published at EPSC 2024 uses orbital data, including THEMIS data from Mars Odyssey and other surface images. The study is a conference contribution about the deposits and their Earth comparison, not an analysis of samples collected at Icaria.",
+    "importance": "It allows investigating the last stages of bodies of water and how salts are preserved in environments that dried out. The link with Uyuni raises testable questions about evaporation and minerals; it does not attribute perchlorates to the Bolivian salt flat."
+  },
+  "mars-jezero": {
+    "_src": "112f3aa76d",
+    "name": "Jezero Crater",
+    "zoneType": "Crater with an ancient lake and delta",
+    "description": "Crater about 45 km across that once held a lake, with a sediment delta on its rim. Site of the Perseverance rover (2021), which is looking for signs of ancient life.",
+    "geology": "Crater that held an ancient lake fed by rivers. A delta is preserved on its rim, where water deposited sediment. The region contains volcanic rocks, sedimentary materials and minerals such as carbonates that help reconstruct different episodes of its history.",
+    "environment": "The ancient lake is dry and its deposits are exposed to erosion, dust and radiation. Conditions change with the time of day and the season, and rocks from different sectors keep different records. The ancient watery environment does not represent today's conditions across the zone.",
+    "exploration": "Perseverance landed in Jezero in February 2021. The mission analyses rocks and collects sealed samples, linking surface observations with orbital maps. Collecting a sample does not mean it has already been brought to a laboratory on Earth.",
+    "importance": "The sediments and minerals allow investigating how long the lake lasted and whether signs of ancient life could have been preserved. Studying habitability or searching for biosignatures is not a confirmation of life on Mars."
+  },
+  "mars-mawrth-vallis": {
+    "_src": "c99d599062",
+    "name": "Mawrth Vallis",
+    "zoneType": "Ancient valley with clays",
+    "description": "Very old valley with clay-rich rocks, minerals that form when water alters rock. It was a candidate landing site for rovers.",
+    "geology": "Ancient valley next to the boundary between the southern highlands and the northern plains. Its light-toned outcrops contain clay-rich layers of different compositions. These minerals record past processes of rock alteration by water.",
+    "environment": "Today it shows eroded surfaces, craters and blankets of darker material. Dust can hide part of the layers, so the mineralogy detected depends on the exposed outcrops. The clays are a record of ancient environments, not a measurement of present-day moisture.",
+    "exploration": "Mars Express has studied its relief and the distribution of minerals. Other orbiters also identified clays and layers, and the region was evaluated as a possible landing site for Curiosity. This profile describes orbital results and a historical candidacy, not a visit by that rover.",
+    "importance": "The succession of clays allows comparing different water episodes and assessing how well possible biosignatures could be preserved. Its value lies in reconstructing habitable environments and recognising minerals without mistaking them for proof of life."
+  },
+  "mars-medusae-fossae": {
+    "_src": "db4ecfb56b",
+    "name": "Medusae Fossae Formation",
+    "zoneType": "Wind-eroded deposit",
+    "description": "Large formation of soft, fine-grained rock, heavily eroded by the wind, with elongated ridges called yardangs. Its origin is debated; one hypothesis is volcanic ash.",
+    "geology": "Extensive formation of soft deposits shaped by the wind, with elongated ridges called yardangs. Volcanic materials and dust accumulations have been proposed to explain part of its origin. A radar analysis published in 2024 interprets subsurface signals as ice-rich layers beneath dry material.",
+    "environment": "The surface is arid and the wind erodes and redistributes particles. An interpretation of deep ice does not imply exposed ice or liquid water at the surface. Dust and the dry cover limit what can be seen in images and what can only be inferred with radar.",
+    "exploration": "Mars Express combines surface images with observations from its MARSIS radar. The new interpretations of the echoes are compared with the polar deposits and with material models. The deep composition is inferred remotely and those interpretations need to be tested.",
+    "importance": "It allows studying wind erosion, the origin of large dust deposits and the possible preservation of ice near the equator. Linking images and radar helps avoid confusing the look of the surface with the composition of the subsurface."
+  },
+  "mars-meridiani": {
+    "_src": "d46637465f",
+    "name": "Meridiani Planum",
+    "zoneType": "Plain with sulfates and hematite",
+    "description": "Plain with sulfate deposits and hematite spherules that point to acidic water in the past. Landing site of the Opportunity rover (2004).",
+    "geology": "Plain with sulfate-rich sandstones and small hematite concretions. The rocks preserve signs of water and of ancient chemical processes, including acidic environments. The surface was also reshaped by wind-blown sand.",
+    "environment": "Today's landscape is dry, with dunes, ripples and rock outcrops. Atmospheric dust can greatly reduce the available solar power: the great dust storm of 2018 cut off Opportunity's communications. The salts in the rocks do not show stable liquid water on the surface today.",
+    "exploration": "Mars Global Surveyor detected hematite from orbit, which helped select the landing site. Opportunity arrived in 2004 and studied its rocks for years. The last signal was received in 2018 and NASA declared the mission over in February 2019.",
+    "importance": "It is a reference case for linking minerals seen from orbit with surface analyses. It allows studying how water, evaporation and iron chemistry left their mark in an environment that later became drier."
+  },
+  "mars-nili-fossae": {
+    "_src": "18f1a04954",
+    "name": "Nili Fossae",
+    "zoneType": "Fractures with olivine, clays and carbonates",
+    "description": "Fractured region next to the Isidis basin with minerals that record volcanism and ancient interaction between water and rock.",
+    "geology": "Set of tectonic troughs and outcrops northwest of Isidis. Spectral observations identify olivine, clays and carbonates in different sectors. Their relationships allow investigating how volcanic materials were modified by water and other processes.",
+    "environment": "Fractures, slopes and sand accumulations create very different surfaces within the region. The exposed minerals record ancient episodes and dust can hide them. Detecting carbonates does not show a present-day lake or the same water history in every outcrop.",
+    "exploration": "Mars Express imaged the relief, and the Mars Reconnaissance Orbiter combined CRISM and HiRISE data to link mineralogy with small landforms. This profile is based on orbital results from specific sectors of Nili Fossae.",
+    "importance": "It allows comparing little-altered volcanic materials with minerals produced by interaction with water. Carbonates on Earth offer a partial geochemical comparison, while the specific origin of each Martian deposit must be investigated through its own evidence."
+  },
+  "mars-olympus-mons": {
+    "_src": "6ca7395613",
+    "name": "Olympus Mons",
+    "zoneType": "Shield volcano",
+    "description": "The largest volcano in the solar system, about 22 km high above the Martian datum, with lava flows on its flanks.",
+    "geology": "Huge shield volcano built up by layer after layer of lava flows. Its summit has calderas and its flanks end in scarps with landslide deposits. Comparing it with volcanoes on Earth helps study processes, although its dimensions are much larger.",
+    "environment": "The large difference in altitude between the plains, the slopes and the summit affects pressure and temperature. Slopes and scarps constrain mobility and lighting. A temperature or pressure measured elsewhere on Mars should not be assigned to the whole volcano.",
+    "exploration": "Mariner 9 made it possible to recognise the great volcanic edifice in 1971. Mars Express has observed its flanks, scarps and deposits with images and terrain models. Geological mapping combines data from several orbital missions.",
+    "importance": "It helps reconstruct the history of Tharsis volcanism and the collapse of large volcanic edifices. Avalanches and lava flows on Earth offer partial analogies that must separate shape, material and scale."
+  },
+  "mars-planum-boreum": {
+    "_src": "87f54de037",
+    "name": "Planum Boreum (north pole)",
+    "zoneType": "Polar cap with ice layers",
+    "description": "North polar cap made of layers of water ice and dust that keep a record of the climate of Mars.",
+    "geology": "North polar cap made mainly of layers of water ice and dust. Its scarps and valleys reveal the succession of materials. The differences between layers record changes in how ice and particles were deposited over time.",
+    "environment": "Lighting changes sharply between the polar seasons. In winter, seasonal carbon dioxide frost is added, while the water-ice cap persists. Sublimation, wind and dust deposition help reshape its surfaces and edges.",
+    "exploration": "Images from Mars Express and from HiRISE on the Mars Reconnaissance Orbiter show the layers and their contacts. The data allow studying the shape of the deposits and comparing units between different sectors of the pole.",
+    "importance": "It is an archive of climate change on Mars. Ice layers on Earth offer comparisons of accumulation and environmental records, but they do not reproduce the Martian polar cycle of carbon dioxide ice."
+  },
+  "mars-utopia-planitia": {
+    "_src": "59db199889",
+    "name": "Utopia Planitia",
+    "zoneType": "Northern plain with subsurface ice",
+    "description": "Large plain in the northern hemisphere with scalloped terrain and polygons linked to ice beneath the surface. Site of Viking 2 (1976).",
+    "geology": "Large northern plain with degraded craters, polygonal surfaces and scalloped depressions. In parts of Utopia, radar has identified ice-rich deposits beneath a cover of soil. These results apply to the areas studied and do not prove the same amount of ice across the whole plain.",
+    "environment": "At these latitudes there can be seasonal frost, like the frost photographed by Viking 2. The buried ice is partly protected by the material covering it. A surface polygon can have different origins, so shape alone does not prove permafrost.",
+    "exploration": "Viking 2 landed in Utopia Planitia in 1976 and made surface observations; its mission has ended. Later, the SHARAD radar on the Mars Reconnaissance Orbiter investigated subsurface deposits in other parts of the region.",
+    "importance": "It allows studying how ice is distributed and how cold soils change. Comparing images with radar and surface measurements helps distinguish buried ice, temporary frost and similar shapes produced by other processes."
+  },
+  "mars-valles-marineris": {
+    "_src": "6579a7b552",
+    "name": "Valles Marineris",
+    "zoneType": "Tectonic canyon system",
+    "description": "Canyon system more than 4,000 km long and several kilometres deep, with layered walls and landslides. Its origin is mainly tectonic.",
+    "geology": "Canyon system associated with fractures in the crust and the growth of the Tharsis volcanic region. Subsidence, landslides and erosion widened and modified its valleys. Some walls and interior deposits preserve layers that record different geological episodes.",
+    "environment": "The steep drop in elevation creates sheer walls, deep floors and highly variable shadows. Sand and dust build up in parts of the valleys. Local geometry affects lighting and ground temperature, and no single value describes the whole system.",
+    "exploration": "Mars Odyssey produced mosaics with THEMIS and Mars Express obtained images and terrain models with HRSC. Orbital observations allow mapping faults, layers and landslides at different scales.",
+    "importance": "It helps investigate crustal deformation, the evolution of large slopes and layered deposits. A river-cut canyon on Earth can serve for observing layers or practising geology, without reproducing the tectonic origin of Valles Marineris."
+  },
+  "moon-aristarchus": {
+    "_src": "f823670989",
+    "name": "Aristarchus Plateau",
+    "zoneType": "Volcanic plateau with pyroclastic deposits and an impact crater",
+    "description": "Region of Oceanus Procellarum with lava channels, deposits from explosive eruptions and the bright Aristarchus crater.",
+    "geology": "The plateau brings together sinuous channels, volcanic materials and an extensive blanket of pyroclastic deposits. Aristarchus crater exposes and redistributes material from the region. This combination makes it possible to compare eruptions, lava flows and impacts within a single zone.",
+    "environment": "Light and dark surfaces reflect different amounts of light. The relief of craters and channels casts shadows that change with the Sun. Differences in brightness must be analysed together with spectral data before assigning them a mineral composition.",
+    "exploration": "Hubble observed Aristarchus and its surroundings in 2005 in visible and ultraviolet light. Terrain models and images make it possible to study the crater, Vallis Schröteri and the plateau deposits without landing on the surface.",
+    "importance": "It helps investigate the diversity of lunar volcanism and how impacts mix materials. Volcanic terrains on Earth allow practising observation and comparing processes, without guaranteeing identical compositions."
+  },
+  "moon-copernicus": {
+    "_src": "65031dcae3",
+    "name": "Copernicus Crater",
+    "zoneType": "Impact crater with rays and central peaks",
+    "description": "Impact crater on the near side with terraced walls and extensive rays of ejected material.",
+    "geology": "Complex crater formed by a large impact. The collision excavated material, uplifted central structures and ejected fragments that produced rays and secondary craters. Its walls show how the ground collapsed and readjusted after excavation.",
+    "environment": "Its relief combines a relatively low floor with walls, boulders and slopes. Lighting highlights or hides details depending on the Sun's angle. As in other lunar zones, regolith and temperature swings constrain surface exploration.",
+    "exploration": "Apollo 17 photographed Copernicus from orbit in 1972. Orbital images and terrain models make it possible to study the crater and relate it to the chains of secondary craters around it.",
+    "importance": "It allows comparing how complex craters form and how ejected material is distributed. Meteor Crater and Haughton offer Earth references for parts of these processes, with differences in size and preservation."
+  },
+  "moon-hadley-rille": {
+    "_src": "bf30e91e5d",
+    "name": "Hadley Rille and the Apollo 15 site",
+    "zoneType": "Volcanic channel beside the Apennine Mountains",
+    "description": "Sinuous channel linked to ancient lavas, next to the site explored by the Apollo 15 crew in 1971.",
+    "geology": "Hadley Rille cuts through basaltic plains near the front of the Apennine Mountains. It is interpreted as a system related to lava transport, possibly with channel and tube stages. Its walls expose layers that are useful for reconstructing the eruptions.",
+    "environment": "The terrain combines plains, boulders, mountain slopes and the rim of a deep channel. The shadows of this relief affect visibility. The surface mission took place in daylight; that experience does not describe the whole lunar night.",
+    "exploration": "Apollo 15 explored the Hadley-Apennine region in 1971 with astronauts and a lunar rover. It returned samples, photographs and geological observations. LRO later obtained views of the surroundings and the landing site.",
+    "importance": "It connects geology observed by people, laboratory samples and orbital mapping. It is a reference for planning science traverses and for studying the sequence of lava flows from exposed walls."
+  },
+  "moon-marius-hills": {
+    "_src": "17b264d527",
+    "name": "Marius Hills",
+    "zoneType": "Volcanic domes and a possible lava tube",
+    "description": "Field of volcanic domes in Oceanus Procellarum. It has a pit in the surface that could connect to a lava tube.",
+    "geology": "Volcanic field with domes, cones and sinuous channels in Oceanus Procellarum. The Marius Hills pit cuts through several lava layers and reveals a cavity beneath one of its edges. This observation supports the presence of underground spaces, but does not determine how far a full tube extends.",
+    "environment": "The surface is covered in regolith and exposed to vacuum, sunlight and temperature swings between the lunar day and night. The pit walls cast local shadows. Images of an entrance are not enough to know the temperature, stability or radiation shielding of a whole cavity.",
+    "exploration": "The Japanese SELENE/Kaguya mission identified the pit in orbital images. The LROC camera on the Lunar Reconnaissance Orbiter later observed it in more detail and from an angle that revealed part of the space under the rim. Its full interior is still an open research question.",
+    "importance": "It allows studying how lava flows piled up and how volcanic cavities form. It also helps define what a robot would need to measure before evaluating a cave as a possible work site or shelter."
+  },
+  "moon-shackleton": {
+    "_src": "d4da6ccc94",
+    "name": "Shackleton Crater (south pole)",
+    "zoneType": "Polar crater with permanent shadow",
+    "description": "Crater at the lunar south pole. Parts of its rim get prolonged sunlight and its interior is in permanent shadow, where there could be water ice. A base is planned in the region, not built.",
+    "geology": "Impact crater located at the lunar south pole. Its raised rim and deep floor create very different lighting conditions within a short distance. The relief makes it possible to preserve regions that the Sun never lights directly.",
+    "environment": "The Sun stays close to the horizon. Some high points on the rim get prolonged sunlight, while much of the interior stays in shadow and very cold. Cold traps could preserve ice and other volatiles; how much there is and how accessible it is must be checked at each site.",
+    "exploration": "LRO has studied its shape, illumination and radar signals with instruments such as LOLA and Mini-RF. ShadowCam, on board the Korean orbiter Danuri, imaged its dark interior. These sources describe orbital observations of the crater.",
+    "importance": "It helps investigate how water and other volatiles are stored in cold areas, together with the power, navigation and thermal control challenges of polar exploration. Prolonged sunlight at certain points does not guarantee continuous power anywhere on the rim."
+  },
+  "moon-south-pole-aitken": {
+    "_src": "2671a0bc16",
+    "name": "South Pole–Aitken Basin, Apollo sector",
+    "zoneType": "Sector of an ancient impact basin on the far side",
+    "description": "Sector of the large South Pole–Aitken basin that includes the Apollo basin area, where Chang'e-6 collected samples in 2024.",
+    "geology": "South Pole–Aitken is one of the largest and oldest lunar impact basins. The collision excavated and redistributed material, and later impacts and volcanic episodes modified its interior. The sector shown includes part of the Apollo basin, within that larger structure.",
+    "environment": "This sector of the far side has cratered relief and alternating lunar day and night. Being inside a basin called South Pole–Aitken does not put its whole surface in permanent shadow. Temperature and illumination depend on the site and the time of observation.",
+    "exploration": "LRO and GRAIL provided data on the relief and structure of the great basin. Chang'e-6 landed in the Apollo sector and returned samples to Earth in June 2024. ESA took part with the NILS instrument and with ground station support.",
+    "importance": "Its rocks help reconstruct giant impacts and the evolution of the far side. The samples obtained make it possible to test orbital interpretations, but it should not be assumed that all the material collected comes directly from the lunar mantle."
+  },
+  "moon-tranquillitatis": {
+    "_src": "a2da5ce448",
+    "name": "Mare Tranquillitatis",
+    "zoneType": "Basaltic mare",
+    "description": "Plain of dark basaltic lava. Apollo 11 landed on its southwestern edge in 1969.",
+    "geology": "Dark plain formed by ancient basaltic lava flows. Later impacts broke up the rocks and produced the surface regolith. The Apollo 11 samples make it possible to study the composition and history of these basalts directly.",
+    "environment": "It is a low-latitude surface with alternating lunar day and night. Regolith, boulders and small craters affect movement. The lunar exosphere is far too thin to offer protection comparable to Earth's atmosphere.",
+    "exploration": "Apollo 11 landed in the southwestern part of Mare Tranquillitatis in July 1969. Armstrong and Aldrin made observations and collected samples that returned to Earth. It is a site with historic human exploration and material available for laboratory studies.",
+    "importance": "It links orbital observation with rocks of known origin and allows reconstructing episodes of lunar volcanism. It also preserves the experience of the first crewed landing for studying operations on basalt plains and regolith."
+  },
+  "moon-tycho": {
+    "_src": "0ddec92269",
+    "name": "Tycho Crater",
+    "zoneType": "Young impact crater",
+    "description": "Crater about 85 km across with a central peak and a system of bright rays visible from Earth.",
+    "geology": "Complex impact crater with terraced walls, a central peak and deposits of material melted by the collision. Its bright rays are material ejected during the impact. Its relatively well-preserved shape makes it possible to recognise different stages of its formation.",
+    "environment": "The walls and central peak create steep slopes, boulders and shadows that change with the lighting. Dust and regolith cover part of the deposits. Solar exposure and the near-vacuum of the Moon constrain any surface operation.",
+    "exploration": "LRO has photographed the central peak, its large boulders and impact deposits, including oblique views. This profile relies on that orbital study of the relief and textures. Its young appearance is judged by comparison with lunar craters more eroded by later impacts.",
+    "importance": "It is used to investigate how rocks are excavated, how central peaks form and how ejected material is distributed. Craters on Earth allow comparing specific processes, with important differences in scale, gravity and erosion."
+  }
+}
