@@ -28,5 +28,6 @@ zones_json() {
 zones_json moon > src/data/zones-moon.json
 zones_json mars > src/data/zones-mars.json
 $PSQL -c "select jsonb_pretty(jsonb_agg(jsonb_build_object('id',id,'name',name,'category',category,'lat',lat,'lon',lon,
-  'why',why,'image',image,'source',source) order by id)) from analogs;" > src/data/analogs.json
+  'why',why,'image',image,'source',source,
+  'secondary_categories',secondary_categories,'breaking_point',breaking_point) order by id)) from analogs;" > src/data/analogs.json
 echo "Listo: src/data/zones-moon.json, zones-mars.json, analogs.json"

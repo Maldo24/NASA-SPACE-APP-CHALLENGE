@@ -66,6 +66,8 @@ export interface AnalogRow {
   why: string
   image: string | null  // null = foto pendiente
   source: string | null // null = fuente pendiente
+  secondary_categories: Category[] // otras analogías que cumple en parte (sin la principal)
+  breaking_point: string | null    // lo que no llega a representar. null = pendiente
 }
 
 export interface ZoneAnalogRow {
@@ -104,6 +106,10 @@ export interface Analog {
   image: string | null
   /** URL real de la fuente. null = fuente pendiente (mostrar "Fuente pendiente"). */
   source: string | null
+  /** Otras analogías que cumple en parte. La principal, a la que más se acerca, es `category`. */
+  secondaryCategories: Category[]
+  /** Punto de quiebre: lo que el sitio no llega a representar. null = pendiente. */
+  breakingPoint: string | null
 }
 
 /** Lo que devuelve getAnalogsForZone(zoneId): análogos agrupados por categoría.
