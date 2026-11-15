@@ -1,6 +1,10 @@
 -- =====================================================================
 -- 07 · FICHA DE CADA ZONA Y ZONAS NUEVAS                  Dueño: Santiago
 -- =====================================================================
+-- IDs reservados para coordinar las relaciones de 09_analogos_nuevos.sql:
+--   moon-copernicus, moon-aristarchus, moon-hadley-rille,
+--   moon-south-pole-aitken, mars-elysium-planitia, mars-nili-fossae,
+--   mars-eberswalde.
 -- Columnas nuevas de zones (supabase/migrations/20261116000000_profundizacion.sql):
 --
 --   geology      qué es y cómo se formó
