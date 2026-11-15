@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type MutableRefObject } from 'react'
 
 // Esfera decorativa pequeña: la textura gira sobre su eje, no como una foto plana.
 // Comparte el criterio visual del Sol del fondo; no es una efeméride.
-export default function BackgroundEarth() {
+export default function BackgroundEarth({ light }: { light: MutableRefObject<[number, number, number]> }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [rendered, setRendered] = useState(false)
 
@@ -24,6 +24,7 @@ export default function BackgroundEarth() {
       varying vec2 uv;
       uniform sampler2D surface;
       uniform float rotation;
+      uniform vec3 lightDirection;
       void main() {
         vec2 p = (uv - .5) * 2.04;
         float r = dot(p, p);
@@ -34,7 +35,7 @@ export default function BackgroundEarth() {
         vec2 map = vec2(atan(tilted.x, normal.z) / 6.283185 + .5 + rotation,
                         asin(clamp(tilted.y, -1., 1.)) / 3.141593 + .5);
         vec3 color = texture2D(surface, map).rgb;
-        float daylight = smoothstep(-.15, .9, dot(normal, normalize(vec3(-.8, .45, .7))));
+        float daylight = smoothstep(-.15, .9, dot(normal, normalize(lightDirection)));
         vec3 rim = vec3(.12, .4, .7) * pow(1. - normal.z, 3.) * daylight;
         gl_FragColor = vec4(color * (.045 + .955 * daylight) + rim, 1.);
       }
@@ -62,14 +63,18 @@ export default function BackgroundEarth() {
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT)
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE)
     const rotation = gl.getUniformLocation(program, 'rotation')
+    const lightDirection = gl.getUniformLocation(program, 'lightDirection')
     const draw = (time: number) => {
       if (previous && !motion.matches) elapsed += Math.min(time - previous, 100)
       previous = time
       gl.uniform1f(rotation, elapsed / 60000)
+      gl.uniform3f(lightDirection, ...light.current)
       gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4)
       if (!motion.matches && !document.hidden) frame = requestAnimationFrame(draw)
     }
     let loaded = false
+    const updateLight = () => { if (loaded && motion.matches) draw(performance.now()) }
+    canvas?.addEventListener('space-view-change', updateLight)
     const resume = () => {
       cancelAnimationFrame(frame)
       previous = 0
@@ -93,10 +98,11 @@ export default function BackgroundEarth() {
       motion.removeEventListener('change', resume)
       document.removeEventListener('visibilitychange', resume)
       image.onload = null
+      canvas?.removeEventListener('space-view-change', updateLight)
       gl.deleteTexture(texture); gl.deleteBuffer(buffer)
       gl.deleteProgram(program); gl.deleteShader(vertex); gl.deleteShader(fragment)
     }
-  }, [])
+  }, [light])
 
   return <div className={`space-earth${rendered ? ' is-rendered' : ''}`}>
     <canvas ref={canvasRef} width={256} height={256} />

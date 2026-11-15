@@ -32,44 +32,27 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 .layout { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 440px); min-height: 0; }
 .planet-map { height: 100%; min-width: 0; background: #080d10; }
 .planet-globe { position: relative; isolation: isolate; overflow: hidden; background: #02050a; touch-action: none; cursor: grab; }
-.space-backdrop { position: absolute; inset: 0; z-index: 0; pointer-events: none; background: url('/img/space/stars.svg') center / cover, radial-gradient(ellipse at 15% 12%, #593c191f, transparent 45%), radial-gradient(ellipse at 75% 15%, #12213966, transparent 55%), #02050a; }
-.space-distant-stars { position: absolute; inset: -6%; background: url('/img/space/stars.svg') 70% 40% / 83% auto; opacity: .3; transform: rotate(17deg); }
-.space-sun { position: absolute; top: 8%; left: 8%; width: clamp(42px, 6vw, 82px); aspect-ratio: 1; border-radius: 50%; background: #fff0b8; box-shadow: 0 0 12px 4px #fff0ba80, 0 0 45px 14px #ffd37a38, 0 0 110px 35px #ffba4b15; }
+.space-backdrop { position: absolute; inset: 0; z-index: 0; pointer-events: none; background: radial-gradient(ellipse at 75% 15%, #12213966, transparent 55%), #02050a; }
+.space-starfield { position: absolute; inset: 0; background: url('/img/space/stars.svg') var(--sky-x, 0px) var(--sky-y, 0px) / 1800px 1125px repeat; }
+.space-distant-stars { position: absolute; inset: -6%; background: url('/img/space/stars.svg') var(--sky-far-x, 0px) var(--sky-far-y, 0px) / 900px 562.5px repeat; opacity: .3; transform: rotate(17deg); }
+.space-sun { position: absolute; top: 0; left: 0; visibility: hidden; width: clamp(42px, 6vw, 82px); aspect-ratio: 1; border-radius: 50%; background: #fff0b8; box-shadow: 0 0 12px 4px #fff0ba80, 0 0 45px 14px #ffd37a38, 0 0 110px 35px #ffba4b15; }
 .space-sun::before { content: ''; position: absolute; inset: -35%; border-radius: 50%; background: conic-gradient(from 15deg, transparent, #ffdc8e25, transparent 18%, #fff0ba30 30%, transparent 40%, #ffd08525 52%, transparent 65%, #fff0ba20 80%, transparent); filter: blur(8px); }
 .space-sun-surface { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background: radial-gradient(circle at 40% 36%, #fffce3, #ffedaf 50%, #f9bd5c 85%, #e8983f); }
 .space-sun-surface::after { content: ''; position: absolute; inset: 0; background: url('/img/space/solar-grain.svg') center / cover; opacity: .25; mix-blend-mode: multiply; }
 .planet-scene { position: relative; z-index: 1; width: 100%; height: 100%; }
-.space-earth-orbit { position: absolute; top: 12%; right: 12%; width: clamp(64px, 10vw, 132px); aspect-ratio: 1; }
+.space-earth-anchor { position: absolute; top: 0; left: 0; visibility: hidden; width: clamp(64px, 10vw, 132px); aspect-ratio: 1; }
 .space-earth { position: relative; width: 100%; aspect-ratio: 1; border-radius: 50%; background: #071526 url('/img/space/earth-apollo17.jpg') center / cover; box-shadow: 0 0 2px 1px #b4e2ff60, 0 0 16px #62b6ff25, 0 0 46px #3186d512; }
 .space-earth canvas { display: block; width: 100%; height: 100%; border-radius: inherit; }
 .space-earth.is-rendered { background: transparent; }
 .space-earth.is-rendered::after { background: none; box-shadow: inset 2px 0 4px #b4e2ff40; }
 .space-earth::after { content: ''; position: absolute; inset: -1px; border-radius: inherit; background: linear-gradient(115deg, transparent 22%, #02050a18 48%, #02050ac9 83%, #02050aee); box-shadow: inset 2px 0 5px #b4e2ff50; }
-@keyframes earth-orbit {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(-22px, -12px) scale(.96); }
-  50% { transform: translate(-44px, 0) scale(.92); }
-  75% { transform: translate(-22px, 12px) scale(.96); }
-}
-@keyframes distant-stars-drift {
-  from { transform: translate(-5px, -4px) rotate(17deg); }
-  to { transform: translate(5px, 4px) rotate(17deg); }
-}
 @keyframes solar-corona { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: no-preference) {
-  .space-earth-orbit { animation: earth-orbit 72s ease-in-out infinite; }
-  .space-distant-stars { animation: distant-stars-drift 100s ease-in-out infinite alternate; }
   .space-sun::before { animation: solar-corona 150s linear infinite; }
 }
 @media (max-width: 640px) {
-  .space-earth-orbit { top: 10%; right: 8%; width: 58px; }
-  .space-sun { top: 8%; left: 7%; width: 36px; }
-  @keyframes earth-orbit {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    25% { transform: translate(-6px, -8px) scale(.96); }
-    50% { transform: translate(-12px, 0) scale(.92); }
-    75% { transform: translate(-6px, 8px) scale(.96); }
-  }
+  .space-earth-anchor { width: 58px; }
+  .space-sun { width: 36px; }
 }
 .planet-globe:active { cursor: grabbing; }
 .globe-status { position: absolute; z-index: 2; inset: auto 0 50% 0; text-align: center; color: var(--muted); font-size: .8rem; pointer-events: none; }
