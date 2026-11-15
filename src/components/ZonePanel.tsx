@@ -24,7 +24,13 @@ function useGroupedAnalogs(zoneId: string | undefined) {
   return state && state.zoneId === zoneId ? state.grouped : null
 }
 
-export default function ZonePanel({ zone }: { zone: ZoneSummary | null }) {
+interface ZonePanelProps {
+  zone: ZoneSummary | null
+  initialCategory?: Category
+  onCategoryChange?: (category: Category) => void
+}
+
+export default function ZonePanel({ zone, initialCategory, onCategoryChange }: ZonePanelProps) {
   const headingId = useId()
   const grouped = useGroupedAnalogs(zone?.id)
 
@@ -67,13 +73,18 @@ export default function ZonePanel({ zone }: { zone: ZoneSummary | null }) {
     )
   }
 
-  return <ZoneDetails key={zone.id} zone={zone} grouped={grouped} />
+  return <ZoneDetails key={zone.id} zone={zone} grouped={grouped} initialCategory={initialCategory} onCategoryChange={onCategoryChange} />
 }
 
-function ZoneDetails({ zone, grouped }: { zone: ZoneSummary; grouped: GroupedAnalogs }) {
+function ZoneDetails({ zone, grouped, initialCategory, onCategoryChange }: {
+  zone: ZoneSummary
+  grouped: GroupedAnalogs
+  initialCategory?: Category
+  onCategoryChange?: (category: Category) => void
+}) {
   const idPrefix = useId()
   const [category, setCategory] = useState<Category>(
-    () => CATEGORY_KEYS.find((key) => (grouped[key]?.length ?? 0) > 0) ?? 'geomorphological',
+    () => initialCategory ?? CATEGORY_KEYS.find((key) => (grouped[key]?.length ?? 0) > 0) ?? 'geomorphological',
   )
   const properties = zone
   const total = CATEGORY_KEYS.reduce((sum, key) => sum + (grouped[key]?.length ?? 0), 0)
@@ -88,7 +99,10 @@ function ZoneDetails({ zone, grouped }: { zone: ZoneSummary; grouped: GroupedAna
         <ZoneFacts zone={properties} />
         <div className="zone-summary"><span><strong>{total}</strong> {total === 1 ? 'análogo terrestre' : 'análogos terrestres'}</span><span>4 categorías</span></div>
       </header>
-      <CategoryTabs active={category} counts={grouped} onChange={setCategory} idPrefix={idPrefix} />
+      <CategoryTabs active={category} counts={grouped} onChange={(nextCategory) => {
+        setCategory(nextCategory)
+        onCategoryChange?.(nextCategory)
+      }} idPrefix={idPrefix} />
       {CATEGORY_KEYS.map((key) => (
         <section key={key} id={`${idPrefix}-panel-${key}`} role="tabpanel"
           aria-labelledby={`${idPrefix}-tab-${key}`} tabIndex={0} hidden={category !== key}>
@@ -100,7 +114,7 @@ function ZoneDetails({ zone, grouped }: { zone: ZoneSummary; grouped: GroupedAna
                 <h3>Aún no hay análogos en esta categoría</h3>
                 <p>Prueba otra pestaña para explorar los lugares disponibles para esta zona.</p>
               </div>
-            ) : grouped[key]?.map((analog) => <AnalogCard key={analog.id} analog={analog} />)}
+            ) : grouped[key]?.map((analog) => <AnalogCard key={analog.id} analog={analog} zone={zone} />)}
           </>}
         </section>
       ))}
