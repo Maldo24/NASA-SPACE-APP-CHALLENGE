@@ -138,6 +138,11 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
 
   return (
     <div ref={wrapRef} className="planet-map planet-globe">
+      {/* Fondo decorativo: no representa posiciones ni escalas astronómicas. */}
+      <div className="space-backdrop" aria-hidden="true">
+        {body === 'moon' && <div className="space-earth" />}
+      </div>
+      <div className="planet-scene">
       {size.width > 0 && size.height > 0 && (
         <Suspense fallback={null}>
         <Globe
@@ -185,6 +190,7 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
         />
         </Suspense>
       )}
+      </div>
       {(!texture || !ready) && <p className="globe-status">{t.map.loading(t.bodies[body])}</p>}
       <p className="globe-credit">{layer.attribution}</p>
     </div>
