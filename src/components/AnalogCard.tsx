@@ -1,5 +1,5 @@
 import { useId, useState } from 'react'
-import EarthMiniMap from './EarthMiniMap.jsx'
+import EarthMiniMap from './EarthMiniMap'
 import { CATEGORIES } from '../config/categories'
 import type { AnalogData } from './ui-types'
 

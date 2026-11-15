@@ -1,7 +1,9 @@
-// Persona 2. Mini-mapa de la Tierra con la ubicación del análogo.
+// Persona A. Mini mapa de la Tierra con la ubicación del análogo.
 import { MapContainer, TileLayer, CircleMarker } from 'react-leaflet'
 
-export default function EarthMiniMap({ lat, lon }) {
+export type EarthMiniMapProps = { lat: number; lon: number }
+
+export default function EarthMiniMap({ lat, lon }: EarthMiniMapProps) {
   return (
     <MapContainer
       className="earth-mini-map"
