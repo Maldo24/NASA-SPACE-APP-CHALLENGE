@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import AnalogPhoto from './AnalogPhoto'
+import AnalogAspects from './AnalogAspects'
+import AnalogTrainings from './AnalogTrainings'
 import EarthMiniMap from './EarthMiniMap.jsx'
 import { CATEGORIES } from '../config/categories'
 import { getAnalogsForZone, getZone } from '../lib/data'
@@ -120,6 +122,8 @@ function AnalogDetails({ bodyId, zoneId, analogId, onReturnToZone }: AnalogDetai
             <h3 id="breaking-heading">Punto de quiebre</h3>
             <p>{analog.breakingPoint ?? 'Pendiente de analizar.'}</p>
           </section>
+          <AnalogAspects aspects={analog.aspects} />
+          <AnalogTrainings trainings={analog.trainings} />
         </div>
         <aside className="detail-sidebar" aria-label="Ubicación y fuente del análogo">
           <section className="detail-location" aria-labelledby="location-heading">
