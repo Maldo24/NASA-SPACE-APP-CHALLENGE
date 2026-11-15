@@ -28,7 +28,7 @@ Primero los bolivianos: son los que más pesan en el pitch.
 | lago-poopo | Lago Poopó, Oruro, Bolivia | pendiente | |
 | lago-tauca | Paleolagos Tauca y Minchin, Altiplano de Bolivia | pendiente | |
 | laguna-blanca-termal | Fuente termal de Laguna Blanca, Sud Lípez, Bolivia | pendiente | |
-| laguna-colorada | Laguna Colorada, Sud Lípez, Bolivia | pendiente | |
+| laguna-colorada | Laguna Colorada, Sud Lípez, Bolivia | [laguna-colorada.jpg](https://www.flickr.com/photos/28984446@N07/4766062530) | ٭٭ NơƐണí ٭٭ (Flickr) / CC BY 2.0 |
 | laguna-verde | Laguna Verde, Sud Lípez, Bolivia | pendiente | |
 | la-salsa | Fuente La Salsa, Laguna Pastos Grandes, Bolivia | pendiente | |
 | licancabur | Volcán Licancabur y lagunas Blanca y Verde, Bolivia–Chile | pendiente | |
@@ -57,7 +57,7 @@ Primero los bolivianos: son los que más pesan en el pitch.
 | el-tatio | Géiseres de El Tatio, Chile | pendiente | |
 | grand-canyon | Gran Cañón, EE.UU. | pendiente | |
 | haughton | Cráter Haughton, isla Devon, Canadá | pendiente | |
-| haughton-hmp | Haughton-Mars Project, isla Devon, Canadá | pendiente | |
+| haughton-hmp | Haughton-Mars Project, isla Devon, Canadá | [haughton-hmp.jpg](https://commons.wikimedia.org/wiki/File:Haughton-Mars_Project_Research_Station_(Devon_Island,_2006).jpg) | Autor no indicado / dominio público |
 | hi-seas | HI-SEAS, Mauna Loa, Hawái, EE.UU. | pendiente | |
 | kilauea | Kīlauea, Hawái, EE.UU. | pendiente | |
 | lanzarote-pangaea | Lanzarote, España (ESA PANGAEA) | pendiente | |
