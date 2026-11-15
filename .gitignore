@@ -6,3 +6,6 @@ dist
 .env
 .env.local
 .env.*.local
+
+# Carpeta local de la CLI de Vercel: si se sube, Vercel publica su compilación vieja
+.vercel
