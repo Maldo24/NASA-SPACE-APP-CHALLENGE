@@ -1,11 +1,14 @@
 // Persona A. Globo 3D común para la Luna y Marte (antes era un mapa plano de Leaflet).
 // MoonMap y MarsMap solo eligen el cuerpo; todo lo demás vive aquí.
-import { useEffect, useMemo, useRef, useState } from 'react'
-import Globe, { type GlobeMethods } from 'react-globe.gl'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
+import type { GlobeMethods } from 'react-globe.gl'
 import { LAYERS } from '../../config/layers.ts'
 import { getZones } from '../../lib/data.ts'
 import { planetTexture } from '../../lib/planetTexture.ts'
 import type { BodyId, Zone } from '../../types/domain.ts'
+
+// La librería del globo (three.js incluido) pesa casi 2 MB: se baja aparte, después de la página.
+const Globe = lazy(() => import('react-globe.gl'))
 
 export type PlanetMapProps = {
   selectedId?: string
@@ -128,6 +131,7 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
   return (
     <div ref={wrapRef} className="planet-map planet-globe">
       {size.width > 0 && size.height > 0 && (
+        <Suspense fallback={null}>
         <Globe
           ref={globeRef}
           width={size.width}
@@ -170,8 +174,9 @@ export default function BasePlanetMap({ body, selectedId, onSelect }: PlanetMapP
           // Esconde los puntos del lado oculto del planeta.
           htmlElementVisibilityModifier={(el, visible) => { el.classList.toggle('is-hidden', !visible) }}
         />
+        </Suspense>
       )}
-      {!texture && <p className="globe-status">Cargando {layer.name.toLowerCase()}…</p>}
+      {(!texture || !ready) && <p className="globe-status">Cargando {layer.name.toLowerCase()}…</p>}
       <p className="globe-credit">{layer.attribution}</p>
     </div>
   )
