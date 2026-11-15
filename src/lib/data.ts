@@ -17,8 +17,12 @@ import { LAYERS } from '../config/layers.ts'
 import { supabase } from './supabase.ts'
 import {
   CATEGORY_IDS,
+  TRAINING_AUDIENCES,
   type Analog,
+  type AnalogAspect,
   type AnalogRow,
+  type AnalogTraining,
+  type TrainingAudience,
   type AnalogsByCategory,
   type Body,
   type BodyId,
@@ -47,9 +51,21 @@ type SeedZoneFeature = {
     name: string
     zoneType: string
     description: string
+    geology?: string | null
+    environment?: string | null
+    exploration?: string | null
+    importance?: string | null
+    sources?: string[]
     analogIds?: string[]
   }
   geometry: { type: string; coordinates: number[][][] }
+}
+
+// Aspectos y entrenamientos tal como los escribe exportar-json.sh (sin validar todavía).
+type RawAspect = { category: string; covers: string; breaks: string; source?: string | null }
+type RawTraining = {
+  audience: string; activity: string; measures: string
+  restrictions?: string | null; source?: string | null; position?: number
 }
 
 type SeedAnalog = Pick<Analog, 'id' | 'name' | 'lat' | 'lon' | 'why'> & {
@@ -58,6 +74,8 @@ type SeedAnalog = Pick<Analog, 'id' | 'name' | 'lat' | 'lon' | 'why'> & {
   source?: string | null
   secondary_categories?: string[]
   breaking_point?: string | null
+  aspects?: RawAspect[]
+  trainings?: RawTraining[]
 }
 
 const BODY_IDS: readonly BodyId[] = ['moon', 'mars']
@@ -68,6 +86,27 @@ const orNull = (v: string | null | undefined) => (v ? v : null)
 
 const isCategory = (c: string): c is Analog['category'] =>
   (CATEGORY_IDS as readonly string[]).includes(c)
+
+const isAudience = (a: string): a is TrainingAudience =>
+  (TRAINING_AUDIENCES as readonly string[]).includes(a)
+
+// Comunes a las dos fuentes: descartan valores desconocidos y fijan el orden.
+function toAspects(raw: RawAspect[] | undefined): AnalogAspect[] {
+  return (raw ?? [])
+    .filter((s) => isCategory(s.category))
+    .map((s) => ({ category: s.category as AnalogAspect['category'], covers: s.covers, breaks: s.breaks, source: orNull(s.source) }))
+    .sort((x, y) => CATEGORY_IDS.indexOf(x.category) - CATEGORY_IDS.indexOf(y.category))
+}
+
+function toTrainings(raw: RawTraining[] | undefined): AnalogTraining[] {
+  return [...(raw ?? [])]
+    .sort((x, y) => (x.position ?? 0) - (y.position ?? 0))
+    .filter((t) => isAudience(t.audience))
+    .map((t) => ({
+      audience: t.audience as TrainingAudience, activity: t.activity, measures: t.measures,
+      restrictions: orNull(t.restrictions), source: orNull(t.source),
+    }))
+}
 
 function loadSeed() {
   const bodies: Body[] = BODY_IDS.map((id) => ({
@@ -90,6 +129,11 @@ function loadSeed() {
         zoneType: p.zoneType,
         description: p.description,
         geometry: f.geometry as Polygon,
+        geology: orNull(p.geology),
+        environment: orNull(p.environment),
+        exploration: orNull(p.exploration),
+        importance: orNull(p.importance),
+        sources: p.sources ?? [],
       })
       for (const analogId of p.analogIds ?? []) zoneAnalogs.push({ zone_id: p.id, analog_id: analogId })
     }
@@ -108,6 +152,8 @@ function loadSeed() {
       source: orNull(a.source),
       secondaryCategories: (a.secondary_categories ?? []).filter(isCategory),
       breakingPoint: orNull(a.breaking_point),
+      aspects: toAspects(a.aspects),
+      trainings: toTrainings(a.trainings),
     })
   }
 
@@ -154,6 +200,11 @@ const toZone = (r: ZoneRow): Zone => ({
   zoneType: r.zone_type,
   description: r.description,
   geometry: r.geometry,
+  geology: orNull(r.geology),
+  environment: orNull(r.environment),
+  exploration: orNull(r.exploration),
+  importance: orNull(r.importance),
+  sources: r.sources ?? [],
 })
 
 const toAnalog = (r: AnalogRow): Analog => ({
@@ -162,11 +213,16 @@ const toAnalog = (r: AnalogRow): Analog => ({
   source: orNull(r.source),
   secondaryCategories: r.secondary_categories ?? [],
   breakingPoint: orNull(r.breaking_point),
+  aspects: toAspects(r.analog_aspects),
+  trainings: toTrainings(r.analog_trainings),
 })
 
 const BODY_COLUMNS = 'id, name, layer_url, attribution, max_zoom'
-const ZONE_COLUMNS = 'id, body_id, name, zone_type, description, geometry'
-const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source, secondary_categories, breaking_point'
+const ZONE_COLUMNS = 'id, body_id, name, zone_type, description, geometry, geology, environment, exploration, importance, sources'
+// Los límites y entrenamientos se piden embebidos (FK analog_id -> analogs.id) en la misma consulta.
+const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source, secondary_categories, breaking_point, '
+  + 'analog_aspects (category, covers, breaks, source), '
+  + 'analog_trainings (position, audience, activity, measures, restrictions, source)'
 
 // Sin tipos generados de Supabase, las respuestas llegan sin tipar; se validan con los tipos de domain.ts.
 function check<T>(what: string, res: { data: unknown; error: { message: string } | null }): T {

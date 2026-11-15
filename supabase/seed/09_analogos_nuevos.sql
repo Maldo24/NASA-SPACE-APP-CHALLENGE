@@ -1,0 +1,27 @@
+-- =====================================================================
+-- 09 · ANÁLOGOS NUEVOS (COMPLETOS)                        Dueño: Sebastián
+-- =====================================================================
+-- Prioridad: análogos para la LUNA, que hoy tiene muy pocos.
+-- Cada análogo nuevo va completo en ESTE archivo, en este orden:
+--   1. insert into public.analogs (...)          datos básicos, como en 02_analogs.sql
+--   2. update secondary_categories / breaking_point, como en 05_analogias_quiebre.sql
+--   3. insert into public.analog_aspects (...)   sus límites, con el formato de 06_limites.sql
+--   4. insert into public.analog_trainings (...) sus entrenamientos, con el formato de 08
+--   5. insert into public.zone_analogs (...)     con zonas existentes o las nuevas de Santiago (07)
+--
+-- Usa siempre "on conflict ... do update" (o "do nothing" en zone_analogs) para que el
+-- archivo se pueda correr varias veces. Verifica coordenadas y enlaces antes de agregarlos.
+--
+-- Reglas de contenido (README y CONTEXTO_EXPLORACION_ESPACIAL_BOLIVIA.md, sección 12):
+--   * Nada sin fuente real. Si no hay fuente, deja source en null y dilo en el texto.
+--   * Lenguaje sencillo: lo lee un estudiante, no un especialista.
+--   * Comillas simples dentro del texto se escriben dobles: 'no ''simula'' Marte'.
+-- Después de editar: bash supabase/seed/exportar-json.sh  (regenera src/data/*.json)
+--
+-- Ejemplo de inicio (formato):
+--
+-- insert into public.analogs (id, name, category, lat, lon, why, image, source) values
+--   ('nuevo-id', 'Nombre, País', 'operational', 0.0, 0.0, 'Por qué se parece...', null, 'https://...')
+-- on conflict (id) do update set
+--   name = excluded.name, category = excluded.category, lat = excluded.lat, lon = excluded.lon,
+--   why = excluded.why, image = excluded.image, source = excluded.source;

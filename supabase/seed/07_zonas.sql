@@ -1,0 +1,66 @@
+-- =====================================================================
+-- 07 · FICHA DE CADA ZONA Y ZONAS NUEVAS                  Dueño: Santiago
+-- =====================================================================
+-- Columnas nuevas de zones (supabase/migrations/20261116000000_profundizacion.sql):
+--
+--   geology      qué es y cómo se formó
+--   environment  condiciones: temperatura, radiación, luz, polvo (con sus límites: medias vs extremos)
+--   exploration  misiones que la observaron o visitaron, y su estado
+--   importance   por qué interesa a la ciencia o a la exploración
+--   sources      arreglo de enlaces: array['https://...', 'https://...']
+--
+-- La columna description (ya existente) queda como resumen de 1–2 frases.
+--
+-- Reglas de contenido (README y CONTEXTO_EXPLORACION_ESPACIAL_BOLIVIA.md, sección 12):
+--   * Nada sin fuente real. Si no hay fuente, deja source en null y dilo en el texto.
+--   * Lenguaje sencillo: lo lee un estudiante, no un especialista.
+--   * Comillas simples dentro del texto se escriben dobles: 'no ''simula'' Marte'.
+-- Después de editar: bash supabase/seed/exportar-json.sh  (regenera src/data/*.json)
+--
+-- PARTE A · Completar las zonas existentes (update). Ejemplo de formato:
+--
+-- update public.zones set
+--   geology     = '...',
+--   environment = '...',
+--   exploration = '...',
+--   importance  = '...',
+--   sources     = array['https://...']
+-- where id = 'mars-jezero';
+--
+-- PARTE B · Zonas nuevas (insert), sobre todo de la Luna. Primero anuncia los ids en el grupo:
+-- Sebastián los necesita para relacionar sus análogos nuevos (09 se carga después de 07).
+--   * id: 'moon-…' o 'mars-…'; geometry: GeoJSON Polygon en [lon, lat], lon entre -180 y 180.
+--   * Verifica las coordenadas (por ejemplo en Wikipedia) antes de dibujar el polígono.
+--
+-- insert into public.zones (id, body_id, name, zone_type, description, geometry,
+--                           geology, environment, exploration, importance, sources) values
+--   ('moon-ejemplo', 'moon', 'Nombre', 'Tipo de zona', 'Resumen corto.',
+--    '{"type":"Polygon","coordinates":[[[lon1,lat1],[lon2,lat1],[lon2,lat2],[lon1,lat2],[lon1,lat1]]]}',
+--    '...', '...', '...', '...', array['https://...'])
+-- on conflict (id) do update set
+--   name = excluded.name, zone_type = excluded.zone_type, description = excluded.description,
+--   geometry = excluded.geometry, geology = excluded.geology, environment = excluded.environment,
+--   exploration = excluded.exploration, importance = excluded.importance, sources = excluded.sources;
+--
+-- Y relaciona cada zona nueva con análogos que ya existen:
+-- insert into public.zone_analogs (zone_id, analog_id) values ('moon-ejemplo', 'meteor-crater')
+-- on conflict do nothing;
+--
+-- Checklist de zonas existentes (17):
+--   [ ] moon-marius-hills
+--   [ ] moon-shackleton
+--   [ ] moon-tranquillitatis
+--   [ ] moon-tycho
+--   [ ] mars-aureum-chaos
+--   [ ] mars-deuteronilus-mensae
+--   [ ] mars-gale
+--   [ ] mars-gusev-home-plate
+--   [ ] mars-icaria-planum
+--   [ ] mars-jezero
+--   [ ] mars-mawrth-vallis
+--   [ ] mars-medusae-fossae
+--   [ ] mars-meridiani
+--   [ ] mars-olympus-mons
+--   [ ] mars-planum-boreum
+--   [ ] mars-utopia-planitia
+--   [ ] mars-valles-marineris

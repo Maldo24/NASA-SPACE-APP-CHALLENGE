@@ -33,13 +33,19 @@
             "properties": {
                 "id": "moon-marius-hills",
                 "name": "Marius Hills",
+                "geology": null,
+                "sources": [
+                ],
                 "zoneType": "Domos volcánicos y posible tubo de lava",
                 "analogIds": [
                     "kilauea",
                     "lanzarote-pangaea",
                     "umajalanta"
                 ],
-                "description": "Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava."
+                "importance": null,
+                "description": "Campo de domos volcánicos en Oceanus Procellarum. Tiene un hoyo en la superficie que podría conectar con un tubo de lava.",
+                "environment": null,
+                "exploration": null
             }
         },
         {
@@ -74,12 +80,18 @@
             "properties": {
                 "id": "moon-shackleton",
                 "name": "Cráter Shackleton (polo sur)",
+                "geology": null,
+                "sources": [
+                ],
                 "zoneType": "Cráter polar con sombra permanente",
                 "analogIds": [
                     "concordia",
                     "mcmurdo"
                 ],
-                "description": "Cráter en el polo sur lunar. Partes de su borde tienen iluminación prolongada y su interior está en sombra permanente, donde podría haber hielo de agua. Hay una base planificada en la región, no construida."
+                "importance": null,
+                "description": "Cráter en el polo sur lunar. Partes de su borde tienen iluminación prolongada y su interior está en sombra permanente, donde podría haber hielo de agua. Hay una base planificada en la región, no construida.",
+                "environment": null,
+                "exploration": null
             }
         },
         {
@@ -114,13 +126,19 @@
             "properties": {
                 "id": "moon-tranquillitatis",
                 "name": "Mare Tranquillitatis",
+                "geology": null,
+                "sources": [
+                ],
                 "zoneType": "Mar basáltico",
                 "analogIds": [
                     "basalt",
                     "kilauea",
                     "lanzarote-pangaea"
                 ],
-                "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969."
+                "importance": null,
+                "description": "Llanura de lava basáltica oscura. El Apolo 11 alunizó en su borde suroeste en 1969.",
+                "environment": null,
+                "exploration": null
             }
         },
         {
@@ -155,12 +173,18 @@
             "properties": {
                 "id": "moon-tycho",
                 "name": "Cráter Tycho",
+                "geology": null,
+                "sources": [
+                ],
                 "zoneType": "Cráter de impacto joven",
                 "analogIds": [
                     "haughton",
                     "meteor-crater"
                 ],
-                "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra."
+                "importance": null,
+                "description": "Cráter de unos 85 km con pico central y un sistema de rayos brillantes que se ve desde la Tierra.",
+                "environment": null,
+                "exploration": null
             }
         }
     ]

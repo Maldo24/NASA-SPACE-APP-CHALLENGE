@@ -117,6 +117,9 @@ src/
 
 `src/data/*.json` son los datos que usa el MVP, generados desde `supabase/seed/`. Si algún día se conecta Supabase, la app los usa solo como respaldo.
 
+> **Tarea actual (profundizar análogos y zonas):** el reparto, los archivos de cada persona y las reglas
+> están en [docs/REPARTO.md](docs/REPARTO.md).
+
 ## Reparto (propuesta, pendiente de confirmar)
 
 | Persona | Qué hace |

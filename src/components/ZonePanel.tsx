@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react'
 import CategoryTabs from './CategoryTabs'
 import AnalogCard from './AnalogCard'
+import ZoneFacts from './ZoneFacts'
 import { CATEGORIES, CATEGORY_KEYS, type Category } from '../config/categories'
 import { emptyAnalogsByCategory, getAnalogsForZone } from '../lib/data'
 import type { GroupedAnalogs, ZoneSummary } from './ui-types'
@@ -95,6 +96,7 @@ function ZoneDetails({ zone, grouped, initialCategory, onCategoryChange }: {
         <p className="zone-type">{properties.zoneType}</p>
         <h2 id={`${idPrefix}-heading`}>{properties.name}</h2>
         <p className="zone-description">{properties.description}</p>
+        <ZoneFacts zone={properties} />
         <div className="zone-summary"><span><strong>{total}</strong> {total === 1 ? 'análogo terrestre' : 'análogos terrestres'}</span><span>4 categorías</span></div>
       </header>
       <CategoryTabs active={category} counts={grouped} onChange={(nextCategory) => {
