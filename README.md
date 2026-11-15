@@ -1,4 +1,4 @@
-# Análogos Planetarios — NASA Space Apps
+# Pacha-X — NASA Space Apps
 
 Web con dos mapas, uno de la **Luna** (`/luna`) y otro de **Marte** (`/marte`). Tocas una zona y ves qué tipo
 de terreno es y sus **análogos terrestres** en 4 categorías:

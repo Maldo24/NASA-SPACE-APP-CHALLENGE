@@ -1,4 +1,4 @@
-# Pitch — Análogos Planetarios
+# Pitch — Pacha-X
 
 Duración objetivo: **3 minutos**. Una persona habla y otra maneja la demo.
 Las afirmaciones científicas siguen la sección 12 de `CONTEXTO_EXPLORACION_ESPACIAL_BOLIVIA.md`.
@@ -16,7 +16,7 @@ Las afirmaciones científicas siguen la sección 12 de `CONTEXTO_EXPLORACION_ESP
 
 ## 2. La solución (30 s)
 
-> **Análogos Planetarios** es un mapa interactivo de la Luna y de Marte, con imágenes de NASA Trek.
+> **Pacha-X** es un mapa interactivo de la Luna y de Marte, con imágenes de NASA Trek.
 > Tocas una zona y ves qué tipo de terreno es y sus análogos en la Tierra, en 4 categorías:
 >
 > - **Geomorfológico:** el relieve se parece.

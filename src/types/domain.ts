@@ -1,4 +1,4 @@
-// Tipos del dominio — Análogos Planetarios (dueño: C).
+// Tipos del dominio — Pacha-X (dueño: C).
 // Reflejan supabase/migrations/ (esquema inicial, analogías y quiebre, profundización).
 //
 // Hay dos capas:

@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1>Análogos Planetarios</h1>
+        <h1>Pacha-X</h1>
         <nav className="switcher" aria-label="Cuerpo celeste">
           {ROUTES.map((r) => (
             <button
