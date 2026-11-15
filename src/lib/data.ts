@@ -52,10 +52,12 @@ type SeedZoneFeature = {
   geometry: { type: string; coordinates: number[][][] }
 }
 
-type SeedAnalog = Omit<Analog, 'category' | 'image' | 'source'> & {
+type SeedAnalog = Pick<Analog, 'id' | 'name' | 'lat' | 'lon' | 'why'> & {
   category: string
   image?: string | null
   source?: string | null
+  secondary_categories?: string[]
+  breaking_point?: string | null
 }
 
 const BODY_IDS: readonly BodyId[] = ['moon', 'mars']
@@ -99,7 +101,14 @@ function loadSeed() {
       console.warn(`Análogo ${a.id} con categoría desconocida: ${a.category}`)
       continue
     }
-    analogs.push({ ...a, category: a.category, image: orNull(a.image), source: orNull(a.source) })
+    analogs.push({
+      id: a.id, name: a.name, lat: a.lat, lon: a.lon, why: a.why,
+      category: a.category,
+      image: orNull(a.image),
+      source: orNull(a.source),
+      secondaryCategories: (a.secondary_categories ?? []).filter(isCategory),
+      breakingPoint: orNull(a.breaking_point),
+    })
   }
 
   return { bodies, zones, analogs, zoneAnalogs }
@@ -147,11 +156,17 @@ const toZone = (r: ZoneRow): Zone => ({
   geometry: r.geometry,
 })
 
-const toAnalog = (r: AnalogRow): Analog => ({ ...r, image: orNull(r.image), source: orNull(r.source) })
+const toAnalog = (r: AnalogRow): Analog => ({
+  id: r.id, name: r.name, category: r.category, lat: r.lat, lon: r.lon, why: r.why,
+  image: orNull(r.image),
+  source: orNull(r.source),
+  secondaryCategories: r.secondary_categories ?? [],
+  breakingPoint: orNull(r.breaking_point),
+})
 
 const BODY_COLUMNS = 'id, name, layer_url, attribution, max_zoom'
 const ZONE_COLUMNS = 'id, body_id, name, zone_type, description, geometry'
-const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source'
+const ANALOG_COLUMNS = 'id, name, category, lat, lon, why, image, source, secondary_categories, breaking_point'
 
 // Sin tipos generados de Supabase, las respuestas llegan sin tipar; se validan con los tipos de domain.ts.
 function check<T>(what: string, res: { data: unknown; error: { message: string } | null }): T {

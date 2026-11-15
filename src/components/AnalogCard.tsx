@@ -45,6 +45,15 @@ export default function AnalogCard({ analog }: { analog: AnalogData }) {
         <h3 id={titleId}>{analog.name}</h3>
         <p className="analogy-heading">Por qué se parece</p>
         <p className="analog-reason">{analog.why}</p>
+        <p className="analogy-heading">Analogías que cumple</p>
+        <p className="analog-reason">
+          <strong>{CATEGORIES[analog.category].label}</strong> (la más cercana)
+          {analog.secondaryCategories.length > 0 && (
+            <>. En parte: {analog.secondaryCategories.map((c) => CATEGORIES[c].label).join(', ')}.</>
+          )}
+        </p>
+        <p className="analogy-heading">Punto de quiebre</p>
+        <p className="analog-reason">{analog.breakingPoint ?? 'Pendiente de analizar.'}</p>
         {hasLocation ? (
           <div className="analog-location" role="group" aria-label={`Ubicación de ${analog.name}`}>
             <div className="location-label">
