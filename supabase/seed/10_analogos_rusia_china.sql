@@ -1,7 +1,8 @@
 -- =====================================================================
 -- 10 · ANÁLOGOS DE RUSIA Y CHINA (COMPLETOS)                 Dueño: Maldo
 -- =====================================================================
--- Tres análogos marcianos nuevos con su ficha completa, en el formato de los documentos de origen:
+-- Tres análogos marcianos nuevos con su ficha completa (datos, límites, entrenamientos y zonas),
+-- en el formato de los documentos de origen:
 -- por cada tipo de analogía, lo que SÍ coincide (covers = analogía correcta) y lo que NO
 -- (breaks = analogía incorrecta), con datos cuantitativos. Donde la fuente dice "sin datos" o
 -- "no aplica", el texto lo dice.
@@ -105,3 +106,54 @@ insert into public.zone_analogs (zone_id, analog_id) values
   ('mars-icaria-planum', 'qaidam'),          -- cloruros
   ('mars-medusae-fossae', 'qaidam')          -- yardangs
 on conflict do nothing;
+
+-- ---------------------------------------------------------------------
+-- 4. Entrenamientos posibles (formato de 08_entrenamientos.sql)
+--    Solo lo que respaldan los documentos de origen. Son actividades posibles, no realizadas.
+-- ---------------------------------------------------------------------
+insert into public.analog_trainings (analog_id, position, audience, activity, measures, restrictions, source) values
+  ('qaidam', 1, 'science',
+   'Probar espectrómetros y otros instrumentos sobre sales que también existen en Marte (yeso, kieserita, halita), como hace el Servicio Geológico de China.',
+   'Qué minerales identifica el instrumento, comparado con el análisis de laboratorio de las mismas muestras.',
+   'Las sales se rehidratan con la humedad de la madrugada (más del 60 %): hay que registrar la hora y la humedad de cada medición.',
+   null),
+  ('qaidam', 2, 'rovers',
+   'Pruebas de ingeniería de equipos y vehículos de futuras misiones en un sitio remoto pero de acceso relativamente fácil, sobre costras de sal, dunas y yardangs.',
+   'Desempeño con vientos de hasta 20–22 m/s y oscilaciones diarias de 15–20 °C, comparado con la estación meteorológica del sitio.',
+   'La gravedad y la presión (709 mbar) son terrestres; no hay mediciones de tormentas de polvo.',
+   null),
+  ('qaidam', 3, 'science',
+   'Estudiar en el sitio los límites de las «regiones especiales» de Marte (−25 °C o más y actividad del agua mayor que 0,5) y la vida que resiste dentro de las sales.',
+   'Temperatura, humedad y actividad del agua en las sales; presencia de halófilos y de lípidos de bacterias y arqueas.',
+   null,
+   null),
+
+  ('tolbachik', 1, 'science',
+   'Monitorear permafrost dentro de depósitos volcánicos con sondeos y registradores de temperatura, como en su estación a 1.330 m.',
+   'Temperatura del suelo a distintas profundidades y altitudes (registradores entre 800 y 3.075 m) y espesor de la capa activa.',
+   'Patrimonio de la UNESCO y área protegida: el acceso requiere permisos.',
+   null),
+  ('tolbachik', 2, 'science',
+   'Practicar el mapeo 3D de tubos de lava y cuevas volcánicas, como el modelo topográfico del tubo Luch-2.',
+   'Precisión del modelo 3D y del recorrido; como referencia, la cueva Shokoladnaya mide 339 m de largo y 25 m de profundidad.',
+   'Volcán activo y área protegida: acceso con permisos.',
+   null),
+  ('tolbachik', 3, 'science',
+   'Medir las propiedades térmicas de la escoria, que tiene una textura parecida a la del regolito marciano.',
+   'Conductividad térmica según la humedad: 0,17 W/m·K en seco y 0,44 W/m·K con 45 % de humedad.',
+   null,
+   null),
+
+  ('yakutia', 1, 'science',
+   'Comparar el termokarst y las depresiones de la ribera del Lena con imágenes de las depresiones festoneadas de Utopia Planitia.',
+   'Forma, tamaño y orientación de las depresiones y contenido de hielo del suelo.',
+   'Se forman por deshielo, no por sublimación: se compara la forma, no el proceso.',
+   null),
+  ('yakutia', 2, 'science',
+   'Estudiar cómo responde un permafrost muy rico en hielo a los cambios de temperatura.',
+   'Temperatura del permafrost (−5 a −13 °C), espesor de la capa activa (1,5–4 m) y tendencia de calentamiento del aire (0,03 °C por año).',
+   null,
+   null)
+on conflict (analog_id, position) do update set
+  audience = excluded.audience, activity = excluded.activity, measures = excluded.measures,
+  restrictions = excluded.restrictions, source = excluded.source;
