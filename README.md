@@ -41,8 +41,21 @@ Solo va la clave **anon**. La `service_role` nunca va en el frontend ni en el re
 
 ### Contenido actual
 
-17 zonas (4 en la Luna, 13 en Marte) y 51 análogos, de los cuales 36 están en Bolivia o en su frontera.
+24 zonas (8 en la Luna, 16 en Marte) y 60 análogos, de los cuales 36 están en Bolivia o en su frontera.
 Cada análogo boliviano indica su nivel de respaldo según el documento F4: **estudiado**, **propuesto** o **sugerido**.
+
+## Deploy en Vercel
+
+La configuración ya está en [vercel.json](vercel.json): Vite, `npm ci`, `npm run build`, salida en `dist/`,
+todas las rutas van a la app (`/luna`, `/marte`, páginas de detalle) y caché larga para `assets/`.
+
+1. En [vercel.com](https://vercel.com) → **Add New… → Project** → importa el repositorio de GitHub.
+2. Vercel detecta la configuración sola. No cambies *Build Command* ni *Output Directory*.
+3. **Variables de entorno: ninguna.** Sin `VITE_SUPABASE_*` la app usa los datos de `src/data/`.
+   No las agregues mientras no exista la base de Supabase: la app intentaría leer tablas que no hay.
+4. **Deploy.** Node 24 se toma de `engines` en `package.json`.
+
+Después, cada push a `main` publica en producción y cada PR genera una vista previa con su propio enlace.
 
 ## Stack
 
