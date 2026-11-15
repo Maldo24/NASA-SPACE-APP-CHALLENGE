@@ -124,7 +124,7 @@ src/
 
 | Persona | Qué hace |
 |---|---|
-| A · Sebastián | Mapas de la Luna y Marte, mini mapa de la Tierra, rutas, `lib/data.ts` y cliente de Supabase |
+| A · Miguel | Mapas de la Luna y Marte, mini mapa de la Tierra, rutas, `lib/data.ts` y cliente de Supabase |
 | B · Santiago | Interfaz (panel, pestañas, tarjetas, estilos), deploy en Vercel y pruebas en escritorio y móvil |
 | C · Maldo | Esquema y migraciones de Supabase, carga de datos de la Luna y Marte, fotos y fuentes, pitch y documentación |
 

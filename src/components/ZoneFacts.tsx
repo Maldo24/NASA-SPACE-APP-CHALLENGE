@@ -13,7 +13,7 @@ export default function ZoneFacts({ zone }: { zone: Zone }) {
   const filled = SECTIONS.filter(([key]) => zone[key])
 
   if (filled.length === 0 && zone.sources.length === 0) {
-    return <p className="detail-pending">Ficha detallada de la zona: pendiente.</p>
+    return <p className="item-pending">Ficha detallada de la zona: pendiente.</p>
   }
 
   return (

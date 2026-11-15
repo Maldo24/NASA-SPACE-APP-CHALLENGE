@@ -5,8 +5,8 @@
 -- carga cada persona en su propio archivo de supabase/seed/:
 --   06_limites.sql          (Maldo)     -> analog_aspects
 --   07_zonas.sql            (Santiago)  -> columnas nuevas de zones y zonas nuevas
---   08_entrenamientos.sql   (Sebastián) -> analog_trainings
---   09_analogos_nuevos.sql  (Sebastián) -> análogos nuevos completos
+--   08_entrenamientos.sql   (Miguel) -> analog_trainings
+--   09_analogos_nuevos.sql  (Miguel) -> análogos nuevos completos
 -- =====================================================================
 
 -- Comprueba que todos los elementos de un arreglo sean URLs http(s). Arreglo vacío = válido.

@@ -29,9 +29,9 @@ operacional = lo que se puede practicar ahí. El archivo trae un ejemplo y una c
 1. Completar la ficha de las **17 zonas**: geología, ambiente, exploración, por qué interesa y fuentes.
 2. Agregar **zonas nuevas**, sobre todo de la Luna (meta: 4 lunares y 2–3 marcianas), con ficha completa
    y relacionadas con análogos existentes.
-3. **Primero que nada:** anunciar en el grupo los ids de las zonas nuevas (`moon-…`), porque Sebastián los necesita.
+3. **Primero que nada:** anunciar en el grupo los ids de las zonas nuevas (`moon-…`), porque Miguel los necesita.
 
-### Sebastián — Entrenamientos y análogos nuevos
+### Miguel — Entrenamientos y análogos nuevos
 **Archivos:** `supabase/seed/08_entrenamientos.sql` (tabla `analog_trainings`) y `supabase/seed/09_analogos_nuevos.sql`
 
 1. De 1 a 3 entrenamientos por cada uno de los **51 análogos**: para quién (astronautas, rovers, trajes,
@@ -44,8 +44,8 @@ operacional = lo que se puede practicar ahí. El archivo trae un ejemplo y una c
 | Dato | Dónde aparece |
 |---|---|
 | Ficha de zona (Santiago) | Panel de la zona → "Ficha de la zona" (desplegable) |
-| Límites (Maldo) | Tarjeta del análogo → "Qué cubre y dónde se rompe" |
-| Entrenamientos (Sebastián) | Tarjeta del análogo → "Entrenamiento posible" |
+| Límites (Maldo) | Tarjeta del análogo → botón "Información" → sección "Qué cubre y dónde se rompe" |
+| Entrenamientos (Miguel) | Tarjeta del análogo → botón "Información" → sección "Entrenamiento posible" |
 
 Mientras no hay datos, cada sección muestra "pendiente".
 
@@ -72,7 +72,7 @@ Necesita **podman o docker**. Quien no lo tenga le pide a Maldo que lo corra.
 |---|---|
 | `06_limites.sql` | Maldo |
 | `07_zonas.sql` | Santiago |
-| `08_entrenamientos.sql`, `09_analogos_nuevos.sql` | Sebastián |
+| `08_entrenamientos.sql`, `09_analogos_nuevos.sql` | Miguel |
 | `01`–`05`, migraciones, `exportar-json.sh` | Nadie los edita sin avisar |
 | Componentes y `data.ts` | Nadie los necesita tocar para esta tarea |
 | `src/data/*.json` | Generados: nunca se editan a mano |

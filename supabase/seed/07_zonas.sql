@@ -28,7 +28,7 @@
 -- where id = 'mars-jezero';
 --
 -- PARTE B · Zonas nuevas (insert), sobre todo de la Luna. Primero anuncia los ids en el grupo:
--- Sebastián los necesita para relacionar sus análogos nuevos (09 se carga después de 07).
+-- Miguel los necesita para relacionar sus análogos nuevos (09 se carga después de 07).
 --   * id: 'moon-…' o 'mars-…'; geometry: GeoJSON Polygon en [lon, lat], lon entre -180 y 180.
 --   * Verifica las coordenadas (por ejemplo en Wikipedia) antes de dibujar el polígono.
 --

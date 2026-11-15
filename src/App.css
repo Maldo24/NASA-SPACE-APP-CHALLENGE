@@ -175,25 +175,33 @@ h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; }
 }
 
 /* ---------------------------------------------------------------------
-   Profundización (Paso 0): ficha de zona, límites por analogía y entrenamientos.
+   Profundización: ficha de zona (panel) y límites y entrenamientos (página de detalle).
    Componentes: ZoneFacts.tsx, AnalogAspects.tsx, AnalogTrainings.tsx
+   Clases propias (item-*, aspect-*, training-*, zone-facts*) para no chocar con .analog-detail
+   y .detail-source de AnalogDetailPage.
    --------------------------------------------------------------------- */
-.detail-pending { margin-top: 12px; font-size: .67rem; color: #8d9ca3; font-style: italic; }
-.zone-facts, .analog-detail { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-raised); }
-.zone-facts > summary, .analog-detail > summary { cursor: pointer; padding: 10px 12px; font-size: .74rem; font-weight: 600; color: #d0dcd7; list-style-position: inside; }
-.zone-facts > summary:hover, .analog-detail > summary:hover { color: #fff; }
+.item-pending { margin-top: 12px; font-size: .78rem; color: #8d9ca3; font-style: italic; }
+.zone-facts .item-pending, .zone-heading > .item-pending { font-size: .67rem; }
+
+/* Ficha de zona: desplegable en el panel lateral */
+.zone-facts { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-raised); }
+.zone-facts > summary { cursor: pointer; padding: 10px 12px; font-size: .74rem; font-weight: 600; color: #d0dcd7; list-style-position: inside; }
+.zone-facts > summary:hover { color: #fff; }
 .zone-facts dl { margin: 0; padding: 0 12px 4px; }
 .zone-facts dl > div { padding: 10px 0; border-top: 1px solid var(--line); }
 .zone-facts dt { font-size: .66rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .zone-facts dd { margin: 6px 0 0; font-size: .8rem; line-height: 1.7; color: #c3d0d5; }
 .zone-facts-sources { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 12px 12px; border-top: 1px solid var(--line); font-size: .7rem; color: var(--muted); }
-.aspect-list, .training-list { margin: 0; padding: 0 12px 4px; list-style: none; }
-.aspect-list li, .training-list li { padding: 10px 0; border-top: 1px solid var(--line); }
-.aspect-list p, .training-list p { margin-top: 6px; font-size: .76rem; line-height: 1.65; color: #b0bfc5; overflow-wrap: anywhere; }
-.aspect-category { margin-top: 0 !important; font-size: .7rem !important; font-weight: 600; color: #d0dcd7 !important; }
-.aspect-tag { display: inline-block; margin-right: 4px; padding: 1px 6px; border-radius: 4px; font-size: .62rem; font-weight: 600; }
+
+/* Límites y entrenamientos: secciones de la página de detalle (.detail-section) */
+.aspect-list, .training-list { margin: 0; padding: 0; list-style: none; }
+.aspect-list li, .training-list li { padding: 14px 0; border-top: 1px solid var(--line); }
+.aspect-list li:first-child, .training-list li:first-child { border-top: 0; padding-top: 0; }
+.aspect-list p, .training-list p { margin-top: 8px; font-size: .88rem; line-height: 1.75; color: #b0bfc5; overflow-wrap: anywhere; }
+.aspect-list p.aspect-category { margin-top: 0; font-size: .8rem; font-weight: 600; color: #d0dcd7; }
+.aspect-tag { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 4px; font-size: .68rem; font-weight: 600; }
 .aspect-tag.covers { background: #1f3a2c; color: var(--accent); }
 .aspect-tag.breaks { background: #3d2a22; color: #f0c2a8; }
-.aspect-none { padding: 10px 12px 12px; border-top: 1px solid var(--line); font-size: .74rem; color: var(--muted); }
-.training-audience { display: inline-block; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; font-size: .62rem; font-weight: 600; color: var(--accent); }
-.detail-source { display: inline-block; margin-top: 6px; font-size: .7rem; }
+.aspect-none { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
+.training-audience { display: inline-block; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; font-size: .68rem; font-weight: 600; color: var(--accent); }
+.item-source { display: inline-block; margin-top: 8px; font-size: .78rem; }
