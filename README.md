@@ -74,6 +74,20 @@ npm run i18n:check -- --stamp           # marca lo traducido como al día
 Los costos de entrenamiento se calculan siempre con el texto original en español; cambiar de idioma
 no cambia las cifras.
 
+## Logo
+
+| Archivo | Uso |
+|---|---|
+| [public/brand/pacha-x-logo.svg](public/brand/pacha-x-logo.svg) | Símbolo en vector (azul `#0b1f3a`), para el pitch o documentos. |
+| `public/brand/*-original.png` | Los PNG originales del logo (símbolo y horizontal). |
+| `public/favicon.svg` | Ícono de la pestaña: azul en tema claro, claro en tema oscuro. |
+| `public/apple-touch-icon.png`, `icon-*.png`, `site.webmanifest` | Ícono al guardar la app en el inicio del celular. |
+| `public/og-image.png` | Vista previa al compartir el enlace (WhatsApp, redes). |
+| [src/components/BrandMark.tsx](src/components/BrandMark.tsx) | El símbolo en la barra superior; toma el color del texto. |
+
+Todo sale de [scripts/generar-logo.py](scripts/generar-logo.py) (`python3 scripts/generar-logo.py public`).
+Si cambia el dibujo, actualiza también los trazos de `BrandMark.tsx`.
+
 ## Deploy en Vercel
 
 La configuración ya está en [vercel.json](vercel.json): Vite, `npm ci`, `npm run build`, salida en `dist/`,

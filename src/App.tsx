@@ -7,6 +7,7 @@ import ZonePanel from './components/ZonePanel.tsx'
 import AnalogDetailPage from './components/AnalogDetailPage.tsx'
 import LanguageSwitch from './i18n/LanguageSwitch.tsx'
 import { useI18n } from './i18n/I18nProvider.tsx'
+import BrandMark from './components/BrandMark.tsx'
 import type { BodyId, Category, Zone } from './types/domain.ts'
 
 const ROUTES: { body: BodyId; path: string }[] = [
@@ -39,7 +40,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1>Pacha-X</h1>
+        <h1 className="brand"><BrandMark className="brand-mark" /><span className="brand-name">Pacha-X</span></h1>
         <div className="topbar-controls">
         <nav className="switcher" aria-label={t.bodies.nav}>
           {ROUTES.map((r) => (
